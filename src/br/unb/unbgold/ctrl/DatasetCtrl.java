@@ -1,7 +1,6 @@
 package br.unb.unbgold.ctrl;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -18,8 +17,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
 
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.DatasetDao;
