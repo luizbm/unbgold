@@ -1,0 +1,16 @@
+{
+  "name": "unbgold",
+  "version": "1.0.0",
+  "description": "UnB Governanmet Linked Open Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luiz martins",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^6.1.7",
+    "@angular/cdk": "^6.4.7",
+    "@angular/material": "^6.4.7"
+  }
+}

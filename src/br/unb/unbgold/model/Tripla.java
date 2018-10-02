@@ -17,8 +17,13 @@ public class Tripla {
 	private int id_tripla;
 	
 	@ManyToOne
+<<<<<<< HEAD
 	@JoinColumn(name="id_publicacao")
 	private Publicacao publicacao;
+=======
+	@JoinColumn(name="id_dataset")
+	private Dataset dataset;
+>>>>>>> e28b66aab49cb9b2b9551a2965582e7827efeb7d
 	@Column
 	private String sujeito;
 	
@@ -37,12 +42,21 @@ public class Tripla {
 		this.id_tripla = id_tripla;
 	}
 
+<<<<<<< HEAD
 	public Publicacao getPublicacao() {
 		return publicacao;
 	}
 
 	public void setPublicacao(Publicacao publicacao) {
 		this.publicacao = publicacao;
+=======
+	public Dataset getDataset() {
+		return dataset;
+	}
+
+	public void setDataset(Dataset dataset) {
+		this.dataset = dataset;
+>>>>>>> e28b66aab49cb9b2b9551a2965582e7827efeb7d
 	}
 
 	public String getSujeito() {

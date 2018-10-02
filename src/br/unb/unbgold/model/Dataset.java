@@ -5,8 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+<<<<<<< HEAD
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+=======
+>>>>>>> e28b66aab49cb9b2b9551a2965582e7827efeb7d
 import javax.persistence.Table;
 
 @Entity
@@ -87,4 +90,5 @@ public class Dataset {
 	}	
 	
 	
+
 }

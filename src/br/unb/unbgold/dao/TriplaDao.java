@@ -3,6 +3,7 @@ package br.unb.unbgold.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;
@@ -11,6 +12,11 @@ import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.Dataset;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
+=======
+import org.hibernate.Query;
+
+import br.unb.unbgold.model.Ontologia;
+>>>>>>> e28b66aab49cb9b2b9551a2965582e7827efeb7d
 import br.unb.unbgold.model.Tripla;
 
 public class TriplaDao extends Dao {

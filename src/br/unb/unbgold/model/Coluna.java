@@ -103,6 +103,5 @@ public class Coluna {
 		this.coluna_ligacao = coluna_ligacao;
 	}
 
-	
-	
+		
 }
