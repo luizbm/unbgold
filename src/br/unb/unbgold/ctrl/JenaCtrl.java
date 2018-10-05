@@ -1,5 +1,7 @@
 package br.unb.unbgold.ctrl;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +30,7 @@ import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
 import br.unb.unbgold.model.Tripla;
 import br.unb.unbgold.util.TriplaUtil;
+import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
 @Path("/jena")
 public class JenaCtrl {
@@ -48,7 +51,7 @@ public class JenaCtrl {
 		Publicacao publicacao = new Publicacao();
 		publicacao.setId_publicacao(id);
 		
-		
+		String msg = "Rodou";
 		List<Resource> resorces = new ArrayList<Resource>();
 		
 		List<TriplaUtil> triplas = new ArrayList<TriplaUtil>();
@@ -127,8 +130,14 @@ public class JenaCtrl {
 			// m.write( System.out );
 			 System.out.println( "# -- nsA and cat defined" );
 			 m.setNsPrefix( "cat", nsB );*/
-			 m.write( System.out );
-			 
+			String fileName = "file_rdf.rdf";
+			PrintWriter writer = new PrintWriter(fileName, "UTF-8");
+			m.write( System.out );
+			 ByteArrayOutputStream out = new ByteArrayOutputStream();
+				m.write(out);
+			msg	= out.toString();
+			writer.write(out.toString());
+			writer.close();
 			 /*
 			Model model = ModelFactory.createDefaultModel();
 			
@@ -153,7 +162,7 @@ public class JenaCtrl {
 		}
 		
 		
-		String msg = "Rodou";
+		
 		return msg;
 	}	
 	

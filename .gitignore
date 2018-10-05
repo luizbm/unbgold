@@ -1,2 +1,4 @@
 /build/
 /target/
+.gitignore
+.settings/

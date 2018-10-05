@@ -1,0 +1,23 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:siorg="http://vocab.e.gov.br/2011/09/org#"
+    xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
+    xmlns:dc="http://purl.org/dc/terms#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/#"
+    xmlns:literal="http://unb.br/literal#" > 
+  <rdf:Description rdf:about="http://localhost/dadosabertos/orgao.csvhttp://bce.gov.br">
+    <foaf:homepage>http://bce.gov.br</foaf:homepage>
+    <literal:SIGLA>BCE</literal:SIGLA>
+    <foaf:name>BANCO CENTRAL DO BRASIL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/dadosabertos/orgao.csvhttp://ifb.edu.br">
+    <foaf:homepage>http://ifb.edu.br</foaf:homepage>
+    <literal:SIGLA>IFB</literal:SIGLA>
+    <foaf:name>INSTITUTO FEDERAL DE BRASILIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/dadosabertos/orgao.csvhttp://unb.br">
+    <foaf:homepage>http://unb.br</foaf:homepage>
+    <literal:SIGLA>FUB</literal:SIGLA>
+    <foaf:name>FUNDACAO UNIVERSIDADE DE BRASILIA</foaf:name>
+  </rdf:Description>
+</rdf:RDF
