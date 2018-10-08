@@ -1,6 +1,9 @@
 package br.unb.unbgold.ctrl;
 
+import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +18,7 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.VCARD;
 
 import br.unb.unbgold.dao.ColunaDao;
@@ -164,6 +168,53 @@ public class JenaCtrl {
 		
 		
 		return msg;
-	}	
+	}
+	
+	@GET
+	@Path("/consulta")
+	public String consulta() {
+		String diretorio = "C:\\Users\\luiz\\eclipse-workspace\\unbgold\\rdfs";
+		try {
+			System.out.println("Aqui  -> " + new File("").getCanonicalPath());
+			System.out.println("/  -> " + new File("/").getCanonicalPath());
+			System.out.println(".. -> " + new File("..").getCanonicalPath());
+			System.out.println(".  -> " + new File(".").getCanonicalPath());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		File file = new File(diretorio);
+		File afile[] = file.listFiles();
+		int i = 0;
+		for (int j = afile.length; i < j; i++) {
+			File arquivos = afile[i];
+			System.out.println(arquivos.getName());
+		}
+		
+		
+		String msg = "Teste Consulta";
+		 // create an empty model
+		Model model = ModelFactory.createDefaultModel();
+		 String inputFileName = diretorio+"\\orgao.rdf";
+		 // use the FileManager to find the input file
+		 InputStream in = FileManager.get().open( inputFileName );
+		 if (in == null) {
+		    msg =  "File: " + inputFileName + " not found";
+		}else {
+			model.read(in, null);
+			// write it to standard out
+			model.write(System.out);
+			ByteArrayOutputStream out = new ByteArrayOutputStream();
+			model.write(out);
+			//msg = out.toString();
+		}
+
+		// read the RDF/XML file
+		
+
+		
+		return msg;
+	}
 	
 }
