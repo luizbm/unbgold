@@ -158,11 +158,12 @@ public class PublicacaoCtrl {
 	        	}
 	        }
 	        Boolean lercabeca = true;
-            int colunaIri = -1;
+            int colunaIri = 0;
             int colunaSelec = -1;
             String[] head = null;
             
 	        while ((line = buffer.readLine().trim()) != null) {
+	        	line = line.replace("﻿", "");
 	        	 String[] room = line.split(csvSplitBy);
 	        	 for(int i = 0; i < room.length;i++) {
 	        		 room[i] = room[i].trim();
@@ -206,6 +207,7 @@ public class PublicacaoCtrl {
 	        	        			objeto.setTermo(coluna.getTermo());
 	        	        			objeto.setDesc_objeto(room[i].trim());
 	        	        			objeto.setColuna(coluna);
+	        	        			System.out.println(objeto.getDesc_objeto());
 	        	        			objetoDao.add(objeto);
 	        	        		}
 	        	        	}
@@ -293,7 +295,7 @@ public class PublicacaoCtrl {
 		URL url = new URL(string);
         URLConnection connection = url.openConnection();
 
-        InputStreamReader input = new InputStreamReader(connection.getInputStream());
+        InputStreamReader input = new InputStreamReader(connection.getInputStream(), "UTF-8");
         BufferedReader buffer = null;
         
         buffer = new BufferedReader(input);

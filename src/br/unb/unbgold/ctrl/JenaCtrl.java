@@ -1,7 +1,6 @@
 package br.unb.unbgold.ctrl;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
@@ -16,10 +15,8 @@ import javax.ws.rs.PathParam;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.util.FileManager;
-import com.hp.hpl.jena.vocabulary.VCARD;
 
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
@@ -32,7 +29,6 @@ import br.unb.unbgold.model.Objeto;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
-import br.unb.unbgold.model.Tripla;
 import br.unb.unbgold.util.TriplaUtil;
 import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
@@ -102,7 +98,9 @@ public class JenaCtrl {
 							for (Objeto objeto: objetosLigacao) {
 								System.out.println(objeto.getDesc_objeto());
 								if(tripla.getObjeto().getDesc_objeto().equals(objeto.getDesc_objeto())){
-									tripla.setObjeto(objeto);
+									Objeto ob = tripla.getObjeto();
+									ob.setDesc_objeto(objeto.getSujeito().getDesc_sujeito());
+									tripla.setObjeto(ob);
 									break;
 								}
 							}
@@ -114,8 +112,11 @@ public class JenaCtrl {
 					
 			}
 			for (TriplaUtil tripla : triplas) {
-				
-				m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
+				if(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo() == 2) {
+					m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getSujeito().getDesc_sujeito());
+				}else {
+					m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
+				}
 			}
 			
 			/* String nsA = "http://somewhere/else#";
@@ -136,10 +137,16 @@ public class JenaCtrl {
 			 m.setNsPrefix( "cat", nsB );*/
 			String fileName = "file_rdf.rdf";
 			PrintWriter writer = new PrintWriter(fileName, "UTF-8");
+
 			m.write( System.out );
 			 ByteArrayOutputStream out = new ByteArrayOutputStream();
+			
+			 
+			 String str;
 				m.write(out);
-			msg	= out.toString();
+			msg	= out.toString("UTF-8");;
+			System.out.println(msg);
+			System.out.println(new String(msg.getBytes("ISO-8859-1")));
 			writer.write(out.toString());
 			writer.close();
 			 /*
