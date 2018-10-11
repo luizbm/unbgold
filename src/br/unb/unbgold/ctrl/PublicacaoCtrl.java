@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.text.Normalizer;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -30,6 +31,7 @@ import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
 import br.unb.unbgold.model.Tripla;
+import br.unb.unbgold.util.Util;
 
 @Path("/publicacao")
 public class PublicacaoCtrl {
@@ -163,6 +165,7 @@ public class PublicacaoCtrl {
             String[] head = null;
             
 	        while ((line = buffer.readLine().trim()) != null) {
+	        	
 	        	line = line.replace("﻿", "");
 	        	 String[] room = line.split(csvSplitBy);
 	        	 for(int i = 0; i < room.length;i++) {
@@ -186,7 +189,7 @@ public class PublicacaoCtrl {
 	 	        	//System.out.println("IRI DO SUJEITO: "+dataset.getIri()+room[colunaIri]); 
 	                Sujeito sujeito = new Sujeito();
 	                sujeito.setPublicacao(publicacao);
-	                sujeito.setDesc_sujeito(dataset.getIri()+room[colunaIri]);
+	                sujeito.setDesc_sujeito(dataset.getIri()+Util.preUri(room[colunaIri]));
 	                
 	                sujeitoDao.add(sujeito);
 	                for (Coluna coluna : colunas) {
@@ -304,4 +307,8 @@ public class PublicacaoCtrl {
 		return buffer;
 		
 	}
+	
+
+	
 }
+

@@ -91,12 +91,14 @@ public class JenaCtrl {
 			
 			for (Coluna coluna : colunas) {
 				if(coluna.getColuna_ligacao().getId_coluna() != 1) {
+					System.out.println(coluna.getNm_campo());
 					List<Objeto> objetosLigacao = new ObjetoDao().findByColuna(coluna.getColuna_ligacao());
 					List<TriplaUtil> triplaLink = new ArrayList<TriplaUtil>();
 					for (TriplaUtil tripla : triplas) {
+						//System.out.println(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo());
 						if(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo() == 2) {
 							for (Objeto objeto: objetosLigacao) {
-								System.out.println(objeto.getDesc_objeto());
+								//System.out.println(objeto.getDesc_objeto());
 								if(tripla.getObjeto().getDesc_objeto().equals(objeto.getDesc_objeto())){
 									Objeto ob = tripla.getObjeto();
 									ob.setDesc_objeto(objeto.getSujeito().getDesc_sujeito());
@@ -112,11 +114,7 @@ public class JenaCtrl {
 					
 			}
 			for (TriplaUtil tripla : triplas) {
-				if(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo() == 2) {
-					m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getSujeito().getDesc_sujeito());
-				}else {
-					m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
-				}
+				m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
 			}
 			
 			/* String nsA = "http://somewhere/else#";
