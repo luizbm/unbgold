@@ -1,0 +1,3218 @@
+id_objeto,id_sujeito,id_termo,id_objeto_tipo,desc_objeto,id_coluna
+48137,39347,14,1,"Estudo de Problemas Brasileiros 1",17
+48138,39347,28,1,1,18
+48139,39347,4,2,"Instituto de Geociencias",21
+48140,39348,14,1,"Estudo de Problemas Brasileiros 2",17
+48141,39348,28,1,1,18
+48142,39348,4,2,"Instituto de Geociencias",21
+48143,39349,14,1,"MÓD 2 - PROC BIOL NA CAPTAÇAO E NA TRANS DA MATÉRIA E ENER",17
+48144,39349,28,1,26,18
+48145,39349,4,2,"Instituto de Ciencias Biológicas",21
+48146,39350,14,1,"MÓDULO 3 - PROCESSOS MANUTENÇAO DA VIDA",17
+48147,39350,28,1,25,18
+48148,39350,4,2,"Instituto de Ciencias Biológicas",21
+48149,39351,14,1,"MÓDULO 4 - DESENVOLVIMENTO E CRESCIMENTO",17
+48150,39351,28,1,25,18
+48151,39351,4,2,"Instituto de Ciencias Biológicas",21
+48152,39352,14,1,"MÓDULO 5 - PROCESSOS REPRODUTIVOS",17
+48153,39352,28,1,27,18
+48154,39352,4,2,"Instituto de Ciencias Biológicas",21
+48155,39353,14,1,"MÓDULO 6 - MECANISMOS DE AJUSTAMENTO AMBIENTAL E COLONIZAÇAO",17
+48156,39353,28,1,27,18
+48157,39353,4,2,"Instituto de Ciencias Biológicas",21
+48158,39354,14,1,"MÓDULO 7 - SOLUÇOES ADAPTATIVAS E FILOGENIA",17
+48159,39354,28,1,28,18
+48160,39354,4,2,"Instituto de Ciencias Biológicas",21
+48161,39355,14,1,"MÓDULO 8 - PROCESSOS EMERGENTES E BIODIVERSIDADE",17
+48162,39355,28,1,29,18
+48163,39355,4,2,"Instituto de Ciencias Biológicas",21
+48164,39356,14,1,"Projeto de Sistemas de Produçao 4",17
+48165,39356,28,1,2,18
+48166,39356,4,2,"Departamento de Engenharia de Produçao",21
+48167,39357,14,1,"Planejamento e Controle da Produçao",17
+48168,39357,28,1,4,18
+48169,39357,4,2,"Departamento de Engenharia de Produçao",21
+48170,39358,14,1,"Tomada de Decisao com Enfoque em Análise Multicritério",17
+48171,39358,28,1,4,18
+48172,39358,4,2,"Departamento de Engenharia de Produçao",21
+48173,39359,14,1,"Simulaçao de Sistemas",17
+48174,39359,28,1,4,18
+48175,39359,4,2,"Departamento de Engenharia de Produçao",21
+48176,39360,14,1,"Gestao de Riscos",17
+48177,39360,28,1,4,18
+48178,39360,4,2,"Departamento de Engenharia de Produçao",21
+48179,39361,14,1,"Gramática Histórica Comparada das Línguas Modernas",17
+48180,39361,28,1,4,18
+48181,39361,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+48182,39362,14,1,"Introduçao r Vulcanologia",17
+48183,39362,28,1,2,18
+48184,39362,4,2,"Instituto de Geociencias",21
+48185,39363,14,1,"Físico Química de Polímeros",17
+48186,39363,28,1,4,18
+48187,39363,4,2,"Instituto de Química",21
+48188,39364,14,1,"Síntese de Polímeros",17
+48189,39364,28,1,4,18
+48190,39364,4,2,"Instituto de Química",21
+48191,39365,14,1,"Cuidado em Situaçoes Cirúrgicas",17
+48192,39365,28,1,2,18
+48193,39365,4,2,"Departamento de Enfermagem",21
+48194,39366,14,1,"Fundamentos de Citogenética Humana",17
+48195,39366,28,1,2,18
+48196,39366,4,2,"UnB - Faculdade da Ceilândia",21
+48197,39367,14,1,Biocombustíveis,17
+48198,39367,28,1,4,18
+48199,39367,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48200,39368,14,1,"Tópicos Especiais em Filosofia Oriental",17
+48201,39368,28,1,4,18
+48202,39368,4,2,"Departamento de Filosofia",21
+48203,39369,14,1,"Genero e Educaçao",17
+48204,39369,28,1,4,18
+48205,39369,4,2,"Faculdade de Educaçao",21
+48206,39370,14,1,"Controle de Sistemas Marítimos",17
+48207,39370,28,1,4,18
+48208,39370,4,2,"Departamento de Engenharia Mecânica",21
+48209,39371,14,1,"Introduçao r Exploraçao de Petróleo em Alto Mar",17
+48210,39371,28,1,2,18
+48211,39371,4,2,"Departamento de Engenharia Mecânica",21
+48212,39372,14,1,"Fundamentos de Engenharia de Reservatório",17
+48213,39372,28,1,2,18
+48214,39372,4,2,"Departamento de Engenharia Mecânica",21
+48215,39373,14,1,"Trabalho Final de Graduaçao em Arquitetura e Urbanismo",17
+48216,39373,28,1,4,18
+48217,39373,4,2,"Departamento de Projetos Expressao e Representaçao",21
+48218,39374,14,1,"Sistemas Estruturais em Concreto Armado 2",17
+48219,39374,28,1,4,18
+48220,39374,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+48221,39375,14,1,"Projeto de Paisagismo 2",17
+48222,39375,28,1,4,18
+48223,39375,4,2,"Departamento de Projetos Expressao e Representaçao",21
+48224,39376,14,1,"Residencia em Políticas Públicas 1",17
+48225,39376,28,1,4,18
+48226,39376,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+48227,39377,14,1,"Residencia em Políticas Públicas 2",17
+48228,39377,28,1,4,18
+48229,39377,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+48230,39378,14,1,"Instalaçoes e Equipamentos 1",17
+48231,39378,28,1,2,18
+48232,39378,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+48233,39379,14,1,"Instalaçoes e Equipamentos 2",17
+48234,39379,28,1,2,18
+48235,39379,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+48236,39380,14,1,"Uso Racional de Medicamentos em Odontologia",17
+48237,39380,28,1,2,18
+48238,39380,4,2,"Departamento de Odontologia",21
+48239,39381,14,1,"Tópicos Complementares em Prótese Total Removível",17
+48240,39381,28,1,2,18
+48241,39381,4,2,"Departamento de Odontologia",21
+48242,39382,14,1,"Tópicos Complementares em Prótese Parcial Removível",17
+48243,39382,28,1,2,18
+48244,39382,4,2,"Departamento de Odontologia",21
+48245,39383,14,1,"Design de Interaçao",17
+48246,39383,28,1,4,18
+48247,39383,4,2,"Departamento de Desenho Industrial",21
+48248,39384,14,1,"Projeto de Extensao em Música 1",17
+48249,39384,28,1,4,18
+48250,39384,4,2,"Departamento de Música",21
+48251,39385,14,1,"Projeto de Extensao em Música 2",17
+48252,39385,28,1,4,18
+48253,39385,4,2,"Departamento de Música",21
+48254,39386,14,1,"Introduçao aos Cuidados Paliativos",17
+48255,39386,28,1,2,18
+48256,39386,4,2,"UnB - Faculdade da Ceilândia",21
+48257,39387,14,1,"Estágio Curricular Supervisionado em Enfermagem 2",17
+48258,39387,28,1,18,18
+48259,39387,4,2,"UnB - Faculdade da Ceilândia",21
+48260,39388,14,1,"Introduçao a Análise e ao Apoio Institucional em Saúde",17
+48261,39388,28,1,2,18
+48262,39388,4,2,"UnB - Faculdade da Ceilândia",21
+48263,39389,14,1,"Seguridade Social 3 - Assistencia Social",17
+48264,39389,28,1,4,18
+48265,39389,4,2,"Departamento de Serviço Social",21
+48266,39390,14,1,"Tópicos Especiais em Comunicaçao Organizacional 2",17
+48267,39390,28,1,2,18
+48268,39390,4,2,"Faculdade de Comunicaçao",21
+48269,39391,14,1,Nanobiotecnologia,17
+48270,39391,28,1,2,18
+48271,39391,4,2,"Departamento de Genética e Morfologia",21
+48272,39392,14,1,"Práticas em Virologia Molecular",17
+48273,39392,28,1,6,18
+48274,39392,4,2,"Faculdade de Ciencias da Saúde",21
+48275,39393,14,1,"A Uniao Européia e a Cooperaçao Internacional",17
+48276,39393,28,1,4,18
+48277,39393,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+48278,39394,14,1,"Budismo Hinayana",17
+48279,39394,28,1,4,18
+48280,39394,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+48281,39395,14,1,"Introduçao r Computaçao Aplicada aos Processos Químicos",17
+48282,39395,28,1,4,18
+48283,39395,4,2,"Instituto de Química",21
+48284,39396,14,1,"Trabalho de Conclusao de Curso 1",17
+48285,39396,28,1,4,18
+48286,39396,4,2,"Departamento de História",21
+48287,39397,14,1,"Tópico de Metodologia de História Social",17
+48288,39397,28,1,4,18
+48289,39397,4,2,"Departamento de História",21
+48290,39398,14,1,"Prática de Ensino de História 2",17
+48291,39398,28,1,11,18
+48292,39398,4,2,"Departamento de História",21
+48293,39399,14,1,"Gestao de Resíduos Agroindustriais",17
+48294,39399,28,1,4,18
+48295,39399,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48296,39400,14,1,"Introduçao r Pesquisa em Música",17
+48297,39400,28,1,2,18
+48298,39400,4,2,"Departamento de Música",21
+48299,39401,14,1,"Timor-Leste: Natureza, Cultura, Linguagem e Identidade",17
+48300,39401,28,1,4,18
+48301,39401,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+48302,39402,14,1,"Teorias Filosóficas da Linguagem",17
+48303,39402,28,1,6,18
+48304,39402,4,2,"Departamento de Filosofia",21
+48305,39403,14,1,"Pesquisa em Traduçao",17
+48306,39403,28,1,4,18
+48307,39403,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+48308,39404,14,1,"Filosofia Contemporânea",17
+48309,39404,28,1,6,18
+48310,39404,4,2,"Departamento de Filosofia",21
+48311,39405,14,1,"Traduçao de Textos Literários",17
+48312,39405,28,1,4,18
+48313,39405,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+48314,39406,14,1,"Estágio Pedagógico Supervisionado 1",17
+48315,39406,28,1,6,18
+48316,39406,4,2,"Departamento de Filosofia",21
+48317,39407,14,1,"Versao de Textos Literários",17
+48318,39407,28,1,4,18
+48319,39407,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+48320,39408,14,1,"Estágio Supervisionado no Ensino de Biologia",17
+48321,39408,28,1,6,18
+48322,39408,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48323,39409,14,1,Evoluçao,17
+48324,39409,28,1,2,18
+48325,39409,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48326,39410,14,1,"Fisiologia Animal 2",17
+48327,39410,28,1,4,18
+48328,39410,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48329,39411,14,1,"Pesquisa em Educaçao Científica",17
+48330,39411,28,1,6,18
+48331,39411,4,2,"Instituto de Ciencias Biológicas",21
+48332,39412,14,1,"Fundamentos de Física",17
+48333,39412,28,1,4,18
+48334,39412,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48335,39413,14,1,"Embriologia Animal",17
+48336,39413,28,1,4,18
+48337,39413,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48338,39414,14,1,"Biologia Molecular",17
+48339,39414,28,1,4,18
+48340,39414,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48341,39415,14,1,"Organografia e Sistemática Fanerofítica",17
+48342,39415,28,1,4,18
+48343,39415,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48344,39416,14,1,"Didática da Biologia",17
+48345,39416,28,1,4,18
+48346,39416,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48347,39417,14,1,"Patologia Molecular Clínica",17
+48348,39417,28,1,4,18
+48349,39417,4,2,"UnB - Faculdade da Ceilândia",21
+48350,39418,14,1,"Escolarizaçao de Surdos e LIBRAS",17
+48351,39418,28,1,4,18
+48352,39418,4,2,"Departamento de Teoria e Fundamentos",21
+48353,39419,14,1,"Clínica Médica de Animais de Companhia 1",17
+48354,39419,28,1,6,18
+48355,39419,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48356,39420,14,1,"Clínica Médica de Animais de Companhia 2",17
+48357,39420,28,1,6,18
+48358,39420,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48359,39421,14,1,"Clínica e Cirurgia de Ruminantes e Equinos 1",17
+48360,39421,28,1,10,18
+48361,39421,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48362,39422,14,1,"Semiologia Veterinária",17
+48363,39422,28,1,4,18
+48364,39422,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48365,39423,14,1,"Clínica e Cirurgia de Ruminantes e Equinos 2",17
+48366,39423,28,1,10,18
+48367,39423,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48368,39424,14,1,"História da África Colonial",17
+48369,39424,28,1,4,18
+48370,39424,4,2,"Departamento de História",21
+48371,39425,14,1,"Introduçao r Prótese Parcial Removível",17
+48372,39425,28,1,2,18
+48373,39425,4,2,"Departamento de Odontologia",21
+48374,39426,14,1,"Prótese Parcial Fixa",17
+48375,39426,28,1,4,18
+48376,39426,4,2,"Departamento de Odontologia",21
+48377,39427,14,1,"Hematologia Clínica",17
+48378,39427,28,1,4,18
+48379,39427,4,2,"UnB - Faculdade da Ceilândia",21
+48380,39428,14,1,"Teoria, Crítica e História da Arte 2",17
+48381,39428,28,1,4,18
+48382,39428,4,2,"Departamento de Artes Visuais",21
+48383,39429,14,1,"Arte e Sociologia",17
+48384,39429,28,1,4,18
+48385,39429,4,2,"Departamento de Artes Visuais",21
+48386,39430,14,1,"A Enfermagem na Estratégia  Saúde da Família",17
+48387,39430,28,1,2,18
+48388,39430,4,2,"UnB - Faculdade da Ceilândia",21
+48389,39431,14,1,"Processos Cognitivos: Aplicaçoes em Fisioterapia",17
+48390,39431,28,1,2,18
+48391,39431,4,2,"UnB - Faculdade da Ceilândia",21
+48392,39432,14,1,"Prática da Fisioterapia Baseada em Problemas",17
+48393,39432,28,1,2,18
+48394,39432,4,2,"UnB - Faculdade da Ceilândia",21
+48395,39433,14,1,"Tópicos Avançados em Patologia Humana",17
+48396,39433,28,1,4,18
+48397,39433,4,2,"UnB - Faculdade da Ceilândia",21
+48398,39434,14,1,"Biologia Regenerativa",17
+48399,39434,28,1,3,18
+48400,39434,4,2,"Departamento de Genética e Morfologia",21
+48401,39435,14,1,"Materiais em Ilustraçao Científica",17
+48402,39435,28,1,4,18
+48403,39435,4,2,"Instituto de Ciencias Biológicas",21
+48404,39436,14,1,"Biologia do Câncer",17
+48405,39436,28,1,4,18
+48406,39436,4,2,"Departamento de Genética e Morfologia",21
+48407,39437,14,1,"Biologia Quantitativa",17
+48408,39437,28,1,6,18
+48409,39437,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48410,39438,14,1,"Segurança e Saúde no Trabalho",17
+48411,39438,28,1,4,18
+48412,39438,4,2,"Departamento de Engenharia de Produçao",21
+48413,39439,14,1,"Cinética, Processos e Operaçoes Unitárias",17
+48414,39439,28,1,4,18
+48415,39439,4,2,"Departamento de Engenharia Civil e Ambiental",21
+48416,39440,14,1,"Aspectos Econômicos da Engenharia Ambiental",17
+48417,39440,28,1,2,18
+48418,39440,4,2,"Departamento de Engenharia Civil e Ambiental",21
+48419,39441,14,1,"Saúde, Saneamento e Meio Ambiente",17
+48420,39441,28,1,2,18
+48421,39441,4,2,"Departamento de Engenharia Civil e Ambiental",21
+48422,39442,14,1,"Eletricidade Básica",17
+48423,39442,28,1,4,18
+48424,39442,4,2,"Departamento de Engenharia Elétrica.",21
+48425,39443,14,1,"Laboratório de Eletricidade Básica",17
+48426,39443,28,1,2,18
+48427,39443,4,2,"Departamento de Engenharia Elétrica.",21
+48428,39444,14,1,"Anatomia e Fisiologia Vegetal",17
+48429,39444,28,1,4,18
+48430,39444,4,2,"UnB - Faculdade de Planaltina",21
+48431,39445,14,1,"Tópicos Especiais em Biológia",17
+48432,39445,28,1,4,18
+48433,39445,4,2,"UnB - Faculdade de Planaltina",21
+48434,39446,14,1,"Planejamento e Avaliaçao Socioambiental",17
+48435,39446,28,1,4,18
+48436,39446,4,2,"Centro de Desenvolvimento Sustentável",21
+48437,39447,14,1,"Planejamento e Gestao em Turismo 1",17
+48438,39447,28,1,4,18
+48439,39447,4,2,"Centro de Excelencia em Turismo",21
+48440,39448,14,1,"Legislaçao Turística",17
+48441,39448,28,1,2,18
+48442,39448,4,2,"Centro de Excelencia em Turismo",21
+48443,39449,14,1,"Estágio Supervisionado 1",17
+48444,39449,28,1,4,18
+48445,39449,4,2,"Centro de Excelencia em Turismo",21
+48446,39450,14,1,"Princípios da Técnica Cirúrgica",17
+48447,39450,28,1,4,18
+48448,39450,4,2,"Departamento de Odontologia",21
+48449,39451,14,1,"Clínica Odontológica 6",17
+48450,39451,28,1,12,18
+48451,39451,4,2,"Departamento de Odontologia",21
+48452,39452,14,1,"Contrataçao de Serviços de Tecnologia da Informaçao",17
+48453,39452,28,1,4,18
+48454,39452,4,2,"UnB - Faculdade do Gama",21
+48455,39453,14,1,"Compiladores 1",17
+48456,39453,28,1,4,18
+48457,39453,4,2,"UnB - Faculdade do Gama",21
+48458,39454,14,1,"Técnicas de Mediçao Funcional e Estimativas de Software",17
+48459,39454,28,1,4,18
+48460,39454,4,2,"UnB - Faculdade do Gama",21
+48461,39455,14,1,"Fundamentos de Equaçoes Diferenciais para Engenharia",17
+48462,39455,28,1,4,18
+48463,39455,4,2,"UnB - Faculdade do Gama",21
+48464,39456,14,1,"Confiabilidade de Componentes e Sistemas",17
+48465,39456,28,1,4,18
+48466,39456,4,2,"UnB - Faculdade do Gama",21
+48467,39457,14,1,"Sistemas Aeroespaciais",17
+48468,39457,28,1,4,18
+48469,39457,4,2,"UnB - Faculdade do Gama",21
+48470,39458,14,1,"Trabalho de Conclusao de Curso 1",17
+48471,39458,28,1,4,18
+48472,39458,4,2,"UnB - Faculdade do Gama",21
+48473,39459,14,1,"Estágio em Extensao 1",17
+48474,39459,28,1,4,18
+48475,39459,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48476,39460,14,1,"Democracia e Relaçoes Internacionais",17
+48477,39460,28,1,4,18
+48478,39460,4,2,"Instituto de Relaçoes Internacionais",21
+48479,39461,14,1,"Atençao Primária em Saúde",17
+48480,39461,28,1,4,18
+48481,39461,4,2,"UnB - Faculdade da Ceilândia",21
+48482,39462,14,1,"Bioética e Saúde Coletiva",17
+48483,39462,28,1,2,18
+48484,39462,4,2,"UnB - Faculdade da Ceilândia",21
+48485,39463,14,1,"Demografia e Bioestatística em Saúde Coletiva",17
+48486,39463,28,1,4,18
+48487,39463,4,2,"UnB - Faculdade da Ceilândia",21
+48488,39464,14,1,"Instrumento Principal Contrabaixo Elétrico 3",17
+48489,39464,28,1,2,18
+48490,39464,4,2,"Departamento de Música",21
+48491,39465,14,1,"Instrumento Principal Contrabaixo Elétrico 4",17
+48492,39465,28,1,2,18
+48493,39465,4,2,"Departamento de Música",21
+48494,39466,14,1,"Instrumento Principal Oboé 1",17
+48495,39466,28,1,2,18
+48496,39466,4,2,"Departamento de Música",21
+48497,39467,14,1,"Instrumento Principal Oboé 2",17
+48498,39467,28,1,2,18
+48499,39467,4,2,"Departamento de Música",21
+48500,39468,14,1,"Instrumento Principal Oboé 3",17
+48501,39468,28,1,2,18
+48502,39468,4,2,"Departamento de Música",21
+48503,39469,14,1,"Instrumento Principal Oboé 4",17
+48504,39469,28,1,2,18
+48505,39469,4,2,"Departamento de Música",21
+48506,39470,14,1,"Instrumento Principal Violino 1",17
+48507,39470,28,1,2,18
+48508,39470,4,2,"Departamento de Música",21
+48509,39471,14,1,"Instrumento Principal Violino 2",17
+48510,39471,28,1,2,18
+48511,39471,4,2,"Departamento de Música",21
+48512,39472,14,1,"Instrumento Principal Violino 3",17
+48513,39472,28,1,2,18
+48514,39472,4,2,"Departamento de Música",21
+48515,39473,14,1,"Instrumento Principal Violino 4",17
+48516,39473,28,1,2,18
+48517,39473,4,2,"Departamento de Música",21
+48518,39474,14,1,"Introduçao ao Processamento de Sinais Biológicos",17
+48519,39474,28,1,4,18
+48520,39474,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48521,39475,14,1,"Estágio em Extensao 1",17
+48522,39475,28,1,4,18
+48523,39475,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48524,39476,14,1,"Estágio em Extensao 2",17
+48525,39476,28,1,6,18
+48526,39476,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48527,39477,14,1,"Métodos em Biologia",17
+48528,39477,28,1,4,18
+48529,39477,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48530,39478,14,1,"Estágio em Ilustraçao Científica",17
+48531,39478,28,1,4,18
+48532,39478,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48533,39479,14,1,"Estágio em Ecologia",17
+48534,39479,28,1,4,18
+48535,39479,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48536,39480,14,1,"Dinâmica da Construçao do Conhecimento Científico",17
+48537,39480,28,1,4,18
+48538,39480,4,2,"Direçao do Instituto Ciencias Biológicas",21
+48539,39481,14,1,"Filosofia na América Latina",17
+48540,39481,28,1,4,18
+48541,39481,4,2,"Departamento de Filosofia",21
+48542,39482,14,1,"Projeto de Sistemas de Produçao 5",17
+48543,39482,28,1,2,18
+48544,39482,4,2,"Departamento de Engenharia de Produçao",21
+48545,39483,14,1,"Projeto de Sistemas de Produçao 6",17
+48546,39483,28,1,2,18
+48547,39483,4,2,"Departamento de Engenharia de Produçao",21
+48548,39484,14,1,"Projeto de Sistemas de Produçao 7",17
+48549,39484,28,1,2,18
+48550,39484,4,2,"Departamento de Engenharia de Produçao",21
+48551,39485,14,1,"Trabalho de Conclusao de Curso 2",17
+48552,39485,28,1,6,18
+48553,39485,4,2,"Departamento de História",21
+48554,39486,14,1,"Tópico Especial em Teoria da História",17
+48555,39486,28,1,4,18
+48556,39486,4,2,"Departamento de História",21
+48557,39487,14,1,"Tópico Especial em Metodologia da História",17
+48558,39487,28,1,4,18
+48559,39487,4,2,"Departamento de História",21
+48560,39488,14,1,"Historiografia e Antiguidade Greco-Romana",17
+48561,39488,28,1,4,18
+48562,39488,4,2,"Departamento de História",21
+48563,39489,14,1,"História e Historiografia Antiga",17
+48564,39489,28,1,4,18
+48565,39489,4,2,"Departamento de História",21
+48566,39490,14,1,"História da Península Ibérica na Idade Média",17
+48567,39490,28,1,4,18
+48568,39490,4,2,"Departamento de História",21
+48569,39491,14,1,"História e Historiografia Contemporânea 2",17
+48570,39491,28,1,4,18
+48571,39491,4,2,"Departamento de História",21
+48572,39492,14,1,"História da África Independente",17
+48573,39492,28,1,4,18
+48574,39492,4,2,"Departamento de História",21
+48575,39493,14,1,"História e Natureza no Brasil",17
+48576,39493,28,1,4,18
+48577,39493,4,2,"Departamento de História",21
+48578,39494,14,1,"Estágio Supervisionado Obrigatório",17
+48579,39494,28,1,12,18
+48580,39494,4,2,"Departamento de Engenharia de Produçao",21
+48581,39495,14,1,"História e Historiografia da Escravidao no Brasil",17
+48582,39495,28,1,4,18
+48583,39495,4,2,"Departamento de História",21
+48584,39496,14,1,"História e Literatura no Brasil",17
+48585,39496,28,1,4,18
+48586,39496,4,2,"Departamento de História",21
+48587,39497,14,1,"Laboratório de Ensino de História da África",17
+48588,39497,28,1,4,18
+48589,39497,4,2,"Departamento de História",21
+48590,39498,14,1,"História, Cultura e Identidades",17
+48591,39498,28,1,4,18
+48592,39498,4,2,"Departamento de História",21
+48593,39499,14,1,"História Social",17
+48594,39499,28,1,4,18
+48595,39499,4,2,"Departamento de História",21
+48596,39500,14,1,"História Econômica",17
+48597,39500,28,1,4,18
+48598,39500,4,2,"Departamento de História",21
+48599,39501,14,1,"História da Argentina",17
+48600,39501,28,1,4,18
+48601,39501,4,2,"Departamento de História",21
+48602,39502,14,1,"Laboratório de Ensino de História Medieval",17
+48603,39502,28,1,4,18
+48604,39502,4,2,"Departamento de História",21
+48605,39503,14,1,Logística,17
+48606,39503,28,1,4,18
+48607,39503,4,2,"Departamento de Engenharia de Produçao",21
+48608,39504,14,1,"Engenharia do Produto",17
+48609,39504,28,1,4,18
+48610,39504,4,2,"Departamento de Engenharia de Produçao",21
+48611,39505,14,1,"Controle de Qualidade Físico-Químico",17
+48612,39505,28,1,4,18
+48613,39505,4,2,"Faculdade de Ciencias da Saúde",21
+48614,39506,14,1,"Controle Estatístico de Processos",17
+48615,39506,28,1,4,18
+48616,39506,4,2,"Departamento de Engenharia de Produçao",21
+48617,39507,14,1,"Custos em Sistemas de Produçao",17
+48618,39507,28,1,4,18
+48619,39507,4,2,"Departamento de Engenharia de Produçao",21
+48620,39508,14,1,"Controle de Qualidade Microbiológico",17
+48621,39508,28,1,4,18
+48622,39508,4,2,"Faculdade de Ciencias da Saúde",21
+48623,39509,14,1,"Dinâmica de Sistemas em Organizaçoes",17
+48624,39509,28,1,4,18
+48625,39509,4,2,"Departamento de Engenharia de Produçao",21
+48626,39510,14,1,"Gestao de Riscos em Organizaçao",17
+48627,39510,28,1,4,18
+48628,39510,4,2,"Departamento de Engenharia de Produçao",21
+48629,39511,14,1,"Mercadologia Estratégica",17
+48630,39511,28,1,4,18
+48631,39511,4,2,"Departamento de Engenharia de Produçao",21
+48632,39512,14,1,"Pesquisa Operacional em Engenharia 2",17
+48633,39512,28,1,4,18
+48634,39512,4,2,"Departamento de Engenharia de Produçao",21
+48635,39513,14,1,"Seminário em Engenharia de Produçao",17
+48636,39513,28,1,4,18
+48637,39513,4,2,"Departamento de Engenharia de Produçao",21
+48638,39514,14,1,"Sistemas de Suporte r Decisao",17
+48639,39514,28,1,4,18
+48640,39514,4,2,"Departamento de Engenharia de Produçao",21
+48641,39515,14,1,"Farmacologia 3",17
+48642,39515,28,1,4,18
+48643,39515,4,2,"Faculdade de Ciencias da Saúde",21
+48644,39516,14,1,"Vigilância Sanitária de Medicamentos",17
+48645,39516,28,1,2,18
+48646,39516,4,2,"Faculdade de Ciencias da Saúde",21
+48647,39517,14,1,"Tópicos Especiais em Gestao da Produçao",17
+48648,39517,28,1,4,18
+48649,39517,4,2,"Departamento de Engenharia de Produçao",21
+48650,39518,14,1,"Tópicos Especiais em Gestao da Inovaçao",17
+48651,39518,28,1,4,18
+48652,39518,4,2,"Departamento de Engenharia de Produçao",21
+48653,39519,14,1,"Tópicos Especiais em Engenharia do Trabalho e Ergonomia",17
+48654,39519,28,1,4,18
+48655,39519,4,2,"Departamento de Engenharia de Produçao",21
+48656,39520,14,1,"Tópicos Especiais em Engenharia do Produto",17
+48657,39520,28,1,4,18
+48658,39520,4,2,"Departamento de Engenharia de Produçao",21
+48659,39521,14,1,"Tópicos Especiais em Pesquisa Operacional",17
+48660,39521,28,1,4,18
+48661,39521,4,2,"Departamento de Engenharia de Produçao",21
+48662,39522,14,1,"Tópicos Especiais em Pesquisa Organizacional",17
+48663,39522,28,1,4,18
+48664,39522,4,2,"Departamento de Engenharia de Produçao",21
+48665,39523,14,1,"Tópicos Especiais em Logística",17
+48666,39523,28,1,4,18
+48667,39523,4,2,"Departamento de Engenharia de Produçao",21
+48668,39524,14,1,"Arranjo 1",17
+48669,39524,28,1,2,18
+48670,39524,4,2,"Departamento de Música",21
+48671,39525,14,1,"Harmonia na Música Popular 1",17
+48672,39525,28,1,2,18
+48673,39525,4,2,"Departamento de Música",21
+48674,39526,14,1,"Harmonia na Música Popular 2",17
+48675,39526,28,1,2,18
+48676,39526,4,2,"Departamento de Música",21
+48677,39527,14,1,"Improvisaçao 1",17
+48678,39527,28,1,2,18
+48679,39527,4,2,"Departamento de Música",21
+48680,39528,14,1,"História da Música Brasileira 2",17
+48681,39528,28,1,2,18
+48682,39528,4,2,"Departamento de Música",21
+48683,39529,14,1,"História da Música Popular do Brasil 1",17
+48684,39529,28,1,2,18
+48685,39529,4,2,"Departamento de Música",21
+48686,39530,14,1,"História da Música Popular do Brasil 2",17
+48687,39530,28,1,2,18
+48688,39530,4,2,"Departamento de Música",21
+48689,39531,14,1,"Música de Tradiçao Oral Performática",17
+48690,39531,28,1,2,18
+48691,39531,4,2,"Departamento de Música",21
+48692,39532,14,1,"Estágio Supervisionado 1",17
+48693,39532,28,1,8,18
+48694,39532,4,2,"Faculdade de Ciencias da Saúde",21
+48695,39533,14,1,"Harmonia e Improvisaçao na Música Popular 2",17
+48696,39533,28,1,0,18
+48697,39533,4,2,"Departamento de Música",21
+48698,39534,14,1,"Harmonia e Improvisaçao na Música Popular 3",17
+48699,39534,28,1,0,18
+48700,39534,4,2,"Departamento de Música",21
+48701,39535,14,1,"Instrumento Principal Piano Popular 1",17
+48702,39535,28,1,2,18
+48703,39535,4,2,"Departamento de Música",21
+48704,39536,14,1,"Instrumento Principal Piano Popular 2",17
+48705,39536,28,1,2,18
+48706,39536,4,2,"Departamento de Música",21
+48707,39537,14,1,"Instrumento Principal Piano Popular 3",17
+48708,39537,28,1,2,18
+48709,39537,4,2,"Departamento de Música",21
+48710,39538,14,1,"Instrumento Principal Piano Popular 4",17
+48711,39538,28,1,2,18
+48712,39538,4,2,"Departamento de Música",21
+48713,39539,14,1,"Instrumento Principal Contrabaixo 1",17
+48714,39539,28,1,0,18
+48715,39539,4,2,"Departamento de Música",21
+48716,39540,14,1,"Instrumento Principal Contrabaixo 2",17
+48717,39540,28,1,0,18
+48718,39540,4,2,"Departamento de Música",21
+48719,39541,14,1,"Instrumento Principal Flauta 1",17
+48720,39541,28,1,0,18
+48721,39541,4,2,"Departamento de Música",21
+48722,39542,14,1,"Instrumento Principal Flauta 2",17
+48723,39542,28,1,0,18
+48724,39542,4,2,"Departamento de Música",21
+48725,39543,14,1,"Instrumento Principal Flauta 3",17
+48726,39543,28,1,0,18
+48727,39543,4,2,"Departamento de Música",21
+48728,39544,14,1,"Instrumento Principal Flauta 4",17
+48729,39544,28,1,0,18
+48730,39544,4,2,"Departamento de Música",21
+48731,39545,14,1,"Instrumento Principal Clarineta 1",17
+48732,39545,28,1,0,18
+48733,39545,4,2,"Departamento de Música",21
+48734,39546,14,1,"Instrumento Principal Clarineta 2",17
+48735,39546,28,1,0,18
+48736,39546,4,2,"Departamento de Música",21
+48737,39547,14,1,"Instrumento Principal Clarineta 3",17
+48738,39547,28,1,0,18
+48739,39547,4,2,"Departamento de Música",21
+48740,39548,14,1,"Instrumento Principal Clarineta 4",17
+48741,39548,28,1,0,18
+48742,39548,4,2,"Departamento de Música",21
+48743,39549,14,1,"Instrumento Principal Fagote 1",17
+48744,39549,28,1,0,18
+48745,39549,4,2,"Departamento de Música",21
+48746,39550,14,1,"Instrumento Principal Fagote 2",17
+48747,39550,28,1,0,18
+48748,39550,4,2,"Departamento de Música",21
+48749,39551,14,1,"Instrumento Principal Fagote 3",17
+48750,39551,28,1,0,18
+48751,39551,4,2,"Departamento de Música",21
+48752,39552,14,1,"Instrumento Principal Fagote 4",17
+48753,39552,28,1,0,18
+48754,39552,4,2,"Departamento de Música",21
+48755,39553,14,1,"Instrumento Principal Trompa 1",17
+48756,39553,28,1,0,18
+48757,39553,4,2,"Departamento de Música",21
+48758,39554,14,1,"Instrumento Principal Trompa 2",17
+48759,39554,28,1,0,18
+48760,39554,4,2,"Departamento de Música",21
+48761,39555,14,1,"Instrumento Principal Trompa 3",17
+48762,39555,28,1,0,18
+48763,39555,4,2,"Departamento de Música",21
+48764,39556,14,1,"Instrumento Principal Trompa 4",17
+48765,39556,28,1,0,18
+48766,39556,4,2,"Departamento de Música",21
+48767,39557,14,1,"Instrumento Principal Viola 1",17
+48768,39557,28,1,0,18
+48769,39557,4,2,"Departamento de Música",21
+48770,39558,14,1,"Instrumento Principal Viola 2",17
+48771,39558,28,1,0,18
+48772,39558,4,2,"Departamento de Música",21
+48773,39559,14,1,"Instrumento Principal Viola 3",17
+48774,39559,28,1,0,18
+48775,39559,4,2,"Departamento de Música",21
+48776,39560,14,1,"Instrumento Principal Viola 4",17
+48777,39560,28,1,0,18
+48778,39560,4,2,"Departamento de Música",21
+48779,39561,14,1,"Instrumento Principal Canto 1",17
+48780,39561,28,1,0,18
+48781,39561,4,2,"Departamento de Música",21
+48782,39562,14,1,"Instrumento Principal Canto 2",17
+48783,39562,28,1,0,18
+48784,39562,4,2,"Departamento de Música",21
+48785,39563,14,1,"Instrumento Principal Canto 3",17
+48786,39563,28,1,0,18
+48787,39563,4,2,"Departamento de Música",21
+48788,39564,14,1,"Instrumento Principal Canto 4",17
+48789,39564,28,1,0,18
+48790,39564,4,2,"Departamento de Música",21
+48791,39565,14,1,"Instrumento Principal Piano 1",17
+48792,39565,28,1,0,18
+48793,39565,4,2,"Departamento de Música",21
+48794,39566,14,1,"Instrumento Principal Piano 2",17
+48795,39566,28,1,0,18
+48796,39566,4,2,"Departamento de Música",21
+48797,39567,14,1,"Instrumento Principal Piano 3",17
+48798,39567,28,1,0,18
+48799,39567,4,2,"Departamento de Música",21
+48800,39568,14,1,"Instrumento Principal Piano 4",17
+48801,39568,28,1,0,18
+48802,39568,4,2,"Departamento de Música",21
+48803,39569,14,1,"Instrumento Principal Trompete 1",17
+48804,39569,28,1,0,18
+48805,39569,4,2,"Departamento de Música",21
+48806,39570,14,1,"Instrumento Principal Trompete 2",17
+48807,39570,28,1,0,18
+48808,39570,4,2,"Departamento de Música",21
+48809,39571,14,1,"Instrumento Principal Trompete 3",17
+48810,39571,28,1,0,18
+48811,39571,4,2,"Departamento de Música",21
+48812,39572,14,1,"Instrumento Principal Trompete 4",17
+48813,39572,28,1,0,18
+48814,39572,4,2,"Departamento de Música",21
+48815,39573,14,1,"Instrumento Principal Violoncelo 1",17
+48816,39573,28,1,0,18
+48817,39573,4,2,"Departamento de Música",21
+48818,39574,14,1,"Instrumento Principal Violoncelo 2",17
+48819,39574,28,1,0,18
+48820,39574,4,2,"Departamento de Música",21
+48821,39575,14,1,"Instrumento Principal Violoncelo 3",17
+48822,39575,28,1,0,18
+48823,39575,4,2,"Departamento de Música",21
+48824,39576,14,1,"Instrumento Principal Violoncelo 4",17
+48825,39576,28,1,0,18
+48826,39576,4,2,"Departamento de Música",21
+48827,39577,14,1,"Instrumento Principal Saxofone 1",17
+48828,39577,28,1,0,18
+48829,39577,4,2,"Departamento de Música",21
+48830,39578,14,1,"Instrumento Principal Saxofone 2",17
+48831,39578,28,1,0,18
+48832,39578,4,2,"Departamento de Música",21
+48833,39579,14,1,"Instrumento Principal Saxofone 3",17
+48834,39579,28,1,0,18
+48835,39579,4,2,"Departamento de Música",21
+48836,39580,14,1,"Instrumento Principal Saxofone 4",17
+48837,39580,28,1,0,18
+48838,39580,4,2,"Departamento de Música",21
+48839,39581,14,1,"Engenharia Genética",17
+48840,39581,28,1,6,18
+48841,39581,4,2,"Departamento de Biologia Celular",21
+48842,39582,14,1,"Tecnologia Enzimática",17
+48843,39582,28,1,4,18
+48844,39582,4,2,"Departamento de Biologia Celular",21
+48845,39583,14,1,"Microbiologia Aplicada",17
+48846,39583,28,1,4,18
+48847,39583,4,2,"Departamento de Biologia Celular",21
+48848,39584,14,1,"Princípio de Comunicaçao",17
+48849,39584,28,1,4,18
+48850,39584,4,2,"UnB - Faculdade do Gama",21
+48851,39585,14,1,"Trabalho de Conclusao de Curso 2",17
+48852,39585,28,1,6,18
+48853,39585,4,2,"UnB - Faculdade do Gama",21
+48854,39586,14,1,"Sistemas de Controle",17
+48855,39586,28,1,4,18
+48856,39586,4,2,"UnB - Faculdade do Gama",21
+48857,39587,14,1,"Anatomia e Fisiologia Humana",17
+48858,39587,28,1,4,18
+48859,39587,4,2,"UnB - Faculdade do Gama",21
+48860,39588,14,1,"Processamento de Sinais Biológicos",17
+48861,39588,28,1,4,18
+48862,39588,4,2,"UnB - Faculdade do Gama",21
+48863,39589,14,1,"Processamento Digital de Imagens",17
+48864,39589,28,1,4,18
+48865,39589,4,2,"UnB - Faculdade do Gama",21
+48866,39590,14,1,"Tópicos Especial em Instrumentaçao Biomédica",17
+48867,39590,28,1,4,18
+48868,39590,4,2,"UnB - Faculdade do Gama",21
+48869,39591,14,1,"Projetos de Circuitos Integrados 1",17
+48870,39591,28,1,4,18
+48871,39591,4,2,"UnB - Faculdade do Gama",21
+48872,39592,14,1,"Projetos de Circuitos Integrados 2",17
+48873,39592,28,1,4,18
+48874,39592,4,2,"UnB - Faculdade do Gama",21
+48875,39593,14,1,"Tópicos em Sistemas de Computaçao de Alto Desempenho",17
+48876,39593,28,1,4,18
+48877,39593,4,2,"UnB - Faculdade do Gama",21
+48878,39594,14,1,"Projeto e Análise de Algoritmo",17
+48879,39594,28,1,4,18
+48880,39594,4,2,"UnB - Faculdade do Gama",21
+48881,39595,14,1,"Estágio Supervisionado",17
+48882,39595,28,1,14,18
+48883,39595,4,2,"UnB - Faculdade do Gama",21
+48884,39596,14,1,"Teorias da Interpretaçao",17
+48885,39596,28,1,6,18
+48886,39596,4,2,"Departamento de Filosofia",21
+48887,39597,14,1,"Filosofia Geral e Metafísica",17
+48888,39597,28,1,6,18
+48889,39597,4,2,"Departamento de Filosofia",21
+48890,39598,14,1,"Prática de Pesquisa Histórica",17
+48891,39598,28,1,6,18
+48892,39598,4,2,"Departamento de História",21
+48893,39599,14,1,"Estágio Curricular Supervisionado em Enfermagem 3",17
+48894,39599,28,1,20,18
+48895,39599,4,2,"UnB - Faculdade da Ceilândia",21
+48896,39600,14,1,"Trabalho de Conclusao de Curso em Enfermagem 2",17
+48897,39600,28,1,2,18
+48898,39600,4,2,"UnB - Faculdade da Ceilândia",21
+48899,39601,14,1,"Ensino e Aprendizagem da Língua Moderna",17
+48900,39601,28,1,0,18
+48901,39601,4,2,"Faculdade de Educaçao",21
+48902,39602,14,1,"Aprendizagem e Desenvolvimento do PNEE",17
+48903,39602,28,1,0,18
+48904,39602,4,2,"Faculdade de Educaçao",21
+48905,39603,14,1,"Planejamento Educacional",17
+48906,39603,28,1,4,18
+48907,39603,4,2,"Faculdade de Educaçao",21
+48908,39604,14,1,"Física Industrial Farmaceutica",17
+48909,39604,28,1,2,18
+48910,39604,4,2,"Faculdade de Ciencias da Saúde",21
+48911,39605,14,1,"Diagnóstico Laboratorial em Parasitologia Clínica",17
+48912,39605,28,1,4,18
+48913,39605,4,2,"Faculdade de Ciencias da Saúde",21
+48914,39606,14,1,"Farmacotécnica com Aspectos Tecnológicos",17
+48915,39606,28,1,4,18
+48916,39606,4,2,"Faculdade de Ciencias da Saúde",21
+48917,39607,14,1,"Gestao da Qualidade na Produçao",17
+48918,39607,28,1,4,18
+48919,39607,4,2,"Departamento de Engenharia de Produçao",21
+48920,39608,14,1,"Gestao da Cadeia de Suprimentos em Engenharia",17
+48921,39608,28,1,0,18
+48922,39608,4,2,"Departamento de Engenharia de Produçao",21
+48923,39609,14,1,"Tópicos Especiais em Gestao Sustentável",17
+48924,39609,28,1,2,18
+48925,39609,4,2,"Departamento de Engenharia de Produçao",21
+48926,39610,14,1,"Técnica Instrumental Farmaceutica",17
+48927,39610,28,1,2,18
+48928,39610,4,2,"Faculdade de Ciencias da Saúde",21
+48929,39611,14,1,"Estágio Supervisionado: Ambulatório",17
+48930,39611,28,1,0,18
+48931,39611,4,2,"Faculdade de Ciencias da Saúde",21
+48932,39612,14,1,"Estágio Supervisionado: Drogaria",17
+48933,39612,28,1,0,18
+48934,39612,4,2,"Faculdade de Ciencias da Saúde",21
+48935,39613,14,1,"Estágio Supervisionado: Hospitalar",17
+48936,39613,28,1,0,18
+48937,39613,4,2,"Faculdade de Ciencias da Saúde",21
+48938,39614,14,1,"Estágio Supervisionado: Livre 1",17
+48939,39614,28,1,0,18
+48940,39614,4,2,"Faculdade de Ciencias da Saúde",21
+48941,39615,14,1,"Estágio Supervisionado: Livre 2",17
+48942,39615,28,1,0,18
+48943,39615,4,2,"Faculdade de Ciencias da Saúde",21
+48944,39616,14,1,"Trabalho de Conclusao de Curso - TCC",17
+48945,39616,28,1,0,18
+48946,39616,4,2,"Faculdade de Ciencias da Saúde",21
+48947,39617,14,1,"Design de Jogos",17
+48948,39617,28,1,4,18
+48949,39617,4,2,"Departamento de Desenho Industrial",21
+48950,39618,14,1,"Sistemas Colaborativos",17
+48951,39618,28,1,2,18
+48952,39618,4,2,"Departamento de Engenharia de Produçao",21
+48953,39619,14,1,"Inovaçao em Sistemas de Produçao",17
+48954,39619,28,1,4,18
+48955,39619,4,2,"Departamento de Engenharia de Produçao",21
+48956,39620,14,1,"Finanças  Comportamentais e Pessoais",17
+48957,39620,28,1,2,18
+48958,39620,4,2,"Departamento de Engenharia de Produçao",21
+48959,39621,14,1,"Empreendedorismo e Análise de Mercado em Biotecnologia",17
+48960,39621,28,1,4,18
+48961,39621,4,2,"Departamento de Biologia Celular",21
+48962,39622,14,1,"Patologia Molecular Clínica",17
+48963,39622,28,1,4,18
+48964,39622,4,2,"Faculdade de Ciencias da Saúde",21
+48965,39623,14,1,"Comportamento Organizacional nos Ambientes Rural e Agroindustrial",17
+48966,39623,28,1,4,18
+48967,39623,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48968,39624,14,1,Homeopatia,17
+48969,39624,28,1,4,18
+48970,39624,4,2,"UnB - Faculdade da Ceilândia",21
+48971,39625,14,1,"Relaçoes Sociais, Família e Serviço Social",17
+48972,39625,28,1,4,18
+48973,39625,4,2,"Departamento de Serviço Social",21
+48974,39626,14,1,"Envelhecimento e Política Social",17
+48975,39626,28,1,4,18
+48976,39626,4,2,"Departamento de Serviço Social",21
+48977,39627,14,1,"Estágio Supervisionado de Traduçao - Espanhol",17
+48978,39627,28,1,6,18
+48979,39627,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+48980,39628,14,1,"Dinâmica dos Mecanismos",17
+48981,39628,28,1,4,18
+48982,39628,4,2,"UnB - Faculdade do Gama",21
+48983,39629,14,1,"Modelagem e Simulaçao de Sistemas Energéticos",17
+48984,39629,28,1,4,18
+48985,39629,4,2,"UnB - Faculdade do Gama",21
+48986,39630,14,1,"Sistemas de Energia Solar e Eólica",17
+48987,39630,28,1,4,18
+48988,39630,4,2,"UnB - Faculdade do Gama",21
+48989,39631,14,1,"Tópicos Complementares em Dentística",17
+48990,39631,28,1,2,18
+48991,39631,4,2,"Departamento de Odontologia",21
+48992,39632,14,1,"Gestao do Trabalho no Contexto Rural e Agroindustrial",17
+48993,39632,28,1,4,18
+48994,39632,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48995,39633,14,1,"Comportamento do Consumidor de Alimentos",17
+48996,39633,28,1,2,18
+48997,39633,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+48998,39634,14,1,"Estágio Supervisionado 1",17
+48999,39634,28,1,4,18
+49000,39634,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49001,39635,14,1,"Estágio Supervisionado 2",17
+49002,39635,28,1,4,18
+49003,39635,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49004,39636,14,1,"Trabalho de Conclusao de Curso 1",17
+49005,39636,28,1,4,18
+49006,39636,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49007,39637,14,1,"Trabalho de Conclusao de Curso 2",17
+49008,39637,28,1,4,18
+49009,39637,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49010,39638,14,1,"Planejamento e Gestao em Turismo 2",17
+49011,39638,28,1,4,18
+49012,39638,4,2,"Centro de Excelencia em Turismo",21
+49013,39639,14,1,"Fundamentos de Estatística Aplicado ao Turismo",17
+49014,39639,28,1,2,18
+49015,39639,4,2,"Centro de Excelencia em Turismo",21
+49016,39640,14,1,"Projeto Integrador em Turismo 3",17
+49017,39640,28,1,2,18
+49018,39640,4,2,"Centro de Excelencia em Turismo",21
+49019,39641,14,1,"Estágio Supervisionado 2",17
+49020,39641,28,1,4,18
+49021,39641,4,2,"Centro de Excelencia em Turismo",21
+49022,39642,14,1,"Seminários em Turismo 2",17
+49023,39642,28,1,2,18
+49024,39642,4,2,"Centro de Excelencia em Turismo",21
+49025,39643,14,1,Enoturismo,17
+49026,39643,28,1,4,18
+49027,39643,4,2,"Centro de Excelencia em Turismo",21
+49028,39644,14,1,"Fisiologia Animal 1",17
+49029,39644,28,1,4,18
+49030,39644,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49031,39645,14,1,"Fisiologia Vegetal",17
+49032,39645,28,1,6,18
+49033,39645,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49034,39646,14,1,Biofísica,17
+49035,39646,28,1,4,18
+49036,39646,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49037,39647,14,1,Parasitologia,17
+49038,39647,28,1,4,18
+49039,39647,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49040,39648,14,1,"Venenos Animais",17
+49041,39648,28,1,4,18
+49042,39648,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49043,39649,14,1,Imunologia,17
+49044,39649,28,1,2,18
+49045,39649,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49046,39650,14,1,"Estágio Supervisionado em Fitopatologia",17
+49047,39650,28,1,5,18
+49048,39650,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49049,39651,14,1,"Estágio em Botânica",17
+49050,39651,28,1,4,18
+49051,39651,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49052,39652,14,1,"Pesquisa em Imunologia",17
+49053,39652,28,1,6,18
+49054,39652,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49055,39653,14,1,"Tópicos Especiais Ensino de Biologia",17
+49056,39653,28,1,2,18
+49057,39653,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49058,39654,14,1,"Tópicos Especiais Ensino de Ciencias",17
+49059,39654,28,1,2,18
+49060,39654,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49061,39655,14,1,"Doenças Parasitárias dos Animais Domésticos",17
+49062,39655,28,1,6,18
+49063,39655,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49064,39656,14,1,"Introduçao a Ciencias Farmaceuticas",17
+49065,39656,28,1,4,18
+49066,39656,4,2,"Faculdade de Ciencias da Saúde",21
+49067,39657,14,1,"Principais Vetores de Importância em Saúde Coletiva",17
+49068,39657,28,1,4,18
+49069,39657,4,2,"UnB - Faculdade da Ceilândia",21
+49070,39658,14,1,"Metodologias Qualitativas em Saúde Coletiva",17
+49071,39658,28,1,4,18
+49072,39658,4,2,"UnB - Faculdade da Ceilândia",21
+49073,39659,14,1,"Saúde, Cuidado e Reconhecimento",17
+49074,39659,28,1,4,18
+49075,39659,4,2,"UnB - Faculdade da Ceilândia",21
+49076,39660,14,1,"Manobras Farmacológicas em Emergencias Clínicas",17
+49077,39660,28,1,2,18
+49078,39660,4,2,"UnB - Faculdade da Ceilândia",21
+49079,39661,14,1,"Fundamentos de Arquitetura de Software",17
+49080,39661,28,1,4,18
+49081,39661,4,2,"UnB - Faculdade do Gama",21
+49082,39662,14,1,"Princípios de Robótica Educacional",17
+49083,39662,28,1,4,18
+49084,39662,4,2,"UnB - Faculdade do Gama",21
+49085,39663,14,1,"Programaçao para Competiçoes",17
+49086,39663,28,1,4,18
+49087,39663,4,2,"UnB - Faculdade do Gama",21
+49088,39664,14,1,"Estruturas de Dados 2",17
+49089,39664,28,1,4,18
+49090,39664,4,2,"UnB - Faculdade do Gama",21
+49091,39665,14,1,"Seminários em Engenharia de Software",17
+49092,39665,28,1,2,18
+49093,39665,4,2,"UnB - Faculdade do Gama",21
+49094,39666,14,1,"Saneamento, Meio Ambiente e Planejamento Urbano",17
+49095,39666,28,1,4,18
+49096,39666,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49097,39667,14,1,"Tratamento de Águas Residuárias Urbanas",17
+49098,39667,28,1,4,18
+49099,39667,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49100,39668,14,1,"Tratamento de Água para Consumo Humano",17
+49101,39668,28,1,4,18
+49102,39668,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49103,39669,14,1,"Modelos e Simulaçao de Sistemas Ambientais",17
+49104,39669,28,1,4,18
+49105,39669,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49106,39670,14,1,"Estudos dos Ecossistemas Aquáticos Continentais",17
+49107,39670,28,1,2,18
+49108,39670,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49109,39671,14,1,"As Origens do Pensamento Ocidental",17
+49110,39671,28,1,4,18
+49111,39671,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49112,39672,14,1,"Laboratório de Ensino de Ciencias",17
+49113,39672,28,1,6,18
+49114,39672,4,2,"Instituto de Ciencias Biológicas",21
+49115,39673,14,1,"Saúde e Trabalho",17
+49116,39673,28,1,4,18
+49117,39673,4,2,"Departamento de Enfermagem",21
+49118,39674,14,1,"Fundamentos de Produçao de Cerveja",17
+49119,39674,28,1,4,18
+49120,39674,4,2,"Instituto de Química",21
+49121,39675,14,1,"Técnicas Intrumentais de Análise",17
+49122,39675,28,1,2,18
+49123,39675,4,2,"Faculdade de Ciencias da Saúde",21
+49124,39676,14,1,"Línguas de Sinais Brasileira - Básico",17
+49125,39676,28,1,4,18
+49126,39676,4,2,"Instituto de Letras",21
+49127,39677,14,1,"Arte e Pensamento",17
+49128,39677,28,1,4,18
+49129,39677,4,2,"Departamento de Artes Visuais",21
+49130,39678,14,1,"Arte e Ciencias da Linguagem",17
+49131,39678,28,1,4,18
+49132,39678,4,2,"Departamento de Artes Visuais",21
+49133,39679,14,1,"Teoria, Crítica e História da Arte 3",17
+49134,39679,28,1,4,18
+49135,39679,4,2,"Departamento de Artes Visuais",21
+49136,39680,14,1,"Fundamentos em Ciencias e Microbiologia dos Alimentos",17
+49137,39680,28,1,4,18
+49138,39680,4,2,"UnB - Faculdade de Planaltina",21
+49139,39681,14,1,"Estatística Aplicada r Educaçao Física",17
+49140,39681,28,1,4,18
+49141,39681,4,2,"Faculdade de Educaçao Física",21
+49142,39682,14,1,"Metodologia das Lutas e Artes Marciais",17
+49143,39682,28,1,4,18
+49144,39682,4,2,"Faculdade de Educaçao Física",21
+49145,39683,14,1,"Educaçao Física: Leis, Normas e Políticas",17
+49146,39683,28,1,4,18
+49147,39683,4,2,"Faculdade de Educaçao Física",21
+49148,39684,14,1,"Tópicos Especiais de Epistemologia das Ciencias Humanas e Sociais",17
+49149,39684,28,1,4,18
+49150,39684,4,2,"Departamento de Filosofia",21
+49151,39685,14,1,"Filosofia da Psicanálise",17
+49152,39685,28,1,4,18
+49153,39685,4,2,"Departamento de Filosofia",21
+49154,39686,14,1,"Práticas de Saúde Bucal Coletiva 2",17
+49155,39686,28,1,4,18
+49156,39686,4,2,"Departamento de Odontologia",21
+49157,39687,14,1,"Clínica Odontológica 7",17
+49158,39687,28,1,16,18
+49159,39687,4,2,"Departamento de Odontologia",21
+49160,39688,14,1,"Clínica Odontológica 8",17
+49161,39688,28,1,12,18
+49162,39688,4,2,"Departamento de Odontologia",21
+49163,39689,14,1,"Estágio Supervisionado em Odontologia 1",17
+49164,39689,28,1,16,18
+49165,39689,4,2,"Departamento de Odontologia",21
+49166,39690,14,1,"Estágio Supervisionado em Odontologia 2",17
+49167,39690,28,1,12,18
+49168,39690,4,2,"Departamento de Odontologia",21
+49169,39691,14,1,"Introduçao r Metereologia",17
+49170,39691,28,1,2,18
+49171,39691,4,2,"Instituto de Geociencias",21
+49172,39692,14,1,"Sismologia Avançada",17
+49173,39692,28,1,4,18
+49174,39692,4,2,"Instituto de Geociencias",21
+49175,39693,14,1,"Métodos Aeroeletromagnéticos",17
+49176,39693,28,1,4,18
+49177,39693,4,2,"Instituto de Geociencias",21
+49178,39694,14,1,"Processamentos de Dados Sismológicos",17
+49179,39694,28,1,4,18
+49180,39694,4,2,"Instituto de Geociencias",21
+49181,39695,14,1,"Preparaçao Trabalho Final - Geofísica",17
+49182,39695,28,1,2,18
+49183,39695,4,2,"Instituto de Geociencias",21
+49184,39696,14,1,"Tópicos Especiais em Física Aplicada",17
+49185,39696,28,1,2,18
+49186,39696,4,2,"UnB - Faculdade do Gama",21
+49187,39697,14,1,"Tópicos Especiais em Matemática Aplicada",17
+49188,39697,28,1,4,18
+49189,39697,4,2,"UnB - Faculdade do Gama",21
+49190,39698,14,1,"Currículo e Avaliaçao",17
+49191,39698,28,1,4,18
+49192,39698,4,2,"UnB - Faculdade de Planaltina",21
+49193,39699,14,1,"Abordagem do Corpo Humano no Ensino de Ciencias",17
+49194,39699,28,1,4,18
+49195,39699,4,2,"UnB - Faculdade de Planaltina",21
+49196,39700,14,1,"Tópicos Especiais em Ciencias Naturais",17
+49197,39700,28,1,4,18
+49198,39700,4,2,"UnB - Faculdade de Planaltina",21
+49199,39701,14,1,"Educaçao e Ludicidade no Ensino de Ciencias",17
+49200,39701,28,1,4,18
+49201,39701,4,2,"UnB - Faculdade de Planaltina",21
+49202,39702,14,1,"Biologia Molecular e Biotecnologia",17
+49203,39702,28,1,4,18
+49204,39702,4,2,"UnB - Faculdade de Planaltina",21
+49205,39703,14,1,"Decrescimento: Consumir menos para que todos vivam melhor",17
+49206,39703,28,1,2,18
+49207,39703,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49208,39704,14,1,"Elementos de Mineralogia",17
+49209,39704,28,1,4,18
+49210,39704,4,2,"UnB - Faculdade de Planaltina",21
+49211,39705,14,1,"Aprimoramento da Performance Comunicativa: Atividade Prática",17
+49212,39705,28,1,2,18
+49213,39705,4,2,"UnB - Faculdade da Ceilândia",21
+49214,39706,14,1,"Jogos Virtuais na Prática Terapeutica: Bases e Evidencias",17
+49215,39706,28,1,2,18
+49216,39706,4,2,"UnB - Faculdade da Ceilândia",21
+49217,39707,14,1,"Variabilidade da Frequencia Cardíaca: Aplicaçoes Clínicas",17
+49218,39707,28,1,2,18
+49219,39707,4,2,"UnB - Faculdade da Ceilândia",21
+49220,39708,14,1,"Recursos Tecnológicos Avançados em Fisioterapia Dermato-Funcional",17
+49221,39708,28,1,2,18
+49222,39708,4,2,"UnB - Faculdade da Ceilândia",21
+49223,39709,14,1,"Tópicos Especiais em Fisioterapia Aquática",17
+49224,39709,28,1,2,18
+49225,39709,4,2,"UnB - Faculdade da Ceilândia",21
+49226,39710,14,1,"Análise de Sistemas de Energia Elétrica",17
+49227,39710,28,1,4,18
+49228,39710,4,2,"UnB - Faculdade do Gama",21
+49229,39711,14,1,"Teorias do Desenvolvimento Motor: Repercussoes na Intervençao Precoce",17
+49230,39711,28,1,2,18
+49231,39711,4,2,"UnB - Faculdade da Ceilândia",21
+49232,39712,14,1,"Processos Cognitivos: Prática Fisioterapeutica",17
+49233,39712,28,1,2,18
+49234,39712,4,2,"UnB - Faculdade da Ceilândia",21
+49235,39713,14,1,"História Ambiental do Brasil",17
+49236,39713,28,1,4,18
+49237,39713,4,2,"Centro de Desenvolvimento Sustentável",21
+49238,39714,14,1,Biossegurança,17
+49239,39714,28,1,2,18
+49240,39714,4,2,"Departamento de Biologia Celular",21
+49241,39715,14,1,"Boas Práticas de Laboratório e de Fabricaçao",17
+49242,39715,28,1,2,18
+49243,39715,4,2,"Departamento de Biologia Celular",21
+49244,39716,14,1,"Princípios em Farmacologia",17
+49245,39716,28,1,4,18
+49246,39716,4,2,"Departamento de Ciencias Fisiológicas",21
+49247,39717,14,1,"Estágio Profissional em Biotecnologia",17
+49248,39717,28,1,12,18
+49249,39717,4,2,"Departamento de Biologia Celular",21
+49250,39718,14,1,"Imunologia Aplicada",17
+49251,39718,28,1,4,18
+49252,39718,4,2,"Departamento de Biologia Celular",21
+49253,39719,14,1,"Redaçao Científica",17
+49254,39719,28,1,2,18
+49255,39719,4,2,"Departamento de Biologia Celular",21
+49256,39720,14,1,"Tecnologia de Bioprocessos e Fermentaçao",17
+49257,39720,28,1,6,18
+49258,39720,4,2,"Departamento de Biologia Celular",21
+49259,39721,14,1,"Legislaçao, Patentes e Propriedade Intelectual",17
+49260,39721,28,1,2,18
+49261,39721,4,2,"Departamento de Biologia Celular",21
+49262,39722,14,1,"Elaboraçao de Projetos Biotecnológicos",17
+49263,39722,28,1,2,18
+49264,39722,4,2,"Instituto de Ciencias Biológicas",21
+49265,39723,14,1,"Economia para Políticas Públicas 3",17
+49266,39723,28,1,4,18
+49267,39723,4,2,"Departamento de Economia",21
+49268,39724,14,1,"Indicadores Econômicos e Sociais e Políticas Públicas",17
+49269,39724,28,1,4,18
+49270,39724,4,2,"Instituto de Ciencia Política",21
+49271,39725,14,1,"Estágio Supervisionado 2",17
+49272,39725,28,1,12,18
+49273,39725,4,2,"Faculdade de Ciencias da Saúde",21
+49274,39726,14,1,"Estágio Supervisionado 3",17
+49275,39726,28,1,12,18
+49276,39726,4,2,"Faculdade de Ciencias da Saúde",21
+49277,39727,14,1,"Estágio Supervisionado 4",17
+49278,39727,28,1,28,18
+49279,39727,4,2,"Faculdade de Ciencias da Saúde",21
+49280,39728,14,1,"Trabalho de Conclusao de Curso",17
+49281,39728,28,1,2,18
+49282,39728,4,2,"Faculdade de Ciencias da Saúde",21
+49283,39729,14,1,"Métodos Quantitativos em Medicina Veterinária",17
+49284,39729,28,1,4,18
+49285,39729,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49286,39730,14,1,"Fundamentos de Cancerologia",17
+49287,39730,28,1,2,18
+49288,39730,4,2,"UnB - Faculdade da Ceilândia",21
+49289,39731,14,1,"Controle de Qualidade de Medicamentos Naturais",17
+49290,39731,28,1,2,18
+49291,39731,4,2,"UnB - Faculdade da Ceilândia",21
+49292,39732,14,1,"Pesquisas em Formas Farmacenticas",17
+49293,39732,28,1,2,18
+49294,39732,4,2,"UnB - Faculdade da Ceilândia",21
+49295,39733,14,1,"Introduçao a Psicomotricidade",17
+49296,39733,28,1,2,18
+49297,39733,4,2,"UnB - Faculdade da Ceilândia",21
+49298,39734,14,1,"Neuropsicologia Clínica",17
+49299,39734,28,1,2,18
+49300,39734,4,2,"UnB - Faculdade da Ceilândia",21
+49301,39735,14,1,"Fundamentos da Psicologia Aplicados aos Ciclos da Vida",17
+49302,39735,28,1,4,18
+49303,39735,4,2,"UnB - Faculdade da Ceilândia",21
+49304,39736,14,1,"Gestao e Avaliaçao de Políticas de Saúde",17
+49305,39736,28,1,4,18
+49306,39736,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49307,39737,14,1,"Estágio Obrigatório  em Fisioterapia 1",17
+49308,39737,28,1,20,18
+49309,39737,4,2,"UnB - Faculdade da Ceilândia",21
+49310,39738,14,1,"Estágio Obrigatório  em Fisioterapia 2",17
+49311,39738,28,1,20,18
+49312,39738,4,2,"UnB - Faculdade da Ceilândia",21
+49313,39739,14,1,"Estágio Obrigatório  em Fisioterapia 3",17
+49314,39739,28,1,20,18
+49315,39739,4,2,"UnB - Faculdade da Ceilândia",21
+49316,39740,14,1,"Tópicos Especiais em Economia Regional e Urbana",17
+49317,39740,28,1,4,18
+49318,39740,4,2,"Departamento de Economia",21
+49319,39741,14,1,"Diagnóstico Laboratorial em Imunologia Clínica",17
+49320,39741,28,1,4,18
+49321,39741,4,2,"Faculdade de Ciencias da Saúde",21
+49322,39742,14,1,"Identidade Nacional e Nacionalismo",17
+49323,39742,28,1,4,18
+49324,39742,4,2,"Instituto de Ciencia Política",21
+49325,39743,14,1,"Estudos Legislativos",17
+49326,39743,28,1,4,18
+49327,39743,4,2,"Instituto de Ciencia Política",21
+49328,39744,14,1,"Introduçao r Análise de Sistemas Ambientais",17
+49329,39744,28,1,2,18
+49330,39744,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49331,39745,14,1,"Avaliaçao e Controle de Poluiçao do Ar e Sonora",17
+49332,39745,28,1,4,18
+49333,39745,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49334,39746,14,1,"Avaliaçao e Controle de Poluiçao da Água",17
+49335,39746,28,1,4,18
+49336,39746,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49337,39747,14,1,"Avaliaçao e Controle de Poluiçao do Solo",17
+49338,39747,28,1,4,18
+49339,39747,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49340,39748,14,1,"Solos Tropicais",17
+49341,39748,28,1,4,18
+49342,39748,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49343,39749,14,1,"Bioquímica Aplicada  aos Processos da Engenharia Ambiental",17
+49344,39749,28,1,2,18
+49345,39749,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49346,39750,14,1,"Tratamento Avançado de Águas para Consumo Humano",17
+49347,39750,28,1,2,18
+49348,39750,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49349,39751,14,1,"Tratamento Avançado de Águas Residuárias",17
+49350,39751,28,1,2,18
+49351,39751,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49352,39752,14,1,"Tópicos Avançados em Transporte de Contaminantes",17
+49353,39752,28,1,4,18
+49354,39752,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49355,39753,14,1,"Modelos de Poluiçao Difusa em Sistemas Hídricos",17
+49356,39753,28,1,2,18
+49357,39753,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49358,39754,14,1,"Avaliaçao Ambiental Estratégica",17
+49359,39754,28,1,2,18
+49360,39754,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49361,39755,14,1,"Estágio Curricular em Engenharia Ambiental",17
+49362,39755,28,1,2,18
+49363,39755,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49364,39756,14,1,"Avaliaçao de Impactos e Riscos Ambientais",17
+49365,39756,28,1,4,18
+49366,39756,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49367,39757,14,1,"Projeto Final em Engenharia Ambiental 1",17
+49368,39757,28,1,1,18
+49369,39757,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49370,39758,14,1,"Projeto Final em Engenharia Ambiental 2",17
+49371,39758,28,1,2,18
+49372,39758,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49373,39759,14,1,"Planejamento e Gestao Ambiental",17
+49374,39759,28,1,4,18
+49375,39759,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49376,39760,14,1,"Elementos da Prática Educacional",17
+49377,39760,28,1,2,18
+49378,39760,4,2,"Instituto de Ciencias Biológicas",21
+49379,39761,14,1,"Didática das Ciencias Naturais",17
+49380,39761,28,1,4,18
+49381,39761,4,2,"Instituto de Ciencias Biológicas",21
+49382,39762,14,1,"Didática da Biologia",17
+49383,39762,28,1,4,18
+49384,39762,4,2,"Instituto de Ciencias Biológicas",21
+49385,39763,14,1,"Prática de Educaçao em Ciencias 1",17
+49386,39763,28,1,2,18
+49387,39763,4,2,"Instituto de Ciencias Biológicas",21
+49388,39764,14,1,"Prática de Educaçao em Ciencias 2",17
+49389,39764,28,1,2,18
+49390,39764,4,2,"Instituto de Ciencias Biológicas",21
+49391,39765,14,1,"Prática de Educaçao em Biologia 1",17
+49392,39765,28,1,2,18
+49393,39765,4,2,"Instituto de Ciencias Biológicas",21
+49394,39766,14,1,"Prática de Educaçao em Biologia 2",17
+49395,39766,28,1,2,18
+49396,39766,4,2,"Instituto de Ciencias Biológicas",21
+49397,39767,14,1,"Projeto de Pesquisa em Educaçao Científica",17
+49398,39767,28,1,4,18
+49399,39767,4,2,"Instituto de Ciencias Biológicas",21
+49400,39768,14,1,"Pré-Cálculo para Engenharia",17
+49401,39768,28,1,4,18
+49402,39768,4,2,"UnB - Faculdade do Gama",21
+49403,39769,14,1,"Introduçao r Análise de Discurso Crítica da Saúde e da Doença",17
+49404,39769,28,1,4,18
+49405,39769,4,2,"UnB - Faculdade da Ceilândia",21
+49406,39770,14,1,"Disfunçao Temporomandibular e Dor Orofacial",17
+49407,39770,28,1,2,18
+49408,39770,4,2,"Departamento de Odontologia",21
+49409,39771,14,1,"Prática do Italiano Oral e Escrito",17
+49410,39771,28,1,2,18
+49411,39771,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49412,39772,14,1,"Manejo de Vegetaçao Nativa",17
+49413,39772,28,1,4,18
+49414,39772,4,2,"Departamento de Engenharia Florestal",21
+49415,39773,14,1,"Polones 3",17
+49416,39773,28,1,4,18
+49417,39773,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49418,39774,14,1,"Prática de Apoio da Física 1- 1",17
+49419,39774,28,1,2,18
+49420,39774,4,2,"Instituto de Física",21
+49421,39775,14,1,"Prática de Apoio da Física 1- 2",17
+49422,39775,28,1,2,18
+49423,39775,4,2,"Instituto de Física",21
+49424,39776,14,1,"Prática de Apoio da Física 1-3",17
+49425,39776,28,1,2,18
+49426,39776,4,2,"Instituto de Física",21
+49427,39777,14,1,"Introduçao a Fonoaudiologia",17
+49428,39777,28,1,2,18
+49429,39777,4,2,"UnB - Faculdade da Ceilândia",21
+49430,39778,14,1,"Virologia Clínica",17
+49431,39778,28,1,2,18
+49432,39778,4,2,"UnB - Faculdade da Ceilândia",21
+49433,39779,14,1,"Transferencia de Quantidade de Movimento",17
+49434,39779,28,1,4,18
+49435,39779,4,2,"Instituto de Química",21
+49436,39780,14,1,"Laboratório de Engenharia Química 2",17
+49437,39780,28,1,2,18
+49438,39780,4,2,"Instituto de Química",21
+49439,39781,14,1,"Operaçoes Unitárias da Engenharia Química 1",17
+49440,39781,28,1,4,18
+49441,39781,4,2,"Instituto de Química",21
+49442,39782,14,1,"Transferencia de Massa",17
+49443,39782,28,1,4,18
+49444,39782,4,2,"Instituto de Química",21
+49445,39783,14,1,"Operaçoes Unitárias da Engenharia Química 2",17
+49446,39783,28,1,4,18
+49447,39783,4,2,"Instituto de Química",21
+49448,39784,14,1,"Operaçoes Unitárias da Engenharia Química 3",17
+49449,39784,28,1,4,18
+49450,39784,4,2,"Instituto de Química",21
+49451,39785,14,1,"Laboratório de Engenharia Química 1",17
+49452,39785,28,1,2,18
+49453,39785,4,2,"Instituto de Química",21
+49454,39786,14,1,Complexidade,17
+49455,39786,28,1,2,18
+49456,39786,4,2,"UnB - Faculdade de Planaltina",21
+49457,39787,14,1,"Ética e Formaçao Docente",17
+49458,39787,28,1,4,18
+49459,39787,4,2,"UnB - Faculdade de Planaltina",21
+49460,39788,14,1,"Evoluçao do Desenvolvimento",17
+49461,39788,28,1,0,18
+49462,39788,4,2,"UnB - Faculdade de Planaltina",21
+49463,39789,14,1,"Fundamentos e Estratégias no Ensino de Ciencias",17
+49464,39789,28,1,4,18
+49465,39789,4,2,"UnB - Faculdade de Planaltina",21
+49466,39790,14,1,"Projeto de Engenharia Química 1",17
+49467,39790,28,1,2,18
+49468,39790,4,2,"Instituto de Química",21
+49469,39791,14,1,"Laboratório de Microscopia",17
+49470,39791,28,1,4,18
+49471,39791,4,2,"UnB - Faculdade de Planaltina",21
+49472,39792,14,1,"Laboratório de Química 2",17
+49473,39792,28,1,4,18
+49474,39792,4,2,"UnB - Faculdade de Planaltina",21
+49475,39793,14,1,"Tópicos em Educaçao e Desenvolvimento Humano",17
+49476,39793,28,1,4,18
+49477,39793,4,2,"UnB - Faculdade de Planaltina",21
+49478,39794,14,1,"Ecologia do Organismo",17
+49479,39794,28,1,2,18
+49480,39794,4,2,"UnB - Faculdade de Planaltina",21
+49481,39795,14,1,"Modelagem e Simulaçao de Processos Químicos",17
+49482,39795,28,1,4,18
+49483,39795,4,2,"Instituto de Química",21
+49484,39796,14,1,"Estágio Supervisionado",17
+49485,39796,28,1,11,18
+49486,39796,4,2,"Instituto de Química",21
+49487,39797,14,1,"Projeto de Engenharia Química 2",17
+49488,39797,28,1,2,18
+49489,39797,4,2,"Instituto de Química",21
+49490,39798,14,1,"Tecnologia de Conversao de Biomassa",17
+49491,39798,28,1,4,18
+49492,39798,4,2,"Instituto de Química",21
+49493,39799,14,1,"Invasoes Biológicas",17
+49494,39799,28,1,4,18
+49495,39799,4,2,"Departamento de Genética e Morfologia",21
+49496,39800,14,1,"Teoria, Crítica e História da Arte 4",17
+49497,39800,28,1,4,18
+49498,39800,4,2,"Departamento de Artes Visuais",21
+49499,39801,14,1,"Arte e Psicanálise",17
+49500,39801,28,1,4,18
+49501,39801,4,2,"Departamento de Artes Visuais",21
+49502,39802,14,1,"Oficina de Textos",17
+49503,39802,28,1,6,18
+49504,39802,4,2,"Instituto de Letras",21
+49505,39803,14,1,"Produçao e Manejo de Animais Silvestres e Exóticos",17
+49506,39803,28,1,4,18
+49507,39803,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+49508,39804,14,1,"Pesquisa em Turismo",17
+49509,39804,28,1,4,18
+49510,39804,4,2,"Centro de Excelencia em Turismo",21
+49511,39805,14,1,"Estruturaçao e Promoçao de Destinos",17
+49512,39805,28,1,4,18
+49513,39805,4,2,"Centro de Excelencia em Turismo",21
+49514,39806,14,1,"Seminários em Turismo 3",17
+49515,39806,28,1,2,18
+49516,39806,4,2,"Centro de Excelencia em Turismo",21
+49517,39807,14,1,"Poéticas da Viagem: Arte Cinema Literatura e Turismo",17
+49518,39807,28,1,4,18
+49519,39807,4,2,"Centro de Excelencia em Turismo",21
+49520,39808,14,1,"Planejamento e Organizaçao de Eventos",17
+49521,39808,28,1,4,18
+49522,39808,4,2,"Centro de Excelencia em Turismo",21
+49523,39809,14,1,"Turismo Rural",17
+49524,39809,28,1,2,18
+49525,39809,4,2,"Centro de Excelencia em Turismo",21
+49526,39810,14,1,"Tópicos Especiais em Gastronomia 1",17
+49527,39810,28,1,4,18
+49528,39810,4,2,"Centro de Excelencia em Turismo",21
+49529,39811,14,1,"Estudos Linguisticos 1",17
+49530,39811,28,1,2,18
+49531,39811,4,2,"UnB - Faculdade da Ceilândia",21
+49532,39812,14,1,"Física Zero",17
+49533,39812,28,1,2,18
+49534,39812,4,2,"Instituto de Física",21
+49535,39813,14,1,"Educaçao Física no Ensino Fundamental",17
+49536,39813,28,1,4,18
+49537,39813,4,2,"Faculdade de Educaçao Física",21
+49538,39814,14,1,"Educaçao Física na Educaçao Infantil",17
+49539,39814,28,1,4,18
+49540,39814,4,2,"Faculdade de Educaçao Física",21
+49541,39815,14,1,"Fundamentos do Desenvolvimento e Aprendizagem Aplicados a EDF Infantil",17
+49542,39815,28,1,4,18
+49543,39815,4,2,"Faculdade de Educaçao Física",21
+49544,39816,14,1,"Fundamentos do Desenvolvimento e Aprendizagem Aplicados a EDF Ens Fund",17
+49545,39816,28,1,4,18
+49546,39816,4,2,"Faculdade de Educaçao Física",21
+49547,39817,14,1,"Crescimento Maturaçao e Desempenho Motor",17
+49548,39817,28,1,2,18
+49549,39817,4,2,"Faculdade de Educaçao Física",21
+49550,39818,14,1,"Jogo, Lúdico e Educaçao Física",17
+49551,39818,28,1,4,18
+49552,39818,4,2,"Faculdade de Educaçao Física",21
+49553,39819,14,1,"Tópicos Especiais em Engenharia Aeroespacial",17
+49554,39819,28,1,4,18
+49555,39819,4,2,"UnB - Faculdade do Gama",21
+49556,39820,14,1,"Aerodinâmica de Sistemas Aeroespaciais",17
+49557,39820,28,1,5,18
+49558,39820,4,2,"UnB - Faculdade do Gama",21
+49559,39821,14,1,"Mecânica de Estruturas Aeroespaciais",17
+49560,39821,28,1,5,18
+49561,39821,4,2,"UnB - Faculdade do Gama",21
+49562,39822,14,1,"Química Analítica Experimental",17
+49563,39822,28,1,4,18
+49564,39822,4,2,"Instituto de Química",21
+49565,39823,14,1,"Princípios de Química Analítica",17
+49566,39823,28,1,4,18
+49567,39823,4,2,"Instituto de Química",21
+49568,39824,14,1,"Comunicaçao em Saúde 2",17
+49569,39824,28,1,4,18
+49570,39824,4,2,"Departamento de Saúde Coletiva",21
+49571,39825,14,1,"Saúde Indígena",17
+49572,39825,28,1,4,18
+49573,39825,4,2,"Departamento de Saúde Coletiva",21
+49574,39826,14,1,"Projeto de Pesquisa em Educaçao Científica",17
+49575,39826,28,1,4,18
+49576,39826,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49577,39827,14,1,"Tópicos Especiais em Comunicaçao Organizacional 4",17
+49578,39827,28,1,4,18
+49579,39827,4,2,"Faculdade de Comunicaçao",21
+49580,39828,14,1,"Tópicos Especiais em Comunicaçao Organizacional 3",17
+49581,39828,28,1,4,18
+49582,39828,4,2,"Faculdade de Comunicaçao",21
+49583,39829,14,1,"Contabilidade Nacional Aplicada ao Turismo",17
+49584,39829,28,1,4,18
+49585,39829,4,2,"Departamento de Economia",21
+49586,39830,14,1,"Sistemas de Controle Automotivo",17
+49587,39830,28,1,4,18
+49588,39830,4,2,"UnB - Faculdade do Gama",21
+49589,39831,14,1,"Cosmos e Cosmovisao",17
+49590,39831,28,1,20,18
+49591,39831,4,2,"UnB - Faculdade de Planaltina",21
+49592,39832,14,1,"Cosmos e Cosmovisao  2",17
+49593,39832,28,1,8,18
+49594,39832,4,2,"UnB - Faculdade de Planaltina",21
+49595,39833,14,1,"Cosmos e Cosmovisao 3",17
+49596,39833,28,1,8,18
+49597,39833,4,2,"UnB - Faculdade de Planaltina",21
+49598,39834,14,1,"Estágio Supervisionado para 2s Licenciatura em Ciencias Naturais 1",17
+49599,39834,28,1,4,18
+49600,39834,4,2,"UnB - Faculdade de Planaltina",21
+49601,39835,14,1,"Topicos Especiais em Gestao de Recursos Hídricos",17
+49602,39835,28,1,2,18
+49603,39835,4,2,"Departamento de Engenharia Civil e Ambiental",21
+49604,39836,14,1,"Tópicos Especiais em Estudos de Traduçao 1",17
+49605,39836,28,1,4,18
+49606,39836,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49607,39837,14,1,"Tópicos Especiais em Estudos de Traduçao 2",17
+49608,39837,28,1,4,18
+49609,39837,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49610,39838,14,1,"Tópicos Especiais em Estudos de Traduçao 3",17
+49611,39838,28,1,4,18
+49612,39838,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49613,39839,14,1,"Bases Pedagógicas do Trabalho Escolar 1 Parfor",17
+49614,39839,28,1,5,18
+49615,39839,4,2,"Faculdade de Educaçao",21
+49616,39840,14,1,"Bases Pedagógicas do Trabalho Escolar 2 Parfor",17
+49617,39840,28,1,5,18
+49618,39840,4,2,"Faculdade de Educaçao",21
+49619,39841,14,1,"Educaçao e Sociedade numa Perspectiva Sociológica  Parfor",17
+49620,39841,28,1,5,18
+49621,39841,4,2,"Faculdade de Educaçao",21
+49622,39842,14,1,"Desenvolvimento e Aprendizagem Parfor",17
+49623,39842,28,1,5,18
+49624,39842,4,2,"Faculdade de Educaçao",21
+49625,39843,14,1,"Educaçao e Língua Materna 1 Parfor",17
+49626,39843,28,1,9,18
+49627,39843,4,2,"Faculdade de Educaçao",21
+49628,39844,14,1,"Educaçao e Língua Materna 2 Parfor",17
+49629,39844,28,1,9,18
+49630,39844,4,2,"Faculdade de Educaçao",21
+49631,39845,14,1,"Educaçao e Linguagem Matemática 1 Parfor",17
+49632,39845,28,1,9,18
+49633,39845,4,2,"Faculdade de Educaçao",21
+49634,39846,14,1,"Educaçao e Linguagem Matemática 2 Parfor",17
+49635,39846,28,1,9,18
+49636,39846,4,2,"Faculdade de Educaçao",21
+49637,39847,14,1,"Fundamentos da Educaçao da Criança Parfor",17
+49638,39847,28,1,5,18
+49639,39847,4,2,"Faculdade de Educaçao",21
+49640,39848,14,1,"Identidade, Sujeito e Fatos Históricos Parfor",17
+49641,39848,28,1,5,18
+49642,39848,4,2,"Faculdade de Educaçao",21
+49643,39849,14,1,"Educaçao e Língua Materna 3 Parfor",17
+49644,39849,28,1,9,18
+49645,39849,4,2,"Faculdade de Educaçao",21
+49646,39850,14,1,"Educaçao e Linguagem Matemática 3 Parfor",17
+49647,39850,28,1,9,18
+49648,39850,4,2,"Faculdade de Educaçao",21
+49649,39851,14,1,"Currículo e Diversidade Cultural Parfor",17
+49650,39851,28,1,5,18
+49651,39851,4,2,"Faculdade de Educaçao",21
+49652,39852,14,1,"Organizaçao da Educaçao Brasileira Parfor",17
+49653,39852,28,1,6,18
+49654,39852,4,2,"Faculdade de Educaçao",21
+49655,39853,14,1,"Filosofia e Práxis Pedagógico Parfor",17
+49656,39853,28,1,5,18
+49657,39853,4,2,"Faculdade de Educaçao",21
+49658,39854,14,1,"Avaliaçao na Escola Parfor",17
+49659,39854,28,1,5,18
+49660,39854,4,2,"Faculdade de Educaçao",21
+49661,39855,14,1,"Educaçao e Ciencias Físicas e Biológicas 1 Parfor",17
+49662,39855,28,1,6,18
+49663,39855,4,2,"Faculdade de Educaçao",21
+49664,39856,14,1,"Educaçao e Ciencias Físicas e Biológicas 2 Parfor",17
+49665,39856,28,1,6,18
+49666,39856,4,2,"Faculdade de Educaçao",21
+49667,39857,14,1,"Planejamento e Gestao Escolar Parfor",17
+49668,39857,28,1,6,18
+49669,39857,4,2,"Faculdade de Educaçao",21
+49670,39858,14,1,"Educaçao e Cienciais Sociais 1 Parfor",17
+49671,39858,28,1,6,18
+49672,39858,4,2,"Faculdade de Educaçao",21
+49673,39859,14,1,"Educaçao e Cienciais Sociais 2 Parfor",17
+49674,39859,28,1,6,18
+49675,39859,4,2,"Faculdade de Educaçao",21
+49676,39860,14,1,"Pesquisa em Educaçao 1 Parfor",17
+49677,39860,28,1,5,18
+49678,39860,4,2,"Faculdade de Educaçao",21
+49679,39861,14,1,"Estágio 1 Parfor",17
+49680,39861,28,1,8,18
+49681,39861,4,2,"Faculdade de Educaçao",21
+49682,39862,14,1,"Estágio 2 Parfor",17
+49683,39862,28,1,8,18
+49684,39862,4,2,"Faculdade de Educaçao",21
+49685,39863,14,1,"Estágio 3 Parfor",17
+49686,39863,28,1,8,18
+49687,39863,4,2,"Faculdade de Educaçao",21
+49688,39864,14,1,"Educaçao Inclusiva Parfor",17
+49689,39864,28,1,5,18
+49690,39864,4,2,"Faculdade de Educaçao",21
+49691,39865,14,1,"Educaçao Arte e Movimento 1 Parfor",17
+49692,39865,28,1,5,18
+49693,39865,4,2,"Faculdade de Educaçao",21
+49694,39866,14,1,"Educaçao Arte e Movimento 2 Parfor",17
+49695,39866,28,1,6,18
+49696,39866,4,2,"Faculdade de Educaçao",21
+49697,39867,14,1,"Politicas Públicas de Educaçao Parfor",17
+49698,39867,28,1,5,18
+49699,39867,4,2,"Faculdade de Educaçao",21
+49700,39868,14,1,"Trabalho de Conclusao de Curso 1 Parfor",17
+49701,39868,28,1,6,18
+49702,39868,4,2,"Faculdade de Educaçao",21
+49703,39869,14,1,"Trabalho de Conclusao de Curso 2 Parfor",17
+49704,39869,28,1,8,18
+49705,39869,4,2,"Faculdade de Educaçao",21
+49706,39870,14,1,"Educaçao de Jovens e Adultos Parfor",17
+49707,39870,28,1,5,18
+49708,39870,4,2,"Faculdade de Educaçao",21
+49709,39871,14,1,"Escolarizaçao de Surdos e LIBRAS Parfor",17
+49710,39871,28,1,5,18
+49711,39871,4,2,"Faculdade de Educaçao",21
+49712,39872,14,1,"Avaliaçao nas Organizaçoes Educativas Parfor",17
+49713,39872,28,1,5,18
+49714,39872,4,2,"Faculdade de Educaçao",21
+49715,39873,14,1,"Calculo Diferencial de uma Variável",17
+49716,39873,28,1,4,18
+49717,39873,4,2,"Departamento de Matemática.",21
+49718,39874,14,1,"Tópicos de Educaçao Matemática",17
+49719,39874,28,1,4,18
+49720,39874,4,2,"Departamento de Matemática.",21
+49721,39875,14,1,"Geometria Analítica e Vetores",17
+49722,39875,28,1,3,18
+49723,39875,4,2,"Departamento de Matemática.",21
+49724,39876,14,1,"Geometria Plana 1",17
+49725,39876,28,1,3,18
+49726,39876,4,2,"Departamento de Matemática.",21
+49727,39877,14,1,"Estágio de Docencia 1",17
+49728,39877,28,1,7,18
+49729,39877,4,2,"Departamento de Matemática.",21
+49730,39878,14,1,"Análise Combinatória para Cálculo de Probasbilidades",17
+49731,39878,28,1,4,18
+49732,39878,4,2,"Departamento de Matemática.",21
+49733,39879,14,1,"Física teórica para Ciencias Agrárias",17
+49734,39879,28,1,4,18
+49735,39879,4,2,"Instituto de Física",21
+49736,39880,14,1,"Física Experimental para Ciencias Agrárias",17
+49737,39880,28,1,2,18
+49738,39880,4,2,"Instituto de Física",21
+49739,39881,14,1,"Invasoes Biológicas",17
+49740,39881,28,1,4,18
+49741,39881,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49742,39882,14,1,"Morfosiologia de Cabeça e Pescoço",17
+49743,39882,28,1,2,18
+49744,39882,4,2,"UnB - Faculdade da Ceilândia",21
+49745,39883,14,1,"Estudos Linguisticos 2",17
+49746,39883,28,1,4,18
+49747,39883,4,2,"UnB - Faculdade da Ceilândia",21
+49748,39884,14,1,"Física Acústica",17
+49749,39884,28,1,2,18
+49750,39884,4,2,"UnB - Faculdade da Ceilândia",21
+49751,39885,14,1,"Pensamento Social Brasileiro, Instituiçoes e Cultura Política Nacional",17
+49752,39885,28,1,4,18
+49753,39885,4,2,"Departamento de Sociologia",21
+49754,39886,14,1,"Antropologia da Saúde e Adoecimento",17
+49755,39886,28,1,4,18
+49756,39886,4,2,"UnB - Faculdade da Ceilândia",21
+49757,39887,14,1,"Método da Ergonomia da Atividade",17
+49758,39887,28,1,4,18
+49759,39887,4,2,"UnB - Faculdade da Ceilândia",21
+49760,39888,14,1,"Introduçao a Saúde do Trabalhador",17
+49761,39888,28,1,2,18
+49762,39888,4,2,"UnB - Faculdade da Ceilândia",21
+49763,39889,14,1,"Tópicos Avançados em Gestao do Agronegócio 2",17
+49764,39889,28,1,4,18
+49765,39889,4,2,"UnB - Faculdade de Planaltina",21
+49766,39890,14,1,"Tópicos Avançados em Gestao do Agronegócio 3",17
+49767,39890,28,1,4,18
+49768,39890,4,2,"UnB - Faculdade de Planaltina",21
+49769,39891,14,1,"Tópicos Avançados em Gestao do Agronegócio 4",17
+49770,39891,28,1,4,18
+49771,39891,4,2,"UnB - Faculdade de Planaltina",21
+49772,39892,14,1,"Introduçao a Economia Quantitativa",17
+49773,39892,28,1,2,18
+49774,39892,4,2,"Departamento de Economia",21
+49775,39893,14,1,"Morfofisiopatologia da Audiçao e do Equilíbrio",17
+49776,39893,28,1,4,18
+49777,39893,4,2,"UnB - Faculdade da Ceilândia",21
+49778,39894,14,1,"Trabalho de Campo em Fonoaudiologia 1",17
+49779,39894,28,1,2,18
+49780,39894,4,2,"UnB - Faculdade da Ceilândia",21
+49781,39895,14,1,"Linguagem e Pensamento",17
+49782,39895,28,1,2,18
+49783,39895,4,2,"UnB - Faculdade da Ceilândia",21
+49784,39896,14,1,"Atençao ao Prematuro e a Família",17
+49785,39896,28,1,2,18
+49786,39896,4,2,"UnB - Faculdade da Ceilândia",21
+49787,39897,14,1,"Prontuário Eletrônico do Paciente",17
+49788,39897,28,1,2,18
+49789,39897,4,2,"UnB - Faculdade da Ceilândia",21
+49790,39898,14,1,"Fundamentos do Desenvolvimento  Aprendizagem Aplicados  a EDF EM e EJA",17
+49791,39898,28,1,2,18
+49792,39898,4,2,"Faculdade de Educaçao Física",21
+49793,39899,14,1,"Estudos e Pesquisa em Educaçao Física Escolar",17
+49794,39899,28,1,2,18
+49795,39899,4,2,"Faculdade de Educaçao Física",21
+49796,39900,14,1,"Educaçao Física no Ens Médio e Educaçao de Jovens e Adultos",17
+49797,39900,28,1,4,18
+49798,39900,4,2,"Faculdade de Educaçao Física",21
+49799,39901,14,1,"Metodologia das Modalidades Esportivas Coletivas",17
+49800,39901,28,1,4,18
+49801,39901,4,2,"Faculdade de Educaçao Física",21
+49802,39902,14,1,"Aspectos Psicológicos da Aprendizagem a EDF",17
+49803,39902,28,1,2,18
+49804,39902,4,2,"Faculdade de Educaçao Física",21
+49805,39903,14,1,"Reaçao Adversa a Medicamento",17
+49806,39903,28,1,3,18
+49807,39903,4,2,"Faculdade de Ciencias da Saúde",21
+49808,39904,14,1,"Anatomia dos Sistemas",17
+49809,39904,28,1,4,18
+49810,39904,4,2,"Faculdade de Educaçao Física",21
+49811,39905,14,1,"Corpo e Educaçao",17
+49812,39905,28,1,4,18
+49813,39905,4,2,"Faculdade de Educaçao Física",21
+49814,39906,14,1,"Programa Institucional de Bolsa de Iniciaçao r Docencia",17
+49815,39906,28,1,2,18
+49816,39906,4,2,"Decanato de Ensino de Graduaçao",21
+49817,39907,14,1,"Enfermagem em Oncologia",17
+49818,39907,28,1,2,18
+49819,39907,4,2,"UnB - Faculdade da Ceilândia",21
+49820,39908,14,1,"Saúde Direitos Humanos e Antropologia",17
+49821,39908,28,1,4,18
+49822,39908,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49823,39909,14,1,"Direitos Humanos LGBT",17
+49824,39909,28,1,4,18
+49825,39909,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49826,39910,14,1,"Gestao e Inovaçao de Processos Críticos em Organizaçao de Serviço",17
+49827,39910,28,1,2,18
+49828,39910,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+49829,39911,14,1,"Tecnologia do Meio Ambiente 1",17
+49830,39911,28,1,2,18
+49831,39911,4,2,"Instituto de Química",21
+49832,39912,14,1,"Teoria dos Sistemas Sociais",17
+49833,39912,28,1,4,18
+49834,39912,4,2,"Departamento de Sociologia",21
+49835,39913,14,1,"Teoria Crítica da Sociedade",17
+49836,39913,28,1,4,18
+49837,39913,4,2,"Departamento de Sociologia",21
+49838,39914,14,1,"Tópicos Especiais em Sociologia 8",17
+49839,39914,28,1,4,18
+49840,39914,4,2,"Departamento de Sociologia",21
+49841,39915,14,1,"Tópicos Especiais em Sociologia 9",17
+49842,39915,28,1,4,18
+49843,39915,4,2,"Departamento de Sociologia",21
+49844,39916,14,1,"Tópicos Especiais em Sociologia 10",17
+49845,39916,28,1,4,18
+49846,39916,4,2,"Departamento de Sociologia",21
+49847,39917,14,1,"Tópicos Especiais em Sociologia 11",17
+49848,39917,28,1,4,18
+49849,39917,4,2,"Departamento de Sociologia",21
+49850,39918,14,1,"Tópicos Especiais em Sociologia 12",17
+49851,39918,28,1,4,18
+49852,39918,4,2,"Departamento de Sociologia",21
+49853,39919,14,1,"Estágio Supervisionado 3",17
+49854,39919,28,1,6,18
+49855,39919,4,2,"Departamento de Saúde Coletiva",21
+49856,39920,14,1,"Ciencias do Ambiente",17
+49857,39920,28,1,2,18
+49858,39920,4,2,"Direçao do Instituto Ciencias Biológicas",21
+49859,39921,14,1,"Sistema de Produçao Enxuta",17
+49860,39921,28,1,4,18
+49861,39921,4,2,"Departamento de Engenharia de Produçao",21
+49862,39922,14,1,"Gerenciamento de Projetos Complexos",17
+49863,39922,28,1,2,18
+49864,39922,4,2,"Departamento de Engenharia de Produçao",21
+49865,39923,14,1,"Planejamento e Controle de Serviços",17
+49866,39923,28,1,2,18
+49867,39923,4,2,"Departamento de Engenharia de Produçao",21
+49868,39924,14,1,"Ergonomia em Sistemas Produtivos",17
+49869,39924,28,1,2,18
+49870,39924,4,2,"Departamento de Engenharia de Produçao",21
+49871,39925,14,1,"Gestao de Custos",17
+49872,39925,28,1,2,18
+49873,39925,4,2,"Departamento de Engenharia de Produçao",21
+49874,39926,14,1,"Engenharia de Produtos Financeiros",17
+49875,39926,28,1,2,18
+49876,39926,4,2,"Departamento de Engenharia de Produçao",21
+49877,39927,14,1,"Desenvolvimento de Serviços",17
+49878,39927,28,1,2,18
+49879,39927,4,2,"Departamento de Engenharia de Produçao",21
+49880,39928,14,1,"Cálculo Integral de uma Variável",17
+49881,39928,28,1,2,18
+49882,39928,4,2,"Departamento de Matemática.",21
+49883,39929,14,1,"Fundamentos de Álgebra 2",17
+49884,39929,28,1,3,18
+49885,39929,4,2,"Departamento de Matemática.",21
+49886,39930,14,1,"Tópicos em Geometria Analítica",17
+49887,39930,28,1,1,18
+49888,39930,4,2,"Departamento de Matemática.",21
+49889,39931,14,1,"Geometria Analítica para Matemática",17
+49890,39931,28,1,4,18
+49891,39931,4,2,"Departamento de Matemática.",21
+49892,39932,14,1,"Ensino de Espanhol como Língua Estrangeira",17
+49893,39932,28,1,4,18
+49894,39932,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+49895,39933,14,1,"Estágio em Parasitologia Médica",17
+49896,39933,28,1,6,18
+49897,39933,4,2,"Faculdade de Medicina",21
+49898,39934,14,1,"Projeto de Graduaçao de Engenharia de Produçao 1",17
+49899,39934,28,1,2,18
+49900,39934,4,2,"Departamento de Engenharia de Produçao",21
+49901,39935,14,1,"Projeto de Graduaçao de Engenharia de Produçao 2",17
+49902,39935,28,1,2,18
+49903,39935,4,2,"Departamento de Engenharia de Produçao",21
+49904,39936,14,1,"Oncologia Molecular",17
+49905,39936,28,1,2,18
+49906,39936,4,2,"Faculdade de Medicina",21
+49907,39937,14,1,"Informatica Básica",17
+49908,39937,28,1,4,18
+49909,39937,4,2,"Instituto de Artes",21
+49910,39938,14,1,"Laboratório de Química Analítica 1",17
+49911,39938,28,1,2,18
+49912,39938,4,2,"Instituto de Química",21
+49913,39939,14,1,"Radioquímica: Conceitos e Aplicaçoes",17
+49914,39939,28,1,2,18
+49915,39939,4,2,"Instituto de Química",21
+49916,39940,14,1,"Sociologia do Direito",17
+49917,39940,28,1,4,18
+49918,39940,4,2,"Departamento de Sociologia",21
+49919,39941,14,1,"Administraçao Institucional de Conflitos",17
+49920,39941,28,1,4,18
+49921,39941,4,2,"Departamento de Sociologia",21
+49922,39942,14,1,"Sociologia do Trabalho e Relaçoes Sociais de Genero",17
+49923,39942,28,1,4,18
+49924,39942,4,2,"Departamento de Sociologia",21
+49925,39943,14,1,"Políticas de Segurança Alimentar e Nutricional",17
+49926,39943,28,1,4,18
+49927,39943,4,2,"Departamento de Saúde Coletiva",21
+49928,39944,14,1,"Atençao Integral a Saúde do Recém Nascido",17
+49929,39944,28,1,2,18
+49930,39944,4,2,"Departamento de Enfermagem",21
+49931,39945,14,1,"Leitura e Produçao de Texto - Teatro",17
+49932,39945,28,1,4,18
+49933,39945,4,2,"Instituto de Artes",21
+49934,39946,14,1,"Fundamentos de Análise Instrumental 2",17
+49935,39946,28,1,2,18
+49936,39946,4,2,"Instituto de Química",21
+49937,39947,14,1,"Laboratório de Síntese Inorgânica",17
+49938,39947,28,1,4,18
+49939,39947,4,2,"Instituto de Química",21
+49940,39948,14,1,"Reaçoes Orgânicas e seus Mecanismos 2",17
+49941,39948,28,1,4,18
+49942,39948,4,2,"Instituto de Química",21
+49943,39949,14,1,"Processos Metamórficos",17
+49944,39949,28,1,4,18
+49945,39949,4,2,"Instituto de Geociencias",21
+49946,39950,14,1,"Controle Adaptativo",17
+49947,39950,28,1,4,18
+49948,39950,4,2,"Departamento de Engenharia Elétrica.",21
+49949,39951,14,1,"Trabalho de Conclusao de Curso em Interepretaçao Teatral 1",17
+49950,39951,28,1,2,18
+49951,39951,4,2,"Departamento de Artes Cenicas",21
+49952,39952,14,1,"Trabalho de Conclusao de Curso em Interepretaçao Teatral 2",17
+49953,39952,28,1,2,18
+49954,39952,4,2,"Departamento de Artes Cenicas",21
+49955,39953,14,1,"Diplomaçao em Interpretaçao Teatral",17
+49956,39953,28,1,10,18
+49957,39953,4,2,"Departamento de Artes Cenicas",21
+49958,39954,14,1,"Projeto em Interpretaçao Teatral",17
+49959,39954,28,1,14,18
+49960,39954,4,2,"Departamento de Artes Cenicas",21
+49961,39955,14,1,"Espectroscopia Atômica e Molecular",17
+49962,39955,28,1,4,18
+49963,39955,4,2,"Instituto de Química",21
+49964,39956,14,1,"Trabalho de Conclusao do  Curso de Bacharelado em Química 1",17
+49965,39956,28,1,4,18
+49966,39956,4,2,"Instituto de Química",21
+49967,39957,14,1,"Fundamentos de Análise do Comportamento",17
+49968,39957,28,1,6,18
+49969,39957,4,2,"Departamento de Processos Psicologicos Básicos",21
+49970,39958,14,1,"Trabalho de Conclusao do  Curso de Bacharelado em Química 2",17
+49971,39958,28,1,6,18
+49972,39958,4,2,"Instituto de Química",21
+49973,39959,14,1,"Terapia Cognitiva",17
+49974,39959,28,1,4,18
+49975,39959,4,2,"Departamento de Processos Psicologicos Básicos",21
+49976,39960,14,1,"Introduçao a Farmácia Hospitalar",17
+49977,39960,28,1,2,18
+49978,39960,4,2,"Faculdade de Ciencias da Saúde",21
+49979,39961,14,1,"Processos de Desenvolvimento Humano",17
+49980,39961,28,1,6,18
+49981,39961,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+49982,39962,14,1,"Práticas de Ensino em Economia",17
+49983,39962,28,1,2,18
+49984,39962,4,2,"Departamento de Economia",21
+49985,39963,14,1,"Estudos de Traduçao de Prosa Grega Antiga",17
+49986,39963,28,1,4,18
+49987,39963,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+49988,39964,14,1,"Estudos de Traduçao da Poesia Grega Antiga",17
+49989,39964,28,1,4,18
+49990,39964,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+49991,39965,14,1,"Trabalho de Conclusao do Curso 1",17
+49992,39965,28,1,4,18
+49993,39965,4,2,"UnB - Faculdade de Planaltina",21
+49994,39966,14,1,"Estágio Supervisionado p/ Segunda Licenciatura em Ciencias Naturais 2",17
+49995,39966,28,1,5,18
+49996,39966,4,2,"UnB - Faculdade de Planaltina",21
+49997,39967,14,1,"Vida e Biosfera",17
+49998,39967,28,1,20,18
+49999,39967,4,2,"UnB - Faculdade de Planaltina",21
+50000,39968,14,1,"Uso de TIC no Curso de Biologia a Distância",17
+50001,39968,28,1,4,18
+50002,39968,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50003,39969,14,1,"Gerenciamento da Cadeia de Suprimento",17
+50004,39969,28,1,4,18
+50005,39969,4,2,"Departamento de Engenharia de Produçao",21
+50006,39970,14,1,"Fundamentos de Parasitologia",17
+50007,39970,28,1,2,18
+50008,39970,4,2,"Faculdade de Medicina",21
+50009,39971,14,1,"Psicologia do Trabalho",17
+50010,39971,28,1,4,18
+50011,39971,4,2,"Departamento de Psicologia Social e do Trabalho",21
+50012,39972,14,1,"Terapia Analítica - Comportamental",17
+50013,39972,28,1,4,18
+50014,39972,4,2,"Departamento de Processos Psicologicos Básicos",21
+50015,39973,14,1,"Psicologia Evolucionista",17
+50016,39973,28,1,4,18
+50017,39973,4,2,"Departamento de Processos Psicologicos Básicos",21
+50018,39974,14,1,"Tópicos em Psicologia Ambiental",17
+50019,39974,28,1,4,18
+50020,39974,4,2,"Direçao do Instituto de Psicologia",21
+50021,39975,14,1,"Tópicos em Métodos de Pesquisa",17
+50022,39975,28,1,4,18
+50023,39975,4,2,"Direçao do Instituto de Psicologia",21
+50024,39976,14,1,"Tópicos em Ergonomia",17
+50025,39976,28,1,4,18
+50026,39976,4,2,"Direçao do Instituto de Psicologia",21
+50027,39977,14,1,"Tópicos em Cogniçao",17
+50028,39977,28,1,4,18
+50029,39977,4,2,"Departamento de Processos Psicologicos Básicos",21
+50030,39978,14,1,"Tópicos em Aplicaçoes das Ciencias do Comportamento",17
+50031,39978,28,1,4,18
+50032,39978,4,2,"Direçao do Instituto de Psicologia",21
+50033,39979,14,1,"Tópicos em Terapia Analítico - Comportamental",17
+50034,39979,28,1,4,18
+50035,39979,4,2,"Direçao do Instituto de Psicologia",21
+50036,39980,14,1,"Tópicos em Análise Conceitual em Psicologia",17
+50037,39980,28,1,4,18
+50038,39980,4,2,"Direçao do Instituto de Psicologia",21
+50039,39981,14,1,"Tópicos em Psicologia Social Aplicada",17
+50040,39981,28,1,4,18
+50041,39981,4,2,"Direçao do Instituto de Psicologia",21
+50042,39982,14,1,"Pesquisa em Psicologia Social",17
+50043,39982,28,1,4,18
+50044,39982,4,2,"Departamento de Psicologia Social e do Trabalho",21
+50045,39983,14,1,"Pesquisa em Psicologia Evolucionista",17
+50046,39983,28,1,4,18
+50047,39983,4,2,"Departamento de Processos Psicologicos Básicos",21
+50048,39984,14,1,"Percepçao e Cogniçao: Ciencia e Tecnologia",17
+50049,39984,28,1,4,18
+50050,39984,4,2,"Departamento de Processos Psicologicos Básicos",21
+50051,39985,14,1,"Análise Comportamental Aplicada",17
+50052,39985,28,1,4,18
+50053,39985,4,2,"Direçao do Instituto de Psicologia",21
+50054,39986,14,1,"Epistemologia e Métodos Clínicos",17
+50055,39986,28,1,4,18
+50056,39986,4,2,"Departamento de Psicologia Clínica",21
+50057,39987,14,1,"Intervençoes Psicossociais com Crianças e Adolescentes",17
+50058,39987,28,1,4,18
+50059,39987,4,2,"Departamento de Psicologia Clínica",21
+50060,39988,14,1,"Intervençoes Psicossociais em Contextos de Violencia",17
+50061,39988,28,1,4,18
+50062,39988,4,2,"Departamento de Psicologia Clínica",21
+50063,39989,14,1,"Psicologia Comunitária",17
+50064,39989,28,1,4,18
+50065,39989,4,2,"Departamento de Psicologia Clínica",21
+50066,39990,14,1,"Psicologia das Habilidades Sociais",17
+50067,39990,28,1,4,18
+50068,39990,4,2,"Departamento de Psicologia Clínica",21
+50069,39991,14,1,"Psicoterapia Ericksoniana",17
+50070,39991,28,1,4,18
+50071,39991,4,2,"Departamento de Psicologia Clínica",21
+50072,39992,14,1,"Psicoterapias Humanistas e Fenomenológico-Existenciais",17
+50073,39992,28,1,4,18
+50074,39992,4,2,"Departamento de Psicologia Clínica",21
+50075,39993,14,1,"Tópicos em Psicanálise",17
+50076,39993,28,1,4,18
+50077,39993,4,2,"Departamento de Psicologia Clínica",21
+50078,39994,14,1,"Tópicos em Psicologia Clínica",17
+50079,39994,28,1,4,18
+50080,39994,4,2,"Departamento de Psicologia Clínica",21
+50081,39995,14,1,"Tópicos em Terapia Conjugal e Familiar",17
+50082,39995,28,1,4,18
+50083,39995,4,2,"Departamento de Psicologia Clínica",21
+50084,39996,14,1,"Desenvolvimento Humano e Competencias",17
+50085,39996,28,1,4,18
+50086,39996,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50087,39997,14,1,"Desenvolvimento no curso de vida: Velhice",17
+50088,39997,28,1,4,18
+50089,39997,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50090,39998,14,1,"Cinética Química",17
+50091,39998,28,1,2,18
+50092,39998,4,2,"Instituto de Química",21
+50093,39999,14,1,"Desenvolvimento, Aprendizagem e Interaçoes Virtuais",17
+50094,39999,28,1,4,18
+50095,39999,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50096,40000,14,1,"Diversidade e Inclusao Escolar",17
+50097,40000,28,1,4,18
+50098,40000,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50099,40001,14,1,"Estágio Supervisionado Bacharel - Área Psicologia do Desenvolvimento",17
+50100,40001,28,1,10,18
+50101,40001,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50102,40002,14,1,"Filosofia e Epistemologia da Psicologia",17
+50103,40002,28,1,4,18
+50104,40002,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50105,40003,14,1,"Métodos de Pesquisa em Desenvolvimento Humano",17
+50106,40003,28,1,6,18
+50107,40003,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50108,40004,14,1,"Psicologia e Saúde Pública",17
+50109,40004,28,1,4,18
+50110,40004,4,2,"Departamento de Psicologia Clínica",21
+50111,40005,14,1,"Psicologia Escolar e Formaçao Profissional Continuada",17
+50112,40005,28,1,4,18
+50113,40005,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50114,40006,14,1,"Psicologia Escolar: Pesquisa e Intervençao",17
+50115,40006,28,1,4,18
+50116,40006,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50117,40007,14,1,"Psicologia, Cidadania e Ética",17
+50118,40007,28,1,4,18
+50119,40007,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50120,40008,14,1,"Tópicos em Psicologia Escolar",17
+50121,40008,28,1,4,18
+50122,40008,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50123,40009,14,1,"Terapia Cognitivo - Comportamental em Grupo",17
+50124,40009,28,1,4,18
+50125,40009,4,2,"Departamento de Psicologia Clínica",21
+50126,40010,14,1,"Administraçao Pública e Éticas Objetos de Estudo e de Conhecimento",17
+50127,40010,28,1,2,18
+50128,40010,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+50129,40011,14,1,"Estágio Supervisionado Licenciatura - Área Psicologia Escolar 1",17
+50130,40011,28,1,10,18
+50131,40011,4,2,"Departamento de Psic.Escolar e do Desenvolvimento",21
+50132,40012,14,1,"Estágio Supervisionado Licenciatura - Área Ciencias do Comportamento 1",17
+50133,40012,28,1,10,18
+50134,40012,4,2,"Departamento de Processos Psicologicos Básicos",21
+50135,40013,14,1,"Estágio Supervisionado Licenciatura - Área Ciencias do Comportamento 2",17
+50136,40013,28,1,0,18
+50137,40013,4,2,"Direçao do Instituto de Psicologia",21
+50138,40014,14,1,"Tópicos Especiais em Artes Cenicas 1",17
+50139,40014,28,1,6,18
+50140,40014,4,2,"Instituto de Artes",21
+50141,40015,14,1,"Metodologia de Ensino de Filosofia",17
+50142,40015,28,1,6,18
+50143,40015,4,2,"Departamento de Filosofia",21
+50144,40016,14,1,"Laboratório de Teoria, Crítica e História da Arte 1",17
+50145,40016,28,1,4,18
+50146,40016,4,2,"Departamento de Artes Visuais",21
+50147,40017,14,1,"Teoria e História da Arte e da Imagem no Espaço/Tempo 2",17
+50148,40017,28,1,4,18
+50149,40017,4,2,"Departamento de Artes Visuais",21
+50150,40018,14,1,"Computaçao em Estatística 1",17
+50151,40018,28,1,2,18
+50152,40018,4,2,"Departamento de Estatística",21
+50153,40019,14,1,"Computaçao em Estatística 2",17
+50154,40019,28,1,4,18
+50155,40019,4,2,"Departamento de Estatística",21
+50156,40020,14,1,"Estatística Computacional",17
+50157,40020,28,1,4,18
+50158,40020,4,2,"Departamento de Estatística",21
+50159,40021,14,1,"Inferencia Bayesiana",17
+50160,40021,28,1,4,18
+50161,40021,4,2,"Departamento de Estatística",21
+50162,40022,14,1,"Técnicas de Amostragem 2",17
+50163,40022,28,1,4,18
+50164,40022,4,2,"Departamento de Estatística",21
+50165,40023,14,1,"Estatística Espacial",17
+50166,40023,28,1,4,18
+50167,40023,4,2,"Departamento de Estatística",21
+50168,40024,14,1,"Laboratório de Estatística 1",17
+50169,40024,28,1,4,18
+50170,40024,4,2,"Departamento de Estatística",21
+50171,40025,14,1,"Laboratório de Estatística 2",17
+50172,40025,28,1,4,18
+50173,40025,4,2,"Departamento de Estatística",21
+50174,40026,14,1,Consultoria,17
+50175,40026,28,1,4,18
+50176,40026,4,2,"Departamento de Estatística",21
+50177,40027,14,1,"Modelos Lineares Generalizados",17
+50178,40027,28,1,4,18
+50179,40027,4,2,"Departamento de Estatística",21
+50180,40028,14,1,"Análise de Séries Temporais 2",17
+50181,40028,28,1,4,18
+50182,40028,4,2,"Departamento de Estatística",21
+50183,40029,14,1,"Demografia 2",17
+50184,40029,28,1,4,18
+50185,40029,4,2,"Departamento de Estatística",21
+50186,40030,14,1,"Teoria da Resposta ao Ítem",17
+50187,40030,28,1,4,18
+50188,40030,4,2,"Departamento de Estatística",21
+50189,40031,14,1,"Tópicos em Estatística 1",17
+50190,40031,28,1,4,18
+50191,40031,4,2,"Departamento de Estatística",21
+50192,40032,14,1,"Modelos líneares",17
+50193,40032,28,1,4,18
+50194,40032,4,2,"Departamento de Estatística",21
+50195,40033,14,1,"Políticas Públicas em Educaçao Física, Esporte, Saúde e Lazer",17
+50196,40033,28,1,4,18
+50197,40033,4,2,"Faculdade de Educaçao Física",21
+50198,40034,14,1,"Fundamentos Históricos-Filosófico da Educaçao Física",17
+50199,40034,28,1,4,18
+50200,40034,4,2,"Faculdade de Educaçao Física",21
+50201,40035,14,1,"Fundamentos Sócio-Antropológico da Educaçao Física",17
+50202,40035,28,1,4,18
+50203,40035,4,2,"Faculdade de Educaçao Física",21
+50204,40036,14,1,"Estágio Supervisionado Avançado em Educaçao Física",17
+50205,40036,28,1,10,18
+50206,40036,4,2,"Faculdade de Educaçao Física",21
+50207,40037,14,1,"Administraçao em Educaçao Física",17
+50208,40037,28,1,4,18
+50209,40037,4,2,"Faculdade de Educaçao Física",21
+50210,40038,14,1,"Métodos e Técnicas de Pesquisa em Educaçao Física",17
+50211,40038,28,1,4,18
+50212,40038,4,2,"Faculdade de Educaçao Física",21
+50213,40039,14,1,"Fisiologia do Exercício 1",17
+50214,40039,28,1,4,18
+50215,40039,4,2,"Faculdade de Educaçao Física",21
+50216,40040,14,1,"Anatomia Aplicada a Educaçao Física",17
+50217,40040,28,1,4,18
+50218,40040,4,2,"Faculdade de Educaçao Física",21
+50219,40041,14,1,"Fisiologia do Exercício 2",17
+50220,40041,28,1,4,18
+50221,40041,4,2,"Faculdade de Educaçao Física",21
+50222,40042,14,1,"Prevençao de Acidentes e Primeiros Socorros",17
+50223,40042,28,1,4,18
+50224,40042,4,2,"Faculdade de Educaçao Física",21
+50225,40043,14,1,"Cinesiologia Aplicada a Educaçao Física",17
+50226,40043,28,1,4,18
+50227,40043,4,2,"Faculdade de Educaçao Física",21
+50228,40044,14,1,"Metodologia das Atividades Gímnicas",17
+50229,40044,28,1,4,18
+50230,40044,4,2,"Faculdade de Educaçao Física",21
+50231,40045,14,1,"Metodologia da Dança e Expressao",17
+50232,40045,28,1,4,18
+50233,40045,4,2,"Faculdade de Educaçao Física",21
+50234,40046,14,1,"Metodologia do Atletismo",17
+50235,40046,28,1,4,18
+50236,40046,4,2,"Faculdade de Educaçao Física",21
+50237,40047,14,1,Nataçao,17
+50238,40047,28,1,4,18
+50239,40047,4,2,"Faculdade de Educaçao Física",21
+50240,40048,14,1,"Metodologia dos Jogos",17
+50241,40048,28,1,4,18
+50242,40048,4,2,"Faculdade de Educaçao Física",21
+50243,40049,14,1,"Principio do Treinamento Resistido",17
+50244,40049,28,1,4,18
+50245,40049,4,2,"Faculdade de Educaçao Física",21
+50246,40050,14,1,"Fundamentos Teóricos-Metodológicos da Educaçao Física",17
+50247,40050,28,1,4,18
+50248,40050,4,2,"Faculdade de Educaçao Física",21
+50249,40051,14,1,"Ciencia e Pesquisa em Educaçao Física",17
+50250,40051,28,1,2,18
+50251,40051,4,2,"Faculdade de Educaçao Física",21
+50252,40052,14,1,"Estatística Aplicada a Educaçao Física",17
+50253,40052,28,1,2,18
+50254,40052,4,2,"Faculdade de Educaçao Física",21
+50255,40053,14,1,"Execuçao do Projeto de Trabalho de Conclusao do Curso",17
+50256,40053,28,1,4,18
+50257,40053,4,2,"Faculdade de Educaçao Física",21
+50258,40054,14,1,"Estudos e Pesquisa em Educaçao Física Escolar",17
+50259,40054,28,1,4,18
+50260,40054,4,2,"Faculdade de Educaçao Física",21
+50261,40055,14,1,"Metodologia das Modalidades Esportivas Coletivas",17
+50262,40055,28,1,4,18
+50263,40055,4,2,"Faculdade de Educaçao Física",21
+50264,40056,14,1,"Metodologia das Lutas e Artes Marciais",17
+50265,40056,28,1,4,18
+50266,40056,4,2,"Faculdade de Educaçao Física",21
+50267,40057,14,1,"Fundamentos do Desenv e Aprendiz Aplicados a Educ Fís Infantil",17
+50268,40057,28,1,4,18
+50269,40057,4,2,"Faculdade de Educaçao Física",21
+50270,40058,14,1,"Fundamentos do Desenv e Aprendiz Aplicados a Educ Fís no Ens Fund",17
+50271,40058,28,1,4,18
+50272,40058,4,2,"Faculdade de Educaçao Física",21
+50273,40059,14,1,"Aspectos Psicológicos da Aprendizagem Aplicados a Educaçao Física",17
+50274,40059,28,1,2,18
+50275,40059,4,2,"Faculdade de Educaçao Física",21
+50276,40060,14,1,"Educaçao Física e Práticas Corporais",17
+50277,40060,28,1,4,18
+50278,40060,4,2,"Faculdade de Educaçao Física",21
+50279,40061,14,1,"Educaçao Física: Leis, Normas e Políticas",17
+50280,40061,28,1,4,18
+50281,40061,4,2,"Faculdade de Educaçao Física",21
+50282,40062,14,1,"Estágio Supervisionado na Educaçao Física Infantil",17
+50283,40062,28,1,6,18
+50284,40062,4,2,"Faculdade de Educaçao Física",21
+50285,40063,14,1,"Estágio Supersionado na Educaçao Física no Ensino Fundamenta",17
+50286,40063,28,1,6,18
+50287,40063,4,2,"Faculdade de Educaçao Física",21
+50288,40064,14,1,"Est Sup Educaçao Física no Ensino Médio e na Educ Jovens e Adultos",17
+50289,40064,28,1,6,18
+50290,40064,4,2,"Faculdade de Educaçao Física",21
+50291,40065,14,1,"Fund do Desenv e Aprend Apl a Edu Fís  Ensino Médio e na EJA",17
+50292,40065,28,1,4,18
+50293,40065,4,2,"Faculdade de Educaçao Física",21
+50294,40066,14,1,"Seminário de Pesquisa em Educaçao Física",17
+50295,40066,28,1,4,18
+50296,40066,4,2,"Faculdade de Educaçao Física",21
+50297,40067,14,1,"Memórias Gastronômicas e Gustativas",17
+50298,40067,28,1,4,18
+50299,40067,4,2,"Centro de Excelencia em Turismo",21
+50300,40068,14,1,"Projeto Integrador em Turismo 4",17
+50301,40068,28,1,4,18
+50302,40068,4,2,"Centro de Excelencia em Turismo",21
+50303,40069,14,1,"Crítica e História da Arte no Brasil 3",17
+50304,40069,28,1,4,18
+50305,40069,4,2,"Departamento de Artes Visuais",21
+50306,40070,14,1,"Elaboraçao de Projetos em Turismo",17
+50307,40070,28,1,4,18
+50308,40070,4,2,"Centro de Excelencia em Turismo",21
+50309,40071,14,1,"Teoria, Crítica e História da Arte 5",17
+50310,40071,28,1,4,18
+50311,40071,4,2,"Departamento de Artes Visuais",21
+50312,40072,14,1,"Arte e Antropologia",17
+50313,40072,28,1,4,18
+50314,40072,4,2,"Departamento de Artes Visuais",21
+50315,40073,14,1,"Teoria e História da Arte e da Imagem no Espaço/Tempo 4",17
+50316,40073,28,1,4,18
+50317,40073,4,2,"Departamento de Artes Visuais",21
+50318,40074,14,1,"Processos Cognitivos: Cinésio-Fisiopatologia",17
+50319,40074,28,1,2,18
+50320,40074,4,2,"UnB - Faculdade da Ceilândia",21
+50321,40075,14,1,"Métodos Estatísticos 2",17
+50322,40075,28,1,4,18
+50323,40075,4,2,"Departamento de Estatística",21
+50324,40076,14,1,"Análise Multivariada 2",17
+50325,40076,28,1,4,18
+50326,40076,4,2,"Departamento de Estatística",21
+50327,40077,14,1,"Práticas de Ensino em Citopatologia",17
+50328,40077,28,1,4,18
+50329,40077,4,2,"Faculdade de Medicina",21
+50330,40078,14,1,"Parasitologia Veterinária",17
+50331,40078,28,1,4,18
+50332,40078,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+50333,40079,14,1,"Evoluçao Humana",17
+50334,40079,28,1,4,18
+50335,40079,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50336,40080,14,1,"Tópicos Especiais em Agronomia",17
+50337,40080,28,1,2,18
+50338,40080,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+50339,40081,14,1,"Tópicos Especiais em Jogos Digitais",17
+50340,40081,28,1,4,18
+50341,40081,4,2,"UnB - Faculdade do Gama",21
+50342,40082,14,1,"Tópicos Especiais em Sistemas Críticos",17
+50343,40082,28,1,4,18
+50344,40082,4,2,"UnB - Faculdade do Gama",21
+50345,40083,14,1,"Dinâmica dos Gases para Sistemas Aeroespaciais",17
+50346,40083,28,1,4,18
+50347,40083,4,2,"UnB - Faculdade do Gama",21
+50348,40084,14,1,"Projeto de Sistemas de Controle",17
+50349,40084,28,1,4,18
+50350,40084,4,2,"UnB - Faculdade do Gama",21
+50351,40085,14,1,"Mecânica do Vôo",17
+50352,40085,28,1,4,18
+50353,40085,4,2,"UnB - Faculdade do Gama",21
+50354,40086,14,1,"Métodos e Técnicas da Escrita Científica",17
+50355,40086,28,1,4,18
+50356,40086,4,2,"UnB - Faculdade do Gama",21
+50357,40087,14,1,"Processos Petroquímicos",17
+50358,40087,28,1,4,18
+50359,40087,4,2,"UnB - Faculdade do Gama",21
+50360,40088,14,1,"Recuperaçao e Reabilitaçao de Áreas Degradadas por Mineraçao",17
+50361,40088,28,1,2,18
+50362,40088,4,2,"Departamento de Engenharia Civil e Ambiental",21
+50363,40089,14,1,"Controle de Processos",17
+50364,40089,28,1,4,18
+50365,40089,4,2,"Departamento de Engenharia Elétrica.",21
+50366,40090,14,1,"Instrumentaçao de Controle de Processos",17
+50367,40090,28,1,4,18
+50368,40090,4,2,"Departamento de Engenharia Elétrica.",21
+50369,40091,14,1,"Laboratório de Controle de Processos",17
+50370,40091,28,1,2,18
+50371,40091,4,2,"Departamento de Engenharia Elétrica.",21
+50372,40092,14,1,"Análise Instrumental Teórica e Experimental",17
+50373,40092,28,1,4,18
+50374,40092,4,2,"Faculdade de Ciencias da Saúde",21
+50375,40093,14,1,"Práticas Musicais Coletivas",17
+50376,40093,28,1,2,18
+50377,40093,4,2,"Departamento de Música",21
+50378,40094,14,1,"Projeto de Trabalho de Conclusao de Curso - Bacharelado",17
+50379,40094,28,1,4,18
+50380,40094,4,2,"Faculdade de Educaçao Física",21
+50381,40095,14,1,"Trabalho de Conclusao de Curso - Bacharelado",17
+50382,40095,28,1,4,18
+50383,40095,4,2,"Faculdade de Educaçao Física",21
+50384,40096,14,1,"Prática de Apoio a Física 2 - 1",17
+50385,40096,28,1,2,18
+50386,40096,4,2,"Instituto de Física",21
+50387,40097,14,1,"Prática de Apoio a Física 2 - 2",17
+50388,40097,28,1,2,18
+50389,40097,4,2,"Instituto de Física",21
+50390,40098,14,1,"Prática de Apoio a Física 2 - 3",17
+50391,40098,28,1,2,18
+50392,40098,4,2,"Instituto de Física",21
+50393,40099,14,1,"Raciocinio Clínico de Enfermagem",17
+50394,40099,28,1,4,18
+50395,40099,4,2,"Departamento de Enfermagem",21
+50396,40100,14,1,"Estágio Supervisionado 1",17
+50397,40100,28,1,28,18
+50398,40100,4,2,"Departamento de Enfermagem",21
+50399,40101,14,1,"Estágio Supervisionado 2",17
+50400,40101,28,1,26,18
+50401,40101,4,2,"Departamento de Enfermagem",21
+50402,40102,14,1,"Tópicos em Bioquímica 1",17
+50403,40102,28,1,4,18
+50404,40102,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50405,40103,14,1,"Práticas Inovadoras no Ensino de Geografia",17
+50406,40103,28,1,4,18
+50407,40103,4,2,"Instituto de Ciencias Humanas",21
+50408,40104,14,1,"Elaboraçao do Projeto de Trabalho de Conclusao do Curso - Licenciatura",17
+50409,40104,28,1,2,18
+50410,40104,4,2,"Faculdade de Educaçao Física",21
+50411,40105,14,1,"Execuçao do Projeto de Trabalho de Conclusao do Curso Licenciatura",17
+50412,40105,28,1,2,18
+50413,40105,4,2,"Faculdade de Educaçao Física",21
+50414,40106,14,1,"Trabalho de Conclusao de Curso - Licenciatura",17
+50415,40106,28,1,2,18
+50416,40106,4,2,"Faculdade de Educaçao Física",21
+50417,40107,14,1,"Estágio Sup em Assistencia Farmaceutica na Atençao Primária em Saúde",17
+50418,40107,28,1,4,18
+50419,40107,4,2,"UnB - Faculdade da Ceilândia",21
+50420,40108,14,1,"Engenharia Metabólica",17
+50421,40108,28,1,2,18
+50422,40108,4,2,"Departamento de Biologia Celular",21
+50423,40109,14,1,"Tópicos Especiais em Biblioteconomia e Ciencia da Informaçao",17
+50424,40109,28,1,4,18
+50425,40109,4,2,"Faculdade de Ciencia da Informaçao",21
+50426,40110,14,1,"Métodos da Física Experimental",17
+50427,40110,28,1,4,18
+50428,40110,4,2,"Instituto de Física",21
+50429,40111,14,1,"Fundamentos Matemáticos da Física A",17
+50430,40111,28,1,4,18
+50431,40111,4,2,"Instituto de Física",21
+50432,40112,14,1,"Fundamentos Matemáticos da Física B",17
+50433,40112,28,1,4,18
+50434,40112,4,2,"Instituto de Física",21
+50435,40113,14,1,"Ondas, Óptica e Termodinâmica",17
+50436,40113,28,1,6,18
+50437,40113,4,2,"Instituto de Física",21
+50438,40114,14,1,"Laboratório de Instrumentaçao Científica A",17
+50439,40114,28,1,4,18
+50440,40114,4,2,"Instituto de Física",21
+50441,40115,14,1,"Mecânica Clássica A",17
+50442,40115,28,1,4,18
+50443,40115,4,2,"Instituto de Física",21
+50444,40116,14,1,"Laboratório de Mecânica",17
+50445,40116,28,1,4,18
+50446,40116,4,2,"Instituto de Física",21
+50447,40117,14,1,"Física Matemática A",17
+50448,40117,28,1,4,18
+50449,40117,4,2,"Instituto de Física",21
+50450,40118,14,1,"Relatividade e Física Quântica",17
+50451,40118,28,1,6,18
+50452,40118,4,2,"Instituto de Física",21
+50453,40119,14,1,"Mecânica Clássica B",17
+50454,40119,28,1,4,18
+50455,40119,4,2,"Instituto de Física",21
+50456,40120,14,1,"Métodos Computacionais A",17
+50457,40120,28,1,4,18
+50458,40120,4,2,"Instituto de Física",21
+50459,40121,14,1,"Laboratório de Física Moderna",17
+50460,40121,28,1,4,18
+50461,40121,4,2,"Instituto de Física",21
+50462,40122,14,1,"Laboratório de Oscilaçoes, Ondas e Fluidos",17
+50463,40122,28,1,4,18
+50464,40122,4,2,"Instituto de Física",21
+50465,40123,14,1,"Física Matemática B",17
+50466,40123,28,1,4,18
+50467,40123,4,2,"Instituto de Física",21
+50468,40124,14,1,"Mecânica Quântica A",17
+50469,40124,28,1,4,18
+50470,40124,4,2,"Instituto de Física",21
+50471,40125,14,1,"Teoria Eletromagnética A",17
+50472,40125,28,1,4,18
+50473,40125,4,2,"Instituto de Física",21
+50474,40126,14,1,"Laboratório de Eletromagnetismo A",17
+50475,40126,28,1,4,18
+50476,40126,4,2,"Instituto de Física",21
+50477,40127,14,1,"Laboratório de Termodinâmcia e Física Estatística",17
+50478,40127,28,1,4,18
+50479,40127,4,2,"Instituto de Física",21
+50480,40128,14,1,Termoestatística,17
+50481,40128,28,1,4,18
+50482,40128,4,2,"Instituto de Física",21
+50483,40129,14,1,"Teoria Eletromagnética B",17
+50484,40129,28,1,4,18
+50485,40129,4,2,"Instituto de Física",21
+50486,40130,14,1,"Mecânica Quântica B",17
+50487,40130,28,1,6,18
+50488,40130,4,2,"Instituto de Física",21
+50489,40131,14,1,"Termodinâmica e Física Estatística",17
+50490,40131,28,1,4,18
+50491,40131,4,2,"Instituto de Física",21
+50492,40132,14,1,"Laboratório de Óptica e Fotônica",17
+50493,40132,28,1,4,18
+50494,40132,4,2,"Instituto de Física",21
+50495,40133,14,1,"Laboratório de Espectroscopia A",17
+50496,40133,28,1,4,18
+50497,40133,4,2,"Instituto de Física",21
+50498,40134,14,1,"História e Filosofia da Física",17
+50499,40134,28,1,4,18
+50500,40134,4,2,"Instituto de Física",21
+50501,40135,14,1,"Laboratório de Espectroscopia B",17
+50502,40135,28,1,4,18
+50503,40135,4,2,"Instituto de Física",21
+50504,40136,14,1,"Laboratório de Eletromagnetismo B",17
+50505,40136,28,1,4,18
+50506,40136,4,2,"Instituto de Física",21
+50507,40137,14,1,"Laboratório de Instrumentaçao Científica B",17
+50508,40137,28,1,4,18
+50509,40137,4,2,"Instituto de Física",21
+50510,40138,14,1,"Partículas e Campos A",17
+50511,40138,28,1,4,18
+50512,40138,4,2,"Instituto de Física",21
+50513,40139,14,1,"Partículas e Campos B",17
+50514,40139,28,1,4,18
+50515,40139,4,2,"Instituto de Física",21
+50516,40140,14,1,"Teoria Clássica de Campos",17
+50517,40140,28,1,4,18
+50518,40140,4,2,"Instituto de Física",21
+50519,40141,14,1,"História da Física B",17
+50520,40141,28,1,4,18
+50521,40141,4,2,"Instituto de Física",21
+50522,40142,14,1,"Física do Estado Sólido B",17
+50523,40142,28,1,4,18
+50524,40142,4,2,"Instituto de Física",21
+50525,40143,14,1,Astrofísica,17
+50526,40143,28,1,4,18
+50527,40143,4,2,"Instituto de Física",21
+50528,40144,14,1,"Sistemas Dinâmicos",17
+50529,40144,28,1,4,18
+50530,40144,4,2,"Instituto de Física",21
+50531,40145,14,1,Cosmologia,17
+50532,40145,28,1,4,18
+50533,40145,4,2,"Instituto de Física",21
+50534,40146,14,1,"Física Atômica e Molecular A",17
+50535,40146,28,1,4,18
+50536,40146,4,2,"Instituto de Física",21
+50537,40147,14,1,"Física Atômica e Molecular B",17
+50538,40147,28,1,4,18
+50539,40147,4,2,"Instituto de Física",21
+50540,40148,14,1,"História da Arte-Educaçao 1 - Teatro",17
+50541,40148,28,1,4,18
+50542,40148,4,2,"Instituto de Artes",21
+50543,40149,14,1,"Física do Estado Sólido A",17
+50544,40149,28,1,4,18
+50545,40149,4,2,"Instituto de Física",21
+50546,40150,14,1,"História da Física A",17
+50547,40150,28,1,4,18
+50548,40150,4,2,"Instituto de Física",21
+50549,40151,14,1,"Física Biológica",17
+50550,40151,28,1,4,18
+50551,40151,4,2,"Instituto de Física",21
+50552,40152,14,1,"Filosofia da Física",17
+50553,40152,28,1,4,18
+50554,40152,4,2,"Instituto de Física",21
+50555,40153,14,1,"Teoria Clássica dos Fluidos",17
+50556,40153,28,1,4,18
+50557,40153,4,2,"Instituto de Física",21
+50558,40154,14,1,"Física Estatística Fora do Equilibrio",17
+50559,40154,28,1,4,18
+50560,40154,4,2,"Instituto de Física",21
+50561,40155,14,1,"Métodos Computacionais B",17
+50562,40155,28,1,4,18
+50563,40155,4,2,"Instituto de Física",21
+50564,40156,14,1,Eletromagnetismo,17
+50565,40156,28,1,6,18
+50566,40156,4,2,"Instituto de Física",21
+50567,40157,14,1,"RELATIVIDADE GERAL",17
+50568,40157,28,1,4,18
+50569,40157,4,2,"Instituto de Física",21
+50570,40158,14,1,"Educaçao Física e Cinema",17
+50571,40158,28,1,2,18
+50572,40158,4,2,"Faculdade de Educaçao Física",21
+50573,40159,14,1,"Educaçao Física e Vivencias Corporais Alternativas",17
+50574,40159,28,1,2,18
+50575,40159,4,2,"Faculdade de Educaçao Física",21
+50576,40160,14,1,"Educaçao Física e Literatura",17
+50577,40160,28,1,2,18
+50578,40160,4,2,"Faculdade de Educaçao Física",21
+50579,40161,14,1,"Educaçao Física, Música e Arte",17
+50580,40161,28,1,2,18
+50581,40161,4,2,"Faculdade de Educaçao Física",21
+50582,40162,14,1,"Jogos e Brincadeiras Populares",17
+50583,40162,28,1,2,18
+50584,40162,4,2,"Faculdade de Educaçao Física",21
+50585,40163,14,1,"Danças e Brincadeiras Cantadas",17
+50586,40163,28,1,2,18
+50587,40163,4,2,"Faculdade de Educaçao Física",21
+50588,40164,14,1,"Educaçao Tutorial: A Universidade em Questao",17
+50589,40164,28,1,1,18
+50590,40164,4,2,"Faculdade de Educaçao Física",21
+50591,40165,14,1,"Educaçao Tutorial: O currículo de Formaçao em Educaçao Física",17
+50592,40165,28,1,2,18
+50593,40165,4,2,"Faculdade de Educaçao Física",21
+50594,40166,14,1,"Educaçao Tutorial: Mundo do Trabalho em Educaçao Física",17
+50595,40166,28,1,1,18
+50596,40166,4,2,"Faculdade de Educaçao Física",21
+50597,40167,14,1,"Projeto de Trabalho de Conclusao de Curso",17
+50598,40167,28,1,2,18
+50599,40167,4,2,"Instituto de Física",21
+50600,40168,14,1,"Trabalho de Conclusao de Curso",17
+50601,40168,28,1,6,18
+50602,40168,4,2,"Instituto de Física",21
+50603,40169,14,1,"Tópicos Especiais A",17
+50604,40169,28,1,4,18
+50605,40169,4,2,"Instituto de Física",21
+50606,40170,14,1,"Tópicos Especiais B",17
+50607,40170,28,1,4,18
+50608,40170,4,2,"Instituto de Física",21
+50609,40171,14,1,"Tópicos Especiais C",17
+50610,40171,28,1,4,18
+50611,40171,4,2,"Instituto de Física",21
+50612,40172,14,1,"Tópicos Especiais D",17
+50613,40172,28,1,4,18
+50614,40172,4,2,"Instituto de Física",21
+50615,40173,14,1,"Arte e Cultura Popular - Teatro",17
+50616,40173,28,1,4,18
+50617,40173,4,2,"Instituto de Artes",21
+50618,40174,14,1,"História da Arte-Educaçao 2 - Teatro",17
+50619,40174,28,1,4,18
+50620,40174,4,2,"Instituto de Artes",21
+50621,40175,14,1,"História do Teatro 1",17
+50622,40175,28,1,6,18
+50623,40175,4,2,"Instituto de Artes",21
+50624,40176,14,1,"História do Teatro 2",17
+50625,40176,28,1,6,18
+50626,40176,4,2,"Instituto de Artes",21
+50627,40177,14,1,"Laboratório de Poéticas Contemporâneas - Teatro",17
+50628,40177,28,1,6,18
+50629,40177,4,2,"Instituto de Artes",21
+50630,40178,14,1,"Introduçao a Teoria do Orbital Molecular",17
+50631,40178,28,1,4,18
+50632,40178,4,2,"Instituto de Química",21
+50633,40179,14,1,"Tópicos Contemporâneos em Gestao de Políticas Públicas 1",17
+50634,40179,28,1,4,18
+50635,40179,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+50636,40180,14,1,"Tópicos Contemporâneos em Gestao de Políticas Públicas 2",17
+50637,40180,28,1,4,18
+50638,40180,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+50639,40181,14,1,"Tópicos Contemporâneos em Gestao de Políticas Públicas 3",17
+50640,40181,28,1,4,18
+50641,40181,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+50642,40182,14,1,"Tópicos Contemporâneos em Gestao de Políticas Públicas 4",17
+50643,40182,28,1,4,18
+50644,40182,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+50645,40183,14,1,"Introduçao a Biologia Marinha",17
+50646,40183,28,1,5,18
+50647,40183,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50648,40184,14,1,"Toxicantes de Interesse em Alimentos",17
+50649,40184,28,1,2,18
+50650,40184,4,2,"UnB - Faculdade da Ceilândia",21
+50651,40185,14,1,"Toxicologia e Essencialidade de Metais",17
+50652,40185,28,1,2,18
+50653,40185,4,2,"UnB - Faculdade da Ceilândia",21
+50654,40186,14,1,"Fonética Acústica",17
+50655,40186,28,1,4,18
+50656,40186,4,2,"UnB - Faculdade da Ceilândia",21
+50657,40187,14,1,"Ciclos de Vida e Fonoaudiologia do Nascimento r Primeira Infância",17
+50658,40187,28,1,2,18
+50659,40187,4,2,"UnB - Faculdade da Ceilândia",21
+50660,40188,14,1,"Fundamentos de Audiologia",17
+50661,40188,28,1,8,18
+50662,40188,4,2,"UnB - Faculdade da Ceilândia",21
+50663,40189,14,1,"Mecânica do Vôo Espacial",17
+50664,40189,28,1,4,18
+50665,40189,4,2,"UnB - Faculdade do Gama",21
+50666,40190,14,1,"Projeto de Sistemas Aeroespaciais",17
+50667,40190,28,1,6,18
+50668,40190,4,2,"UnB - Faculdade do Gama",21
+50669,40191,14,1,"Filosofia da Medicina",17
+50670,40191,28,1,3,18
+50671,40191,4,2,"Faculdade de Medicina",21
+50672,40192,14,1,"Mecânica dos Fluídos Magnéticos",17
+50673,40192,28,1,4,18
+50674,40192,4,2,"Departamento de Engenharia Mecânica",21
+50675,40193,14,1,"Redes de Telecomunicaçoes",17
+50676,40193,28,1,4,18
+50677,40193,4,2,"Departamento de Engenharia Elétrica.",21
+50678,40194,14,1,"Laboratório de Redes de Telecomunicaçoes",17
+50679,40194,28,1,2,18
+50680,40194,4,2,"Departamento de Engenharia Elétrica.",21
+50681,40195,14,1,"Arquitetura e Protocolos de Redes",17
+50682,40195,28,1,4,18
+50683,40195,4,2,"Departamento de Engenharia Elétrica.",21
+50684,40196,14,1,"Laboratório de Arquitetura e Protocolos de Redes",17
+50685,40196,28,1,2,18
+50686,40196,4,2,"Departamento de Engenharia Elétrica.",21
+50687,40197,14,1,"Algoritmos e Estrutura de Dados",17
+50688,40197,28,1,4,18
+50689,40197,4,2,"Departamento de Engenharia Elétrica.",21
+50690,40198,14,1,"Planejamento de Redes sem Fio",17
+50691,40198,28,1,4,18
+50692,40198,4,2,"Departamento de Engenharia Elétrica.",21
+50693,40199,14,1,"Fundamentos de Redes 2",17
+50694,40199,28,1,4,18
+50695,40199,4,2,"Departamento de Engenharia Elétrica.",21
+50696,40200,14,1,"Gerencia de Redes e Sistemas",17
+50697,40200,28,1,4,18
+50698,40200,4,2,"Departamento de Engenharia Elétrica.",21
+50699,40201,14,1,"Avaliaçao de Desempenho de Redes e Sistemas",17
+50700,40201,28,1,4,18
+50701,40201,4,2,"Departamento de Engenharia Elétrica.",21
+50702,40202,14,1,"Tópicos em Biofísica 1",17
+50703,40202,28,1,4,18
+50704,40202,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50705,40203,14,1,"Tópicos em Biofísica 1",17
+50706,40203,28,1,4,18
+50707,40203,4,2,"Departamento de Biologia Celular",21
+50708,40204,14,1,"Cálculo Vetorial e Geometria Analítica",17
+50709,40204,28,1,4,18
+50710,40204,4,2,"UnB - Faculdade de Planaltina",21
+50711,40205,14,1,"Educaçao e Comunicaçao Comunitária",17
+50712,40205,28,1,4,18
+50713,40205,4,2,"UnB - Faculdade de Planaltina",21
+50714,40206,14,1,"Práticas Avançadas em Neurofarmacologia",17
+50715,40206,28,1,6,18
+50716,40206,4,2,"Faculdade de Ciencias da Saúde",21
+50717,40207,14,1,"Introduçao á Engenharia Territorial",17
+50718,40207,28,1,4,18
+50719,40207,4,2,"Departamento de Engenharia Civil e Ambiental",21
+50720,40208,14,1,"Estágio Supervisionado para Segunda Lic. em Ciencias Naturais 3",17
+50721,40208,28,1,5,18
+50722,40208,4,2,"UnB - Faculdade de Planaltina",21
+50723,40209,14,1,"Trabalho de Conclusao do Curso 2",17
+50724,40209,28,1,4,18
+50725,40209,4,2,"UnB - Faculdade de Planaltina",21
+50726,40210,14,1,"Humanidade, Ciencia e Tecnologia",17
+50727,40210,28,1,24,18
+50728,40210,4,2,"UnB - Faculdade de Planaltina",21
+50729,40211,14,1,"Pesquisa em Biofísica",17
+50730,40211,28,1,6,18
+50731,40211,4,2,"Direçao do Instituto Ciencias Biológicas",21
+50732,40212,14,1,"Fisioterapia no Tratamento da Dor Crônica Vertebral",17
+50733,40212,28,1,2,18
+50734,40212,4,2,"UnB - Faculdade da Ceilândia",21
+50735,40213,14,1,"Práticas em Ciencias Ambientais",17
+50736,40213,28,1,4,18
+50737,40213,4,2,"Departamento de Ecologia",21
+50738,40214,14,1,"Fundamentos de Ensino de Química",17
+50739,40214,28,1,2,18
+50740,40214,4,2,"Instituto de Química",21
+50741,40215,14,1,"Trabalho de Conclusao de Curso 2 - Lic em Química",17
+50742,40215,28,1,2,18
+50743,40215,4,2,"Instituto de Química",21
+50744,40216,14,1,"Estágio em Regencia no Ensino de Química 1",17
+50745,40216,28,1,6,18
+50746,40216,4,2,"Instituto de Química",21
+50747,40217,14,1,"Avaliaçao no Ensino de Química",17
+50748,40217,28,1,2,18
+50749,40217,4,2,"Instituto de Química",21
+50750,40218,14,1,"Aulas de Química em Sala Ambiente",17
+50751,40218,28,1,2,18
+50752,40218,4,2,"Instituto de Química",21
+50753,40219,14,1,"Prática Interdisciplinar em Ensino de Química 2",17
+50754,40219,28,1,3,18
+50755,40219,4,2,"Instituto de Química",21
+50756,40220,14,1,"Contexto Escolar e Ensino de Química",17
+50757,40220,28,1,3,18
+50758,40220,4,2,"Instituto de Química",21
+50759,40221,14,1,"Didática da Química",17
+50760,40221,28,1,4,18
+50761,40221,4,2,"Instituto de Química",21
+50762,40222,14,1,"Bases Celulares e Morfológicas do Desenvolvimento Regeneraçao Muscular",17
+50763,40222,28,1,2,18
+50764,40222,4,2,"UnB - Faculdade da Ceilândia",21
+50765,40223,14,1,"Sociologia do Audio Visual",17
+50766,40223,28,1,4,18
+50767,40223,4,2,"Departamento de Sociologia",21
+50768,40224,14,1,"Sociologia das Diferenças Sexuais",17
+50769,40224,28,1,4,18
+50770,40224,4,2,"Departamento de Sociologia",21
+50771,40225,14,1,"Laboratório de Ensino de Matemática",17
+50772,40225,28,1,3,18
+50773,40225,4,2,"Departamento de Matemática.",21
+50774,40226,14,1,"Teoria e Pensamento Social 1",17
+50775,40226,28,1,4,18
+50776,40226,4,2,"Departamento de Sociologia",21
+50777,40227,14,1,"Cálculo de Varias Variáveis",17
+50778,40227,28,1,3,18
+50779,40227,4,2,"Departamento de Matemática.",21
+50780,40228,14,1,"Sociologias Emergentes",17
+50781,40228,28,1,4,18
+50782,40228,4,2,"Departamento de Sociologia",21
+50783,40229,14,1,"Estágio de Docencia 2",17
+50784,40229,28,1,7,18
+50785,40229,4,2,"Departamento de Matemática.",21
+50786,40230,14,1,"Epistemologia das Ciencias Sociais",17
+50787,40230,28,1,4,18
+50788,40230,4,2,"Departamento de Sociologia",21
+50789,40231,14,1,"Geometria Espacial",17
+50790,40231,28,1,3,18
+50791,40231,4,2,"Departamento de Matemática.",21
+50792,40232,14,1,"Fundamentos de Álgebra 1",17
+50793,40232,28,1,2,18
+50794,40232,4,2,"Departamento de Matemática.",21
+50795,40233,14,1,"Sociologia do Conflito",17
+50796,40233,28,1,4,18
+50797,40233,4,2,"Departamento de Sociologia",21
+50798,40234,14,1,"Sociologia da Violencia na Perspectiva das Relaçoes de Genero",17
+50799,40234,28,1,4,18
+50800,40234,4,2,"Departamento de Sociologia",21
+50801,40235,14,1,"Laboratório de Crítica,Teoria e História da Arte 2",17
+50802,40235,28,1,4,18
+50803,40235,4,2,"Departamento de Artes Visuais",21
+50804,40236,14,1,"Crítica e História da Arte no Brasil 4",17
+50805,40236,28,1,4,18
+50806,40236,4,2,"Departamento de Artes Visuais",21
+50807,40237,14,1,"Teoria, Crítica e História da Arte 6",17
+50808,40237,28,1,4,18
+50809,40237,4,2,"Departamento de Artes Visuais",21
+50810,40238,14,1,"Teoria e História da Arte e da Imagem no Espaço/Tempo 1",17
+50811,40238,28,1,4,18
+50812,40238,4,2,"Departamento de Artes Visuais",21
+50813,40239,14,1,"Recursos Hídricos Para Ciencias Ambientais",17
+50814,40239,28,1,6,18
+50815,40239,4,2,"Instituto de Geociencias",21
+50816,40240,14,1,"Sistemas Agroflorestais",17
+50817,40240,28,1,4,18
+50818,40240,4,2,"Departamento de Engenharia Florestal",21
+50819,40241,14,1,"Introduçao r Farmácia",17
+50820,40241,28,1,2,18
+50821,40241,4,2,"UnB - Faculdade da Ceilândia",21
+50822,40242,14,1,"Tópicos Especiais em Microeletrônica",17
+50823,40242,28,1,4,18
+50824,40242,4,2,"Departamento de Engenharia Elétrica.",21
+50825,40243,14,1,"Laboratório de Econometria",17
+50826,40243,28,1,4,18
+50827,40243,4,2,"Departamento de Economia",21
+50828,40244,14,1,"Estágio Supervisionado Psicólogo - Área Soc. Trab. e Org. 4",17
+50829,40244,28,1,12,18
+50830,40244,4,2,"Departamento de Psicologia Social e do Trabalho",21
+50831,40245,14,1,"Estágio Supervisionado Psicólogo - Área Soc. Trab. e Org. 5",17
+50832,40245,28,1,12,18
+50833,40245,4,2,"Departamento de Psicologia Social e do Trabalho",21
+50834,40246,14,1,"Intercâmbio Internacional",17
+50835,40246,28,1,16,18
+50836,40246,4,2,"Instituto de Relaçoes Internacionais",21
+50837,40247,14,1,"Tópicos Especiais em Introduçao ao Estudo das Relaçoes Internacionais",17
+50838,40247,28,1,4,18
+50839,40247,4,2,"Instituto de Relaçoes Internacionais",21
+50840,40248,14,1,"Estágio Supervisionado em Ingles 1",17
+50841,40248,28,1,14,18
+50842,40248,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50843,40249,14,1,"Estágio Supervisionado em Ingles 2",17
+50844,40249,28,1,14,18
+50845,40249,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50846,40250,14,1,"Estudos Orientados em Pesquisa em Saúde e Enfermagem 1",17
+50847,40250,28,1,2,18
+50848,40250,4,2,"Departamento de Enfermagem",21
+50849,40251,14,1,"Estudos Orientados em Pesquisa em Saúde e Enfermagem 2",17
+50850,40251,28,1,1,18
+50851,40251,4,2,"Departamento de Enfermagem",21
+50852,40252,14,1,"Estudos Orientados em Pesquisa em Saúde e Enfermagem 3",17
+50853,40252,28,1,2,18
+50854,40252,4,2,"Departamento de Enfermagem",21
+50855,40253,14,1,"Serviços Clínicos Farmaceuticos",17
+50856,40253,28,1,2,18
+50857,40253,4,2,"UnB - Faculdade da Ceilândia",21
+50858,40254,14,1,"Elaboraçao de Projetos Paisagisticos",17
+50859,40254,28,1,4,18
+50860,40254,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+50861,40255,14,1,"Física do Solo",17
+50862,40255,28,1,4,18
+50863,40255,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+50864,40256,14,1,"Arborizaçao Urbana",17
+50865,40256,28,1,4,18
+50866,40256,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+50867,40257,14,1,"Impostaçao de Voz",17
+50868,40257,28,1,2,18
+50869,40257,4,2,"UnB - Faculdade da Ceilândia",21
+50870,40258,14,1,"Tecnologias Assistivas em Audiologia",17
+50871,40258,28,1,4,18
+50872,40258,4,2,"UnB - Faculdade da Ceilândia",21
+50873,40259,14,1,"Práticas em Fonoaudiologia: do Nascimento r Primeira Infância",17
+50874,40259,28,1,4,18
+50875,40259,4,2,"UnB - Faculdade da Ceilândia",21
+50876,40260,14,1,"Pesquisas em Disturbios da Comunicaçao",17
+50877,40260,28,1,4,18
+50878,40260,4,2,"UnB - Faculdade da Ceilândia",21
+50879,40261,14,1,"Vivencia em Saúde Fonoaudiológica: Do Nascimento r Primeira Infância",17
+50880,40261,28,1,4,18
+50881,40261,4,2,"UnB - Faculdade da Ceilândia",21
+50882,40262,14,1,"Fonoaudiologia na Atençao Primaria r Saúde",17
+50883,40262,28,1,2,18
+50884,40262,4,2,"UnB - Faculdade da Ceilândia",21
+50885,40263,14,1,"Pesquisa em Motricidade Orofacial e Disfagia",17
+50886,40263,28,1,4,18
+50887,40263,4,2,"UnB - Faculdade da Ceilândia",21
+50888,40264,14,1,"Pesquisa em Promoçao do Uso Racional dos Medicamentos",17
+50889,40264,28,1,4,18
+50890,40264,4,2,"UnB - Faculdade da Ceilândia",21
+50891,40265,14,1,"Introduçao a Engenharia de Materiais",17
+50892,40265,28,1,4,18
+50893,40265,4,2,"Instituto de Química",21
+50894,40266,14,1,"Materiais e Microestrutura",17
+50895,40266,28,1,2,18
+50896,40266,4,2,"Instituto de Química",21
+50897,40267,14,1,"Tópicos Avançados em Terapia Manual 1",17
+50898,40267,28,1,2,18
+50899,40267,4,2,"UnB - Faculdade da Ceilândia",21
+50900,40268,14,1,"Pesquisa em Oncologia",17
+50901,40268,28,1,4,18
+50902,40268,4,2,"UnB - Faculdade da Ceilândia",21
+50903,40269,14,1,"Tópicos Avançados em Terapia Manual 2",17
+50904,40269,28,1,2,18
+50905,40269,4,2,"UnB - Faculdade da Ceilândia",21
+50906,40270,14,1,"Cuidados em Queimaduras",17
+50907,40270,28,1,4,18
+50908,40270,4,2,"UnB - Faculdade da Ceilândia",21
+50909,40271,14,1,"Geometria Plana 2",17
+50910,40271,28,1,2,18
+50911,40271,4,2,"Departamento de Matemática.",21
+50912,40272,14,1,"Introduçao rs Probabilidades Discretas",17
+50913,40272,28,1,3,18
+50914,40272,4,2,"Departamento de Matemática.",21
+50915,40273,14,1,"Tópicos de Geometria Analítica",17
+50916,40273,28,1,1,18
+50917,40273,4,2,"Departamento de Matemática.",21
+50918,40274,14,1,"Tópicos de Álgebra Linear",17
+50919,40274,28,1,3,18
+50920,40274,4,2,"Departamento de Matemática.",21
+50921,40275,14,1,"Portugues Para Estrangeiros: Língua e Cultura 1",17
+50922,40275,28,1,4,18
+50923,40275,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50924,40276,14,1,"Portugues Para Estrangeiros: Língua e Cultura 2",17
+50925,40276,28,1,4,18
+50926,40276,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50927,40277,14,1,"Portugues Para Estrangeiros: Comunicaçao Oral e Escrita 1",17
+50928,40277,28,1,4,18
+50929,40277,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50930,40278,14,1,"Portugues Para Estrangeiros: Comunicaçao Oral e Escrita 2",17
+50931,40278,28,1,4,18
+50932,40278,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50933,40279,14,1,"Trabalho de Conclusao de Curso",17
+50934,40279,28,1,4,18
+50935,40279,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+50936,40280,14,1,"Ciclos de Vida e Fonoaudiologia: Infância a Adolescencia",17
+50937,40280,28,1,6,18
+50938,40280,4,2,"UnB - Faculdade da Ceilândia",21
+50939,40281,14,1,"Trabalho de Conclusao de Curso",17
+50940,40281,28,1,4,18
+50941,40281,4,2,"Departamento de Matemática.",21
+50942,40282,14,1,"Estágio Supervisionado em Portugues 1",17
+50943,40282,28,1,14,18
+50944,40282,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50945,40283,14,1,"Estágio Supervisionado em Portugues 2",17
+50946,40283,28,1,14,18
+50947,40283,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50948,40284,14,1,"Estágio Supervisionado em Língua Portuguesa e Literatura 1",17
+50949,40284,28,1,14,18
+50950,40284,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50951,40285,14,1,"Estágio Supervisionado em Língua Portuguesa e Literatura 2",17
+50952,40285,28,1,14,18
+50953,40285,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50954,40286,14,1,"Estágio Supervisionado 1 em Portugues do Brasil como Segunda Língua",17
+50955,40286,28,1,14,18
+50956,40286,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50957,40287,14,1,"Estágio Supervisionado 2 em Portugues do Brasil como Segunda Língua",17
+50958,40287,28,1,14,18
+50959,40287,4,2,"Departamento de Linguística, Portugues, Líng Clás",21
+50960,40288,14,1,"Tópicos Especiais em Práticas Pedagógicas",17
+50961,40288,28,1,4,18
+50962,40288,4,2,"Departamento de Métodos e Técnicas",21
+50963,40289,14,1,"Neuroanatomia Clínica",17
+50964,40289,28,1,2,18
+50965,40289,4,2,"UnB - Faculdade da Ceilândia",21
+50966,40290,14,1,"Interpretaçao de Exames no Processo de Cuidar em Enfermagem",17
+50967,40290,28,1,2,18
+50968,40290,4,2,"UnB - Faculdade da Ceilândia",21
+50969,40291,14,1,"Trabalho de Conclusao do Curso de Teatro 1",17
+50970,40291,28,1,6,18
+50971,40291,4,2,"Instituto de Artes",21
+50972,40292,14,1,"Trabalho de Conclusao do Curso de Teatro 2",17
+50973,40292,28,1,6,18
+50974,40292,4,2,"Instituto de Artes",21
+50975,40293,14,1,"Metodologia de Pesquisa em Artes Cenicas",17
+50976,40293,28,1,4,18
+50977,40293,4,2,"Instituto de Artes",21
+50978,40294,14,1,"Tópicos Especiais em Artes Cenicas 2",17
+50979,40294,28,1,4,18
+50980,40294,4,2,"Instituto de Artes",21
+50981,40295,14,1,"Tópicos Especiais em Artes Cenicas 3",17
+50982,40295,28,1,6,18
+50983,40295,4,2,"Instituto de Artes",21
+50984,40296,14,1,"Tópicos Especiais em Artes Cenicas 4",17
+50985,40296,28,1,4,18
+50986,40296,4,2,"Instituto de Artes",21
+50987,40297,14,1,"Economia da Infraestrutura",17
+50988,40297,28,1,4,18
+50989,40297,4,2,"Departamento de Economia",21
+50990,40298,14,1,"Bases de Fisiologia Endócrina",17
+50991,40298,28,1,2,18
+50992,40298,4,2,"UnB - Faculdade da Ceilândia",21
+50993,40299,14,1,"Tópicos em Redes de Comunicaçao 3",17
+50994,40299,28,1,2,18
+50995,40299,4,2,"Departamento de Engenharia Elétrica.",21
+50996,40300,14,1,"Projeto Transversal em Redes de Comunicaçao 1",17
+50997,40300,28,1,4,18
+50998,40300,4,2,"Departamento de Engenharia Elétrica.",21
+50999,40301,14,1,"Projeto Transversal em Redes de Comunicaçao 2",17
+51000,40301,28,1,2,18
+51001,40301,4,2,"Departamento de Engenharia Elétrica.",21
+51002,40302,14,1,"Surdez: Cultura, Língua e Sociedade",17
+51003,40302,28,1,4,18
+51004,40302,4,2,"UnB - Faculdade da Ceilândia",21
+51005,40303,14,1,"Práticas de Campo em Botânica",17
+51006,40303,28,1,4,18
+51007,40303,4,2,"UnB - Faculdade de Planaltina",21
+51008,40304,14,1,"Validaçao de Métodos Analíticos",17
+51009,40304,28,1,4,18
+51010,40304,4,2,"UnB - Faculdade da Ceilândia",21
+51011,40305,14,1,"Práticas em Fonoaudiologia da Infância a Adolescencia",17
+51012,40305,28,1,8,18
+51013,40305,4,2,"UnB - Faculdade da Ceilândia",21
+51014,40306,14,1,"Vivencia em Saúde Fonoaudiológica da Infância a Adolescencia",17
+51015,40306,28,1,8,18
+51016,40306,4,2,"UnB - Faculdade da Ceilândia",21
+51017,40307,14,1,"Educaçao Física Adaptada",17
+51018,40307,28,1,4,18
+51019,40307,4,2,"Faculdade de Educaçao Física",21
+51020,40308,14,1,"Práticas em Ciencias Ambientais",17
+51021,40308,28,1,4,18
+51022,40308,4,2,"Direçao do Instituto Ciencias Biológicas",21
+51023,40309,14,1,"Ergonomia Aplicada r Arquitetura de Interiores",17
+51024,40309,28,1,4,18
+51025,40309,4,2,"Departamento de Projetos Expressao e Representaçao",21
+51026,40310,14,1,"Tópicos de Tecnologia Farmaceutica",17
+51027,40310,28,1,4,18
+51028,40310,4,2,"UnB - Faculdade da Ceilândia",21
+51029,40311,14,1,"Informaçao sobre Medicamentos: Busca, Recuperaçao e Análise",17
+51030,40311,28,1,2,18
+51031,40311,4,2,"UnB - Faculdade da Ceilândia",21
+51032,40312,14,1,"Geografia,  Ambiente e Saúde",17
+51033,40312,28,1,4,18
+51034,40312,4,2,"Departamento de Geografia",21
+51035,40313,14,1,"Práticas Pedagógicas em Filosofia",17
+51036,40313,28,1,2,18
+51037,40313,4,2,"Departamento de Filosofia",21
+51038,40314,14,1,"Estudos e Pesquisas em Administraçao",17
+51039,40314,28,1,2,18
+51040,40314,4,2,"Departamento de Administraçao",21
+51041,40315,14,1,"Tópicos Contemporâneos em Estratégia",17
+51042,40315,28,1,2,18
+51043,40315,4,2,"Departamento de Administraçao",21
+51044,40316,14,1,"Tópicos Contemporâneos em Inovaçao",17
+51045,40316,28,1,2,18
+51046,40316,4,2,"Departamento de Administraçao",21
+51047,40317,14,1,"Inovaçao em Serviços",17
+51048,40317,28,1,4,18
+51049,40317,4,2,"Departamento de Administraçao",21
+51050,40318,14,1,"Gestao de Marcas",17
+51051,40318,28,1,4,18
+51052,40318,4,2,"Departamento de Administraçao",21
+51053,40319,14,1,"Logística Internacional",17
+51054,40319,28,1,4,18
+51055,40319,4,2,"Departamento de Administraçao",21
+51056,40320,14,1,"Marketing Socialmente Responsável",17
+51057,40320,28,1,4,18
+51058,40320,4,2,"Departamento de Administraçao",21
+51059,40321,14,1,"Marketing de Serviços",17
+51060,40321,28,1,4,18
+51061,40321,4,2,"Departamento de Administraçao",21
+51062,40322,14,1,"Introduçao a Metodologia de Pesquisa para Engenharia de Produçao",17
+51063,40322,28,1,2,18
+51064,40322,4,2,"Departamento de Engenharia de Produçao",21
+51065,40323,14,1,"Tópicos Especiais em Gastronomia 2",17
+51066,40323,28,1,2,18
+51067,40323,4,2,"Centro de Excelencia em Turismo",21
+51068,40324,14,1,"Filosofia Francesa Contemporânea",17
+51069,40324,28,1,4,18
+51070,40324,4,2,"Departamento de Filosofia",21
+51071,40325,14,1,"Tópicos Avançados em Audiologia",17
+51072,40325,28,1,2,18
+51073,40325,4,2,"UnB - Faculdade da Ceilândia",21
+51074,40326,14,1,"Tópicos Especiais em Neurociencia Cognitiva",17
+51075,40326,28,1,4,18
+51076,40326,4,2,"UnB - Faculdade da Ceilândia",21
+51077,40327,14,1,"Pesquisa em Neurociencia Cognitiva",17
+51078,40327,28,1,4,18
+51079,40327,4,2,"UnB - Faculdade da Ceilândia",21
+51080,40328,14,1,"Termodinâmica Aplicada",17
+51081,40328,28,1,2,18
+51082,40328,4,2,"Instituto de Química",21
+51083,40329,14,1,"Terapia Ocupacional no Campo Social",17
+51084,40329,28,1,4,18
+51085,40329,4,2,"UnB - Faculdade da Ceilândia",21
+51086,40330,14,1,"Língua Neerlandesa (Holandes) 1",17
+51087,40330,28,1,4,18
+51088,40330,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+51089,40331,14,1,"Língua Neerlandesa (Holandes) 2",17
+51090,40331,28,1,4,18
+51091,40331,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+51092,40332,14,1,"Língua Neerlandesa (Holandes) 3",17
+51093,40332,28,1,4,18
+51094,40332,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+51095,40333,14,1,"Fonoaudiologia Hospitalar",17
+51096,40333,28,1,2,18
+51097,40333,4,2,"UnB - Faculdade da Ceilândia",21
+51098,40334,14,1,"Ciclos de Vida e Fonoaudiologia: Vida Adulta e Envelhecimento",17
+51099,40334,28,1,4,18
+51100,40334,4,2,"UnB - Faculdade da Ceilândia",21
+51101,40335,14,1,"Fonoaudiologia Educacional",17
+51102,40335,28,1,2,18
+51103,40335,4,2,"UnB - Faculdade da Ceilândia",21
+51104,40336,14,1,"Filosofia Africana",17
+51105,40336,28,1,4,18
+51106,40336,4,2,"Departamento de Filosofia",21
+51107,40337,14,1,"Filosofia do Ensino de Filosofia",17
+51108,40337,28,1,4,18
+51109,40337,4,2,"Departamento de Filosofia",21
+51110,40338,14,1,"Filosofia e Crianças - Uma Educaçao Filosófica",17
+51111,40338,28,1,4,18
+51112,40338,4,2,"Departamento de Filosofia",21
+51113,40339,14,1,"Filosofia e Feminismo",17
+51114,40339,28,1,4,18
+51115,40339,4,2,"Departamento de Filosofia",21
+51116,40340,14,1,"Fundamentos Matemáticos da Física para Ciencias Biológicas",17
+51117,40340,28,1,2,18
+51118,40340,4,2,"Instituto de Física",21
+51119,40341,14,1,"Estudo de Problemas Brasileiros 1",17
+51120,40341,28,1,1,18
+51121,40341,4,2,"Instituto de Ciencias Exatas",21
+51122,40342,14,1,"Tópicoa Especiais em Ciencias Ambientais 1",17
+51123,40342,28,1,2,18
+51124,40342,4,2,"Instituto de Geociencias",21
+51125,40343,14,1,"Tópicoa Especiais em Ciencias Ambientais 2",17
+51126,40343,28,1,4,18
+51127,40343,4,2,"Instituto de Geociencias",21
+51128,40344,14,1,"Tópicoa Especiais em Ciencias Ambientais 3",17
+51129,40344,28,1,4,18
+51130,40344,4,2,"Instituto de Geociencias",21
+51131,40345,14,1,"Tópicoa Especiais em Ciencias Ambientais 4",17
+51132,40345,28,1,8,18
+51133,40345,4,2,"Instituto de Geociencias",21
+51134,40346,14,1,"Tópicoa Especiais em Ciencias Ambientais 5",17
+51135,40346,28,1,8,18
+51136,40346,4,2,"Instituto de Geociencias",21
+51137,40347,25,1,100021,16
+51138,40347,14,1,"Estudo de Problemas Brasileiros 1",17
+51139,40347,28,1,1,18
+51140,40347,4,2,"Instituto de Geociencias",21
+51141,40348,25,1,100030,16
+51142,40348,14,1,"Estudo de Problemas Brasileiros 2",17
+51143,40348,28,1,1,18
+51144,40348,4,2,"Instituto de Geociencias",21
+51145,40349,25,1,100056,16
+51146,40349,14,1,"MÓD 2 - PROC BIOL NA CAPTAÇAO E NA TRANS DA MATÉRIA E ENER",17
+51147,40349,28,1,26,18
+51148,40349,4,2,"Instituto de Ciencias Biológicas",21
+51149,40350,25,1,100064,16
+51150,40350,14,1,"MÓDULO 3 - PROCESSOS MANUTENÇAO DA VIDA",17
+51151,40350,28,1,25,18
+51152,40350,4,2,"Instituto de Ciencias Biológicas",21
+51153,40351,25,1,100072,16
+51154,40351,14,1,"MÓDULO 4 - DESENVOLVIMENTO E CRESCIMENTO",17
+51155,40351,28,1,25,18
+51156,40351,4,2,"Instituto de Ciencias Biológicas",21
+51157,40352,25,1,100081,16
+51158,40352,14,1,"MÓDULO 5 - PROCESSOS REPRODUTIVOS",17
+51159,40352,28,1,27,18
+51160,40352,4,2,"Instituto de Ciencias Biológicas",21
+51161,40353,25,1,100099,16
+51162,40353,14,1,"MÓDULO 6 - MECANISMOS DE AJUSTAMENTO AMBIENTAL E COLONIZAÇAO",17
+51163,40353,28,1,27,18
+51164,40353,4,2,"Instituto de Ciencias Biológicas",21
+51165,40354,25,1,100102,16
+51166,40354,14,1,"MÓDULO 7 - SOLUÇOES ADAPTATIVAS E FILOGENIA",17
+51167,40354,28,1,28,18
+51168,40354,4,2,"Instituto de Ciencias Biológicas",21
+51169,40355,25,1,100111,16
+51170,40355,14,1,"MÓDULO 8 - PROCESSOS EMERGENTES E BIODIVERSIDADE",17
+51171,40355,28,1,29,18
+51172,40355,4,2,"Instituto de Ciencias Biológicas",21
+51173,40356,25,1,100129,16
+51174,40356,14,1,"Projeto de Sistemas de Produçao 4",17
+51175,40356,28,1,2,18
+51176,40356,4,2,"Departamento de Engenharia de Produçao",21
+51177,40357,25,1,100137,16
+51178,40357,14,1,"Planejamento e Controle da Produçao",17
+51179,40357,28,1,4,18
+51180,40357,4,2,"Departamento de Engenharia de Produçao",21
+51181,40358,25,1,100145,16
+51182,40358,14,1,"Tomada de Decisao com Enfoque em Análise Multicritério",17
+51183,40358,28,1,4,18
+51184,40358,4,2,"Departamento de Engenharia de Produçao",21
+51185,40359,25,1,100153,16
+51186,40359,14,1,"Simulaçao de Sistemas",17
+51187,40359,28,1,4,18
+51188,40359,4,2,"Departamento de Engenharia de Produçao",21
+51189,40360,25,1,100161,16
+51190,40360,14,1,"Gestao de Riscos",17
+51191,40360,28,1,4,18
+51192,40360,4,2,"Departamento de Engenharia de Produçao",21
+51193,40361,25,1,100170,16
+51194,40361,14,1,"Gramática Histórica Comparada das Línguas Modernas",17
+51195,40361,28,1,4,18
+51196,40361,4,2,"Departamento de Línguas Estrangeiras e Traduçao",21
+51197,40362,25,1,100188,16
+51198,40362,14,1,"Introduçao r Vulcanologia",17
+51199,40362,28,1,2,18
+51200,40362,4,2,"Instituto de Geociencias",21
+51201,40363,25,1,100196,16
+51202,40363,14,1,"Físico Química de Polímeros",17
+51203,40363,28,1,4,18
+51204,40363,4,2,"Instituto de Química",21
+51205,40364,25,1,100200,16
+51206,40364,14,1,"Síntese de Polímeros",17
+51207,40364,28,1,4,18
+51208,40364,4,2,"Instituto de Química",21
+51209,40365,25,1,100218,16
+51210,40365,14,1,"Cuidado em Situaçoes Cirúrgicas",17
+51211,40365,28,1,2,18
+51212,40365,4,2,"Departamento de Enfermagem",21
+51213,40366,25,1,100226,16
+51214,40366,14,1,"Fundamentos de Citogenética Humana",17
+51215,40366,28,1,2,18
+51216,40366,4,2,"UnB - Faculdade da Ceilândia",21
+51217,40367,25,1,100234,16
+51218,40367,14,1,Biocombustíveis,17
+51219,40367,28,1,4,18
+51220,40367,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+51221,40368,25,1,100242,16
+51222,40368,14,1,"Tópicos Especiais em Filosofia Oriental",17
+51223,40368,28,1,4,18
+51224,40368,4,2,"Departamento de Filosofia",21
+51225,40369,25,1,100251,16
+51226,40369,14,1,"Genero e Educaçao",17
+51227,40369,28,1,4,18
+51228,40369,4,2,"Faculdade de Educaçao",21
+51229,40370,25,1,100269,16
+51230,40370,14,1,"Controle de Sistemas Marítimos",17
+51231,40370,28,1,4,18
+51232,40370,4,2,"Departamento de Engenharia Mecânica",21
+51233,40371,25,1,100277,16
+51234,40371,14,1,"Introduçao r Exploraçao de Petróleo em Alto Mar",17
+51235,40371,28,1,2,18
+51236,40371,4,2,"Departamento de Engenharia Mecânica",21
+51237,40372,25,1,100285,16
+51238,40372,14,1,"Fundamentos de Engenharia de Reservatório",17
+51239,40372,28,1,2,18
+51240,40372,4,2,"Departamento de Engenharia Mecânica",21
+51241,40373,25,1,100293,16
+51242,40373,14,1,"Trabalho Final de Graduaçao em Arquitetura e Urbanismo",17
+51243,40373,28,1,4,18
+51244,40373,4,2,"Departamento de Projetos Expressao e Representaçao",21
+51245,40374,25,1,100307,16
+51246,40374,14,1,"Sistemas Estruturais em Concreto Armado 2",17
+51247,40374,28,1,4,18
+51248,40374,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+51249,40375,25,1,100315,16
+51250,40375,14,1,"Projeto de Paisagismo 2",17
+51251,40375,28,1,4,18
+51252,40375,4,2,"Departamento de Projetos Expressao e Representaçao",21
+51253,40376,25,1,100323,16
+51254,40376,14,1,"Residencia em Políticas Públicas 1",17
+51255,40376,28,1,4,18
+51256,40376,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+51257,40377,25,1,100331,16
+51258,40377,14,1,"Residencia em Políticas Públicas 2",17
+51259,40377,28,1,4,18
+51260,40377,4,2,"Departamento de Gestao de Políticas Públicas - GPP",21
+51261,40378,25,1,100340,16
+51262,40378,14,1,"Instalaçoes e Equipamentos 1",17
+51263,40378,28,1,2,18
+51264,40378,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+51265,40379,25,1,100358,16
+51266,40379,14,1,"Instalaçoes e Equipamentos 2",17
+51267,40379,28,1,2,18
+51268,40379,4,2,"Departamento de Tecnologia em Arquit. e Urbanismo",21
+51269,40380,25,1,100366,16
+51270,40380,14,1,"Uso Racional de Medicamentos em Odontologia",17
+51271,40380,28,1,2,18
+51272,40380,4,2,"Departamento de Odontologia",21
+51273,40381,25,1,100374,16
+51274,40381,14,1,"Tópicos Complementares em Prótese Total Removível",17
+51275,40381,28,1,2,18
+51276,40381,4,2,"Departamento de Odontologia",21
+51277,40382,25,1,100382,16
+51278,40382,14,1,"Tópicos Complementares em Prótese Parcial Removível",17
+51279,40382,28,1,2,18
+51280,40382,4,2,"Departamento de Odontologia",21
+51281,40383,25,1,100391,16
+51282,40383,14,1,"Design de Interaçao",17
+51283,40383,28,1,4,18
+51284,40383,4,2,"Departamento de Desenho Industrial",21
+51285,40384,25,1,100404,16
+51286,40384,14,1,"Projeto de Extensao em Música 1",17
+51287,40384,28,1,4,18
+51288,40384,4,2,"Departamento de Música",21
+51289,40385,25,1,100412,16
+51290,40385,14,1,"Projeto de Extensao em Música 2",17
+51291,40385,28,1,4,18
+51292,40385,4,2,"Departamento de Música",21
+51293,40386,25,1,100421,16
+51294,40386,14,1,"Introduçao aos Cuidados Paliativos",17
+51295,40386,28,1,2,18
+51296,40386,4,2,"UnB - Faculdade da Ceilândia",21
+51297,40387,25,1,100439,16
+51298,40387,14,1,"Estágio Curricular Supervisionado em Enfermagem 2",17
+51299,40387,28,1,18,18
+51300,40387,4,2,"UnB - Faculdade da Ceilândia",21
+51301,40388,25,1,100447,16
+51302,40388,14,1,"Introduçao a Análise e ao Apoio Institucional em Saúde",17
+51303,40388,28,1,2,18
+51304,40388,4,2,"UnB - Faculdade da Ceilândia",21
+51305,40389,25,1,100455,16
+51306,40389,14,1,"Seguridade Social 3 - Assistencia Social",17
+51307,40389,28,1,4,18
+51308,40389,4,2,"Departamento de Serviço Social",21
+51309,40390,25,1,100463,16
+51310,40390,14,1,"Tópicos Especiais em Comunicaçao Organizacional 2",17
+51311,40390,28,1,2,18
+51312,40390,4,2,"Faculdade de Comunicaçao",21
+51313,40391,25,1,100471,16
+51314,40391,14,1,Nanobiotecnologia,17
+51315,40391,28,1,2,18
+51316,40391,4,2,"Departamento de Genética e Morfologia",21
+51317,40392,25,1,100480,16
+51318,40392,14,1,"Práticas em Virologia Molecular",17
+51319,40392,28,1,6,18
+51320,40392,4,2,"Faculdade de Ciencias da Saúde",21
+51321,40393,25,1,100498,16
+51322,40393,14,1,"A Uniao Européia e a Cooperaçao Internacional",17
+51323,40393,28,1,4,18
+51324,40393,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+51325,40394,25,1,100501,16
+51326,40394,14,1,"Budismo Hinayana",17
+51327,40394,28,1,4,18
+51328,40394,4,2,"Centro de Estudos Avançados e Multidisciplinares",21
+51329,40395,25,1,100510,16
+51330,40395,14,1,"Introduçao r Computaçao Aplicada aos Processos Químicos",17
+51331,40395,28,1,4,18
+51332,40395,4,2,"Instituto de Química",21
+51333,40396,25,1,100528,16
+51334,40396,14,1,"Trabalho de Conclusao de Curso 1",17
+51335,40396,28,1,4,18
+51336,40396,4,2,"Departamento de História",21
+51337,40397,25,1,100536,16
+51338,40397,14,1,"Tópico de Metodologia de História Social",17
+51339,40397,28,1,4,18
+51340,40397,4,2,"Departamento de História",21
+51341,40398,25,1,100544,16
+51342,40398,14,1,"Prática de Ensino de História 2",17
+51343,40398,28,1,11,18
+51344,40398,4,2,"Departamento de História",21
+51345,40399,25,1,100552,16
+51346,40399,14,1,"Gestao de Resíduos Agroindustriais",17
+51347,40399,28,1,4,18
+51348,40399,4,2,"Faculdade de Agronomia e Medicina Veterinária",21
+51349,40400,25,1,100561,16
+51350,40400,14,1,"Introduçao r Pesquisa em Música",17
+51351,40400,28,1,2,18
+51352,40400,4,2,"Departamento de Música",21
+51353,40401,25,1,100579,16

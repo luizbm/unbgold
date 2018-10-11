@@ -1,0 +1,1001 @@
+﻿cod_disciplina;nome_disciplina;creditos;cod_departamento;sigla_departamento;nome_departamento
+100021;Estudo de Problemas Brasileiros 1                                     ;1;28;IGD         ;Instituto de Geociencias                          
+100030;Estudo de Problemas Brasileiros 2                                     ;1;28;IGD         ;Instituto de Geociencias                          
+100056;MÓD 2 - PROC BIOL NA CAPTAÇAO E NA TRANS DA MATÉRIA E ENER            ;26;15;IB          ;Instituto de Ciencias Biológicas                  
+100064;MÓDULO 3 - PROCESSOS MANUTENÇAO DA VIDA                               ;25;15;IB          ;Instituto de Ciencias Biológicas                  
+100072;MÓDULO 4 - DESENVOLVIMENTO E CRESCIMENTO                              ;25;15;IB          ;Instituto de Ciencias Biológicas                  
+100081;MÓDULO 5 - PROCESSOS REPRODUTIVOS                                     ;27;15;IB          ;Instituto de Ciencias Biológicas                  
+100099;MÓDULO 6 - MECANISMOS DE AJUSTAMENTO AMBIENTAL E COLONIZAÇAO          ;27;15;IB          ;Instituto de Ciencias Biológicas                  
+100102;MÓDULO 7 - SOLUÇOES ADAPTATIVAS E FILOGENIA                           ;28;15;IB          ;Instituto de Ciencias Biológicas                  
+100111;MÓDULO 8 - PROCESSOS EMERGENTES E BIODIVERSIDADE                      ;29;15;IB          ;Instituto de Ciencias Biológicas                  
+100129;Projeto de Sistemas de Produçao 4                                     ;2;308;EPR         ;Departamento de Engenharia de Produçao
+100137;Planejamento e Controle da Produçao                                   ;4;308;EPR         ;Departamento de Engenharia de Produçao
+100145;Tomada de Decisao com Enfoque em Análise Multicritério                ;4;308;EPR         ;Departamento de Engenharia de Produçao
+100153;Simulaçao de Sistemas                                                 ;4;308;EPR         ;Departamento de Engenharia de Produçao
+100161;Gestao de Riscos                                                      ;4;308;EPR         ;Departamento de Engenharia de Produçao
+100170;Gramática Histórica Comparada das Línguas Modernas                    ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+100188;Introduçao r Vulcanologia                                             ;2;28;IGD         ;Instituto de Geociencias                          
+100196;Físico Química de Polímeros                                           ;4;85;IQD         ;Instituto de Química                              
+100200;Síntese de Polímeros                                                  ;4;85;IQD         ;Instituto de Química                              
+100218;Cuidado em Situaçoes Cirúrgicas                                       ;2;232;ENF         ;Departamento de Enfermagem                        
+100226;Fundamentos de Citogenética Humana                                    ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100234;Biocombustíveis                                                       ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100242;Tópicos Especiais em Filosofia Oriental                               ;4;117;FIL         ;Departamento de Filosofia                         
+100251;Genero e Educaçao                                                     ;4;23;FE          ;Faculdade de Educaçao                             
+100269;Controle de Sistemas Marítimos                                        ;4;139;ENM         ;Departamento de Engenharia Mecânica               
+100277;Introduçao r Exploraçao de Petróleo em Alto Mar                       ;2;139;ENM         ;Departamento de Engenharia Mecânica               
+100285;Fundamentos de Engenharia de Reservatório                             ;2;139;ENM         ;Departamento de Engenharia Mecânica               
+100293;Trabalho Final de Graduaçao em Arquitetura e Urbanismo                ;4;130;PRO         ;Departamento de Projetos Expressao e Representaçao
+100307;Sistemas Estruturais em Concreto Armado 2                             ;4;131;TEC         ;Departamento de Tecnologia em Arquit. e Urbanismo 
+100315;Projeto de Paisagismo 2                                               ;4;130;PRO         ;Departamento de Projetos Expressao e Representaçao
+100323;Residencia em Políticas Públicas 1                                    ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+100331;Residencia em Políticas Públicas 2                                    ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+100340;Instalaçoes e Equipamentos 1                                          ;2;131;TEC         ;Departamento de Tecnologia em Arquit. e Urbanismo 
+100358;Instalaçoes e Equipamentos 2                                          ;2;131;TEC         ;Departamento de Tecnologia em Arquit. e Urbanismo 
+100366;Uso Racional de Medicamentos em Odontologia                           ;2;233;ODT         ;Departamento de Odontologia                       
+100374;Tópicos Complementares em Prótese Total Removível                     ;2;233;ODT         ;Departamento de Odontologia                       
+100382;Tópicos Complementares em Prótese Parcial Removível                   ;2;233;ODT         ;Departamento de Odontologia                       
+100391;Design de Interaçao                                                   ;4;166;DIN         ;Departamento de Desenho Industrial                
+100404;Projeto de Extensao em Música 1                                       ;4;165;MUS         ;Departamento de Música                            
+100412;Projeto de Extensao em Música 2                                       ;4;165;MUS         ;Departamento de Música                            
+100421;Introduçao aos Cuidados Paliativos                                    ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100439;Estágio Curricular Supervisionado em Enfermagem 2                     ;18;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100447;Introduçao a Análise e ao Apoio Institucional em Saúde                ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100455;Seguridade Social 3 - Assistencia Social                              ;4;116;SER         ;Departamento de Serviço Social                    
+100463;Tópicos Especiais em Comunicaçao Organizacional 2                     ;2;27;FAC         ;Faculdade de Comunicaçao                          
+100471;Nanobiotecnologia                                                     ;2;221;GEM         ;Departamento de Genética e Morfologia             
+100480;Práticas em Virologia Molecular                                       ;6;21;FS          ;Faculdade de Ciencias da Saúde                    
+100498;A Uniao Européia e a Cooperaçao Internacional                         ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+100501;Budismo Hinayana                                                      ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+100510;Introduçao r Computaçao Aplicada aos Processos Químicos               ;4;85;IQD         ;Instituto de Química                              
+100528;Trabalho de Conclusao de Curso 1                                      ;4;119;HIS         ;Departamento de História                          
+100536;Tópico de Metodologia de História Social                              ;4;119;HIS         ;Departamento de História                          
+100544;Prática de Ensino de História 2                                       ;11;119;HIS         ;Departamento de História                          
+100552;Gestao de Resíduos Agroindustriais                                    ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100561;Introduçao r Pesquisa em Música                                       ;2;165;MUS         ;Departamento de Música                            
+100579;Timor-Leste: Natureza, Cultura, Linguagem e Identidade                ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+100587;Teorias Filosóficas da Linguagem                                      ;6;117;FIL         ;Departamento de Filosofia                         
+100595;Pesquisa em Traduçao                                                  ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+100609;Filosofia Contemporânea                                               ;6;117;FIL         ;Departamento de Filosofia                         
+100617;Traduçao de Textos Literários                                         ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+100625;Estágio Pedagógico Supervisionado 1                                   ;6;117;FIL         ;Departamento de Filosofia                         
+100633;Versao de Textos Literários                                           ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+100641;Estágio Supervisionado no Ensino de Biologia                          ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100650;Evoluçao                                                              ;2;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100668;Fisiologia Animal 2                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100676;Pesquisa em Educaçao Científica                                       ;6;15;IB          ;Instituto de Ciencias Biológicas                  
+100684;Fundamentos de Física                                                 ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100692;Embriologia Animal                                                    ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100706;Biologia Molecular                                                    ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100714;Organografia e Sistemática Fanerofítica                               ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100722;Didática da Biologia                                                  ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100731;Patologia Molecular Clínica                                           ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100749;Escolarizaçao de Surdos e LIBRAS                                      ;4;149;TEF         ;Departamento de Teoria e Fundamentos              
+100757;Clínica Médica de Animais de Companhia 1                              ;6;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100765;Clínica Médica de Animais de Companhia 2                              ;6;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100773;Clínica e Cirurgia de Ruminantes e Equinos 1                          ;10;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100781;Semiologia Veterinária                                                ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100790;Clínica e Cirurgia de Ruminantes e Equinos 2                          ;10;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+100803;História da África Colonial                                           ;4;119;HIS         ;Departamento de História                          
+100811;Introduçao r Prótese Parcial Removível                                ;2;233;ODT         ;Departamento de Odontologia                       
+100820;Prótese Parcial Fixa                                                  ;4;233;ODT         ;Departamento de Odontologia                       
+100838;Hematologia Clínica                                                   ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100846;Teoria, Crítica e História da Arte 2                                  ;4;163;VIS         ;Departamento de Artes Visuais                     
+100854;Arte e Sociologia                                                     ;4;163;VIS         ;Departamento de Artes Visuais                     
+100862;A Enfermagem na Estratégia  Saúde da Família                          ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100871;Processos Cognitivos: Aplicaçoes em Fisioterapia                      ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100889;Prática da Fisioterapia Baseada em Problemas                          ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100897;Tópicos Avançados em Patologia Humana                                 ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+100901;Biologia Regenerativa                                                 ;3;221;GEM         ;Departamento de Genética e Morfologia             
+100919;Materiais em Ilustraçao Científica                                    ;4;15;IB          ;Instituto de Ciencias Biológicas                  
+100927;Biologia do Câncer                                                    ;4;221;GEM         ;Departamento de Genética e Morfologia             
+100935;Biologia Quantitativa                                                 ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+100943;Segurança e Saúde no Trabalho                                         ;4;308;EPR         ;Departamento de Engenharia de Produçao
+100951;Cinética, Processos e Operaçoes Unitárias                             ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+100960;Aspectos Econômicos da Engenharia Ambiental                           ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+100978;Saúde, Saneamento e Meio Ambiente                                     ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+100986;Eletricidade Básica                                                   ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+100994;Laboratório de Eletricidade Básica                                    ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+101001;Anatomia e Fisiologia Vegetal                                         ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+101010;Tópicos Especiais em Biológia                                         ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+101028;Planejamento e Avaliaçao Socioambiental                               ;4;213;CDS         ;Centro de Desenvolvimento Sustentável             
+101036;Planejamento e Gestao em Turismo 1                                    ;4;56;CET         ;Centro de Excelencia em Turismo                   
+101044;Legislaçao Turística                                                  ;2;56;CET         ;Centro de Excelencia em Turismo                   
+101052;Estágio Supervisionado 1                                              ;4;56;CET         ;Centro de Excelencia em Turismo                   
+101061;Princípios da Técnica Cirúrgica                                       ;4;233;ODT         ;Departamento de Odontologia                       
+101079;Clínica Odontológica 6                                                ;12;233;ODT         ;Departamento de Odontologia                       
+101087;Contrataçao de Serviços de Tecnologia da Informaçao                   ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101095;Compiladores 1                                                        ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101109;Técnicas de Mediçao Funcional e Estimativas de Software               ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101117;Fundamentos de Equaçoes Diferenciais para Engenharia                  ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101125;Confiabilidade de Componentes e Sistemas                              ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101133;Sistemas Aeroespaciais                                                ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101141;Trabalho de Conclusao de Curso 1                                      ;4;95;FGA         ;UnB - Faculdade do Gama                           
+101150;Estágio em Extensao 1                                                 ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101168;Democracia e Relaçoes Internacionais                                  ;4;87;IREL        ;Instituto de Relaçoes Internacionais              
+101176;Atençao Primária em Saúde                                             ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+101184;Bioética e Saúde Coletiva                                             ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+101192;Demografia e Bioestatística em Saúde Coletiva                         ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+101206;Instrumento Principal Contrabaixo Elétrico 3                          ;2;165;MUS         ;Departamento de Música                            
+101214;Instrumento Principal Contrabaixo Elétrico 4                          ;2;165;MUS         ;Departamento de Música                            
+101222;Instrumento Principal Oboé 1                                          ;2;165;MUS         ;Departamento de Música                            
+101231;Instrumento Principal Oboé 2                                          ;2;165;MUS         ;Departamento de Música                            
+101249;Instrumento Principal Oboé 3                                          ;2;165;MUS         ;Departamento de Música                            
+101257;Instrumento Principal Oboé 4                                          ;2;165;MUS         ;Departamento de Música                            
+101265;Instrumento Principal Violino 1                                       ;2;165;MUS         ;Departamento de Música                            
+101273;Instrumento Principal Violino 2                                       ;2;165;MUS         ;Departamento de Música                            
+101281;Instrumento Principal Violino 3                                       ;2;165;MUS         ;Departamento de Música                            
+101290;Instrumento Principal Violino 4                                       ;2;165;MUS         ;Departamento de Música                            
+101303;Introduçao ao Processamento de Sinais Biológicos                      ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101311;Estágio em Extensao 1                                                 ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101320;Estágio em Extensao 2                                                 ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101338;Métodos em Biologia                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101346;Estágio em Ilustraçao Científica                                      ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101354;Estágio em Ecologia                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101362;Dinâmica da Construçao do Conhecimento Científico                     ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+101371;Filosofia na América Latina                                           ;4;117;FIL         ;Departamento de Filosofia                         
+101389;Projeto de Sistemas de Produçao 5                                     ;2;308;EPR         ;Departamento de Engenharia de Produçao
+101397;Projeto de Sistemas de Produçao 6                                     ;2;308;EPR         ;Departamento de Engenharia de Produçao
+101401;Projeto de Sistemas de Produçao 7                                     ;2;308;EPR         ;Departamento de Engenharia de Produçao
+101419;Trabalho de Conclusao de Curso 2                                      ;6;119;HIS         ;Departamento de História                          
+101427;Tópico Especial em Teoria da História                                 ;4;119;HIS         ;Departamento de História                          
+101435;Tópico Especial em Metodologia da História                            ;4;119;HIS         ;Departamento de História                          
+101443;Historiografia e Antiguidade Greco-Romana                             ;4;119;HIS         ;Departamento de História                          
+101451;História e Historiografia Antiga                                      ;4;119;HIS         ;Departamento de História                          
+101460;História da Península Ibérica na Idade Média                          ;4;119;HIS         ;Departamento de História                          
+101478;História e Historiografia Contemporânea 2                             ;4;119;HIS         ;Departamento de História                          
+101486;História da África Independente                                       ;4;119;HIS         ;Departamento de História                          
+101494;História e Natureza no Brasil                                         ;4;119;HIS         ;Departamento de História                          
+101508;Estágio Supervisionado Obrigatório                                    ;12;308;EPR         ;Departamento de Engenharia de Produçao
+101516;História e Historiografia da Escravidao no Brasil                     ;4;119;HIS         ;Departamento de História                          
+101524;História e Literatura no Brasil                                       ;4;119;HIS         ;Departamento de História                          
+101532;Laboratório de Ensino de História da África                           ;4;119;HIS         ;Departamento de História                          
+101541;História, Cultura e Identidades                                       ;4;119;HIS         ;Departamento de História                          
+101559;História Social                                                       ;4;119;HIS         ;Departamento de História                          
+101567;História Econômica                                                    ;4;119;HIS         ;Departamento de História                          
+101575;História da Argentina                                                 ;4;119;HIS         ;Departamento de História                          
+101583;Laboratório de Ensino de História Medieval                            ;4;119;HIS         ;Departamento de História                          
+101591;Logística                                                             ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101605;Engenharia do Produto                                                 ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101613;Controle de Qualidade Físico-Químico                                  ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+101621;Controle Estatístico de Processos                                     ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101630;Custos em Sistemas de Produçao                                        ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101648;Controle de Qualidade Microbiológico                                  ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+101656;Dinâmica de Sistemas em Organizaçoes                                  ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101664;Gestao de Riscos em Organizaçao                                       ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101672;Mercadologia Estratégica                                              ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101681;Pesquisa Operacional em Engenharia 2                                  ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101699;Seminário em Engenharia de Produçao                                   ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101702;Sistemas de Suporte r Decisao                                         ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101711;Farmacologia 3                                                        ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+101729;Vigilância Sanitária de Medicamentos                                  ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+101737;Tópicos Especiais em Gestao da Produçao                               ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101745;Tópicos Especiais em Gestao da Inovaçao                               ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101753;Tópicos Especiais em Engenharia do Trabalho e Ergonomia               ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101761;Tópicos Especiais em Engenharia do Produto                            ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101770;Tópicos Especiais em Pesquisa Operacional                             ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101788;Tópicos Especiais em Pesquisa Organizacional                          ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101796;Tópicos Especiais em Logística                                        ;4;308;EPR         ;Departamento de Engenharia de Produçao
+101800;Arranjo 1                                                             ;2;165;MUS         ;Departamento de Música                            
+101818;Harmonia na Música Popular 1                                          ;2;165;MUS         ;Departamento de Música                            
+101826;Harmonia na Música Popular 2                                          ;2;165;MUS         ;Departamento de Música                            
+101834;Improvisaçao 1                                                        ;2;165;MUS         ;Departamento de Música                            
+101842;História da Música Brasileira 2                                       ;2;165;MUS         ;Departamento de Música                            
+101851;História da Música Popular do Brasil 1                                ;2;165;MUS         ;Departamento de Música                            
+101869;História da Música Popular do Brasil 2                                ;2;165;MUS         ;Departamento de Música                            
+101877;Música de Tradiçao Oral Performática                                  ;2;165;MUS         ;Departamento de Música                            
+101885;Estágio Supervisionado 1                                              ;8;21;FS          ;Faculdade de Ciencias da Saúde                    
+101893;Harmonia e Improvisaçao na Música Popular 2                           ;0;165;MUS         ;Departamento de Música                            
+101907;Harmonia e Improvisaçao na Música Popular 3                           ;0;165;MUS         ;Departamento de Música                            
+101915;Instrumento Principal Piano Popular 1                                 ;2;165;MUS         ;Departamento de Música                            
+101923;Instrumento Principal Piano Popular 2                                 ;2;165;MUS         ;Departamento de Música                            
+101931;Instrumento Principal Piano Popular 3                                 ;2;165;MUS         ;Departamento de Música                            
+101940;Instrumento Principal Piano Popular 4                                 ;2;165;MUS         ;Departamento de Música                            
+101958;Instrumento Principal Contrabaixo 1                                   ;0;165;MUS         ;Departamento de Música                            
+101966;Instrumento Principal Contrabaixo 2                                   ;0;165;MUS         ;Departamento de Música                            
+101974;Instrumento Principal Flauta 1                                        ;0;165;MUS         ;Departamento de Música                            
+101982;Instrumento Principal Flauta 2                                        ;0;165;MUS         ;Departamento de Música                            
+101991;Instrumento Principal Flauta 3                                        ;0;165;MUS         ;Departamento de Música                            
+102008;Instrumento Principal Flauta 4                                        ;0;165;MUS         ;Departamento de Música                            
+102016;Instrumento Principal Clarineta 1                                     ;0;165;MUS         ;Departamento de Música                            
+102024;Instrumento Principal Clarineta 2                                     ;0;165;MUS         ;Departamento de Música                            
+102032;Instrumento Principal Clarineta 3                                     ;0;165;MUS         ;Departamento de Música                            
+102041;Instrumento Principal Clarineta 4                                     ;0;165;MUS         ;Departamento de Música                            
+102059;Instrumento Principal Fagote 1                                        ;0;165;MUS         ;Departamento de Música                            
+102067;Instrumento Principal Fagote 2                                        ;0;165;MUS         ;Departamento de Música                            
+102075;Instrumento Principal Fagote 3                                        ;0;165;MUS         ;Departamento de Música                            
+102083;Instrumento Principal Fagote 4                                        ;0;165;MUS         ;Departamento de Música                            
+102091;Instrumento Principal Trompa 1                                        ;0;165;MUS         ;Departamento de Música                            
+102105;Instrumento Principal Trompa 2                                        ;0;165;MUS         ;Departamento de Música                            
+102113;Instrumento Principal Trompa 3                                        ;0;165;MUS         ;Departamento de Música                            
+102121;Instrumento Principal Trompa 4                                        ;0;165;MUS         ;Departamento de Música                            
+102130;Instrumento Principal Viola 1                                         ;0;165;MUS         ;Departamento de Música                            
+102148;Instrumento Principal Viola 2                                         ;0;165;MUS         ;Departamento de Música                            
+102156;Instrumento Principal Viola 3                                         ;0;165;MUS         ;Departamento de Música                            
+102164;Instrumento Principal Viola 4                                         ;0;165;MUS         ;Departamento de Música                            
+102172;Instrumento Principal Canto 1                                         ;0;165;MUS         ;Departamento de Música                            
+102181;Instrumento Principal Canto 2                                         ;0;165;MUS         ;Departamento de Música                            
+102199;Instrumento Principal Canto 3                                         ;0;165;MUS         ;Departamento de Música                            
+102202;Instrumento Principal Canto 4                                         ;0;165;MUS         ;Departamento de Música                            
+102211;Instrumento Principal Piano 1                                         ;0;165;MUS         ;Departamento de Música                            
+102229;Instrumento Principal Piano 2                                         ;0;165;MUS         ;Departamento de Música                            
+102237;Instrumento Principal Piano 3                                         ;0;165;MUS         ;Departamento de Música                            
+102245;Instrumento Principal Piano 4                                         ;0;165;MUS         ;Departamento de Música                            
+102253;Instrumento Principal Trompete 1                                      ;0;165;MUS         ;Departamento de Música                            
+102261;Instrumento Principal Trompete 2                                      ;0;165;MUS         ;Departamento de Música                            
+102270;Instrumento Principal Trompete 3                                      ;0;165;MUS         ;Departamento de Música                            
+102288;Instrumento Principal Trompete 4                                      ;0;165;MUS         ;Departamento de Música                            
+102296;Instrumento Principal Violoncelo 1                                    ;0;165;MUS         ;Departamento de Música                            
+102300;Instrumento Principal Violoncelo 2                                    ;0;165;MUS         ;Departamento de Música                            
+102318;Instrumento Principal Violoncelo 3                                    ;0;165;MUS         ;Departamento de Música                            
+102326;Instrumento Principal Violoncelo 4                                    ;0;165;MUS         ;Departamento de Música                            
+102334;Instrumento Principal Saxofone 1                                      ;0;165;MUS         ;Departamento de Música                            
+102342;Instrumento Principal Saxofone 2                                      ;0;165;MUS         ;Departamento de Música                            
+102351;Instrumento Principal Saxofone 3                                      ;0;165;MUS         ;Departamento de Música                            
+102369;Instrumento Principal Saxofone 4                                      ;0;165;MUS         ;Departamento de Música                            
+102377;Engenharia Genética                                                   ;6;218;CEL         ;Departamento de Biologia Celular                  
+102385;Tecnologia Enzimática                                                 ;4;218;CEL         ;Departamento de Biologia Celular                  
+102393;Microbiologia Aplicada                                                ;4;218;CEL         ;Departamento de Biologia Celular                  
+102407;Princípio de Comunicaçao                                              ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102415;Trabalho de Conclusao de Curso 2                                      ;6;95;FGA         ;UnB - Faculdade do Gama                           
+102423;Sistemas de Controle                                                  ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102431;Anatomia e Fisiologia Humana                                          ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102440;Processamento de Sinais Biológicos                                    ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102458;Processamento Digital de Imagens                                      ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102466;Tópicos Especial em Instrumentaçao Biomédica                          ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102474;Projetos de Circuitos Integrados 1                                    ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102482;Projetos de Circuitos Integrados 2                                    ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102491;Tópicos em Sistemas de Computaçao de Alto Desempenho                  ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102504;Projeto e Análise de Algoritmo                                        ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102512;Estágio Supervisionado                                                ;14;95;FGA         ;UnB - Faculdade do Gama                           
+102521;Teorias da Interpretaçao                                              ;6;117;FIL         ;Departamento de Filosofia                         
+102539;Filosofia Geral e Metafísica                                          ;6;117;FIL         ;Departamento de Filosofia                         
+102547;Prática de Pesquisa Histórica                                         ;6;119;HIS         ;Departamento de História                          
+102555;Estágio Curricular Supervisionado em Enfermagem 3                     ;20;96;FCE         ;UnB - Faculdade da Ceilândia                      
+102563;Trabalho de Conclusao de Curso em Enfermagem 2                        ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+102571;Ensino e Aprendizagem da Língua Moderna                               ;0;23;FE          ;Faculdade de Educaçao                             
+102580;Aprendizagem e Desenvolvimento do PNEE                                ;0;23;FE          ;Faculdade de Educaçao                             
+102598;Planejamento Educacional                                              ;4;23;FE          ;Faculdade de Educaçao                             
+102601;Física Industrial Farmaceutica                                        ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+102610;Diagnóstico Laboratorial em Parasitologia Clínica                     ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+102628;Farmacotécnica com Aspectos Tecnológicos                              ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+102636;Gestao da Qualidade na Produçao                                       ;4;308;EPR         ;Departamento de Engenharia de Produçao
+102644;Gestao da Cadeia de Suprimentos em Engenharia                         ;0;308;EPR         ;Departamento de Engenharia de Produçao
+102652;Tópicos Especiais em Gestao Sustentável                               ;2;308;EPR         ;Departamento de Engenharia de Produçao
+102661;Técnica Instrumental Farmaceutica                                     ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+102679;Estágio Supervisionado: Ambulatório                                   ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102687;Estágio Supervisionado: Drogaria                                      ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102695;Estágio Supervisionado: Hospitalar                                    ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102709;Estágio Supervisionado: Livre 1                                       ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102717;Estágio Supervisionado: Livre 2                                       ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102725;Trabalho de Conclusao de Curso - TCC                                  ;0;21;FS          ;Faculdade de Ciencias da Saúde                    
+102733;Design de Jogos                                                       ;4;166;DIN         ;Departamento de Desenho Industrial                
+102741;Sistemas Colaborativos                                                ;2;308;EPR         ;Departamento de Engenharia de Produçao
+102750;Inovaçao em Sistemas de Produçao                                      ;4;308;EPR         ;Departamento de Engenharia de Produçao
+102768;Finanças  Comportamentais e Pessoais                                  ;2;308;EPR         ;Departamento de Engenharia de Produçao
+102776;Empreendedorismo e Análise de Mercado em Biotecnologia                ;4;218;CEL         ;Departamento de Biologia Celular                  
+102784;Patologia Molecular Clínica                                           ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+102792;Comportamento Organizacional nos Ambientes Rural e Agroindustrial     ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102806;Homeopatia                                                            ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+102814;Relaçoes Sociais, Família e Serviço Social                            ;4;116;SER         ;Departamento de Serviço Social                    
+102822;Envelhecimento e Política Social                                      ;4;116;SER         ;Departamento de Serviço Social                    
+102831;Estágio Supervisionado de Traduçao - Espanhol                         ;6;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+102849;Dinâmica dos Mecanismos                                               ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102857;Modelagem e Simulaçao de Sistemas Energéticos                         ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102865;Sistemas de Energia Solar e Eólica                                    ;4;95;FGA         ;UnB - Faculdade do Gama                           
+102873;Tópicos Complementares em Dentística                                  ;2;233;ODT         ;Departamento de Odontologia                       
+102881;Gestao do Trabalho no Contexto Rural e Agroindustrial                 ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102890;Comportamento do Consumidor de Alimentos                              ;2;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102903;Estágio Supervisionado 1                                              ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102911;Estágio Supervisionado 2                                              ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102920;Trabalho de Conclusao de Curso 1                                      ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102938;Trabalho de Conclusao de Curso 2                                      ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+102946;Planejamento e Gestao em Turismo 2                                    ;4;56;CET         ;Centro de Excelencia em Turismo                   
+102954;Fundamentos de Estatística Aplicado ao Turismo                        ;2;56;CET         ;Centro de Excelencia em Turismo                   
+102962;Projeto Integrador em Turismo 3                                       ;2;56;CET         ;Centro de Excelencia em Turismo                   
+102971;Estágio Supervisionado 2                                              ;4;56;CET         ;Centro de Excelencia em Turismo                   
+102989;Seminários em Turismo 2                                               ;2;56;CET         ;Centro de Excelencia em Turismo                   
+102997;Enoturismo                                                            ;4;56;CET         ;Centro de Excelencia em Turismo                   
+103004;Fisiologia Animal 1                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103012;Fisiologia Vegetal                                                    ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103021;Biofísica                                                             ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103039;Parasitologia                                                         ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103047;Venenos Animais                                                       ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103055;Imunologia                                                            ;2;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103063;Estágio Supervisionado em Fitopatologia                               ;5;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103071;Estágio em Botânica                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103080;Pesquisa em Imunologia                                                ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103098;Tópicos Especiais Ensino de Biologia                                  ;2;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103101;Tópicos Especiais Ensino de Ciencias                                  ;2;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+103110;Doenças Parasitárias dos Animais Domésticos                           ;6;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+103128;Introduçao a Ciencias Farmaceuticas                                   ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+103136;Principais Vetores de Importância em Saúde Coletiva                   ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103144;Metodologias Qualitativas em Saúde Coletiva                           ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103152;Saúde, Cuidado e Reconhecimento                                       ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103161;Manobras Farmacológicas em Emergencias Clínicas                       ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103179;Fundamentos de Arquitetura de Software                                ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103187;Princípios de Robótica Educacional                                    ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103195;Programaçao para Competiçoes                                          ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103209;Estruturas de Dados 2                                                 ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103217;Seminários em Engenharia de Software                                  ;2;95;FGA         ;UnB - Faculdade do Gama                           
+103225;Saneamento, Meio Ambiente e Planejamento Urbano                       ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+103233;Tratamento de Águas Residuárias Urbanas                               ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+103241;Tratamento de Água para Consumo Humano                                ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+103250;Modelos e Simulaçao de Sistemas Ambientais                            ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+103268;Estudos dos Ecossistemas Aquáticos Continentais                       ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+103276;As Origens do Pensamento Ocidental                                    ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+103284;Laboratório de Ensino de Ciencias                                     ;6;15;IB          ;Instituto de Ciencias Biológicas                  
+103292;Saúde e Trabalho                                                      ;4;232;ENF         ;Departamento de Enfermagem                        
+103306;Fundamentos de Produçao de Cerveja                                    ;4;85;IQD         ;Instituto de Química                              
+103314;Técnicas Intrumentais de Análise                                      ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+103322;Línguas de Sinais Brasileira - Básico                                 ;4;17;IL          ;Instituto de Letras                               
+103331;Arte e Pensamento                                                     ;4;163;VIS         ;Departamento de Artes Visuais                     
+103349;Arte e Ciencias da Linguagem                                          ;4;163;VIS         ;Departamento de Artes Visuais                     
+103357;Teoria, Crítica e História da Arte 3                                  ;4;163;VIS         ;Departamento de Artes Visuais                     
+103365;Fundamentos em Ciencias e Microbiologia dos Alimentos                 ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103373;Estatística Aplicada r Educaçao Física                                ;4;29;FEF         ;Faculdade de Educaçao Física                      
+103381;Metodologia das Lutas e Artes Marciais                                ;4;29;FEF         ;Faculdade de Educaçao Física                      
+103390;Educaçao Física: Leis, Normas e Políticas                             ;4;29;FEF         ;Faculdade de Educaçao Física                      
+103403;Tópicos Especiais de Epistemologia das Ciencias Humanas e Sociais     ;4;117;FIL         ;Departamento de Filosofia                         
+103411;Filosofia da Psicanálise                                              ;4;117;FIL         ;Departamento de Filosofia                         
+103420;Práticas de Saúde Bucal Coletiva 2                                    ;4;233;ODT         ;Departamento de Odontologia                       
+103438;Clínica Odontológica 7                                                ;16;233;ODT         ;Departamento de Odontologia                       
+103446;Clínica Odontológica 8                                                ;12;233;ODT         ;Departamento de Odontologia                       
+103454;Estágio Supervisionado em Odontologia 1                               ;16;233;ODT         ;Departamento de Odontologia                       
+103462;Estágio Supervisionado em Odontologia 2                               ;12;233;ODT         ;Departamento de Odontologia                       
+103471;Introduçao r Metereologia                                             ;2;28;IGD         ;Instituto de Geociencias                          
+103489;Sismologia Avançada                                                   ;4;28;IGD         ;Instituto de Geociencias                          
+103497;Métodos Aeroeletromagnéticos                                          ;4;28;IGD         ;Instituto de Geociencias                          
+103501;Processamentos de Dados Sismológicos                                  ;4;28;IGD         ;Instituto de Geociencias                          
+103519;Preparaçao Trabalho Final - Geofísica                                 ;2;28;IGD         ;Instituto de Geociencias                          
+103527;Tópicos Especiais em Física Aplicada                                  ;2;95;FGA         ;UnB - Faculdade do Gama                           
+103535;Tópicos Especiais em Matemática Aplicada                              ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103543;Currículo e Avaliaçao                                                 ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103551;Abordagem do Corpo Humano no Ensino de Ciencias                       ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103560;Tópicos Especiais em Ciencias Naturais                                ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103578;Educaçao e Ludicidade no Ensino de Ciencias                           ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103586;Biologia Molecular e Biotecnologia                                    ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103594;Decrescimento: Consumir menos para que todos vivam melhor             ;2;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+103608;Elementos de Mineralogia                                              ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+103616;Aprimoramento da Performance Comunicativa: Atividade Prática          ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103624;Jogos Virtuais na Prática Terapeutica: Bases e Evidencias             ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103632;Variabilidade da Frequencia Cardíaca: Aplicaçoes Clínicas             ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103641;Recursos Tecnológicos Avançados em Fisioterapia Dermato-Funcional     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103659;Tópicos Especiais em Fisioterapia Aquática                            ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103667;Análise de Sistemas de Energia Elétrica                               ;4;95;FGA         ;UnB - Faculdade do Gama                           
+103675;Teorias do Desenvolvimento Motor: Repercussoes na Intervençao Precoce ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103683;Processos Cognitivos: Prática Fisioterapeutica                        ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103691;História Ambiental do Brasil                                          ;4;213;CDS         ;Centro de Desenvolvimento Sustentável             
+103705;Biossegurança                                                         ;2;218;CEL         ;Departamento de Biologia Celular                  
+103713;Boas Práticas de Laboratório e de Fabricaçao                          ;2;218;CEL         ;Departamento de Biologia Celular                  
+103721;Princípios em Farmacologia                                            ;4;220;CFS         ;Departamento de Ciencias Fisiológicas             
+103730;Estágio Profissional em Biotecnologia                                 ;12;218;CEL         ;Departamento de Biologia Celular                  
+103748;Imunologia Aplicada                                                   ;4;218;CEL         ;Departamento de Biologia Celular                  
+103756;Redaçao Científica                                                    ;2;218;CEL         ;Departamento de Biologia Celular                  
+103764;Tecnologia de Bioprocessos e Fermentaçao                              ;6;218;CEL         ;Departamento de Biologia Celular                  
+103772;Legislaçao, Patentes e Propriedade Intelectual                        ;2;218;CEL         ;Departamento de Biologia Celular                  
+103781;Elaboraçao de Projetos Biotecnológicos                                ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+103799;Economia para Políticas Públicas 3                                    ;4;162;ECO         ;Departamento de Economia                          
+103802;Indicadores Econômicos e Sociais e Políticas Públicas                 ;4;86;IPOL        ;Instituto de Ciencia Política                     
+103811;Estágio Supervisionado 2                                              ;12;21;FS          ;Faculdade de Ciencias da Saúde                    
+103829;Estágio Supervisionado 3                                              ;12;21;FS          ;Faculdade de Ciencias da Saúde                    
+103837;Estágio Supervisionado 4                                              ;28;21;FS          ;Faculdade de Ciencias da Saúde                    
+103845;Trabalho de Conclusao de Curso                                        ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+103853;Métodos Quantitativos em Medicina Veterinária                         ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+103861;Fundamentos de Cancerologia                                           ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103870;Controle de Qualidade de Medicamentos Naturais                        ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103888;Pesquisas em Formas Farmacenticas                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103896;Introduçao a Psicomotricidade                                         ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103900;Neuropsicologia Clínica                                               ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103918;Fundamentos da Psicologia Aplicados aos Ciclos da Vida                ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103926;Gestao e Avaliaçao de Políticas de Saúde                              ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+103934;Estágio Obrigatório  em Fisioterapia 1                                ;20;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103942;Estágio Obrigatório  em Fisioterapia 2                                ;20;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103951;Estágio Obrigatório  em Fisioterapia 3                                ;20;96;FCE         ;UnB - Faculdade da Ceilândia                      
+103969;Tópicos Especiais em Economia Regional e Urbana                       ;4;160;ECO         ;Departamento de Economia                          
+103977;Diagnóstico Laboratorial em Imunologia Clínica                        ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+103985;Identidade Nacional e Nacionalismo                                    ;4;86;IPOL        ;Instituto de Ciencia Política                     
+103993;Estudos Legislativos                                                  ;4;86;IPOL        ;Instituto de Ciencia Política                     
+104001;Introduçao r Análise de Sistemas Ambientais                           ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104019;Avaliaçao e Controle de Poluiçao do Ar e Sonora                       ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104027;Avaliaçao e Controle de Poluiçao da Água                              ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104035;Avaliaçao e Controle de Poluiçao do Solo                              ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104043;Solos Tropicais                                                       ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104051;Bioquímica Aplicada  aos Processos da Engenharia Ambiental            ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104060;Tratamento Avançado de Águas para Consumo Humano                      ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104078;Tratamento Avançado de Águas Residuárias                              ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104086;Tópicos Avançados em Transporte de Contaminantes                      ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104094;Modelos de Poluiçao Difusa em Sistemas Hídricos                       ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104108;Avaliaçao Ambiental Estratégica                                       ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104116;Estágio Curricular em Engenharia Ambiental                            ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104124;Avaliaçao de Impactos e Riscos Ambientais                             ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104132;Projeto Final em Engenharia Ambiental 1                               ;1;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104141;Projeto Final em Engenharia Ambiental 2                               ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104159;Planejamento e Gestao Ambiental                                       ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104167;Elementos da Prática Educacional                                      ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+104175;Didática das Ciencias Naturais                                        ;4;15;IB          ;Instituto de Ciencias Biológicas                  
+104183;Didática da Biologia                                                  ;4;15;IB          ;Instituto de Ciencias Biológicas                  
+104191;Prática de Educaçao em Ciencias 1                                     ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+104205;Prática de Educaçao em Ciencias 2                                     ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+104213;Prática de Educaçao em Biologia 1                                     ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+104221;Prática de Educaçao em Biologia 2                                     ;2;15;IB          ;Instituto de Ciencias Biológicas                  
+104230;Projeto de Pesquisa em Educaçao Científica                            ;4;15;IB          ;Instituto de Ciencias Biológicas                  
+104248;Pré-Cálculo para Engenharia                                           ;4;95;FGA         ;UnB - Faculdade do Gama                           
+104256;Introduçao r Análise de Discurso Crítica da Saúde e da Doença         ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+104264;Disfunçao Temporomandibular e Dor Orofacial                           ;2;233;ODT         ;Departamento de Odontologia                       
+104272;Prática do Italiano Oral e Escrito                                    ;2;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+104281;Manejo de Vegetaçao Nativa                                            ;4;140;EFL         ;Departamento de Engenharia Florestal              
+104299;Polones 3                                                             ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+104302;Prática de Apoio da Física 1- 1                                       ;2;31;IFD         ;Instituto de Física                               
+104311;Prática de Apoio da Física 1- 2                                       ;2;31;IFD         ;Instituto de Física                               
+104329;Prática de Apoio da Física 1-3                                        ;2;31;IFD         ;Instituto de Física                               
+104337;Introduçao a Fonoaudiologia                                           ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+104345;Virologia Clínica                                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+104353;Transferencia de Quantidade de Movimento                              ;4;85;IQD         ;Instituto de Química                              
+104361;Laboratório de Engenharia Química 2                                   ;2;85;IQD         ;Instituto de Química                              
+104388;Operaçoes Unitárias da Engenharia Química 1                           ;4;85;IQD         ;Instituto de Química                              
+104396;Transferencia de Massa                                                ;4;85;IQD         ;Instituto de Química                              
+104400;Operaçoes Unitárias da Engenharia Química 2                           ;4;85;IQD         ;Instituto de Química                              
+104418;Operaçoes Unitárias da Engenharia Química 3                           ;4;85;IQD         ;Instituto de Química                              
+104426;Laboratório de Engenharia Química 1                                   ;2;85;IQD         ;Instituto de Química                              
+104434;Complexidade                                                          ;2;89;FUP         ;UnB - Faculdade de Planaltina                     
+104442;Ética e Formaçao Docente                                              ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104451;Evoluçao do Desenvolvimento                                           ;0;89;FUP         ;UnB - Faculdade de Planaltina                     
+104469;Fundamentos e Estratégias no Ensino de Ciencias                       ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104477;Projeto de Engenharia Química 1                                       ;2;85;IQD         ;Instituto de Química                              
+104485;Laboratório de Microscopia                                            ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104493;Laboratório de Química 2                                              ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104507;Tópicos em Educaçao e Desenvolvimento Humano                          ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104515;Ecologia do Organismo                                                 ;2;89;FUP         ;UnB - Faculdade de Planaltina                     
+104523;Modelagem e Simulaçao de Processos Químicos                           ;4;85;IQD         ;Instituto de Química                              
+104531;Estágio Supervisionado                                                ;11;85;IQD         ;Instituto de Química                              
+104540;Projeto de Engenharia Química 2                                       ;2;85;IQD         ;Instituto de Química                              
+104558;Tecnologia de Conversao de Biomassa                                   ;4;85;IQD         ;Instituto de Química                              
+104566;Invasoes Biológicas                                                   ;4;221;GEM         ;Departamento de Genética e Morfologia             
+104574;Teoria, Crítica e História da Arte 4                                  ;4;163;VIS         ;Departamento de Artes Visuais                     
+104582;Arte e Psicanálise                                                    ;4;163;VIS         ;Departamento de Artes Visuais                     
+104591;Oficina de Textos                                                     ;6;17;IL          ;Instituto de Letras                               
+104604;Produçao e Manejo de Animais Silvestres e Exóticos                    ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+104612;Pesquisa em Turismo                                                   ;4;56;CET         ;Centro de Excelencia em Turismo                   
+104621;Estruturaçao e Promoçao de Destinos                                   ;4;56;CET         ;Centro de Excelencia em Turismo                   
+104639;Seminários em Turismo 3                                               ;2;56;CET         ;Centro de Excelencia em Turismo                   
+104647;Poéticas da Viagem: Arte Cinema Literatura e Turismo                  ;4;56;CET         ;Centro de Excelencia em Turismo                   
+104655;Planejamento e Organizaçao de Eventos                                 ;4;56;CET         ;Centro de Excelencia em Turismo                   
+104663;Turismo Rural                                                         ;2;56;CET         ;Centro de Excelencia em Turismo                   
+104671;Tópicos Especiais em Gastronomia 1                                    ;4;56;CET         ;Centro de Excelencia em Turismo                   
+104680;Estudos Linguisticos 1                                                ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+104698;Física Zero                                                           ;2;31;IFD         ;Instituto de Física                               
+104701;Educaçao Física no Ensino Fundamental                                 ;4;29;FEF         ;Faculdade de Educaçao Física                      
+104710;Educaçao Física na Educaçao Infantil                                  ;4;29;FEF         ;Faculdade de Educaçao Física                      
+104728;Fundamentos do Desenvolvimento e Aprendizagem Aplicados a EDF Infantil;4;29;FEF         ;Faculdade de Educaçao Física                      
+104736;Fundamentos do Desenvolvimento e Aprendizagem Aplicados a EDF Ens Fund;4;29;FEF         ;Faculdade de Educaçao Física                      
+104744;Crescimento Maturaçao e Desempenho Motor                              ;2;29;FEF         ;Faculdade de Educaçao Física                      
+104752;Jogo, Lúdico e Educaçao Física                                        ;4;29;FEF         ;Faculdade de Educaçao Física                      
+104761;Tópicos Especiais em Engenharia Aeroespacial                          ;4;95;FGA         ;UnB - Faculdade do Gama                           
+104779;Aerodinâmica de Sistemas Aeroespaciais                                ;5;95;FGA         ;UnB - Faculdade do Gama                           
+104787;Mecânica de Estruturas Aeroespaciais                                  ;5;95;FGA         ;UnB - Faculdade do Gama                           
+104795;Química Analítica Experimental                                        ;4;85;IQD         ;Instituto de Química                              
+104809;Princípios de Química Analítica                                       ;4;85;IQD         ;Instituto de Química                              
+104817;Comunicaçao em Saúde 2                                                ;4;234;DSC         ;Departamento de Saúde Coletiva                    
+104825;Saúde Indígena                                                        ;4;234;DSC         ;Departamento de Saúde Coletiva                    
+104833;Projeto de Pesquisa em Educaçao Científica                            ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+104841;Tópicos Especiais em Comunicaçao Organizacional 4                     ;4;27;FAC         ;Faculdade de Comunicaçao                          
+104850;Tópicos Especiais em Comunicaçao Organizacional 3                     ;4;27;FAC         ;Faculdade de Comunicaçao                          
+104868;Contabilidade Nacional Aplicada ao Turismo                            ;4;160;ECO         ;Departamento de Economia                          
+104876;Sistemas de Controle Automotivo                                       ;4;95;FGA         ;UnB - Faculdade do Gama                           
+104884;Cosmos e Cosmovisao                                                   ;20;89;FUP         ;UnB - Faculdade de Planaltina                     
+104892;Cosmos e Cosmovisao  2                                                ;8;89;FUP         ;UnB - Faculdade de Planaltina                     
+104906;Cosmos e Cosmovisao 3                                                 ;8;89;FUP         ;UnB - Faculdade de Planaltina                     
+104914;Estágio Supervisionado para 2s Licenciatura em Ciencias Naturais 1    ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+104922;Topicos Especiais em Gestao de Recursos Hídricos                      ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+104931;Tópicos Especiais em Estudos de Traduçao 1                            ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+104949;Tópicos Especiais em Estudos de Traduçao 2                            ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+104957;Tópicos Especiais em Estudos de Traduçao 3                            ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+104965;Bases Pedagógicas do Trabalho Escolar 1 Parfor                        ;5;23;FE          ;Faculdade de Educaçao                             
+104973;Bases Pedagógicas do Trabalho Escolar 2 Parfor                        ;5;23;FE          ;Faculdade de Educaçao                             
+104981;Educaçao e Sociedade numa Perspectiva Sociológica  Parfor             ;5;23;FE          ;Faculdade de Educaçao                             
+104990;Desenvolvimento e Aprendizagem Parfor                                 ;5;23;FE          ;Faculdade de Educaçao                             
+105007;Educaçao e Língua Materna 1 Parfor                                    ;9;23;FE          ;Faculdade de Educaçao                             
+105015;Educaçao e Língua Materna 2 Parfor                                    ;9;23;FE          ;Faculdade de Educaçao                             
+105023;Educaçao e Linguagem Matemática 1 Parfor                              ;9;23;FE          ;Faculdade de Educaçao                             
+105031;Educaçao e Linguagem Matemática 2 Parfor                              ;9;23;FE          ;Faculdade de Educaçao                             
+105040;Fundamentos da Educaçao da Criança Parfor                             ;5;23;FE          ;Faculdade de Educaçao                             
+105058;Identidade, Sujeito e Fatos Históricos Parfor                         ;5;23;FE          ;Faculdade de Educaçao                             
+105066;Educaçao e Língua Materna 3 Parfor                                    ;9;23;FE          ;Faculdade de Educaçao                             
+105074;Educaçao e Linguagem Matemática 3 Parfor                              ;9;23;FE          ;Faculdade de Educaçao                             
+105082;Currículo e Diversidade Cultural Parfor                               ;5;23;FE          ;Faculdade de Educaçao                             
+105091;Organizaçao da Educaçao Brasileira Parfor                             ;6;23;FE          ;Faculdade de Educaçao                             
+105104;Filosofia e Práxis Pedagógico Parfor                                  ;5;23;FE          ;Faculdade de Educaçao                             
+105112;Avaliaçao na Escola Parfor                                            ;5;23;FE          ;Faculdade de Educaçao                             
+105121;Educaçao e Ciencias Físicas e Biológicas 1 Parfor                     ;6;23;FE          ;Faculdade de Educaçao                             
+105139;Educaçao e Ciencias Físicas e Biológicas 2 Parfor                     ;6;23;FE          ;Faculdade de Educaçao                             
+105147;Planejamento e Gestao Escolar Parfor                                  ;6;23;FE          ;Faculdade de Educaçao                             
+105155;Educaçao e Cienciais Sociais 1 Parfor                                 ;6;23;FE          ;Faculdade de Educaçao                             
+105163;Educaçao e Cienciais Sociais 2 Parfor                                 ;6;23;FE          ;Faculdade de Educaçao                             
+105171;Pesquisa em Educaçao 1 Parfor                                         ;5;23;FE          ;Faculdade de Educaçao                             
+105180;Estágio 1 Parfor                                                      ;8;23;FE          ;Faculdade de Educaçao                             
+105198;Estágio 2 Parfor                                                      ;8;23;FE          ;Faculdade de Educaçao                             
+105201;Estágio 3 Parfor                                                      ;8;23;FE          ;Faculdade de Educaçao                             
+105210;Educaçao Inclusiva Parfor                                             ;5;23;FE          ;Faculdade de Educaçao                             
+105228;Educaçao Arte e Movimento 1 Parfor                                    ;5;23;FE          ;Faculdade de Educaçao                             
+105236;Educaçao Arte e Movimento 2 Parfor                                    ;6;23;FE          ;Faculdade de Educaçao                             
+105244;Politicas Públicas de Educaçao Parfor                                 ;5;23;FE          ;Faculdade de Educaçao                             
+105252;Trabalho de Conclusao de Curso 1 Parfor                               ;6;23;FE          ;Faculdade de Educaçao                             
+105261;Trabalho de Conclusao de Curso 2 Parfor                               ;8;23;FE          ;Faculdade de Educaçao                             
+105279;Educaçao de Jovens e Adultos Parfor                                   ;5;23;FE          ;Faculdade de Educaçao                             
+105287;Escolarizaçao de Surdos e LIBRAS Parfor                               ;5;23;FE          ;Faculdade de Educaçao                             
+105295;Avaliaçao nas Organizaçoes Educativas Parfor                          ;5;23;FE          ;Faculdade de Educaçao                             
+105309;Calculo Diferencial de uma Variável                                   ;4;106;MAT         ;Departamento de Matemática.                       
+105317;Tópicos de Educaçao Matemática                                        ;4;106;MAT         ;Departamento de Matemática.                       
+105325;Geometria Analítica e Vetores                                         ;3;106;MAT         ;Departamento de Matemática.                       
+105333;Geometria Plana 1                                                     ;3;106;MAT         ;Departamento de Matemática.                       
+105341;Estágio de Docencia 1                                                 ;7;106;MAT         ;Departamento de Matemática.                       
+105350;Análise Combinatória para Cálculo de Probasbilidades                  ;4;106;MAT         ;Departamento de Matemática.                       
+105368;Física teórica para Ciencias Agrárias                                 ;4;31;IFD         ;Instituto de Física                               
+105376;Física Experimental para Ciencias Agrárias                            ;2;31;IFD         ;Instituto de Física                               
+105384;Invasoes Biológicas                                                   ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+105392;Morfosiologia de Cabeça e Pescoço                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105406;Estudos Linguisticos 2                                                ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105414;Física Acústica                                                       ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105422;Pensamento Social Brasileiro, Instituiçoes e Cultura Política Nacional;4;265;SOL         ;Departamento de Sociologia                        
+105431;Antropologia da Saúde e Adoecimento                                   ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105449;Método da Ergonomia da Atividade                                      ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105457;Introduçao a Saúde do Trabalhador                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105465;Tópicos Avançados em Gestao do Agronegócio 2                          ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+105473;Tópicos Avançados em Gestao do Agronegócio 3                          ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+105481;Tópicos Avançados em Gestao do Agronegócio 4                          ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+105490;Introduçao a Economia Quantitativa                                    ;2;160;ECO         ;Departamento de Economia                          
+105503;Morfofisiopatologia da Audiçao e do Equilíbrio                        ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105511;Trabalho de Campo em Fonoaudiologia 1                                 ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105520;Linguagem e Pensamento                                                ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105538;Atençao ao Prematuro e a Família                                      ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105546;Prontuário Eletrônico do Paciente                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105554;Fundamentos do Desenvolvimento  Aprendizagem Aplicados  a EDF EM e EJA;2;29;FEF         ;Faculdade de Educaçao Física                      
+105562;Estudos e Pesquisa em Educaçao Física Escolar                         ;2;29;FEF         ;Faculdade de Educaçao Física                      
+105571;Educaçao Física no Ens Médio e Educaçao de Jovens e Adultos           ;4;29;FEF         ;Faculdade de Educaçao Física                      
+105589;Metodologia das Modalidades Esportivas Coletivas                      ;4;29;FEF         ;Faculdade de Educaçao Física                      
+105597;Aspectos Psicológicos da Aprendizagem a EDF                           ;2;29;FEF         ;Faculdade de Educaçao Física                      
+105601;Reaçao Adversa a Medicamento                                          ;3;21;FS          ;Faculdade de Ciencias da Saúde                    
+105619;Anatomia dos Sistemas                                                 ;4;29;FEF         ;Faculdade de Educaçao Física                      
+105627;Corpo e Educaçao                                                      ;4;29;FEF         ;Faculdade de Educaçao Física                      
+105635;Programa Institucional de Bolsa de Iniciaçao r Docencia               ;2;36;DEG         ;Decanato de Ensino de Graduaçao
+105643;Enfermagem em Oncologia                                               ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+105651;Saúde Direitos Humanos e Antropologia                                 ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+105660;Direitos Humanos LGBT                                                 ;4;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+105678;Gestao e Inovaçao de Processos Críticos em Organizaçao de Serviço     ;2;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+105686;Tecnologia do Meio Ambiente 1                                         ;2;85;IQD         ;Instituto de Química                              
+105694;Teoria dos Sistemas Sociais                                           ;4;265;SOL         ;Departamento de Sociologia                        
+105708;Teoria Crítica da Sociedade                                           ;4;265;SOL         ;Departamento de Sociologia                        
+105716;Tópicos Especiais em Sociologia 8                                     ;4;265;SOL         ;Departamento de Sociologia                        
+105724;Tópicos Especiais em Sociologia 9                                     ;4;265;SOL         ;Departamento de Sociologia                        
+105732;Tópicos Especiais em Sociologia 10                                    ;4;265;SOL         ;Departamento de Sociologia                        
+105741;Tópicos Especiais em Sociologia 11                                    ;4;265;SOL         ;Departamento de Sociologia                        
+105759;Tópicos Especiais em Sociologia 12                                    ;4;265;SOL         ;Departamento de Sociologia                        
+105767;Estágio Supervisionado 3                                              ;6;234;DSC         ;Departamento de Saúde Coletiva                    
+105775;Ciencias do Ambiente                                                  ;2;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+105783;Sistema de Produçao Enxuta                                            ;4;308;EPR         ;Departamento de Engenharia de Produçao
+105791;Gerenciamento de Projetos Complexos                                   ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105805;Planejamento e Controle de Serviços                                   ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105813;Ergonomia em Sistemas Produtivos                                      ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105821;Gestao de Custos                                                      ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105830;Engenharia de Produtos Financeiros                                    ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105848;Desenvolvimento de Serviços                                           ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105856;Cálculo Integral de uma Variável                                      ;2;106;MAT         ;Departamento de Matemática.                       
+105864;Fundamentos de Álgebra 2                                              ;3;106;MAT         ;Departamento de Matemática.                       
+105872;Tópicos em Geometria Analítica                                        ;1;106;MAT         ;Departamento de Matemática.                       
+105881;Geometria Analítica para Matemática                                   ;4;106;MAT         ;Departamento de Matemática.                       
+105899;Ensino de Espanhol como Língua Estrangeira                            ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+105902;Estágio em Parasitologia Médica                                       ;6;32;FMD         ;Faculdade de Medicina                             
+105911;Projeto de Graduaçao de Engenharia de Produçao 1                      ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105929;Projeto de Graduaçao de Engenharia de Produçao 2                      ;2;308;EPR         ;Departamento de Engenharia de Produçao
+105937;Oncologia Molecular                                                   ;2;32;FMD         ;Faculdade de Medicina                             
+105945;Informatica Básica                                                    ;4;26;IDA         ;Instituto de Artes                                
+105953;Laboratório de Química Analítica 1                                    ;2;85;IQD         ;Instituto de Química                              
+105961;Radioquímica: Conceitos e Aplicaçoes                                  ;2;85;IQD         ;Instituto de Química                              
+105970;Sociologia do Direito                                                 ;4;265;SOL         ;Departamento de Sociologia                        
+105988;Administraçao Institucional de Conflitos                              ;4;265;SOL         ;Departamento de Sociologia                        
+105996;Sociologia do Trabalho e Relaçoes Sociais de Genero                   ;4;265;SOL         ;Departamento de Sociologia                        
+106003;Políticas de Segurança Alimentar e Nutricional                        ;4;234;DSC         ;Departamento de Saúde Coletiva                    
+106011;Atençao Integral a Saúde do Recém Nascido                             ;2;232;ENF         ;Departamento de Enfermagem                        
+106020;Leitura e Produçao de Texto - Teatro                                  ;4;26;IDA         ;Instituto de Artes                                
+106038;Fundamentos de Análise Instrumental 2                                 ;2;85;IQD         ;Instituto de Química                              
+106046;Laboratório de Síntese Inorgânica                                     ;4;85;IQD         ;Instituto de Química                              
+106054;Reaçoes Orgânicas e seus Mecanismos 2                                 ;4;85;IQD         ;Instituto de Química                              
+106062;Processos Metamórficos                                                ;4;28;IGD         ;Instituto de Geociencias                          
+106071;Controle Adaptativo                                                   ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+106089;Trabalho de Conclusao de Curso em Interepretaçao Teatral 1            ;2;164;CEN         ;Departamento de Artes Cenicas                     
+106097;Trabalho de Conclusao de Curso em Interepretaçao Teatral 2            ;2;164;CEN         ;Departamento de Artes Cenicas                     
+106101;Diplomaçao em Interpretaçao Teatral                                   ;10;164;CEN         ;Departamento de Artes Cenicas                     
+106119;Projeto em Interpretaçao Teatral                                      ;14;164;CEN         ;Departamento de Artes Cenicas                     
+106127;Espectroscopia Atômica e Molecular                                    ;4;85;IQD         ;Instituto de Química                              
+106135;Trabalho de Conclusao do  Curso de Bacharelado em Química 1           ;4;85;IQD         ;Instituto de Química                              
+106143;Fundamentos de Análise do Comportamento                               ;6;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106151;Trabalho de Conclusao do  Curso de Bacharelado em Química 2           ;6;85;IQD         ;Instituto de Química                              
+106160;Terapia Cognitiva                                                     ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106178;Introduçao a Farmácia Hospitalar                                      ;2;21;FS          ;Faculdade de Ciencias da Saúde                    
+106186;Processos de Desenvolvimento Humano                                   ;6;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106194;Práticas de Ensino em Economia                                        ;2;160;ECO         ;Departamento de Economia                          
+106208;Estudos de Traduçao de Prosa Grega Antiga                             ;4;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+106216;Estudos de Traduçao da Poesia Grega Antiga                            ;4;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+106224;Trabalho de Conclusao do Curso 1                                      ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+106232;Estágio Supervisionado p/ Segunda Licenciatura em Ciencias Naturais 2 ;5;89;FUP         ;UnB - Faculdade de Planaltina                     
+106241;Vida e Biosfera                                                       ;20;89;FUP         ;UnB - Faculdade de Planaltina                     
+106259;Uso de TIC no Curso de Biologia a Distância                           ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+106267;Gerenciamento da Cadeia de Suprimento                                 ;4;308;EPR         ;Departamento de Engenharia de Produçao
+106275;Fundamentos de Parasitologia                                          ;2;32;FMD         ;Faculdade de Medicina                             
+106283;Psicologia do Trabalho                                                ;4;258;PST         ;Departamento de Psicologia Social e do Trabalho   
+106291;Terapia Analítica - Comportamental                                    ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106305;Psicologia Evolucionista                                              ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106313;Tópicos em Psicologia Ambiental                                       ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106321;Tópicos em Métodos de Pesquisa                                        ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106330;Tópicos em Ergonomia                                                  ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106348;Tópicos em Cogniçao                                                   ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106356;Tópicos em Aplicaçoes das Ciencias do Comportamento                   ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106364;Tópicos em Terapia Analítico - Comportamental                         ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106372;Tópicos em Análise Conceitual em Psicologia                           ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106381;Tópicos em Psicologia Social Aplicada                                 ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106399;Pesquisa em Psicologia Social                                         ;4;258;PST         ;Departamento de Psicologia Social e do Trabalho   
+106402;Pesquisa em Psicologia Evolucionista                                  ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106411;Percepçao e Cogniçao: Ciencia e Tecnologia                            ;4;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106429;Análise Comportamental Aplicada                                       ;4;80;IP          ;Direçao do Instituto de Psicologia                
+106437;Epistemologia e Métodos Clínicos                                      ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106445;Intervençoes Psicossociais com Crianças e Adolescentes                ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106453;Intervençoes Psicossociais em Contextos de Violencia                  ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106461;Psicologia Comunitária                                                ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106470;Psicologia das Habilidades Sociais                                    ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106488;Psicoterapia Ericksoniana                                             ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106496;Psicoterapias Humanistas e Fenomenológico-Existenciais                ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106500;Tópicos em Psicanálise                                                ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106518;Tópicos em Psicologia Clínica                                         ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106526;Tópicos em Terapia Conjugal e Familiar                                ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106534;Desenvolvimento Humano e Competencias                                 ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106542;Desenvolvimento no curso de vida: Velhice                             ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106551;Cinética Química                                                      ;2;85;IQD         ;Instituto de Química                              
+106569;Desenvolvimento, Aprendizagem e Interaçoes Virtuais                   ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106577;Diversidade e Inclusao Escolar                                        ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106585;Estágio Supervisionado Bacharel - Área Psicologia do Desenvolvimento  ;10;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106593;Filosofia e Epistemologia da Psicologia                               ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106607;Métodos de Pesquisa em Desenvolvimento Humano                         ;6;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106615;Psicologia e Saúde Pública                                            ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106623;Psicologia Escolar e Formaçao Profissional Continuada                 ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106631;Psicologia Escolar: Pesquisa e Intervençao                            ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106640;Psicologia, Cidadania e Ética                                         ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106658;Tópicos em Psicologia Escolar                                         ;4;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106666;Terapia Cognitivo - Comportamental em Grupo                           ;4;257;PCL         ;Departamento de Psicologia Clínica                
+106674;Administraçao Pública e Éticas Objetos de Estudo e de Conhecimento    ;2;110;CEAM        ;Centro de Estudos Avançados e Multidisciplinares  
+106682;Estágio Supervisionado Licenciatura - Área Psicologia Escolar 1       ;10;256;PED         ;Departamento de Psic.Escolar e do Desenvolvimento 
+106691;Estágio Supervisionado Licenciatura - Área Ciencias do Comportamento 1;10;255;PPB         ;Departamento de Processos Psicologicos Básicos    
+106704;Estágio Supervisionado Licenciatura - Área Ciencias do Comportamento 2;0;80;IP          ;Direçao do Instituto de Psicologia                
+106712;Tópicos Especiais em Artes Cenicas 1                                  ;6;26;IDA         ;Instituto de Artes                                
+106721;Metodologia de Ensino de Filosofia                                    ;6;117;FIL         ;Departamento de Filosofia                         
+106739;Laboratório de Teoria, Crítica e História da Arte 1                   ;4;163;VIS         ;Departamento de Artes Visuais                     
+106747;Teoria e História da Arte e da Imagem no Espaço/Tempo 2               ;4;163;VIS         ;Departamento de Artes Visuais                     
+106755;Computaçao em Estatística 1                                           ;2;107;EST         ;Departamento de Estatística                       
+106763;Computaçao em Estatística 2                                           ;4;107;EST         ;Departamento de Estatística                       
+106771;Estatística Computacional                                             ;4;107;EST         ;Departamento de Estatística                       
+106780;Inferencia Bayesiana                                                  ;4;107;EST         ;Departamento de Estatística                       
+106798;Técnicas de Amostragem 2                                              ;4;107;EST         ;Departamento de Estatística                       
+106801;Estatística Espacial                                                  ;4;107;EST         ;Departamento de Estatística                       
+106810;Laboratório de Estatística 1                                          ;4;107;EST         ;Departamento de Estatística                       
+106828;Laboratório de Estatística 2                                          ;4;107;EST         ;Departamento de Estatística                       
+106836;Consultoria                                                           ;4;107;EST         ;Departamento de Estatística                       
+106844;Modelos Lineares Generalizados                                        ;4;107;EST         ;Departamento de Estatística                       
+106852;Análise de Séries Temporais 2                                         ;4;107;EST         ;Departamento de Estatística                       
+106861;Demografia 2                                                          ;4;107;EST         ;Departamento de Estatística                       
+106879;Teoria da Resposta ao Ítem                                            ;4;107;EST         ;Departamento de Estatística                       
+106887;Tópicos em Estatística 1                                              ;4;107;EST         ;Departamento de Estatística                       
+106895;Modelos líneares                                                      ;4;107;EST         ;Departamento de Estatística                       
+106909;Políticas Públicas em Educaçao Física, Esporte, Saúde e Lazer         ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106917;Fundamentos Históricos-Filosófico da Educaçao Física                  ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106925;Fundamentos Sócio-Antropológico da Educaçao Física                    ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106933;Estágio Supervisionado Avançado em Educaçao Física                    ;10;29;FEF         ;Faculdade de Educaçao Física                      
+106950;Administraçao em Educaçao Física                                      ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106968;Métodos e Técnicas de Pesquisa em Educaçao Física                     ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106976;Fisiologia do Exercício 1                                             ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106984;Anatomia Aplicada a Educaçao Física                                   ;4;29;FEF         ;Faculdade de Educaçao Física                      
+106992;Fisiologia do Exercício 2                                             ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107000;Prevençao de Acidentes e Primeiros Socorros                           ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107018;Cinesiologia Aplicada a Educaçao Física                               ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107026;Metodologia das Atividades Gímnicas                                   ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107034;Metodologia da Dança e Expressao                                      ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107042;Metodologia do Atletismo                                              ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107051;Nataçao                                                               ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107069;Metodologia dos Jogos                                                 ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107077;Principio do Treinamento Resistido                                    ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107085;Fundamentos Teóricos-Metodológicos da Educaçao Física                 ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107093;Ciencia e Pesquisa em Educaçao Física                                 ;2;29;FEF         ;Faculdade de Educaçao Física                      
+107107;Estatística Aplicada a Educaçao Física                                ;2;29;FEF         ;Faculdade de Educaçao Física                      
+107115;Execuçao do Projeto de Trabalho de Conclusao do Curso                 ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107131;Estudos e Pesquisa em Educaçao Física Escolar                         ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107140;Metodologia das Modalidades Esportivas Coletivas                      ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107158;Metodologia das Lutas e Artes Marciais                                ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107166;Fundamentos do Desenv e Aprendiz Aplicados a Educ Fís Infantil        ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107174;Fundamentos do Desenv e Aprendiz Aplicados a Educ Fís no Ens Fund     ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107182;Aspectos Psicológicos da Aprendizagem Aplicados a Educaçao Física     ;2;29;FEF         ;Faculdade de Educaçao Física                      
+107191;Educaçao Física e Práticas Corporais                                  ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107204;Educaçao Física: Leis, Normas e Políticas                             ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107212;Estágio Supervisionado na Educaçao Física Infantil                    ;6;29;FEF         ;Faculdade de Educaçao Física                      
+107221;Estágio Supersionado na Educaçao Física no Ensino Fundamenta          ;6;29;FEF         ;Faculdade de Educaçao Física                      
+107239;Est Sup Educaçao Física no Ensino Médio e na Educ Jovens e Adultos    ;6;29;FEF         ;Faculdade de Educaçao Física                      
+107247;Fund do Desenv e Aprend Apl a Edu Fís  Ensino Médio e na EJA          ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107255;Seminário de Pesquisa em Educaçao Física                              ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107263;Memórias Gastronômicas e Gustativas                                   ;4;56;CET         ;Centro de Excelencia em Turismo                   
+107271;Projeto Integrador em Turismo 4                                       ;4;56;CET         ;Centro de Excelencia em Turismo                   
+107280;Crítica e História da Arte no Brasil 3                                ;4;163;VIS         ;Departamento de Artes Visuais                     
+107298;Elaboraçao de Projetos em Turismo                                     ;4;56;CET         ;Centro de Excelencia em Turismo                   
+107301;Teoria, Crítica e História da Arte 5                                  ;4;163;VIS         ;Departamento de Artes Visuais                     
+107310;Arte e Antropologia                                                   ;4;163;VIS         ;Departamento de Artes Visuais                     
+107328;Teoria e História da Arte e da Imagem no Espaço/Tempo 4               ;4;163;VIS         ;Departamento de Artes Visuais                     
+107336;Processos Cognitivos: Cinésio-Fisiopatologia                          ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+107344;Métodos Estatísticos 2                                                ;4;107;EST         ;Departamento de Estatística                       
+107352;Análise Multivariada 2                                                ;4;107;EST         ;Departamento de Estatística                       
+107361;Práticas de Ensino em Citopatologia                                   ;4;32;FMD         ;Faculdade de Medicina                             
+107379;Parasitologia Veterinária                                             ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+107387;Evoluçao Humana                                                       ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+107395;Tópicos Especiais em Agronomia                                        ;2;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+107409;Tópicos Especiais em Jogos Digitais                                   ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107417;Tópicos Especiais em Sistemas Críticos                                ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107425;Dinâmica dos Gases para Sistemas Aeroespaciais                        ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107433;Projeto de Sistemas de Controle                                       ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107441;Mecânica do Vôo                                                       ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107450;Métodos e Técnicas da Escrita Científica                              ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107468;Processos Petroquímicos                                               ;4;95;FGA         ;UnB - Faculdade do Gama                           
+107476;Recuperaçao e Reabilitaçao de Áreas Degradadas por Mineraçao          ;2;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+107484;Controle de Processos                                                 ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+107492;Instrumentaçao de Controle de Processos                               ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+107506;Laboratório de Controle de Processos                                  ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+107514;Análise Instrumental Teórica e Experimental                           ;4;21;FS          ;Faculdade de Ciencias da Saúde                    
+107522;Práticas Musicais Coletivas                                           ;2;165;MUS         ;Departamento de Música                            
+107531;Projeto de Trabalho de Conclusao de Curso - Bacharelado               ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107549;Trabalho de Conclusao de Curso - Bacharelado                          ;4;29;FEF         ;Faculdade de Educaçao Física                      
+107557;Prática de Apoio a Física 2 - 1                                       ;2;31;IFD         ;Instituto de Física                               
+107565;Prática de Apoio a Física 2 - 2                                       ;2;31;IFD         ;Instituto de Física                               
+107573;Prática de Apoio a Física 2 - 3                                       ;2;31;IFD         ;Instituto de Física                               
+107581;Raciocinio Clínico de Enfermagem                                      ;4;232;ENF         ;Departamento de Enfermagem                        
+107590;Estágio Supervisionado 1                                              ;28;232;ENF         ;Departamento de Enfermagem                        
+107603;Estágio Supervisionado 2                                              ;26;232;ENF         ;Departamento de Enfermagem                        
+107611;Tópicos em Bioquímica 1                                               ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+107620;Práticas Inovadoras no Ensino de Geografia                            ;4;16;IH          ;Instituto de Ciencias Humanas                     
+107638;Elaboraçao do Projeto de Trabalho de Conclusao do Curso - Licenciatura;2;29;FEF         ;Faculdade de Educaçao Física                      
+107646;Execuçao do Projeto de Trabalho de Conclusao do Curso Licenciatura    ;2;29;FEF         ;Faculdade de Educaçao Física                      
+107654;Trabalho de Conclusao de Curso - Licenciatura                         ;2;29;FEF         ;Faculdade de Educaçao Física                      
+107662;Estágio Sup em Assistencia Farmaceutica na Atençao Primária em Saúde  ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+107671;Engenharia Metabólica                                                 ;2;218;CEL         ;Departamento de Biologia Celular                  
+107689;Tópicos Especiais em Biblioteconomia e Ciencia da Informaçao          ;4;33;FCI         ;Faculdade de Ciencia da Informaçao                
+107697;Métodos da Física Experimental                                        ;4;31;IFD         ;Instituto de Física                               
+107701;Fundamentos Matemáticos da Física A                                   ;4;31;IFD         ;Instituto de Física                               
+107719;Fundamentos Matemáticos da Física B                                   ;4;31;IFD         ;Instituto de Física                               
+107727;Ondas, Óptica e Termodinâmica                                         ;6;31;IFD         ;Instituto de Física                               
+107735;Laboratório de Instrumentaçao Científica A                            ;4;31;IFD         ;Instituto de Física                               
+107743;Mecânica Clássica A                                                   ;4;31;IFD         ;Instituto de Física                               
+107751;Laboratório de Mecânica                                               ;4;31;IFD         ;Instituto de Física                               
+107760;Física Matemática A                                                   ;4;31;IFD         ;Instituto de Física                               
+107778;Relatividade e Física Quântica                                        ;6;31;IFD         ;Instituto de Física                               
+107786;Mecânica Clássica B                                                   ;4;31;IFD         ;Instituto de Física                               
+107794;Métodos Computacionais A                                              ;4;31;IFD         ;Instituto de Física                               
+107808;Laboratório de Física Moderna                                         ;4;31;IFD         ;Instituto de Física                               
+107816;Laboratório de Oscilaçoes, Ondas e Fluidos                            ;4;31;IFD         ;Instituto de Física                               
+107824;Física Matemática B                                                   ;4;31;IFD         ;Instituto de Física                               
+107832;Mecânica Quântica A                                                   ;4;31;IFD         ;Instituto de Física                               
+107841;Teoria Eletromagnética A                                              ;4;31;IFD         ;Instituto de Física                               
+107859;Laboratório de Eletromagnetismo A                                     ;4;31;IFD         ;Instituto de Física                               
+107867;Laboratório de Termodinâmcia e Física Estatística                     ;4;31;IFD         ;Instituto de Física                               
+107875;Termoestatística                                                      ;4;31;IFD         ;Instituto de Física                               
+107883;Teoria Eletromagnética B                                              ;4;31;IFD         ;Instituto de Física                               
+107891;Mecânica Quântica B                                                   ;6;31;IFD         ;Instituto de Física                               
+107905;Termodinâmica e Física Estatística                                    ;4;31;IFD         ;Instituto de Física                               
+107913;Laboratório de Óptica e Fotônica                                      ;4;31;IFD         ;Instituto de Física                               
+107921;Laboratório de Espectroscopia A                                       ;4;31;IFD         ;Instituto de Física                               
+107930;História e Filosofia da Física                                        ;4;31;IFD         ;Instituto de Física                               
+107948;Laboratório de Espectroscopia B                                       ;4;31;IFD         ;Instituto de Física                               
+107956;Laboratório de Eletromagnetismo B                                     ;4;31;IFD         ;Instituto de Física                               
+107964;Laboratório de Instrumentaçao Científica B                            ;4;31;IFD         ;Instituto de Física                               
+107972;Partículas e Campos A                                                 ;4;31;IFD         ;Instituto de Física                               
+107981;Partículas e Campos B                                                 ;4;31;IFD         ;Instituto de Física                               
+107999;Teoria Clássica de Campos                                             ;4;31;IFD         ;Instituto de Física                               
+108006;História da Física B                                                  ;4;31;IFD         ;Instituto de Física                               
+108014;Física do Estado Sólido B                                             ;4;31;IFD         ;Instituto de Física                               
+108022;Astrofísica                                                           ;4;31;IFD         ;Instituto de Física                               
+108031;Sistemas Dinâmicos                                                    ;4;31;IFD         ;Instituto de Física                               
+108049;Cosmologia                                                            ;4;31;IFD         ;Instituto de Física                               
+108057;Física Atômica e Molecular A                                          ;4;31;IFD         ;Instituto de Física                               
+108065;Física Atômica e Molecular B                                          ;4;31;IFD         ;Instituto de Física                               
+108073;História da Arte-Educaçao 1 - Teatro                                  ;4;26;IDA         ;Instituto de Artes                                
+108081;Física do Estado Sólido A                                             ;4;31;IFD         ;Instituto de Física                               
+108090;História da Física A                                                  ;4;31;IFD         ;Instituto de Física                               
+108103;Física Biológica                                                      ;4;31;IFD         ;Instituto de Física                               
+108111;Filosofia da Física                                                   ;4;31;IFD         ;Instituto de Física                               
+108120;Teoria Clássica dos Fluidos                                           ;4;31;IFD         ;Instituto de Física                               
+108138;Física Estatística Fora do Equilibrio                                 ;4;31;IFD         ;Instituto de Física                               
+108146;Métodos Computacionais B                                              ;4;31;IFD         ;Instituto de Física                               
+108154;Eletromagnetismo                                                      ;6;31;IFD         ;Instituto de Física                               
+108162;RELATIVIDADE GERAL                                                    ;4;31;IFD         ;Instituto de Física                               
+108171;Educaçao Física e Cinema                                              ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108189;Educaçao Física e Vivencias Corporais Alternativas                    ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108197;Educaçao Física e Literatura                                          ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108201;Educaçao Física, Música e Arte                                        ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108219;Jogos e Brincadeiras Populares                                        ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108227;Danças e Brincadeiras Cantadas                                        ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108235;Educaçao Tutorial: A Universidade em Questao                          ;1;29;FEF         ;Faculdade de Educaçao Física                      
+108243;Educaçao Tutorial: O currículo de Formaçao em Educaçao Física         ;2;29;FEF         ;Faculdade de Educaçao Física                      
+108251;Educaçao Tutorial: Mundo do Trabalho em Educaçao Física               ;1;29;FEF         ;Faculdade de Educaçao Física                      
+108260;Projeto de Trabalho de Conclusao de Curso                             ;2;31;IFD         ;Instituto de Física                               
+108278;Trabalho de Conclusao de Curso                                        ;6;31;IFD         ;Instituto de Física                               
+108286;Tópicos Especiais A                                                   ;4;31;IFD         ;Instituto de Física                               
+108294;Tópicos Especiais B                                                   ;4;31;IFD         ;Instituto de Física                               
+108308;Tópicos Especiais C                                                   ;4;31;IFD         ;Instituto de Física                               
+108316;Tópicos Especiais D                                                   ;4;31;IFD         ;Instituto de Física                               
+108324;Arte e Cultura Popular - Teatro                                       ;4;26;IDA         ;Instituto de Artes                                
+108332;História da Arte-Educaçao 2 - Teatro                                  ;4;26;IDA         ;Instituto de Artes                                
+108341;História do Teatro 1                                                  ;6;26;IDA         ;Instituto de Artes                                
+108359;História do Teatro 2                                                  ;6;26;IDA         ;Instituto de Artes                                
+108367;Laboratório de Poéticas Contemporâneas - Teatro                       ;6;26;IDA         ;Instituto de Artes                                
+108375;Introduçao a Teoria do Orbital Molecular                              ;4;85;IQD         ;Instituto de Química                              
+108383;Tópicos Contemporâneos em Gestao de Políticas Públicas 1              ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+108391;Tópicos Contemporâneos em Gestao de Políticas Públicas 2              ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+108405;Tópicos Contemporâneos em Gestao de Políticas Públicas 3              ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+108413;Tópicos Contemporâneos em Gestao de Políticas Públicas 4              ;4;360;GPP         ;Departamento de Gestao de Políticas Públicas - GPP
+108421;Introduçao a Biologia Marinha                                         ;5;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+108430;Toxicantes de Interesse em Alimentos                                  ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108448;Toxicologia e Essencialidade de Metais                                ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108456;Fonética Acústica                                                     ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108464;Ciclos de Vida e Fonoaudiologia do Nascimento r Primeira Infância     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108472;Fundamentos de Audiologia                                             ;8;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108481;Mecânica do Vôo Espacial                                              ;4;95;FGA         ;UnB - Faculdade do Gama                           
+108499;Projeto de Sistemas Aeroespaciais                                     ;6;95;FGA         ;UnB - Faculdade do Gama                           
+108502;Filosofia da Medicina                                                 ;3;32;FMD         ;Faculdade de Medicina                             
+108511;Mecânica dos Fluídos Magnéticos                                       ;4;139;ENM         ;Departamento de Engenharia Mecânica               
+108529;Redes de Telecomunicaçoes                                             ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108537;Laboratório de Redes de Telecomunicaçoes                              ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+108545;Arquitetura e Protocolos de Redes                                     ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108553;Laboratório de Arquitetura e Protocolos de Redes                      ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+108561;Algoritmos e Estrutura de Dados                                       ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108570;Planejamento de Redes sem Fio                                         ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108588;Fundamentos de Redes 2                                                ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108596;Gerencia de Redes e Sistemas                                          ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108600;Avaliaçao de Desempenho de Redes e Sistemas                           ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+108618;Tópicos em Biofísica 1                                                ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+108626;Tópicos em Biofísica 1                                                ;4;218;CEL         ;Departamento de Biologia Celular                  
+108634;Cálculo Vetorial e Geometria Analítica                                ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+108642;Educaçao e Comunicaçao Comunitária                                    ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+108651;Práticas Avançadas em Neurofarmacologia                               ;6;21;FS          ;Faculdade de Ciencias da Saúde                    
+108669;Introduçao á Engenharia Territorial                                   ;4;137;ENC         ;Departamento de Engenharia Civil e Ambiental      
+108677;Estágio Supervisionado para Segunda Lic. em Ciencias Naturais 3       ;5;89;FUP         ;UnB - Faculdade de Planaltina                     
+108685;Trabalho de Conclusao do Curso 2                                      ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+108693;Humanidade, Ciencia e Tecnologia                                      ;24;89;FUP         ;UnB - Faculdade de Planaltina                     
+108707;Pesquisa em Biofísica                                                 ;6;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+108715;Fisioterapia no Tratamento da Dor Crônica Vertebral                   ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108723;Práticas em Ciencias Ambientais                                       ;4;222;ECL         ;Departamento de Ecologia                          
+108731;Fundamentos de Ensino de Química                                      ;2;85;IQD         ;Instituto de Química                              
+108740;Trabalho de Conclusao de Curso 2 - Lic em Química                     ;2;85;IQD         ;Instituto de Química                              
+108758;Estágio em Regencia no Ensino de Química 1                            ;6;85;IQD         ;Instituto de Química                              
+108766;Avaliaçao no Ensino de Química                                        ;2;85;IQD         ;Instituto de Química                              
+108774;Aulas de Química em Sala Ambiente                                     ;2;85;IQD         ;Instituto de Química                              
+108782;Prática Interdisciplinar em Ensino de Química 2                       ;3;85;IQD         ;Instituto de Química                              
+108791;Contexto Escolar e Ensino de Química                                  ;3;85;IQD         ;Instituto de Química                              
+108804;Didática da Química                                                   ;4;85;IQD         ;Instituto de Química                              
+108812;Bases Celulares e Morfológicas do Desenvolvimento Regeneraçao Muscular;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+108821;Sociologia do Audio Visual                                            ;4;265;SOL         ;Departamento de Sociologia                        
+108839;Sociologia das Diferenças Sexuais                                     ;4;265;SOL         ;Departamento de Sociologia                        
+108847;Laboratório de Ensino de Matemática                                   ;3;106;MAT         ;Departamento de Matemática.                       
+108855;Teoria e Pensamento Social 1                                          ;4;265;SOL         ;Departamento de Sociologia                        
+108863;Cálculo de Varias Variáveis                                           ;3;106;MAT         ;Departamento de Matemática.                       
+108871;Sociologias Emergentes                                                ;4;265;SOL         ;Departamento de Sociologia                        
+108880;Estágio de Docencia 2                                                 ;7;106;MAT         ;Departamento de Matemática.                       
+108898;Epistemologia das Ciencias Sociais                                    ;4;265;SOL         ;Departamento de Sociologia                        
+108901;Geometria Espacial                                                    ;3;106;MAT         ;Departamento de Matemática.                       
+108910;Fundamentos de Álgebra 1                                              ;2;106;MAT         ;Departamento de Matemática.                       
+108928;Sociologia do Conflito                                                ;4;265;SOL         ;Departamento de Sociologia                        
+108936;Sociologia da Violencia na Perspectiva das Relaçoes de Genero         ;4;265;SOL         ;Departamento de Sociologia                        
+108944;Laboratório de Crítica,Teoria e História da Arte 2                    ;4;163;VIS         ;Departamento de Artes Visuais                     
+108952;Crítica e História da Arte no Brasil 4                                ;4;163;VIS         ;Departamento de Artes Visuais                     
+108961;Teoria, Crítica e História da Arte 6                                  ;4;163;VIS         ;Departamento de Artes Visuais                     
+108979;Teoria e História da Arte e da Imagem no Espaço/Tempo 1               ;4;163;VIS         ;Departamento de Artes Visuais                     
+108987;Recursos Hídricos Para Ciencias Ambientais                            ;6;28;IGD         ;Instituto de Geociencias                          
+108995;Sistemas Agroflorestais                                               ;4;140;EFL         ;Departamento de Engenharia Florestal              
+109002;Introduçao r Farmácia                                                 ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109011;Tópicos Especiais em Microeletrônica                                  ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+109029;Laboratório de Econometria                                            ;4;160;ECO         ;Departamento de Economia                          
+109037;Estágio Supervisionado Psicólogo - Área Soc. Trab. e Org. 4           ;12;258;PST         ;Departamento de Psicologia Social e do Trabalho   
+109045;Estágio Supervisionado Psicólogo - Área Soc. Trab. e Org. 5           ;12;258;PST         ;Departamento de Psicologia Social e do Trabalho   
+109053;Intercâmbio Internacional                                             ;16;87;IREL        ;Instituto de Relaçoes Internacionais              
+109061;Tópicos Especiais em Introduçao ao Estudo das Relaçoes Internacionais ;4;87;IREL        ;Instituto de Relaçoes Internacionais              
+109070;Estágio Supervisionado em Ingles 1                                    ;14;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109088;Estágio Supervisionado em Ingles 2                                    ;14;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109096;Estudos Orientados em Pesquisa em Saúde e Enfermagem 1                ;2;232;ENF         ;Departamento de Enfermagem                        
+109100;Estudos Orientados em Pesquisa em Saúde e Enfermagem 2                ;1;232;ENF         ;Departamento de Enfermagem                        
+109118;Estudos Orientados em Pesquisa em Saúde e Enfermagem 3                ;2;232;ENF         ;Departamento de Enfermagem                        
+109126;Serviços Clínicos Farmaceuticos                                       ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109134;Elaboraçao de Projetos Paisagisticos                                  ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+109142;Física do Solo                                                        ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+109151;Arborizaçao Urbana                                                    ;4;30;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+109169;Impostaçao de Voz                                                     ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109177;Tecnologias Assistivas em Audiologia                                  ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109185;Práticas em Fonoaudiologia: do Nascimento r Primeira Infância         ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109193;Pesquisas em Disturbios da Comunicaçao                                ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109207;Vivencia em Saúde Fonoaudiológica: Do Nascimento r Primeira Infância  ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109215;Fonoaudiologia na Atençao Primaria r Saúde                            ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109223;Pesquisa em Motricidade Orofacial e Disfagia                          ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109231;Pesquisa em Promoçao do Uso Racional dos Medicamentos                 ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109240;Introduçao a Engenharia de Materiais                                  ;4;85;IQD         ;Instituto de Química                              
+109258;Materiais e Microestrutura                                            ;2;85;IQD         ;Instituto de Química                              
+109266;Tópicos Avançados em Terapia Manual 1                                 ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109274;Pesquisa em Oncologia                                                 ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109282;Tópicos Avançados em Terapia Manual 2                                 ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109291;Cuidados em Queimaduras                                               ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109304;Geometria Plana 2                                                     ;2;106;MAT         ;Departamento de Matemática.                       
+109312;Introduçao rs Probabilidades Discretas                                ;3;106;MAT         ;Departamento de Matemática.                       
+109321;Tópicos de Geometria Analítica                                        ;1;106;MAT         ;Departamento de Matemática.                       
+109339;Tópicos de Álgebra Linear                                             ;3;106;MAT         ;Departamento de Matemática.                       
+109347;Portugues Para Estrangeiros: Língua e Cultura 1                       ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109355;Portugues Para Estrangeiros: Língua e Cultura 2                       ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109363;Portugues Para Estrangeiros: Comunicaçao Oral e Escrita 1             ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109371;Portugues Para Estrangeiros: Comunicaçao Oral e Escrita 2             ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109380;Trabalho de Conclusao de Curso                                        ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109398;Ciclos de Vida e Fonoaudiologia: Infância a Adolescencia              ;6;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109401;Trabalho de Conclusao de Curso                                        ;4;106;MAT         ;Departamento de Matemática.                       
+109410;Estágio Supervisionado em Portugues 1                                 ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109428;Estágio Supervisionado em Portugues 2                                 ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109436;Estágio Supervisionado em Língua Portuguesa e Literatura 1            ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109444;Estágio Supervisionado em Língua Portuguesa e Literatura 2            ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109452;Estágio Supervisionado 1 em Portugues do Brasil como Segunda Língua   ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109461;Estágio Supervisionado 2 em Portugues do Brasil como Segunda Língua   ;14;124;LIP         ;Departamento de Linguística, Portugues, Líng Clás 
+109479;Tópicos Especiais em Práticas Pedagógicas                             ;4;150;MTC         ;Departamento de Métodos e Técnicas                
+109487;Neuroanatomia Clínica                                                 ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109495;Interpretaçao de Exames no Processo de Cuidar em Enfermagem           ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109509;Trabalho de Conclusao do Curso de Teatro 1                            ;6;26;IDA         ;Instituto de Artes                                
+109517;Trabalho de Conclusao do Curso de Teatro 2                            ;6;26;IDA         ;Instituto de Artes                                
+109525;Metodologia de Pesquisa em Artes Cenicas                              ;4;26;IDA         ;Instituto de Artes                                
+109533;Tópicos Especiais em Artes Cenicas 2                                  ;4;26;IDA         ;Instituto de Artes                                
+109541;Tópicos Especiais em Artes Cenicas 3                                  ;6;26;IDA         ;Instituto de Artes                                
+109550;Tópicos Especiais em Artes Cenicas 4                                  ;4;26;IDA         ;Instituto de Artes                                
+109568;Economia da Infraestrutura                                            ;4;160;ECO         ;Departamento de Economia                          
+109576;Bases de Fisiologia Endócrina                                         ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109584;Tópicos em Redes de Comunicaçao 3                                     ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+109592;Projeto Transversal em Redes de Comunicaçao 1                         ;4;138;ENE         ;Departamento de Engenharia Elétrica.              
+109606;Projeto Transversal em Redes de Comunicaçao 2                         ;2;138;ENE         ;Departamento de Engenharia Elétrica.              
+109614;Surdez: Cultura, Língua e Sociedade                                   ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109622;Práticas de Campo em Botânica                                         ;4;89;FUP         ;UnB - Faculdade de Planaltina                     
+109631;Validaçao de Métodos Analíticos                                       ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109649;Práticas em Fonoaudiologia da Infância a Adolescencia                 ;8;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109657;Vivencia em Saúde Fonoaudiológica da Infância a Adolescencia          ;8;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109665;Educaçao Física Adaptada                                              ;4;29;FEF         ;Faculdade de Educaçao Física                      
+109673;Práticas em Ciencias Ambientais                                       ;4;111;IBD         ;Direçao do Instituto Ciencias Biológicas          
+109681;Ergonomia Aplicada r Arquitetura de Interiores                        ;4;130;PRO         ;Departamento de Projetos Expressao e Representaçao
+109690;Tópicos de Tecnologia Farmaceutica                                    ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109703;Informaçao sobre Medicamentos: Busca, Recuperaçao e Análise           ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109711;Geografia,  Ambiente e Saúde                                          ;4;118;GEA         ;Departamento de Geografia                         
+109720;Práticas Pedagógicas em Filosofia                                     ;2;117;FIL         ;Departamento de Filosofia                         
+109738;Estudos e Pesquisas em Administraçao                                  ;2;157;ADM         ;Departamento de Administraçao                     
+109746;Tópicos Contemporâneos em Estratégia                                  ;2;157;ADM         ;Departamento de Administraçao                     
+109754;Tópicos Contemporâneos em Inovaçao                                    ;2;157;ADM         ;Departamento de Administraçao                     
+109762;Inovaçao em Serviços                                                  ;4;157;ADM         ;Departamento de Administraçao                     
+109771;Gestao de Marcas                                                      ;4;157;ADM         ;Departamento de Administraçao                     
+109789;Logística Internacional                                               ;4;157;ADM         ;Departamento de Administraçao                     
+109797;Marketing Socialmente Responsável                                     ;4;157;ADM         ;Departamento de Administraçao                     
+109801;Marketing de Serviços                                                 ;4;157;ADM         ;Departamento de Administraçao                     
+109819;Introduçao a Metodologia de Pesquisa para Engenharia de Produçao      ;2;308;EPR         ;Departamento de Engenharia de Produçao
+109827;Tópicos Especiais em Gastronomia 2                                    ;2;56;CET         ;Centro de Excelencia em Turismo                   
+109835;Filosofia Francesa Contemporânea                                      ;4;117;FIL         ;Departamento de Filosofia                         
+109843;Tópicos Avançados em Audiologia                                       ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109851;Tópicos Especiais em Neurociencia Cognitiva                           ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109860;Pesquisa em Neurociencia Cognitiva                                    ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109878;Termodinâmica Aplicada                                                ;2;85;IQD         ;Instituto de Química                              
+109886;Terapia Ocupacional no Campo Social                                   ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109894;Língua Neerlandesa (Holandes) 1                                       ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109908;Língua Neerlandesa (Holandes) 2                                       ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109916;Língua Neerlandesa (Holandes) 3                                       ;4;126;LET         ;Departamento de Línguas Estrangeiras e Traduçao   
+109924;Fonoaudiologia Hospitalar                                             ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109932;Ciclos de Vida e Fonoaudiologia: Vida Adulta e Envelhecimento         ;4;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109941;Fonoaudiologia Educacional                                            ;2;96;FCE         ;UnB - Faculdade da Ceilândia                      
+109959;Filosofia Africana                                                    ;4;117;FIL         ;Departamento de Filosofia                         
+109967;Filosofia do Ensino de Filosofia                                      ;4;117;FIL         ;Departamento de Filosofia                         
+109975;Filosofia e Crianças - Uma Educaçao Filosófica                        ;4;117;FIL         ;Departamento de Filosofia                         
+109983;Filosofia e Feminismo                                                 ;4;117;FIL         ;Departamento de Filosofia                         
+109991;Fundamentos Matemáticos da Física para Ciencias Biológicas            ;2;31;IFD         ;Instituto de Física                               
+110001;Estudo de Problemas Brasileiros 1                                     ;1;14;IE          ;Instituto de Ciencias Exatas                      
+110019;Tópicoa Especiais em Ciencias Ambientais 1                            ;2;28;IGD         ;Instituto de Geociencias                          
+110027;Tópicoa Especiais em Ciencias Ambientais 2                            ;4;28;IGD         ;Instituto de Geociencias                          
+110035;Tópicoa Especiais em Ciencias Ambientais 3                            ;4;28;IGD         ;Instituto de Geociencias                          
+110043;Tópicoa Especiais em Ciencias Ambientais 4                            ;8;28;IGD         ;Instituto de Geociencias                          
+110051;Tópicoa Especiais em Ciencias Ambientais 5                            ;8;28;IGD         ;Instituto de Geociencias                          
