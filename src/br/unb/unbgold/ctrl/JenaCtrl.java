@@ -12,9 +12,11 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.util.FileManager;
 
@@ -25,7 +27,9 @@ import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
 import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
+import br.unb.unbgold.model.Dataset;
 import br.unb.unbgold.model.Objeto;
+import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
@@ -51,35 +55,51 @@ public class JenaCtrl {
 		Publicacao publicacao = new Publicacao();
 		publicacao.setId_publicacao(id);
 		
+		
+		
 		String msg = "Rodou";
 		List<Resource> resorces = new ArrayList<Resource>();
 		
 		List<TriplaUtil> triplas = new ArrayList<TriplaUtil>();
 		try {
-			List<Ontologia> ontologias = new OntologiaDao().getAll();
+			List<Ontologia> ontologias = new ArrayList<Ontologia>();
+			
+			
 			publicacao = publicacaoDao.get(id);
+			Dataset dataset = publicacao.getDataset();
 			List<Sujeito> sujeitos = new SujeitoDao().getByPublicacaoId(id);
+			//List<Sujeito> sujeitos = new SujeitoDao().getAll();
 			Model m = ModelFactory.createDefaultModel();
 			for (Sujeito sujeito : sujeitos) {
 				List<Objeto> objetos = objetoDao.findByPublicacao(sujeito);
+				Resource root = m.createResource(sujeito.getDesc_sujeito());
+				Objeto oType = new Objeto();
+				oType.setDesc_objeto(dataset.getTermo().getIri_termo());
+				Objeto_tipo ot = new Objeto_tipo();
+				ot.setId_objeto_tipo(2);
+				oType.setObjeto_tipo(ot);
+				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, null);
+						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
+				triplas.add(type);
 				for (Objeto objeto: objetos) {
-					Resource root = m.createResource(sujeito.getDesc_sujeito());
-					
-						String iri_termo;
-						if(objeto.getTermo().getNm_termo().equals("naoindexado")) {
-							iri_termo = objeto.getTermo().getOntologia().getUrl_ontologia()+"#"+objeto.getColuna().getNm_campo();
-						}else {
-							iri_termo = objeto.getTermo().getOntologia().getUrl_ontologia()+"#"+objeto.getTermo().getNm_termo();
-						}
-						
-						Property p = m.createProperty(iri_termo);
-						if(objeto.getObjeto_tipo().getId_objeto_tipo() != 2) {
-							triplas.add(new TriplaUtil(root, p, objeto, true, objeto.getColuna()));
-						}else {
-							triplas.add(new TriplaUtil(root, p, objeto, false, objeto.getColuna()));
-						}
-						//m.add(root, p, objeto.getDesc_objeto());
+					if(!ontologias.contains(objeto.getTermo().getOntologia())){
+						ontologias.add(objeto.getTermo().getOntologia());
+					}	
+					String iri_termo;
+					if(objeto.getTermo().getNm_termo().equals("naoindexado")) {
+						iri_termo = objeto.getTermo().getOntologia().getUrl_ontologia()+"#"+objeto.getColuna().getNm_campo();
+					}else {
+						iri_termo = objeto.getTermo().getOntologia().getUrl_ontologia()+"#"+objeto.getTermo().getNm_termo();
 					}
+					
+					Property p = m.createProperty(iri_termo);
+					if(objeto.getObjeto_tipo().getId_objeto_tipo() != 2) {
+						triplas.add(new TriplaUtil(root, p, objeto, true, objeto.getColuna()));
+					}else {
+						triplas.add(new TriplaUtil(root, p, objeto, false, objeto.getColuna()));
+					}
+					//m.add(root, p, objeto.getDesc_objeto());
+				}
 				
 				
 			}
@@ -96,13 +116,16 @@ public class JenaCtrl {
 					List<TriplaUtil> triplaLink = new ArrayList<TriplaUtil>();
 					for (TriplaUtil tripla : triplas) {
 						//System.out.println(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo());
+						tripla.setLiteral(true);
 						if(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo() == 2) {
 							for (Objeto objeto: objetosLigacao) {
 								//System.out.println(objeto.getDesc_objeto());
 								if(tripla.getObjeto().getDesc_objeto().equals(objeto.getDesc_objeto())){
 									Objeto ob = tripla.getObjeto();
 									ob.setDesc_objeto(objeto.getSujeito().getDesc_sujeito());
+									
 									tripla.setObjeto(ob);
+									tripla.setLiteral(false);
 									break;
 								}
 							}
@@ -114,7 +137,15 @@ public class JenaCtrl {
 					
 			}
 			for (TriplaUtil tripla : triplas) {
-				m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
+				if(tripla.getLiteral()) {
+					
+					m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
+				}else {
+					//Model model = new 
+					Resource o = m.createResource(tripla.getObjeto().getDesc_objeto());
+					m.add(tripla.getRoot(), tripla.getP(), o);
+					
+				}
 			}
 			
 			/* String nsA = "http://somewhere/else#";
