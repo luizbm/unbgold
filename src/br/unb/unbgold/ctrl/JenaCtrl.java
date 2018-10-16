@@ -67,16 +67,18 @@ public class JenaCtrl {
 			
 			publicacao = publicacaoDao.get(id);
 			Dataset dataset = publicacao.getDataset();
+			Objeto oType = new Objeto();
+			oType.setDesc_objeto(dataset.getTermo().getIri_termo());
+			Objeto_tipo ot = new Objeto_tipo();
+			ot.setId_objeto_tipo(2);
+			
 			List<Sujeito> sujeitos = new SujeitoDao().getByPublicacaoId(id);
 			//List<Sujeito> sujeitos = new SujeitoDao().getAll();
 			Model m = ModelFactory.createDefaultModel();
 			for (Sujeito sujeito : sujeitos) {
 				List<Objeto> objetos = objetoDao.findByPublicacao(sujeito);
 				Resource root = m.createResource(sujeito.getDesc_sujeito());
-				Objeto oType = new Objeto();
-				oType.setDesc_objeto(dataset.getTermo().getIri_termo());
-				Objeto_tipo ot = new Objeto_tipo();
-				ot.setId_objeto_tipo(2);
+				
 				oType.setObjeto_tipo(ot);
 				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, null);
 						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
