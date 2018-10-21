@@ -13,7 +13,7 @@ public class TriplaUtil {
 	private Objeto objeto;
 	private Boolean literal;
 	private Coluna coluna;
-	
+	private Boolean tipo;
 	
 	public TriplaUtil(Resource root, Property p, Objeto objeto, Boolean literal, Coluna coluna) {
 		super();
@@ -22,6 +22,7 @@ public class TriplaUtil {
 		this.objeto = objeto;
 		this.literal = literal;
 		this.coluna = coluna;
+		this.tipo = false;
 	}
 	public Resource getRoot() {
 		return root;
@@ -52,6 +53,12 @@ public class TriplaUtil {
 	}
 	public void setColuna(Coluna coluna) {
 		this.coluna = coluna;
+	}
+	public Boolean getTipo() {
+		return tipo;
+	}
+	public void setTipo(Boolean tipo) {
+		this.tipo = tipo;
 	}
 	
 }

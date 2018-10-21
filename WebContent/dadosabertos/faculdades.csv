@@ -1,0 +1,114 @@
+﻿id_faculdade;nome_faculdade;sigla_departamento;nome_departamento
+19;Administração                                                         ;ADM         ;Departamento de Administração                     
+27;Arquitetura e Urbanismo                                               ;FAU         ;Direção da Faculdade de Arquitetura e Urbanismo   
+35;Ciências Econômicas                                                   ;ECO         ;Departamento de Economia                          
+43;Direito                                                               ;FDD         ;Faculdade de Direito                              
+51;Letras                                                                ;IL          ;Instituto de Letras                               
+60;Pedagogia                                                             ;FE          ;Faculdade de Educação                             
+94;Ciências Biológicas                                                   ;IB          ;Instituto de Ciências Biológicas                  
+124;Física                                                                ;IFD         ;Instituto de Física                               
+132;Geologia                                                              ;IGD         ;Instituto de Geociências                          
+141;Matemática                                                            ;MAT         ;Departamento de Matemática.                       
+159;Medicina                                                              ;FMD         ;Faculdade de Medicina                             
+167;Química                                                               ;IQD         ;Instituto de Química                              
+175;Música                                                                ;MUS         ;Departamento de Música                            
+183;Psicologia                                                            ;IP          ;Direção do Instituto de Psicologia                
+191;Biblioteconomia                                                       ;FCI         ;Faculdade de Ciência da Informação                
+205;Comunicação Social                                                    ;FAC         ;Faculdade de Comunicação                          
+213;Ciências Sociais                                                      ;ICS         ;Instituto de Ciências Sociais                     
+221;Filosofia                                                             ;FIL         ;Departamento de Filosofia                         
+230;História                                                              ;HIS         ;Departamento de História                          
+264;Geografia                                                             ;GEA         ;Departamento de Geografia                         
+272;Serviço Social                                                        ;SER         ;Departamento de Serviço Social                    
+281;Música                                                                ;MUS         ;Departamento de Música                            
+299;Teatro                                                                ;IDA         ;Instituto de Artes                                
+329;Educação Física                                                       ;FEF         ;Faculdade de Educação Física                      
+337;Jornalismo                                                            ;FAC         ;Faculdade de Comunicação                          
+345;Língua de Sinais Brasileira - Português como Segunda Língua             ;LIP         ;Departamento de Lingüística, Português, Líng Clás 
+353;Estatística                                                           ;EST         ;Departamento de Estatística                       
+370;Ciência da Computação                                                 ;CIC         ;Departamento de Ciência da Computação             
+388;Física                                                                ;IFD         ;Instituto de Física                               
+396;Engenharia Florestal                                                  ;EFL         ;Departamento de Engenharia Florestal              
+400;Relações Internacionais                                               ;IREL        ;Instituto de Relações Internacionais              
+442;Enfermagem                                                            ;ENF         ;Departamento de Enfermagem                        
+451;Nutrição                                                              ;NUT         ;Departamento de Nutrição                          
+507;Ciências Contábeis                                                    ;CCA         ;Depto de Ciências Contábeis e Atuariais           
+582;Engenharia Civil                                                      ;ENC         ;Departamento de Engenharia Civil e Ambiental      
+591;Engenharia Elétrica                                                   ;ENE         ;Departamento de Engenharia Elétrica.              
+604;Engenharia Mecânica                                                   ;ENM         ;Departamento de Engenharia Mecânica               
+639;Letras-Tradução                                                       ;IL          ;Instituto de Letras                               
+647;Odontologia                                                           ;ODT         ;Departamento de Odontologia                       
+671;Artes Visuais                                                         ;VIS         ;Departamento de Artes Visuais                     
+680;Artes Cênicas                                                         ;CEN         ;Departamento de Artes Cênicas                     
+698;Design                                                                ;DIN         ;Departamento de Desenho Industrial                
+701;Administração                                                         ;ADM         ;Departamento de Administração                     
+710;Ciência Política                                                      ;IPOL        ;Instituto de Ciência Política                     
+728;Arquivologia                                                          ;FCI         ;Faculdade de Ciência da Informação                
+736;Ciências Biológicas                                                   ;IB          ;Instituto de Ciências Biológicas                  
+744;Física                                                                ;IFD         ;Instituto de Física                               
+752;Matemática                                                            ;MAT         ;Departamento de Matemática.                       
+761;Química                                                               ;IQD         ;Instituto de Química                              
+779;Letras                                                                ;IL          ;Instituto de Letras                               
+787;Pedagogia                                                             ;FE          ;Faculdade de Educação                             
+809;Ciências Contábeis                                                    ;CCA         ;Depto de Ciências Contábeis e Atuariais           
+817;Direito                                                               ;FDD         ;Faculdade de Direito                              
+825;Letras                                                                ;IL          ;Instituto de Letras                               
+876;Farmácia                                                              ;FS          ;Faculdade de Ciências da Saúde                    
+884;Medicina Veterinária                                                  ;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+892;Engenharia de Redes de Comunicação                                    ;FT          ;Faculdade de Tecnologia                           
+906;Computação                                                            ;CIC         ;Departamento de Ciência da Computação             
+914;Letras                                                                ;IL          ;Instituto de Letras                               
+949;Engenharia Mecatrônica                                                ;FT          ;Faculdade de Tecnologia                           
+1023;Artes Visuais                                                         ;VIS         ;Departamento de Artes Visuais                     
+1091;Gestão do Agronegócio                                                 ;FUP         ;UnB - Faculdade de Planaltina                     
+1104;Ciências Naturais                                                     ;FUP         ;UnB - Faculdade de Planaltina                     
+1112;Administração                                                         ;FACE        ;Faculd. de Economia, Administração e Contabilidade
+1121;Educação do Campo                                                     ;FUP         ;UnB - Faculdade de Planaltina                     
+1139;Música                                                                ;IDA         ;Instituto de Artes                                
+1147;Letras                                                                ;IL          ;Instituto de Letras                               
+1155;Artes Visuais                                                         ;IDA         ;Instituto de Artes                                
+1163;Educação Física                                                       ;FEF         ;Faculdade de Educação Física                      
+1171;Teatro                                                                ;IDA         ;Instituto de Artes                                
+1180;Pedagogia                                                             ;FE          ;Faculdade de Educação                             
+1228;Engenharia                                                            ;FGA         ;UnB - Faculdade do Gama                           
+1236;Farmácia                                                              ;FCE         ;UnB - Faculdade da Ceilândia                      
+1244;Enfermagem                                                            ;FCE         ;UnB - Faculdade da Ceilândia                      
+1252;Fisioterapia                                                          ;FCE         ;UnB - Faculdade da Ceilândia                      
+1261;Terapia Ocupacional                                                   ;FCE         ;UnB - Faculdade da Ceilândia                      
+1279;Saúde Coletiva                                                        ;FCE         ;UnB - Faculdade da Ceilândia                      
+1287;Gestão Ambiental                                                      ;FUP         ;UnB - Faculdade de Planaltina                     
+1295;Ciências Naturais                                                     ;FUP         ;UnB - Faculdade de Planaltina                     
+1309;Artes Cênicas                                                         ;CEN         ;Departamento de Artes Cênicas                     
+1317;Geografia                                                             ;IH          ;Instituto de Ciências Humanas                     
+1325;Ciências Biológicas                                                   ;IB          ;Instituto de Ciências Biológicas                  
+1333;Ciências Ambientais                                                   ;IGD         ;Instituto de Geociências                          
+1341;Engenharia de Computação                                              ;CIC         ;Departamento de Ciência da Computação             
+1350;Gestão de Políticas Públicas                                          ;FACE        ;Faculd. de Economia, Administração e Contabilidade
+1368;Museologia                                                            ;FCI         ;Faculdade de Ciência da Informação                
+1376;Engenharia de Produção                                                ;FT          ;Faculdade de Tecnologia                           
+1384;Geofísica                                                             ;IGD         ;Instituto de Geociências                          
+1392;História                                                              ;HIS         ;Departamento de História                          
+1406;Música                                                                ;MUS         ;Departamento de Música                            
+1414;Letras-Tradução Espanhol                                              ;IL          ;Instituto de Letras                               
+1422;Arquitetura e Urbanismo                                               ;FAU         ;Direção da Faculdade de Arquitetura e Urbanismo   
+1431;Saúde Coletiva                                                        ;DSC         ;Departamento de Saúde Coletiva                    
+1449;Farmácia                                                              ;FS          ;Faculdade de Ciências da Saúde                    
+1457;Engenharia Ambiental                                                  ;ENC         ;Departamento de Engenharia Civil e Ambiental      
+1465;Línguas Estrangeiras Aplicadas - MSI                                  ;LET         ;Departamento de Línguas Estrangeiras e Tradução   
+1473;Comunicação Social                                                    ;FAC         ;Faculdade de Comunicação                          
+1481;Química Tecnológica                                                   ;IQD         ;Instituto de Química                              
+1490;Serviço Social                                                        ;SER         ;Departamento de Serviço Social                    
+1503;Filosofia                                                             ;FIL         ;Departamento de Filosofia                         
+1511;Gestão de Agronegócios                                                ;FAV         ;Faculdade de Agronomia e Medicina Veterinária     
+1520;Turismo                                                               ;CET         ;Centro de Excelência em Turismo                   
+1538;Biotecnologia                                                         ;IB          ;Instituto de Ciências Biológicas                  
+1546;Administração Pública                                                 ;ADM         ;Departamento de Administração                     
+1554;Teoria; Crítica e História da Arte                                    ;IDA         ;Instituto de Artes                                
+1562;Engenharia Química                                                    ;IQD         ;Instituto de Química                              
+1571;Fonoaudiologia                                                        ;FCE         ;UnB - Faculdade da Ceilândia                      
+1589;Educação Física                                                       ;FEF         ;Faculdade de Educação Física                      
+1601;Engenharia Eletrônica                                                 ;FGA         ;UnB - Faculdade do Gama                           
+1619;Engenharia de Energia                                                 ;FGA         ;UnB - Faculdade do Gama                           
+1627;Engenharia Automotiva                                                 ;FGA         ;UnB - Faculdade do Gama                           
+1635;Engenharia de Software                                                ;FGA         ;UnB - Faculdade do Gama                           
+1643;Engenharia Aeroespacial                                               ;FGA         ;UnB - Faculdade do Gama                           

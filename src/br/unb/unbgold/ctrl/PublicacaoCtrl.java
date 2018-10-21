@@ -148,8 +148,8 @@ public class PublicacaoCtrl {
 			publicacao = publicacaoDao.get(id);
 			dataset = publicacao.getDataset();
 			colunas = new ColunaDao().findByDataset(dataset);
-			System.out.println(colunas.size());
-			System.out.println(dataset.getFonte());
+			//System.out.println(colunas.size());
+			//System.out.println(dataset.getFonte());
 			BufferedReader buffer = this.pegaCSV(dataset.getFonte());
 			String line = "";
 	        String csvSplitBy = ";";
@@ -185,7 +185,7 @@ public class PublicacaoCtrl {
 		                lercabeca = false;
 	                	
 	             }else {
-	            	System.out.println("--------------------------------------------------");
+	            	//System.out.println("--------------------------------------------------");
 	 	        	//System.out.println("IRI DO SUJEITO: "+dataset.getIri()+room[colunaIri]); 
 	                Sujeito sujeito = new Sujeito();
 	                sujeito.setPublicacao(publicacao);
@@ -193,8 +193,8 @@ public class PublicacaoCtrl {
 	                
 	                sujeitoDao.add(sujeito);
 	                for (Coluna coluna : colunas) {
-	                	if(coluna.getPublicar()) {
-	                		for(int i = 0; i < room.length;i++) {
+	                	//if(coluna.getPublicar()) {
+	                		for(int i = 0; i < head.length;i++) {
 	        	        		if(coluna.getNm_campo().equals(head[i])) {
 	        	        			
 	        	        			if(coluna.getColuna_ligacao().getId_coluna() == 1) {
@@ -210,11 +210,11 @@ public class PublicacaoCtrl {
 	        	        			objeto.setTermo(coluna.getTermo());
 	        	        			objeto.setDesc_objeto(room[i].trim());
 	        	        			objeto.setColuna(coluna);
-	        	        			System.out.println(objeto.getDesc_objeto());
+	        	        			//System.out.println(objeto.getDesc_objeto());
 	        	        			objetoDao.add(objeto);
 	        	        		}
 	        	        	}
-	                	}
+	                	//}
 					}
 	             }
 	        	
