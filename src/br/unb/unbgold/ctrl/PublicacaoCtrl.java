@@ -25,7 +25,7 @@ import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
 import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Objeto;
 import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Publicacao;
@@ -140,7 +140,7 @@ public class PublicacaoCtrl {
 		String msg = "";
 		List<Coluna> colunas;
 		Publicacao publicacao = new Publicacao();
-		Dataset dataset = new Dataset();
+		ConjuntoDados dataset = new ConjuntoDados();
 		Objeto_tipo objeto_tipo = new Objeto_tipo();
 		objeto_tipo.setDesc_objeto_tipo("Literal");
 		objeto_tipo.setId_objeto_tipo(1);

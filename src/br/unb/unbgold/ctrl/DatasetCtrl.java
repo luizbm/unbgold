@@ -14,7 +14,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import br.unb.unbgold.dao.DatasetDao;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 @Path("/dataset")
 public class DatasetCtrl {
@@ -29,8 +29,8 @@ public class DatasetCtrl {
 	@GET
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Dataset> listaDataset(){
-		List<Dataset> lista = null;
+	public List<ConjuntoDados> listaDataset(){
+		List<ConjuntoDados> lista = null;
 		try {
 			;
 			lista = datasetDao.getAll();
@@ -47,8 +47,8 @@ public class DatasetCtrl {
 	@Path("/{id}")
 	//@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Dataset getDataset(@PathParam("id") int id) {
-		Dataset dataset = null;
+	public ConjuntoDados getDataset(@PathParam("id") int id) {
+		ConjuntoDados dataset = null;
 		try {
 			dataset = datasetDao.get(id);
 		} catch (Exception e) {
@@ -63,7 +63,7 @@ public class DatasetCtrl {
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.TEXT_PLAIN)
-	public String novaDataset(Dataset dataset) {
+	public String novaDataset(ConjuntoDados dataset) {
 		String msg = "";
 		try {
 			datasetDao.add(dataset);
@@ -79,7 +79,7 @@ public class DatasetCtrl {
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.TEXT_PLAIN)
-	public String editarDataset(Dataset dataset, @PathParam("id") int id) {
+	public String editarDataset(ConjuntoDados dataset, @PathParam("id") int id) {
 		String msg = "";
 		
 		try {

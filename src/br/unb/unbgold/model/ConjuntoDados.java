@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="tb_dataset")
-public class Dataset {
+public class ConjuntoDados {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id_dataset;

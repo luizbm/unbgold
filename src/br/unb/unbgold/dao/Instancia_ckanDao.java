@@ -11,7 +11,7 @@ import org.hibernate.criterion.Restrictions;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Unidade_publicadora;
 import br.unb.unbgold.model.Instancia_ckan;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 public class Instancia_ckanDao extends Dao {
 

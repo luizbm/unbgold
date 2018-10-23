@@ -18,7 +18,7 @@ public class Coluna {
 	
 	@ManyToOne
 	@JoinColumn(name="id_dataset")
-	private Dataset dataset;
+	private ConjuntoDados dataset;
 	@Column
 	private String nm_campo;
 	@Column
@@ -46,11 +46,11 @@ public class Coluna {
 		this.id_coluna = id_coluna;
 	}
 
-	public Dataset getDataset() {
+	public ConjuntoDados getDataset() {
 		return dataset;
 	}
 
-	public void setDataset(Dataset dataset) {
+	public void setDataset(ConjuntoDados dataset) {
 		this.dataset = dataset;
 	}
 

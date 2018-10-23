@@ -19,7 +19,7 @@ public class Publicacao {
 	private int id_publicacao;
 	@ManyToOne
 	@JoinColumn(name="id_dataset")
-	private Dataset dataset;
+	private ConjuntoDados dataset;
 	@Column
 	private Date data_publicacao;
 	@Column
@@ -31,10 +31,10 @@ public class Publicacao {
 	public void setId_publicacao(int id_publicacao) {
 		this.id_publicacao = id_publicacao;
 	}
-	public Dataset getDataset() {
+	public ConjuntoDados getDataset() {
 		return dataset;
 	}
-	public void setDataset(Dataset dataset) {
+	public void setDataset(ConjuntoDados dataset) {
 		this.dataset = dataset;
 	}
 	public Date getData_publicacao() {

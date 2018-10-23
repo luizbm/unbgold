@@ -10,7 +10,7 @@ import org.hibernate.criterion.Restrictions;
 
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 public class PublicacaoDao extends Dao {
 
@@ -49,7 +49,7 @@ public class PublicacaoDao extends Dao {
 		session.getTransaction().commit();
 	}
 	
-	public List<Publicacao> findByDataset(Dataset dataset){
+	public List<Publicacao> findByDataset(ConjuntoDados dataset){
 		 List<Publicacao> publicacaos = new ArrayList<Publicacao>();
 			session = sessionFactory.openSession();
 			Criteria crit = session.createCriteria(Publicacao.class);
