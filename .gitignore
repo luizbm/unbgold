@@ -2,3 +2,4 @@
 /target/
 .gitignore
 .settings/
+src/hibernate.cfg.xml
