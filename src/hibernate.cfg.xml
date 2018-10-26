@@ -17,7 +17,7 @@
 		<property name="show_sql">true</property>
 		<property name="hbm2dll.auto">update</property>
 		<mapping class="br.unb.unbgold.model.Coluna" />
-		<mapping class="br.unb.unbgold.model.Dataset" />
+		<mapping class="br.unb.unbgold.model.ConjuntoDados" />
 		<mapping class="br.unb.unbgold.model.Nota" />
 		<mapping class="br.unb.unbgold.model.Ontologia" />
 		<mapping class="br.unb.unbgold.model.Termo" />
@@ -30,5 +30,6 @@
 		<mapping class="br.unb.unbgold.model.Objeto_tipo" />
 		<mapping class="br.unb.unbgold.model.Unidade_publicadora" />
 		<mapping class="br.unb.unbgold.model.Instancia_ckan" />
+		<mapping class="br.unb.unbgold.model.Orgao" />
 	</session-factory>
 </hibernate-configuration>

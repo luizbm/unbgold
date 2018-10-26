@@ -12,7 +12,7 @@ import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
 import br.unb.unbgold.model.Coluna;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 public class SujeitoDao extends Dao {
 

@@ -10,7 +10,7 @@ import org.hibernate.criterion.Restrictions;
 
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Parametro;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 public class ParametroDao extends Dao {
 
@@ -51,7 +51,7 @@ public class ParametroDao extends Dao {
 		session.getTransaction().commit();
 	}
 	
-	public List<Parametro> findByDataset(Dataset dataset){
+	public List<Parametro> findByDataset(ConjuntoDados dataset){
 		 List<Parametro> parametros = new ArrayList<Parametro>();
 			session = sessionFactory.openSession();
 			session.beginTransaction();

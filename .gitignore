@@ -2,4 +2,8 @@
 /target/
 .gitignore
 .settings/
+<<<<<<< HEAD
 .src/hibernate.cfg.xml
+=======
+src/hibernate.cfg.xml
+>>>>>>> 9e6129d6fefac31b0078f109de5bc087e3d499ee

@@ -1,7 +1,7 @@
 package br.unb.unbgold.util;
 
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
 
 import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.Objeto;
@@ -15,10 +15,10 @@ public class TriplaUtil {
 	private Coluna coluna;
 	private Boolean tipo;
 	
-	public TriplaUtil(Resource root, Property p, Objeto objeto, Boolean literal, Coluna coluna) {
+	public TriplaUtil(Resource root2, Property property, Objeto objeto, Boolean literal, Coluna coluna) {
 		super();
-		this.root = root;
-		this.p = p;
+		this.root = root2;
+		this.p = property;
 		this.objeto = objeto;
 		this.literal = literal;
 		this.coluna = coluna;

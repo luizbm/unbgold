@@ -3,9 +3,10 @@ package br.unb.unbgold.ctrl;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.Normalizer;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -19,19 +20,31 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.sparql.function.library.leviathan.root;
+
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
+import br.unb.unbgold.dao.OntologiaDao;
 import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
+import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Objeto;
 import br.unb.unbgold.model.Objeto_tipo;
+import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
-import br.unb.unbgold.model.Tripla;
+import br.unb.unbgold.model.Termo;
+import br.unb.unbgold.util.IndexacaoFonte;
+import br.unb.unbgold.util.IndexacaoFonteObjeto;
+import br.unb.unbgold.util.MetadadoUtil;
 import br.unb.unbgold.util.Util;
+import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
 @Path("/publicacao")
 public class PublicacaoCtrl {
@@ -140,7 +153,7 @@ public class PublicacaoCtrl {
 		String msg = "";
 		List<Coluna> colunas;
 		Publicacao publicacao = new Publicacao();
-		Dataset dataset = new Dataset();
+		ConjuntoDados dataset = new ConjuntoDados();
 		Objeto_tipo objeto_tipo = new Objeto_tipo();
 		objeto_tipo.setDesc_objeto_tipo("Literal");
 		objeto_tipo.setId_objeto_tipo(1);
@@ -308,7 +321,165 @@ public class PublicacaoCtrl {
 		
 	}
 	
+	@GET
+	@Path("/indexar/{id}")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String indexarFonte(@PathParam("id") int id) {
+		String msg = "RODOU";
+		PublicacaoDao publicacaoDao = new PublicacaoDao();
+		TermoDao termoDao = new TermoDao();
+		ColunaDao colunaDao = new ColunaDao();
+		IndexacaoFonte indexacaoFonte = new IndexacaoFonte();
+		List<IndexacaoFonteObjeto> triplas = new ArrayList<IndexacaoFonteObjeto>();
+		
+		//Publicacao publicacao = new Publicacao();
+		List<Ontologia> ontologias = new ArrayList<Ontologia>();
+		OntologiaDao ontologiaDao = new OntologiaDao();
+		try {
+			ontologias.add(ontologiaDao.get(2));
+			ontologias.add(ontologiaDao.get(8));
+			ontologias.add(ontologiaDao.get(9));
+			ontologias.add(ontologiaDao.get(10));
+			ontologias.add(ontologiaDao.get(11));
+			ontologias.add(ontologiaDao.get(5));
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		Model m = ModelFactory.createDefaultModel();
+		for (Ontologia ontologia : ontologias) {
+			String prefixo = ontologia.getPrefixo_ontologia();
+			String url = ontologia.getUrl_ontologia().trim()+"#";
+			 m.setNsPrefix(prefixo, url);
+		}
+		try {
+			List<Termo> termos = new TermoDao().getAll();
+			
+			List<Publicacao> publicacoes = publicacaoDao.getAll();
+			
+			for(Publicacao publicacao : publicacoes) {
+				//publicacao = publicacaoDao.get(id);
+				Resource root =  m.createResource(publicacao.getFonte());
+				ConjuntoDados conjuntoDados = publicacao.getDataset();
+				msg = conjuntoDados.getDs_dataset();
+				Integer codigo = publicacao.getId_publicacao();
+				indexacaoFonte.setCodigo(this.findTermo(termos,MetadadoUtil.id), true, codigo.toString());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos, MetadadoUtil.id), true, codigo.toString(), root));
+				indexacaoFonte.setTitle(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getDs_dataset());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getDs_dataset(), root));
+				indexacaoFonte.setDescricao(this.findTermo(termos,MetadadoUtil.descricao), true, conjuntoDados.getDescricao());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.descricao), true, conjuntoDados.getDescricao(), root));
+				indexacaoFonte.setAutor(this.findTermo(termos,MetadadoUtil.orgao), true, conjuntoDados.getOrgao().getNm_orgao());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.orgao), true, conjuntoDados.getOrgao().getNm_orgao(), root));
+				indexacaoFonte.setVcge(this.findTermo(termos,MetadadoUtil.vcge), false, conjuntoDados.getVcge().getIri_termo());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vcge), false, conjuntoDados.getVcge().getIri_termo(), root));
+				indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.fonte), false, publicacao.getFonte());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.fonte), false, publicacao.getFonte(), root));
+				
+				List<IndexacaoFonteObjeto> formatos = new ArrayList<IndexacaoFonteObjeto>();
+				if(conjuntoDados.getIndexar_semantica()) {
+					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "rdf", root));
+					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "rdf", root));
+				}
+				if(conjuntoDados.getCsv()) {
+					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "csv", root));
+					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "csv", root));
+				}
+				if(conjuntoDados.getJson()) {
+					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "json", root));
+					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "json", root));
+				}
+				indexacaoFonte.setFormatos(formatos);
+				
+				List<IndexacaoFonteObjeto> tags = new ArrayList<IndexacaoFonteObjeto>();
+				String[] room = conjuntoDados.getTags().split(",");
+	        	for(int i = 0; i < room.length;i++) {
+	        		tags.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tags), true, room[i].trim(), root));
+	        		triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tags), true, room[i].trim(), root));
+	        	}
+	        	
+	        	indexacaoFonte.setTags(tags);
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia(), root));
+	        	
+	        	List<Coluna> colunas = colunaDao.findByDataset(conjuntoDados);
+	        	List<Ontologia> vocabularios = new ArrayList<Ontologia>();
+	        	for(Coluna coluna : colunas) {
+	        		if(!vocabularios.contains(coluna.getTermo().getOntologia())){
+	        			vocabularios.add(coluna.getTermo().getOntologia());
+					}	
+	        	}
+	        	List<IndexacaoFonteObjeto> ontoInd = new ArrayList<IndexacaoFonteObjeto>();
+	        	for (Ontologia ontologia : ontologias) {
+	        		ontoInd.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
+	        		triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
+				}
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.tipo), false, conjuntoDados.getTermo().getIri_termo());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tipo), false, conjuntoDados.getTermo().getIri_termo(), root));
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.data), true, publicacao.getData_publicacao().toString());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.data), true, publicacao.getData_publicacao().toString(), root));
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.datadecricao), true, publicacao.getData_publicacao().toString());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.datadecricao), true, publicacao.getData_publicacao().toString(), root));
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.linguagem), true, "pt");
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.linguagem), true, "pt", root));
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.publicacao), false, publicacao.getFonte());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.publicacao), false, publicacao.getFonte(), root));
+	    		
+	    		
+	    		
+	    				
+			}
+        	/**/
+			for (IndexacaoFonteObjeto tripla : triplas) {
+    			Ontologia ontologia = tripla.getTermo().getOntologia();
+           	/*	if(!ontologias.contains(ontologia)){
+    				ontologias.add(ontologia);
+    			}
+           	*/	
+    			String iriTermo = ontologia.getUrl_ontologia().trim()+"#"+tripla.getTermo().getNm_termo().trim();
+    			if(tripla.getLiteral()) {
+    				System.out.println(tripla.getRoot().getURI()+" "+ontologia.getUrl_ontologia()+"#"+tripla.getTermo().getNm_termo()+" - "+tripla.getValor());
+    				m.add(tripla.getRoot(), m.createProperty(iriTermo.trim()), tripla.getValor());
+    			}else {
+    				//Model model = new 
+    				System.out.println(tripla.getRoot().getURI()+" "+ontologia.getUrl_ontologia()+"#"+tripla.getTermo().getNm_termo()+" - "+tripla.getValor());
+    				Resource o = m.createResource(tripla.getValor().trim());
+    				m.add(tripla.getRoot(), m.createProperty(iriTermo.trim()), o);
+    				
+    			}
+    		}	
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 
+
+		m.write( System.out );
+		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		m.write(out);
+		try {
+			msg	= out.toString("UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return msg;
+	}
 	
+
+	private Termo findTermo(List<Termo> termos, int id) {
+		Termo retorno = new Termo();
+		for(Termo termo : termos) {
+			if(termo.getId_termo() == id) {
+				retorno = termo;
+				break;
+			}
+		}
+		
+		return retorno;		
+	}
 }
 

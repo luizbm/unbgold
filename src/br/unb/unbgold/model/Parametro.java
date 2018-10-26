@@ -18,7 +18,7 @@ public class Parametro {
 	
 	@ManyToOne
 	@JoinColumn(name="id_dataset")
-	private Dataset dataset;
+	private ConjuntoDados dataset;
 
 
 	@ManyToOne
@@ -39,11 +39,11 @@ public class Parametro {
 		this.id_parametro = id_parametro;
 	}
 
-	public Dataset getDataset() {
+	public ConjuntoDados getDataset() {
 		return dataset;
 	}
 
-	public void setDataset(Dataset dataset) {
+	public void setDataset(ConjuntoDados dataset) {
 		this.dataset = dataset;
 	}
 

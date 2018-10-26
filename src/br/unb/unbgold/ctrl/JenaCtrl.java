@@ -1,9 +1,7 @@
 package br.unb.unbgold.ctrl;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
 import java.io.PrintWriter;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,34 +10,37 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
-import org.hibernate.hql.internal.QueryExecutionRequestException;
 
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.sparql.engine.QueryEngineFactory;
-import com.hp.hpl.jena.util.FileManager;
-import com.hp.hpl.jena.query.QueryExecution;
-import com.hp.hpl.jena.query.QueryExecutionFactory;
-import com.hp.hpl.jena.query.ResultSet;
-import com.hp.hpl.jena.query.ResultSetFormatter;
+import org.apache.jena.query.Dataset;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ReadWrite;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.ResultSetFormatter;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.tdb.TDBFactory;
 
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
-import br.unb.unbgold.dao.OntologiaDao;
 import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
+import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Objeto;
 import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
+import br.unb.unbgold.model.Termo;
 import br.unb.unbgold.util.TriplaUtil;
 import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
@@ -63,8 +64,11 @@ public class JenaCtrl {
 		publicacao.setId_publicacao(id);
 		
 		
+
 		
-		String msg = "Rodou";
+		
+		
+    	String msg = "Rodou";
 		List<Resource> resorces = new ArrayList<Resource>();
 		
 		List<TriplaUtil> triplas = new ArrayList<TriplaUtil>();
@@ -72,21 +76,30 @@ public class JenaCtrl {
 		List<TriplaUtil> triplasRecurso = new ArrayList<TriplaUtil>();
 		try {
 			List<Ontologia> ontologias = new ArrayList<Ontologia>();
+			Model m = ModelFactory.createDefaultModel();
+		    
 			
-			
+					
 			publicacao = publicacaoDao.get(id);
-			Dataset dataset = publicacao.getDataset();
-			Objeto oType = new Objeto();
-			oType.setDesc_objeto(dataset.getTermo().getIri_termo());
-			Objeto_tipo ot = new Objeto_tipo();
-			ot.setId_objeto_tipo(2);
-			
+			ConjuntoDados dataset = publicacao.getDataset();
+
 			List<Sujeito> sujeitos = new SujeitoDao().getByPublicacaoId(id);
 			//List<Sujeito> sujeitos = new SujeitoDao().getAll();
-			Model m = ModelFactory.createDefaultModel();
+			//Model m = tdb.getDefaultModel();
 			for (Sujeito sujeito : sujeitos) {
 				List<Objeto> objetos = objetoDao.findByPublicacao(sujeito);
-				Resource root = m.createResource(sujeito.getDesc_sujeito());
+
+				Resource root =  m.createResource(sujeito.getDesc_sujeito());
+				Objeto oType = new Objeto();
+				oType.setDesc_objeto(dataset.getTermo().getIri_termo());
+				Objeto_tipo ot = new Objeto_tipo();
+				ot.setId_objeto_tipo(2);
+				oType.setObjeto_tipo(ot);
+				Coluna tColuna = new Coluna();
+				tColuna.setPublicar(true);
+				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, tColuna);
+						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
+				triplas.add(type);
 				
 				for (Objeto objeto: objetos) {
 					
@@ -113,14 +126,16 @@ public class JenaCtrl {
 				Coluna ct = new Coluna();
 				ct.setPublicar(true);
 				ct.setNm_campo("Tipo_Termo");
-				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, ct);
+				TriplaUtil tipo = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, ct);
 						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
 				type.setTipo(true);
 				triplas.add(type);
 				
 			}
 			for (Ontologia ontologia : ontologias) {
-				 m.setNsPrefix( ontologia.getPrefixo_ontologia(), ontologia.getUrl_ontologia()+"#");
+				String prefixo = ontologia.getPrefixo_ontologia();
+				String url = ontologia.getUrl_ontologia()+"#";
+				 m.setNsPrefix(prefixo, url);
 			}
 			List<Coluna> colunas = new ArrayList<Coluna>();
 			colunas = new ColunaDao().findByDataset(publicacao.getDataset());
@@ -198,8 +213,10 @@ public class JenaCtrl {
 			m.write( System.out );
 			 ByteArrayOutputStream out = new ByteArrayOutputStream();
 			
-			 
-			 //String str;
+
+			    
+			 String str;
+
 				m.write(out);
 			msg	= out.toString("UTF-8");;
 			System.out.println(msg);
@@ -223,12 +240,14 @@ public class JenaCtrl {
 			
 			*/
 			//m.write(System.out);
-			
+			String directory = "rdfs/"+publicacao.getId_publicacao() ;
+			Dataset ds = TDBFactory.createDataset(directory) ;
+			ds.setDefaultModel(m);
+			ds.end();	
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		
 		
 		return msg;
@@ -237,50 +256,88 @@ public class JenaCtrl {
 	@GET
 	@Path("/consulta")
 	public String consulta() {
-		String diretorio = "C:\\Users\\luiz\\eclipse-workspace\\unbgold\\rdfs";
-		try {
-			System.out.println("Aqui  -> " + new File("").getCanonicalPath());
-			System.out.println("/  -> " + new File("/").getCanonicalPath());
-			System.out.println(".. -> " + new File("..").getCanonicalPath());
-			System.out.println(".  -> " + new File(".").getCanonicalPath());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		String msg = "";
+		String directory = "rdfs/1";
+		Dataset ds = TDBFactory.createDataset(directory) ;
+		Model m = ds.getDefaultModel();
+		String sparqlQueryString = " "+
+			
+				" PREFIX uvoc:      <http://dadosabertos.unb.br/ontologia#> " + 
+				" PREFIX aiiso:      <http://purl.org/vocab/aiiso/schema#> " + 
+				" PREFIX foaf:      <http://xmlns.com/foaf/0.1/#> " + 
+				" " + 
+				"SELECT ?x ?name ?sigla ?department " + 
+				"WHERE " + 
+				" { ?x foaf:name ?name . " + 
+				"   ?x uvoc:sigla ?sigla . " +
+				"   ?x aiiso:Department ?department . " + 
+				" } " ;
+		Query query = QueryFactory.create(sparqlQueryString) ;
+	    QueryExecution qexec = QueryExecutionFactory.create(query, ds) ;
+	    try {
+	          ResultSet results = qexec.execSelect() ;
+	          for ( ; results.hasNext() ; )
+	          {
+	              QuerySolution soln = results.nextSolution() ;
+	             
+	              Resource resource = soln.getResource("x");
+	              String uri = "";
+	              if(resource != null) {
+	            	  uri = resource.getURI();
+	              }
+	              Literal literal = soln.getLiteral("name");
+	              String name = ""; 
+	              if(literal != null) {
+	            	  name = literal.getString() ;
+	              }
+	              String sigla = "";
+	              literal = soln.getLiteral("sigla");
+	              if(literal != null) {
+	            	  sigla = literal.getString();
+	              }
+	              
+	              String departamento = "";
+	              resource = soln.getResource("department");
+	              if(resource != null) {
+	            	  departamento = resource.getURI();
+	              }
+	              
+	              
+	             // String departament = soln.getLiteral("departament").getString() ;
+	              
+	              String linha = "IRI: "+uri+" | name: "+name+" | sigla: "+sigla+" | departament:  "+ departamento 
+	              ;
+	              
+	              msg = msg + linha + " \n";
+	              System.out.println(linha
+	              ) ;
+	          }
+	    } catch (Exception e) {
+			// TODO: handle exception
+	    	e.printStackTrace();
+		} 
 
-		File file = new File(diretorio);
-		File afile[] = file.listFiles();
-		int i = 0;
-		for (int j = afile.length; i < j; i++) {
-			File arquivos = afile[i];
-			System.out.println(arquivos.getName());
-		}
-		
-		
-		String msg = "Teste Consulta";
-		 // create an empty model
-		Model model = ModelFactory.createDefaultModel();
-		 String inputFileName = diretorio+"\\orgao.rdf";
-		 // use the FileManager to find the input file
-		 InputStream in = FileManager.get().open( inputFileName );
-		 if (in == null) {
-		    msg =  "File: " + inputFileName + " not found";
-		}else {
-			model.read(in, null);
-			// write it to standard out
-			model.write(System.out);
-			ByteArrayOutputStream out = new ByteArrayOutputStream();
-			model.write(out);
-			//msg = out.toString();
-		}
-
-		// read the RDF/XML file
-		
-
+	        // Close the dataset.
+	    ds.close();
+	        
+	    
 		
 		return msg;
 	}
-	
+
+	@Path("/tdb")
+	public String buscaTdb() {
+		String retorno = "Teste";
+		String directory = "MyDatabases/Dataset1" ;
+	    Dataset dataset = TDBFactory.createDataset(directory) ;
+	    dataset.begin(ReadWrite.WRITE);
+	    
+		return retorno;
+		
+		
+	}
+
+
 	@GET
 	@Path("/query")
 	public String query() {
@@ -324,5 +381,7 @@ public class JenaCtrl {
 		return retorno;
 	
 	}
-	
+
 }
+
+

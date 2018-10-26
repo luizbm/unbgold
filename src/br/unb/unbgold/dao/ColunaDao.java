@@ -10,7 +10,7 @@ import org.hibernate.criterion.Restrictions;
 
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Coluna;
-import br.unb.unbgold.model.Dataset;
+import br.unb.unbgold.model.ConjuntoDados;
 
 public class ColunaDao extends Dao {
 
@@ -51,7 +51,7 @@ public class ColunaDao extends Dao {
 		session.getTransaction().commit();
 	}
 	
-	public List<Coluna> findByDataset(Dataset dataset){
+	public List<Coluna> findByDataset(ConjuntoDados dataset){
 		 List<Coluna> colunas = new ArrayList<Coluna>();
 			session = sessionFactory.openSession();
 			session.beginTransaction();
