@@ -20,10 +20,22 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.apache.jena.graph.Graph;
+import org.apache.jena.iri.IRIFactory;
+import org.apache.jena.query.Dataset;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ReadWrite;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.sparql.function.library.leviathan.root;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.tdb.TDBFactory;
 
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
@@ -128,6 +140,7 @@ public class PublicacaoCtrl {
 		
 		return msg;
 	}
+	
 	
 	@DELETE
 	@Path("/{id}")
@@ -346,7 +359,13 @@ public class PublicacaoCtrl {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		Model m = ModelFactory.createDefaultModel();
+
+		String directory = "rdfs/catalogo" ;
+		Dataset ds = TDBFactory.createDataset(directory) ;
+		 String graphURI = "http://dados.unb.br/catalago";
+		Model m = ds.getNamedModel(graphURI);
+		
+		
 		for (Ontologia ontologia : ontologias) {
 			String prefixo = ontologia.getPrefixo_ontologia();
 			String url = ontologia.getUrl_ontologia().trim()+"#";
@@ -424,12 +443,15 @@ public class PublicacaoCtrl {
 	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.linguagem), true, "pt", root));
 	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.publicacao), false, publicacao.getFonte());
 	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.publicacao), false, publicacao.getFonte(), root));
-	    		
-	    		
-	    		
-	    				
+				List<Publicacao> ligacoes = publicacaoDao.findLigacoes(publicacao);
+				for (Publicacao lig : ligacoes) {
+					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.relacao), false, lig.getFonte(), root));
+				}
+				List<Publicacao> ligados = publicacaoDao.findLigados(publicacao);
+				for (Publicacao lig : ligados) {
+					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.relacao), false, lig.getFonte(), root));
+				}
 			}
-        	/**/
 			for (IndexacaoFonteObjeto tripla : triplas) {
     			Ontologia ontologia = tripla.getTermo().getOntologia();
            	/*	if(!ontologias.contains(ontologia)){
@@ -453,9 +475,7 @@ public class PublicacaoCtrl {
 			e.printStackTrace();
 		}
 		
-		
-
-
+		ds.end();
 		m.write( System.out );
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		m.write(out);
@@ -465,7 +485,6 @@ public class PublicacaoCtrl {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		return msg;
 	}
 	
@@ -478,8 +497,9 @@ public class PublicacaoCtrl {
 				break;
 			}
 		}
-		
 		return retorno;		
 	}
+
+	
 }
 
