@@ -375,6 +375,9 @@ public class PublicacaoCtrl {
 			List<Termo> termos = new TermoDao().getAll();
 			
 			List<Publicacao> publicacoes = publicacaoDao.getAll();
+			Publicacao p1 = publicacaoDao.get(7);
+			publicacoes = new ArrayList<Publicacao>();
+			publicacoes.add(p1);
 			
 			for(Publicacao publicacao : publicacoes) {
 				//publicacao = publicacaoDao.get(id);

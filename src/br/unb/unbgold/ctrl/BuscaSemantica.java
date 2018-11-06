@@ -8,6 +8,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import org.apache.jena.graph.Graph;
 import org.apache.jena.iri.IRIFactory;
@@ -31,6 +32,7 @@ import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.util.Catalogo;
+import br.unb.unbgold.util.ObjectLink;
 
 @Path("/busca")
 public class BuscaSemantica {
@@ -39,7 +41,7 @@ public class BuscaSemantica {
 	@Path("/{valor}")
 	//@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Catalogo> busca_semantica(@PathParam("valor") String valor){
+	public Response busca_semantica(@PathParam("valor") String valor){
 		//@PathParam("valor") 
 		List<Catalogo> catalagos = new ArrayList<Catalogo>();
 		
@@ -90,14 +92,13 @@ public class BuscaSemantica {
 		for (Ontologia ontologia : ontologias) {
 			prefixo += " PREFIX "+ontologia.getPrefixo_ontologia()+": <"+ontologia.getUrl_ontologia()+"#> ";
 		}
-		valor = "Graduação";
+		//valor = "Graduação";
 		consulta += prefixo+" SELECT "
 				+ " ?description "
 				+ " ?title "
 				+ " ?identifier "
 				+ " ?source "
 				+ " ?organization "
-				+ " ?frequency "
 				+ " ?frequency "
 				+ " ?type "
 				+ " ?date "
@@ -149,7 +150,12 @@ public class BuscaSemantica {
 	          {
 	        	  Catalogo catalogo = this.preeencheCatalago(results.nextSolution());
 	        	  catalogo.setSubject(this.buscarSubjects(prefixo, catalogo.getIdentifier(), m));
-	              catalagos.add(catalogo);
+	        	  catalogo.setFileFormat(this.buscarFormantFile(prefixo, catalogo.getIdentifier(), m));
+	        	  catalogo.setVocabularyEncodingScheme(this.buscarVocabulario(prefixo, catalogo.getIdentifier(), m));
+	        	  catalogo.setRelation(this.buscarDadosConectados(prefixo, catalogo.getIdentifier(), m));
+	        	  if(this.naoExiste(catalagos, catalogo)) {
+	        		  catalagos.add(catalogo);
+	        	  }
 	          }
 	          
 	    } catch (Exception e) {
@@ -164,7 +170,20 @@ public class BuscaSemantica {
 	    
 	    
 //		System.out.println(valor);
-		return catalagos;
+	    
+		return Response.status(200).entity(catalagos).header("Access-Control-Allow-Origin", "*").build();
+	}
+	
+	private Boolean naoExiste(List<Catalogo> catalogos, Catalogo catalogo) {
+		Boolean retorno = true;
+		for(Catalogo cat : catalogos) {
+			if(cat.getIdentifier().equals(catalogo.getIdentifier())){
+				retorno = false;
+				break;
+			}
+		}
+		return retorno;
+		
 	}
 	
 	private List<String> buscarSubjects(String prefixo, String identifier, Model m){
@@ -184,6 +203,7 @@ public class BuscaSemantica {
 	          {
 	        	  QuerySolution soln = results.nextSolution();
 	              tags.add(this.pegaLiteral(soln.getLiteral("subject")));
+	              
 	          }
 	          
 	    } catch (Exception e) {
@@ -193,6 +213,92 @@ public class BuscaSemantica {
 
 		return tags;
 	}
+	
+	private List<String> buscarFormantFile(String prefixo, String identifier, Model m){
+		List<String> retorno = new ArrayList<String>();
+		
+		String consulta = prefixo+" SELECT ?format " + 
+				"WHERE " + 
+				" { ?x dcterms:FileFormat ?format . "
+				+ " ?x dc:identifier ?identifier . "
+				+ " FILTER (?identifier = \""+identifier+"\") . "
+				+ " } " ;
+		Query query = QueryFactory.create(consulta) ;
+	    QueryExecution qexec = QueryExecutionFactory.create(query, m) ;
+	    try {
+	          ResultSet results = qexec.execSelect() ;
+	          for ( ; results.hasNext() ; )
+	          {
+	        	  QuerySolution soln = results.nextSolution();
+	        	  retorno.add(this.pegaLiteral(soln.getLiteral("format")));
+	              
+	          }
+	          
+	    } catch (Exception e) {
+			// TODO: handle exception
+	    	e.printStackTrace();
+		} 
+
+		return retorno;
+	}
+	
+	private List<String> buscarVocabulario(String prefixo, String identifier, Model m){
+		List<String> retorno = new ArrayList<String>();
+		
+		String consulta = prefixo+" SELECT ?vocab " + 
+				"WHERE " + 
+				" { ?x dcam:VocabularyEncodingScheme ?vocab . "
+				+ " ?x dc:identifier ?identifier . "
+				+ " FILTER (?identifier = \""+identifier+"\") . "
+				+ " } " ;
+		Query query = QueryFactory.create(consulta) ;
+	    QueryExecution qexec = QueryExecutionFactory.create(query, m) ;
+	    try {
+	          ResultSet results = qexec.execSelect() ;
+	          for ( ; results.hasNext() ; )
+	          {
+	        	  QuerySolution soln = results.nextSolution();
+	        	  retorno.add(this.pegaResource(soln.getResource("vocab")));
+	              
+	          }
+	          
+	    } catch (Exception e) {
+			// TODO: handle exception
+	    	e.printStackTrace();
+		} 
+
+		return retorno;
+	}
+
+	private List<String> buscarDadosConectados(String prefixo, String identifier, Model m){
+		List<String> retorno = new ArrayList<String>();
+		
+		String consulta = prefixo+" SELECT ?relation " + 
+				"WHERE " + 
+				" { ?x dcterms:Relation ?relation . "
+				+ " ?x dc:identifier ?identifier . "
+				+ " FILTER (?identifier = \""+identifier+"\") . "
+				+ " } " ;
+		Query query = QueryFactory.create(consulta) ;
+	    QueryExecution qexec = QueryExecutionFactory.create(query, m) ;
+	    try {
+	          ResultSet results = qexec.execSelect() ;
+	          for ( ; results.hasNext() ; )
+	          {
+	        	  QuerySolution soln = results.nextSolution();
+	        	  retorno.add(this.pegaResource(soln.getResource("relation")));
+	              
+	          }
+	          
+	    } catch (Exception e) {
+			// TODO: handle exception
+	    	e.printStackTrace();
+		} 
+
+		return retorno;
+	}
+
+	
 	private Catalogo preeencheCatalago(QuerySolution soln) {
 		Catalogo catalogo = new Catalogo();
         catalogo.setIri(this.pegaResource(soln.getResource("x")));

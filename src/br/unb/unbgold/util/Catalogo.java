@@ -10,6 +10,7 @@ public class Catalogo {
 	String description;
 	String Organization;
 	List<String> VocabularyEncodingScheme;
+	List<String> relation;
 	String source;
 	List<String> FileFormat;
 	List<String> subject;
@@ -58,11 +59,12 @@ public class Catalogo {
 	public void setVocabularyEncodingScheme(List<String> vocabularyEncodingScheme) {
 		VocabularyEncodingScheme = vocabularyEncodingScheme;
 	}
-	public String getSource() {
-		return source;
+	
+	public List<String> getRelation() {
+		return relation;
 	}
-	public void setSource(String source) {
-		this.source = source;
+	public void setRelation(List<String> relation) {
+		this.relation = relation;
 	}
 	public List<String> getFileFormat() {
 		return FileFormat;
@@ -70,6 +72,13 @@ public class Catalogo {
 	public void setFileFormat(List<String> fileFormat) {
 		FileFormat = fileFormat;
 	}
+	public String getSource() {
+		return source;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
+	
 	public List<String> getSubject() {
 		return subject;
 	}
