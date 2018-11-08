@@ -1,5 +1,6 @@
 package br.unb.unbgold.ctrl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -14,7 +15,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import br.unb.unbgold.dao.ColunaDao;
+import br.unb.unbgold.dao.DatasetDao;
 import br.unb.unbgold.model.Coluna;
+import br.unb.unbgold.model.Ontologia;
 
 @Path("/coluna")
 public class ColunaCtrl {
@@ -29,7 +32,7 @@ public class ColunaCtrl {
 	@GET
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Coluna> listaColuna(){
+	public List<Coluna> listaOntologia(){
 		List<Coluna> lista = null;
 		try {
 			;
@@ -40,6 +43,20 @@ public class ColunaCtrl {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return lista;
+	}
+	
+	@GET
+	@Path("/dataset/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Coluna> getColunasPorDataset(@PathParam("id") int id) {
+		List<Coluna> lista = new ArrayList<Coluna>();
+		try {
+//			lista = colunaDao.findByDataset(new DatasetDao().get(id));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		lista.add(new Coluna());
 		return lista;
 	}
 	

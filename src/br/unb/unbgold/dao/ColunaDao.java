@@ -56,7 +56,7 @@ public class ColunaDao extends Dao {
 			session = sessionFactory.openSession();
 			session.beginTransaction();
 			Criteria crit = session.createCriteria(Coluna.class);
-			crit.add(Restrictions.eq("dataset", dataset));
+			crit.add(Restrictions.eq("conjuntoDados", dataset));
 			colunas = crit.list();
 		 return colunas;
 	}

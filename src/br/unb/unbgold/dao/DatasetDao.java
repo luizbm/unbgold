@@ -13,7 +13,7 @@ public class DatasetDao extends Dao {
 		List<ConjuntoDados> lista = new ArrayList<ConjuntoDados>();
 		session = sessionFactory.openSession();
 		session.beginTransaction();
-		Query<ConjuntoDados> query = session.createQuery("from Dataset");
+		Query<ConjuntoDados> query = session.createQuery("from ConjuntoDados");
 		lista = query.getResultList();
 		return lista;
 	}

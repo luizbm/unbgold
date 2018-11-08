@@ -1,5 +1,6 @@
 package br.unb.unbgold.ctrl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -12,9 +13,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.model.Termo;
+import br.unb.unbgold.util.KeyValue;
 
 @Path("/termo")
 public class TermoCtrl {
@@ -108,5 +111,40 @@ public class TermoCtrl {
 		}
 		
 		return msg;
+	}
+	
+	@PUT
+	@Path("/buscarSelectPorIdsOntologia")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<KeyValue> buscarTermosPorIdOntologia(List<KeyValue> ids){
+		if(ids != null) {
+			for (KeyValue kv: ids) {
+				System.out.println(kv.getValue()+" "+kv.getLabel());
+			}
+		}
+		return ids;
+	}
+	
+	
+	@PUT
+	@Path("/buscarSelectPorIdsOntologiaNovo")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response  buscarTermosPorIdOntologiaNovo(List<KeyValue> ids){
+		if(ids != null) {
+			for (KeyValue kv: ids) {
+				System.out.println(kv.getValue()+" "+kv.getLabel());
+			}
+		}
+		return  Response.ok() //200
+				.entity("teste")
+				.header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT")
+				.header("access-control-max-age", "31536000")
+				.header("access-control-allow-headers", "Accept, Accept-Language, Content-Language, Content-Type, X-ACCESS_TOKEN, X-CSRF-Token, Access-Control-Allow-Origin, Authorization, Origin, x-requested-with, Content-Range, Content-Disposition, Content-Description")
+				.header("access-control-expose-headers", "Cache-Control, Content-Language, Content-Type, Expires, Last-Modified, Pragma, Content-Length")
+//				.header("", "")
+				.allow("OPTIONS").build();
 	}
 }

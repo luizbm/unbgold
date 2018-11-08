@@ -141,9 +141,9 @@ public class JenaCtrl {
 			colunas = new ColunaDao().findByDataset(publicacao.getDataset());
 			
 			for (Coluna coluna : colunas) {
-				if(coluna.getColuna_ligacao().getId_coluna() != 1) {
+				if(coluna.getId_coluna_ligacao() != 1) {
 					System.out.println(coluna.getNm_campo());
-					List<Objeto> objetosLigacao = new ObjetoDao().findByColuna(coluna.getColuna_ligacao());
+					List<Objeto> objetosLigacao = new ObjetoDao().findByColuna(new ColunaDao().get(coluna.getId_coluna_ligacao()));
 					List<TriplaUtil> triplaLink = new ArrayList<TriplaUtil>();
 					for (TriplaUtil tripla : triplasRecurso) {
 						

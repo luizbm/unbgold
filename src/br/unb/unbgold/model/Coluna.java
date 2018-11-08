@@ -18,7 +18,7 @@ public class Coluna {
 	
 	@ManyToOne
 	@JoinColumn(name="id_dataset")
-	private ConjuntoDados dataset;
+	private ConjuntoDados conjuntoDados;
 	@Column
 	private String nm_campo;
 	@Column
@@ -34,9 +34,8 @@ public class Coluna {
 	@Column
 	private Boolean complemento;
 	
-	@ManyToOne
-	@JoinColumn(name="id_coluna_ligacao")
-	private Coluna coluna_ligacao;
+	@Column
+	private int id_coluna_ligacao;
 	
 	public int getId_coluna() {
 		return id_coluna;
@@ -46,12 +45,12 @@ public class Coluna {
 		this.id_coluna = id_coluna;
 	}
 
-	public ConjuntoDados getDataset() {
-		return dataset;
+	public ConjuntoDados getConjuntoDados() {
+		return conjuntoDados;
 	}
 
-	public void setDataset(ConjuntoDados dataset) {
-		this.dataset = dataset;
+	public void setConjuntoDados(ConjuntoDados conjuntoDados) {
+		this.conjuntoDados = conjuntoDados;
 	}
 
 	public String getNm_campo() {
@@ -95,13 +94,15 @@ public class Coluna {
 		this.complemento = complemento;
 	}
 
-	public Coluna getColuna_ligacao() {
-		return coluna_ligacao;
+	public int getId_coluna_ligacao() {
+		return id_coluna_ligacao;
 	}
 
-	public void setColuna_ligacao(Coluna coluna_ligacao) {
-		this.coluna_ligacao = coluna_ligacao;
+	public void setId_coluna_ligacao(int id_coluna_ligacao) {
+		this.id_coluna_ligacao = id_coluna_ligacao;
 	}
+
+	
 
 		
 }

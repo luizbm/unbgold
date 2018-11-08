@@ -223,7 +223,7 @@ public class PublicacaoCtrl {
 	                		for(int i = 0; i < head.length;i++) {
 	        	        		if(coluna.getNm_campo().equals(head[i])) {
 	        	        			
-	        	        			if(coluna.getColuna_ligacao().getId_coluna() == 1) {
+	        	        			if(coluna.getId_coluna() == 1) {
 	        	        				objeto_tipo.setDesc_objeto_tipo("Literal");
 	        	        				objeto_tipo.setId_objeto_tipo(1);
 	        	        			}else {
@@ -375,10 +375,10 @@ public class PublicacaoCtrl {
 			List<Termo> termos = new TermoDao().getAll();
 			
 			List<Publicacao> publicacoes = publicacaoDao.getAll();
-			Publicacao p1 = publicacaoDao.get(7);
+			/*Publicacao p1 = publicacaoDao.get(7);
 			publicacoes = new ArrayList<Publicacao>();
 			publicacoes.add(p1);
-			
+			*/
 			for(Publicacao publicacao : publicacoes) {
 				//publicacao = publicacaoDao.get(id);
 				Resource root =  m.createResource(publicacao.getFonte());

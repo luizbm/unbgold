@@ -41,7 +41,7 @@ public class BuscaSemantica {
 	@Path("/{valor}")
 	//@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response busca_semantica(@PathParam("valor") String valor){
+	public List<Catalogo> busca_semantica(@PathParam("valor") String valor){
 		//@PathParam("valor") 
 		List<Catalogo> catalagos = new ArrayList<Catalogo>();
 		
@@ -167,12 +167,82 @@ public class BuscaSemantica {
 	    ds.close();
 	        
 
+	   
 	    
-	    
-//		System.out.println(valor);
-	    
-		return Response.status(200).entity(catalagos).header("Access-Control-Allow-Origin", "*").build();
+		return catalagos;
 	}
+	
+	 @GET
+	@Path("detalhar/{valor}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Catalogo busca_detalhar(@PathParam("valor") String valor){
+	    Catalogo catalogo = new Catalogo();
+	    String prefixo = "";
+	    List<Ontologia> ontologias = new ArrayList<Ontologia>();
+		OntologiaDao ontologiaDao = new OntologiaDao();
+		try {
+			ontologias.add(ontologiaDao.get(2));
+			ontologias.add(ontologiaDao.get(8));
+			ontologias.add(ontologiaDao.get(9));
+			ontologias.add(ontologiaDao.get(10));
+			ontologias.add(ontologiaDao.get(11));
+			ontologias.add(ontologiaDao.get(5));
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		for (Ontologia ontologia : ontologias) {
+			prefixo += " PREFIX "+ontologia.getPrefixo_ontologia()+": <"+ontologia.getUrl_ontologia()+"#> ";
+		}
+	    String consulta = prefixo+" SELECT "
+				+ " ?description "
+				+ " ?title "
+				+ " ?identifier "
+				+ " ?source "
+				+ " ?organization "
+				+ " ?frequency "
+				+ " ?type "
+				+ " ?date "
+				+ " ?created "
+				+ " ?language "
+				+ " ?dataset "
+				+ " WHERE "
+				+ " { ?x dc:description ?description . "
+				+ "   ?x dc:Title ?title  . "
+				+ "   ?x dc:identifier ?identifier ."
+				+ "   ?x dcterms:source ?source . "
+				+ "   ?x foaf:Organization ?organization . "
+				+ "   ?x dcterms:Frequency ?frequency . "
+				+ "   ?x dc:type ?type . "
+				+ "   ?x dc:date ?date . "
+				+ "   ?x dcterms:created ?created . "
+				+ "   ?x dcterms:language ?language . "
+				+ "   ?x dcmitype:Dataset ?dataset . "
+				+ "    FILTER (?identifier = \""+valor+"\") . "
+				+ " } " ;
+	    String directory = "rdfs/catalogo";
+		Dataset ds = TDBFactory.createDataset(directory) ;
+		ds.begin(ReadWrite.READ) ;
+		String iri_graph = "http://dados.unb.br/catalago";
+		Model m = ds.getNamedModel(iri_graph);
+	    Query query = QueryFactory.create(consulta) ;
+	    QueryExecution qexec = QueryExecutionFactory.create(query, m) ;
+	    try {
+	          ResultSet results = qexec.execSelect() ;
+	          catalogo = this.preeencheCatalago(results.nextSolution());
+        	  catalogo.setSubject(this.buscarSubjects(prefixo, catalogo.getIdentifier(), m));
+        	  catalogo.setFileFormat(this.buscarFormantFile(prefixo, catalogo.getIdentifier(), m));
+        	  catalogo.setVocabularyEncodingScheme(this.buscarVocabulario(prefixo, catalogo.getIdentifier(), m));
+        	  catalogo.setRelation(this.buscarDadosConectados(prefixo, catalogo.getIdentifier(), m));
+	    } catch (Exception e) {
+			// TODO: handle exception
+	    	e.printStackTrace();
+		} 
+
+	    
+	    
+	    return catalogo;
+	 }
 	
 	private Boolean naoExiste(List<Catalogo> catalogos, Catalogo catalogo) {
 		Boolean retorno = true;
