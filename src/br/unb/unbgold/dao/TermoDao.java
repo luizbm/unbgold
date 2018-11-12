@@ -7,6 +7,7 @@ import org.hibernate.Query;
 
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Termo;
+import br.unb.unbgold.util.KeyValue;
 
 public class TermoDao extends Dao {
 
@@ -45,5 +46,24 @@ public class TermoDao extends Dao {
 		Ontologia ontologia = session.getReference(Ontologia.class, id);
 		session.delete(ontologia);
 		session.getTransaction().commit();
+	}
+
+	public List<Termo> getBuscarPorIdsOntologia(List<KeyValue> ids) {
+		session = sessionFactory.openSession();
+		List<Termo> retorno = new ArrayList<Termo>();
+		if(ids.size() > 0) {
+			String queryString = "SELECT t "
+					+ " FROM  Termo t "
+					+ " WHERE t.ontologia.id_ontologia IN(0 ";
+			for(KeyValue kv : ids) {
+				queryString += ", "+kv.getValue().toString();
+			}
+			queryString += ")";
+			Query<Termo> query = session.createQuery(queryString);
+			retorno = query.list();
+			
+		}
+		
+		return retorno;
 	}
 }

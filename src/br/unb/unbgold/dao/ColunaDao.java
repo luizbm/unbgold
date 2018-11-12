@@ -51,13 +51,15 @@ public class ColunaDao extends Dao {
 		session.getTransaction().commit();
 	}
 	
-	public List<Coluna> findByDataset(ConjuntoDados dataset){
-		 List<Coluna> colunas = new ArrayList<Coluna>();
-			session = sessionFactory.openSession();
-			session.beginTransaction();
-			Criteria crit = session.createCriteria(Coluna.class);
-			crit.add(Restrictions.eq("conjuntoDados", dataset));
-			colunas = crit.list();
-		 return colunas;
+	public List<Coluna> findByDataset(int id){
+		session = sessionFactory.openSession();
+		List<Coluna> retorno = new ArrayList<Coluna>();
+		String queryString = "SELECT c "
+			+ " FROM  Coluna c "
+			+ " WHERE c.conjuntoDados.id_dataset = :id ";
+		Query<Coluna> query = session.createQuery(queryString);
+		query.setParameter("id", id);
+		retorno = query.list();
+		return retorno;
 	}
 }

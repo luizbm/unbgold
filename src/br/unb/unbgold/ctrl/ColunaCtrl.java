@@ -52,7 +52,7 @@ public class ColunaCtrl {
 	public List<Coluna> getColunasPorDataset(@PathParam("id") int id) {
 		List<Coluna> lista = new ArrayList<Coluna>();
 		try {
-//			lista = colunaDao.findByDataset(new DatasetDao().get(id));
+			lista = colunaDao.findByDataset(id);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

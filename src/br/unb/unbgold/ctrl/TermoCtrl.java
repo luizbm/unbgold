@@ -131,20 +131,27 @@ public class TermoCtrl {
 	@Path("/buscarSelectPorIdsOntologiaNovo")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response  buscarTermosPorIdOntologiaNovo(List<KeyValue> ids){
+	public List<KeyValue>  buscarTermosPorIdOntologiaNovo(List<KeyValue> ids){
+		List<KeyValue> retorno = new ArrayList<KeyValue>();
 		if(ids != null) {
+			try {
+				List<Termo> termos = termoDao.getBuscarPorIdsOntologia(ids);
+				
+				for (Termo termo : termos) {
+					KeyValue kv = new KeyValue();
+					kv.setValue(termo.getId_termo());
+					kv.setLabel(termo.getOntologia().getPrefixo_ontologia()+":"+termo.getNm_termo());
+					retorno.add(kv);
+				}
+				System.out.println(termos.size());
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			for (KeyValue kv: ids) {
 				System.out.println(kv.getValue()+" "+kv.getLabel());
 			}
 		}
-		return  Response.ok() //200
-				.entity("teste")
-				.header("Access-Control-Allow-Origin", "*")
-				.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT")
-				.header("access-control-max-age", "31536000")
-				.header("access-control-allow-headers", "Accept, Accept-Language, Content-Language, Content-Type, X-ACCESS_TOKEN, X-CSRF-Token, Access-Control-Allow-Origin, Authorization, Origin, x-requested-with, Content-Range, Content-Disposition, Content-Description")
-				.header("access-control-expose-headers", "Cache-Control, Content-Language, Content-Type, Expires, Last-Modified, Pragma, Content-Length")
-//				.header("", "")
-				.allow("OPTIONS").build();
+		return  retorno;
 	}
 }

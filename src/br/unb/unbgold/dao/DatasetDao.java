@@ -6,6 +6,8 @@ import java.util.List;
 import org.hibernate.Query;
 
 import br.unb.unbgold.model.ConjuntoDados;
+import br.unb.unbgold.model.Termo;
+import br.unb.unbgold.util.KeyValue;
 
 public class DatasetDao extends Dao {
 
@@ -44,5 +46,18 @@ public class DatasetDao extends Dao {
 		ConjuntoDados dataset = session.getReference(ConjuntoDados.class, id);
 		session.delete(dataset);
 		session.getTransaction().commit();
+	}
+
+	public List<ConjuntoDados> buscaPorTipo(int id) {
+		session = sessionFactory.openSession();
+		List<ConjuntoDados> retorno = new ArrayList<ConjuntoDados>();
+		String queryString = "SELECT c "
+			+ " FROM  ConjuntoDados c "
+			+ " WHERE c.termo.id_termo = :id ";
+		Query<ConjuntoDados> query = session.createQuery(queryString);
+		query.setParameter("id", id);
+		retorno = query.list();
+		return retorno;
+		
 	}
 }

@@ -1,5 +1,6 @@
 package br.unb.unbgold.ctrl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -42,6 +43,24 @@ public class DatasetCtrl {
 		}
 		return lista;
 	}
+	
+	@GET
+	@Path("/buscaPorTipo/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<ConjuntoDados> buscaPorTipo(@PathParam("id") int id){
+		List<ConjuntoDados> lista = new ArrayList<ConjuntoDados>();
+		try {
+			lista = datasetDao.buscaPorTipo(id);
+			
+//			lista = notaDao.listasNotas();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return lista;
+	}	
+	
+	
 	
 	@GET
 	@Path("/{id}")
