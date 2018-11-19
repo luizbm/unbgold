@@ -18,7 +18,7 @@ public class ConjuntoDados {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id_dataset;
 	@Column
-	private String ds_dataset;
+	private String titulo;
 	@Column
 	private String fonte;
 	@Column
@@ -26,9 +26,16 @@ public class ConjuntoDados {
 	@Column 
 	private String iri;
 
-	@Column 
-	private String frequencia;
 
+
+	@ManyToOne
+	@JoinColumn(name="id_frequencia")
+	private Frequencia frequencia;
+	
+	@ManyToOne
+	@JoinColumn(name="id_frequencia_dia")
+	private Frequencia_dia frequencia_dia;
+	
 	@ManyToOne
 	@JoinColumn(name="id_termo")
 	private Termo termo;
@@ -75,18 +82,39 @@ public class ConjuntoDados {
 	@Column
 	private Boolean json;
 	
+	@Column
+	private Boolean rdf;
 	
+	@Column
+	private String hora_publicacao;
+	
+	
+	@Column
+	private String documentacao;
+	
+	@Column
+	private String cobertura_geografica;
+
+	@Column
+	private String cobertura_temporal;
+
+	@Column
+	private String granularidade_geografica;
+
+	@Column
+	private String 	granularidade_temporal;
+
 	public int getId_dataset() {
 		return id_dataset;
 	}
 	public void setId_dataset(int id_dataset) {
 		this.id_dataset = id_dataset;
 	}
-	public String getDs_dataset() {
-		return ds_dataset;
+	public String getTitulo() {
+		return titulo;
 	}
-	public void setDs_dataset(String ds_dataset) {
-		this.ds_dataset = ds_dataset;
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
 	}
 	public String getFonte() {
 		return fonte;
@@ -173,6 +201,13 @@ public class ConjuntoDados {
 	public void setJson(Boolean json) {
 		this.json = json;
 	}
+	
+	public Boolean getRdf() {
+		return rdf;
+	}
+	public void setRdf(Boolean rdf) {
+		this.rdf = rdf;
+	}
 	public String getTags() {
 		return tags;
 	}
@@ -185,11 +220,53 @@ public class ConjuntoDados {
 	public void setOrgao(Orgao orgao) {
 		this.orgao = orgao;
 	}
-	public String getFrequencia() {
+	public Frequencia getFrequencia() {
 		return frequencia;
 	}
-	public void setFrequencia(String frequencia) {
+	public void setFrequencia(Frequencia frequencia) {
 		this.frequencia = frequencia;
-	}	
+	}
+	public Frequencia_dia getFrequencia_dia() {
+		return frequencia_dia;
+	}
+	public void setFrequencia_dia(Frequencia_dia frequencia_dia) {
+		this.frequencia_dia = frequencia_dia;
+	}
+	public String getHora_publicacao() {
+		return hora_publicacao;
+	}
+	public void setHora_publicacao(String hora_publicacao) {
+		this.hora_publicacao = hora_publicacao;
+	}
+	public String getDocumentacao() {
+		return documentacao;
+	}
+	public void setDocumentacao(String documentacao) {
+		this.documentacao = documentacao;
+	}
+	public String getCobertura_geografica() {
+		return cobertura_geografica;
+	}
+	public void setCobertura_geografica(String cobertura_geografica) {
+		this.cobertura_geografica = cobertura_geografica;
+	}
+	public String getCobertura_temporal() {
+		return cobertura_temporal;
+	}
+	public void setCobertura_temporal(String cobertura_temporal) {
+		this.cobertura_temporal = cobertura_temporal;
+	}
+	public String getGranularidade_geografica() {
+		return granularidade_geografica;
+	}
+	public void setGranularidade_geografica(String granularidade_geografica) {
+		this.granularidade_geografica = granularidade_geografica;
+	}
+	public String getGranularidade_temporal() {
+		return granularidade_temporal;
+	}
+	public void setGranularidade_temporal(String granularidade_temporal) {
+		this.granularidade_temporal = granularidade_temporal;
+	}
 	
 }

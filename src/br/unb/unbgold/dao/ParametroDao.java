@@ -22,6 +22,16 @@ public class ParametroDao extends Dao {
 		lista = query.getResultList();
 		return lista;
 	}
+	
+	public List<Parametro> getPorConjuntoDeDados(int id) throws Exception {
+		List<Parametro> lista = new ArrayList<Parametro>();
+		session = sessionFactory.openSession();
+		session.beginTransaction();
+		Query<Parametro> query = session.createQuery("from Parametro WHERE dataset.id_dataset =:id ");
+		query.setParameter("id", id);
+		lista = query.getResultList();
+		return lista;
+	}
 
 	public Parametro get(int id) throws Exception {
 		session = sessionFactory.openSession();

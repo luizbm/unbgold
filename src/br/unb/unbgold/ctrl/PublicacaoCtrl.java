@@ -8,6 +8,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.annotation.PostConstruct;
 import javax.ws.rs.Consumes;
@@ -20,21 +21,11 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.apache.jena.graph.Graph;
-import org.apache.jena.iri.IRIFactory;
 import org.apache.jena.query.Dataset;
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ReadWrite;
-import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.tdb.TDBFactory;
 
 import br.unb.unbgold.dao.ColunaDao;
@@ -43,7 +34,6 @@ import br.unb.unbgold.dao.OntologiaDao;
 import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
 import br.unb.unbgold.dao.TermoDao;
-import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Objeto;
@@ -62,14 +52,13 @@ import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.By
 public class PublicacaoCtrl {
 
 	private PublicacaoDao publicacaoDao;
-	private TriplaDao triplaDao;
 	private SujeitoDao sujeitoDao;
 	private ObjetoDao objetoDao;
+	private PrefixMapping map;
 	
 	@PostConstruct
 	private void init() {
 		publicacaoDao = new PublicacaoDao();
-		triplaDao = new TriplaDao();
 		sujeitoDao = new SujeitoDao();
 		objetoDao = new ObjetoDao();
 	}
@@ -173,7 +162,7 @@ public class PublicacaoCtrl {
 		try {
 			publicacao = publicacaoDao.get(id);
 			dataset = publicacao.getDataset();
-			colunas = new ColunaDao().findByDataset(dataset);
+			colunas = new ColunaDao().findByDataset(dataset.getId_dataset());
 			//System.out.println(colunas.size());
 			//System.out.println(dataset.getFonte());
 			BufferedReader buffer = this.pegaCSV(dataset.getFonte());
@@ -187,7 +176,6 @@ public class PublicacaoCtrl {
 	        }
 	        Boolean lercabeca = true;
             int colunaIri = 0;
-            int colunaSelec = -1;
             String[] head = null;
             
 	        while ((line = buffer.readLine().trim()) != null) {
@@ -315,7 +303,7 @@ public class PublicacaoCtrl {
 			// TODO Auto-generated catch block
  			e.printStackTrace();
 		}
-		msg = dataset.getDs_dataset();
+		msg = dataset.getTitulo();
 		return msg;
 	}
 	
@@ -340,7 +328,6 @@ public class PublicacaoCtrl {
 	public String indexarFonte(@PathParam("id") int id) {
 		String msg = "RODOU";
 		PublicacaoDao publicacaoDao = new PublicacaoDao();
-		TermoDao termoDao = new TermoDao();
 		ColunaDao colunaDao = new ColunaDao();
 		IndexacaoFonte indexacaoFonte = new IndexacaoFonte();
 		List<IndexacaoFonteObjeto> triplas = new ArrayList<IndexacaoFonteObjeto>();
@@ -361,34 +348,36 @@ public class PublicacaoCtrl {
 		}
 
 		String directory = "rdfs/catalogo" ;
-		Dataset ds = TDBFactory.createDataset(directory) ;
-		 String graphURI = "http://dados.unb.br/catalago";
-		Model m = ds.getNamedModel(graphURI);
-		
+		//Dataset ds = TDBFactory.createDataset(directory) ;
+		// String graphURI = "http://dados.unb.br/catalago";
+		//Model m = ds.getNamedModel(graphURI);
+		Model m = ModelFactory.createDefaultModel();
 		
 		for (Ontologia ontologia : ontologias) {
 			String prefixo = ontologia.getPrefixo_ontologia();
 			String url = ontologia.getUrl_ontologia().trim()+"#";
-			 m.setNsPrefix(prefixo, url);
+			m.setNsPrefix(prefixo, url);
 		}
 		try {
 			List<Termo> termos = new TermoDao().getAll();
 			
 			List<Publicacao> publicacoes = publicacaoDao.getAll();
-			/*Publicacao p1 = publicacaoDao.get(7);
-			publicacoes = new ArrayList<Publicacao>();
-			publicacoes.add(p1);
-			*/
+			//Publicacao p1 = publicacaoDao.get(7);
+			//publicacoes = new ArrayList<Publicacao>();
+			//publicacoes.add(p1);
+			
 			for(Publicacao publicacao : publicacoes) {
-				//publicacao = publicacaoDao.get(id);
-				Resource root =  m.createResource(publicacao.getFonte());
+				//publicacao = publicacaoDao.get(id);	
+				
+				Resource tp = m.createResource("http://purl.org/dc/dcmitype#Dataset");
+				Resource root =  m.createResource(publicacao.getFonte(), tp);
 				ConjuntoDados conjuntoDados = publicacao.getDataset();
-				msg = conjuntoDados.getDs_dataset();
+				msg = conjuntoDados.getTitulo();
 				Integer codigo = publicacao.getId_publicacao();
 				indexacaoFonte.setCodigo(this.findTermo(termos,MetadadoUtil.id), true, codigo.toString());
 				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos, MetadadoUtil.id), true, codigo.toString(), root));
-				indexacaoFonte.setTitle(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getDs_dataset());
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getDs_dataset(), root));
+				indexacaoFonte.setTitle(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getTitulo());
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getTitulo(), root));
 				indexacaoFonte.setDescricao(this.findTermo(termos,MetadadoUtil.descricao), true, conjuntoDados.getDescricao());
 				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.descricao), true, conjuntoDados.getDescricao(), root));
 				indexacaoFonte.setAutor(this.findTermo(termos,MetadadoUtil.orgao), true, conjuntoDados.getOrgao().getNm_orgao());
@@ -397,6 +386,9 @@ public class PublicacaoCtrl {
 				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vcge), false, conjuntoDados.getVcge().getIri_termo(), root));
 				indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.fonte), false, publicacao.getFonte());
 				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.fonte), false, publicacao.getFonte(), root));
+				
+				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.metodologia), true, conjuntoDados.getMetodologia(), root));
+				
 				
 				List<IndexacaoFonteObjeto> formatos = new ArrayList<IndexacaoFonteObjeto>();
 				if(conjuntoDados.getIndexar_semantica()) {
@@ -421,10 +413,10 @@ public class PublicacaoCtrl {
 	        	}
 	        	
 	        	indexacaoFonte.setTags(tags);
-	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia());
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia(), root));
+	        	indexacaoFonte.setFonte(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia().getDs_frequencia());
+	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia().getDs_frequencia(), root));
 	        	
-	        	List<Coluna> colunas = colunaDao.findByDataset(conjuntoDados);
+	        	List<Coluna> colunas = colunaDao.findByDataset(conjuntoDados.getId_dataset());
 	        	List<Ontologia> vocabularios = new ArrayList<Ontologia>();
 	        	for(Coluna coluna : colunas) {
 	        		if(!vocabularios.contains(coluna.getTermo().getOntologia())){
@@ -432,7 +424,8 @@ public class PublicacaoCtrl {
 					}	
 	        	}
 	        	List<IndexacaoFonteObjeto> ontoInd = new ArrayList<IndexacaoFonteObjeto>();
-	        	for (Ontologia ontologia : ontologias) {
+	        	List<Ontologia> ontos = ontologiaDao.getOntologiaDosConjuntos(conjuntoDados.getId_dataset());
+	        	for (Ontologia ontologia : ontos) {
 	        		ontoInd.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
 	        		triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
 				}
@@ -453,7 +446,7 @@ public class PublicacaoCtrl {
 				List<Publicacao> ligados = publicacaoDao.findLigados(publicacao);
 				for (Publicacao lig : ligados) {
 					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.relacao), false, lig.getFonte(), root));
-				}
+				}/**/
 			}
 			for (IndexacaoFonteObjeto tripla : triplas) {
     			Ontologia ontologia = tripla.getTermo().getOntologia();
@@ -478,7 +471,7 @@ public class PublicacaoCtrl {
 			e.printStackTrace();
 		}
 		
-		ds.end();
+		//ds.end();
 		m.write( System.out );
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		m.write(out);

@@ -17,7 +17,7 @@ public class PublicacaoDao extends Dao {
 	public List<Publicacao> getAll() throws Exception {
 		List<Publicacao> lista = new ArrayList<Publicacao>();
 		session = sessionFactory.openSession();
-		Query<Publicacao> query = session.createQuery("from Publicacao");
+		Query<Publicacao> query = session.createQuery("from Publicacao p where p.id_publicacao NOT IN (3,5) ");
 		lista = query.getResultList();
 		return lista;
 	}
@@ -61,14 +61,14 @@ public class PublicacaoDao extends Dao {
 	public List<Publicacao> findLigacoes(Publicacao publicacao){
 		List<Publicacao> retorno = new ArrayList<Publicacao>();
 		String queryString = "SELECT p2 "
-				+ " FROM Coluna c2 INNER JOIN ConjuntoDados d2 ON c2.dataset.id_dataset = d2.id_dataset "
+				+ " FROM Coluna c2 INNER JOIN ConjuntoDados d2 ON c2.conjuntoDados.id_dataset = d2.id_dataset "
 				+ "                INNER JOIN Publicacao p2    ON p2.dataset.id_dataset = d2.id_dataset "
 				+ " WHERE c2.id_coluna IN( "
-				+ "     SELECT c1.coluna_ligacao.id_coluna "
+				+ "     SELECT c1.id_coluna_ligacao "
 				+ "     FROM Coluna c1 "
-				+ "          INNER JOIN ConjuntoDados d1 ON c1.dataset.id_dataset = d1.id_dataset "
+				+ "          INNER JOIN ConjuntoDados d1 ON c1.conjuntoDados.id_dataset = d1.id_dataset "
 				+ "          INNER JOIN Publicacao p1 ON d1.id_dataset = p1.dataset.id_dataset "
-				+ "     WHERE c1.coluna_ligacao.id_coluna <> 1 AND p1.id_publicacao = :id"
+				+ "     WHERE c1.id_coluna_ligacao <> 1 AND p1.id_publicacao = :id"
 				+ ")";
 		Query<Publicacao> query = session.createQuery(queryString);
 		query.setParameter("id", publicacao.getId_publicacao());
@@ -79,12 +79,12 @@ public class PublicacaoDao extends Dao {
 	public List<Publicacao> findLigados(Publicacao publicacao){
 		List<Publicacao> retorno = new ArrayList<Publicacao>();
 		String queryString = "SELECT p2 "
-				+ " FROM Coluna c2 INNER JOIN ConjuntoDados d2 ON c2.dataset.id_dataset = d2.id_dataset "
+				+ " FROM Coluna c2 INNER JOIN ConjuntoDados d2 ON c2.conjuntoDados.id_dataset = d2.id_dataset "
 				+ "                INNER JOIN Publicacao p2    ON p2.dataset.id_dataset = d2.id_dataset "
-				+ " WHERE c2.coluna_ligacao.id_coluna <> 1 AND c2.coluna_ligacao.id_coluna IN( "
+				+ " WHERE c2.id_coluna_ligacao <> 1 AND c2.id_coluna_ligacao IN( "
 				+ "     SELECT c1.id_coluna "
 				+ "     FROM Coluna c1 "
-				+ "          INNER JOIN ConjuntoDados d1 ON c1.dataset.id_dataset = d1.id_dataset "
+				+ "          INNER JOIN ConjuntoDados d1 ON c1.conjuntoDados.id_dataset = d1.id_dataset "
 				+ "          INNER JOIN Publicacao p1 ON d1.id_dataset = p1.dataset.id_dataset "
 				+ "     WHERE  p1.id_publicacao = :id"
 				+ ")";

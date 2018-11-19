@@ -13,7 +13,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.model.Termo;
@@ -138,10 +137,7 @@ public class TermoCtrl {
 				List<Termo> termos = termoDao.getBuscarPorIdsOntologia(ids);
 				
 				for (Termo termo : termos) {
-					KeyValue kv = new KeyValue();
-					kv.setValue(termo.getId_termo());
-					kv.setLabel(termo.getOntologia().getPrefixo_ontologia()+":"+termo.getNm_termo());
-					retorno.add(kv);
+					retorno.add(new KeyValue(termo.getId_termo(),termo.getOntologia().getPrefixo_ontologia()+":"+termo.getNm_termo()));
 				}
 				System.out.println(termos.size());
 			} catch (Exception e) {

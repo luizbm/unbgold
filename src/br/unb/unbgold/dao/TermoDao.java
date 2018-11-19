@@ -6,6 +6,7 @@ import java.util.List;
 import org.hibernate.Query;
 
 import br.unb.unbgold.model.Ontologia;
+import br.unb.unbgold.model.Parametro;
 import br.unb.unbgold.model.Termo;
 import br.unb.unbgold.util.KeyValue;
 
@@ -65,5 +66,22 @@ public class TermoDao extends Dao {
 		}
 		
 		return retorno;
+	}
+
+	public List<Termo> buscarPorConjuntoDados(int id) {
+		List<Termo> lista = new ArrayList<Termo>();
+		session = sessionFactory.openSession();
+		session.beginTransaction();
+	    String queryString = "SELECT t "
+	    		+ " FROM Termo t "
+	    		+ " WHERE t.id_termo IN ("
+	    		+ "	SELECT c.termo.id_termo "
+	    		+ " FROM Coluna c "
+	    		+ " WHERE c.conjuntoDados.id_dataset =:id "
+	    		+ ")";
+	    Query<Termo> query = session.createQuery(queryString);
+		query.setParameter("id", id);
+		lista = query.getResultList();
+		return lista;
 	}
 }

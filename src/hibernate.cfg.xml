@@ -24,6 +24,7 @@
 		<mapping class="br.unb.unbgold.model.Tripla" />
 		<mapping class="br.unb.unbgold.model.Parametro" />
 		<mapping class="br.unb.unbgold.model.Parametro_tipo" />
+		<mapping class="br.unb.unbgold.model.Parametro_temporal" />
 		<mapping class="br.unb.unbgold.model.Publicacao" />
 		<mapping class="br.unb.unbgold.model.Sujeito" />
 		<mapping class="br.unb.unbgold.model.Objeto" />
@@ -31,5 +32,7 @@
 		<mapping class="br.unb.unbgold.model.Unidade_publicadora" />
 		<mapping class="br.unb.unbgold.model.Instancia_ckan" />
 		<mapping class="br.unb.unbgold.model.Orgao" />
+		<mapping class="br.unb.unbgold.model.Frequencia" />
+		<mapping class="br.unb.unbgold.model.Frequencia_dia" />
 	</session-factory>
 </hibernate-configuration>

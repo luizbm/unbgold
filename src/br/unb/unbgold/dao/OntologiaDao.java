@@ -7,6 +7,7 @@ import org.hibernate.Query;
 
 import br.unb.unbgold.model.Nota;
 import br.unb.unbgold.model.Ontologia;
+import br.unb.unbgold.model.Termo;
 
 public class OntologiaDao extends Dao {
 
@@ -14,7 +15,7 @@ public class OntologiaDao extends Dao {
 		List<Ontologia> lista = new ArrayList<Ontologia>();
 		session = sessionFactory.openSession();
 		session.beginTransaction();
-		Query<Ontologia> query = session.createQuery("from Ontologia");
+		Query<Ontologia> query = session.createQuery("from Ontologia WHERE id_ontologia <> 3");
 		lista = query.getResultList();
 		return lista;
 	}
@@ -48,4 +49,21 @@ public class OntologiaDao extends Dao {
 		session.delete(nota);
 		session.getTransaction().commit();
 	}
+	
+	public List<Ontologia> getOntologiaDosConjuntos(int id) throws Exception {
+		String queryString = "SELECT o FROM Ontologia o WHERE o.id_ontologia IN ( "
+				+ " SELECT t.ontologia.id_ontologia "
+				+ " FROM Termo t INNER JOIN Coluna c ON c.termo.id_termo = t.id_termo "
+				+ " WHERE c.conjuntoDados.id_dataset =:id "
+				+ ")";
+		List<Ontologia> lista = new ArrayList<Ontologia>();
+		session = sessionFactory.openSession();
+		session.beginTransaction();
+	    Query<Ontologia> query = session.createQuery(queryString);
+		query.setParameter("id", id);
+		lista = query.getResultList();
+		return lista;
+	}
+	
+	
 }

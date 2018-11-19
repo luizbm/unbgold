@@ -4,6 +4,11 @@ public class KeyValue {
 	
 	Integer value;
 	String label;
+	public KeyValue(Integer value, String label) {
+		super();
+		this.value = value;
+		this.label = label;
+	}
 	public Integer getValue() {
 		return value;
 	}

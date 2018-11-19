@@ -1,7 +1,6 @@
 package br.unb.unbgold.ctrl;
 
 import java.io.PrintWriter;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +8,6 @@ import javax.annotation.PostConstruct;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
-
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.Query;
@@ -31,8 +29,6 @@ import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
 import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
-import br.unb.unbgold.dao.TermoDao;
-import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Objeto;
@@ -40,7 +36,6 @@ import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
 import br.unb.unbgold.model.Sujeito;
-import br.unb.unbgold.model.Termo;
 import br.unb.unbgold.util.TriplaUtil;
 import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
@@ -48,12 +43,10 @@ import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.By
 public class JenaCtrl {
 
 	private PublicacaoDao publicacaoDao;
-	private TriplaDao triplaDao;
 	private ObjetoDao objetoDao;
 	@PostConstruct
 	private void init() {
 		publicacaoDao = new PublicacaoDao();
-		triplaDao = new TriplaDao();
 		objetoDao = new ObjetoDao();
 	}
 	
@@ -69,8 +62,6 @@ public class JenaCtrl {
 		
 		
     	String msg = "Rodou";
-		List<Resource> resorces = new ArrayList<Resource>();
-		
 		List<TriplaUtil> triplas = new ArrayList<TriplaUtil>();
 		List<TriplaUtil> triplasLiteral = new ArrayList<TriplaUtil>();
 		List<TriplaUtil> triplasRecurso = new ArrayList<TriplaUtil>();
@@ -138,7 +129,7 @@ public class JenaCtrl {
 				 m.setNsPrefix(prefixo, url);
 			}
 			List<Coluna> colunas = new ArrayList<Coluna>();
-			colunas = new ColunaDao().findByDataset(publicacao.getDataset());
+			colunas = new ColunaDao().findByDataset(publicacao.getDataset().getId_dataset());
 			
 			for (Coluna coluna : colunas) {
 				if(coluna.getId_coluna_ligacao() != 1) {

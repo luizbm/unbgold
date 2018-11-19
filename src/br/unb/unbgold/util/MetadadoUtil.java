@@ -19,4 +19,5 @@ public class MetadadoUtil {
 	public static int datadecricao = 51;
 	public static int linguagem = 52;
 	public static int publicacao = 54;
+	public static int cobertura = 58;
 }

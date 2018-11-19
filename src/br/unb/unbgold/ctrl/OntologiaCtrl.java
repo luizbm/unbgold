@@ -1,5 +1,6 @@
 package br.unb.unbgold.ctrl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -57,6 +58,20 @@ public class OntologiaCtrl {
 		return ontologia;
 	}
 	
+	
+	@GET
+	@Path("doConjunto/{id}")
+	//@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Ontologia> getOntologiaDoConjuto(@PathParam("id") int id) {
+		List<Ontologia> lista = new ArrayList<Ontologia>();
+		try {
+			lista = ontologiaDao.getOntologiaDosConjuntos(id);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return lista;
+	}
 	
 	
 	@POST

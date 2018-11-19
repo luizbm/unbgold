@@ -15,16 +15,30 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import br.unb.unbgold.dao.DatasetDao;
+import br.unb.unbgold.dao.FrequenciaDao;
+import br.unb.unbgold.dao.OntologiaDao;
+import br.unb.unbgold.dao.ParametroDao;
+import br.unb.unbgold.dao.Parametro_tipoDao;
+import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.model.ConjuntoDados;
+import br.unb.unbgold.model.Frequencia;
+import br.unb.unbgold.model.Frequencia_dia;
+import br.unb.unbgold.model.Ontologia;
+import br.unb.unbgold.model.Parametro;
+import br.unb.unbgold.model.Parametro_tipo;
+import br.unb.unbgold.model.Termo;
+import br.unb.unbgold.util.KeyValue;
 
 @Path("/dataset")
 public class DatasetCtrl {
 
 	private DatasetDao datasetDao;
+	private TermoDao termoDao;
 	
 	@PostConstruct
 	private void init() {
 		datasetDao = new DatasetDao();
+		termoDao = new TermoDao();
 	}
 	
 	@GET
@@ -61,6 +75,78 @@ public class DatasetCtrl {
 	}	
 	
 	
+	@GET
+	@Path("/frequencia")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Frequencia> getFrequencias(){
+		List<Frequencia> lista = new ArrayList<Frequencia>();
+		try {
+			lista = new FrequenciaDao().getAll();
+			
+//			lista = notaDao.listasNotas();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return lista;
+	}	
+	
+	@GET
+	@Path("/frequenciaDia/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Frequencia_dia> getFrequenciaDias(@PathParam("id") int id){
+		List<Frequencia_dia> lista = new ArrayList<Frequencia_dia>();
+		try {
+			lista = new FrequenciaDao().getDiasDaFrequencia(id);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return lista;
+	}	
+	
+	@GET
+	@Path("/getParametros/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Parametro> getParametros(@PathParam("id") int id){
+		List<Parametro> lista = new ArrayList<Parametro>();
+		try {
+			lista = new ParametroDao().getPorConjuntoDeDados(id);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return lista;
+	}
+	
+	@GET
+	@Path("/getOntologiaTermos/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Termo> getOntologiaTermos(@PathParam("id") int id){
+		List<Termo> lista = new ArrayList<Termo>();
+		try {
+			List<Termo> ts = termoDao.buscarPorConjuntoDados(id);
+			List<KeyValue> kvs = new ArrayList<KeyValue>();
+			for(Termo t : ts) {
+				kvs.add(new KeyValue(t.getOntologia().getId_ontologia(), t.getOntologia().getNm_ontologia()));
+			}
+			lista = termoDao.getBuscarPorIdsOntologia(kvs);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return lista;
+	}
+	
+	@GET
+	@Path("/getParametrosTipo")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Parametro_tipo> getParametrosTipo(){
+		List<Parametro_tipo> lista = new ArrayList<Parametro_tipo>();
+		try {
+			lista = new Parametro_tipoDao().getAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return lista;
+	}
 	
 	@GET
 	@Path("/{id}")

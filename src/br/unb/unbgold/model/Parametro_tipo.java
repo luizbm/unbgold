@@ -15,7 +15,7 @@ public class Parametro_tipo {
 	private int id_parametro_tipo;
 	
 	@Column
-	private String desc_parametro_tipo;
+	private String ds_parametro_tipo;
 
 	public int getId_parametro_tipo() {
 		return id_parametro_tipo;
@@ -25,13 +25,13 @@ public class Parametro_tipo {
 		this.id_parametro_tipo = id_parametro_tipo;
 	}
 
-	public String getDesc_parametro_tipo() {
-		return desc_parametro_tipo;
+	public String getDs_parametro_tipo() {
+		return ds_parametro_tipo;
 	}
 
-	public void setDesc_parametro_tipo(String desc_parametro_tipo) {
-		this.desc_parametro_tipo = desc_parametro_tipo;
+	public void setDs_parametro_tipo(String ds_parametro_tipo) {
+		this.ds_parametro_tipo = ds_parametro_tipo;
 	}
-	
+
 	
 }

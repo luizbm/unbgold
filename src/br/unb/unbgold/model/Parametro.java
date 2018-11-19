@@ -70,9 +70,4 @@ public class Parametro {
 	public void setValor_parametro(String valor_parametro) {
 		this.valor_parametro = valor_parametro;
 	}
-	
-	
-	
-
-	
 }
