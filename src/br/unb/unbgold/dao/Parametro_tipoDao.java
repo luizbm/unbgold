@@ -21,6 +21,7 @@ public class Parametro_tipoDao extends Dao {
 		session.beginTransaction();
 		Query<Parametro_tipo> query = session.createQuery("from Parametro_tipo");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 

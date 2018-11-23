@@ -20,6 +20,12 @@ public class Orgao {
 	
 	@Column
 	private String sigla_orgao;
+	
+	@Column
+	private String autor;
+	
+	@Column
+	private String email;
 
 	public int getId_orgao() {
 		return id_orgao;
@@ -43,6 +49,22 @@ public class Orgao {
 
 	public void setSigla_orgao(String sigla_orgao) {
 		this.sigla_orgao = sigla_orgao;
+	}
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 		

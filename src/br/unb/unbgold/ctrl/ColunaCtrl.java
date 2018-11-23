@@ -56,7 +56,7 @@ public class ColunaCtrl {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		lista.add(new Coluna());
+		//lista.add(new Coluna());
 		return lista;
 	}
 	

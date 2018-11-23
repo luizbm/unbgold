@@ -35,6 +35,14 @@ public class Dao {
 	public <T> T getById(final Class<T> type, final Long id){
 	      return (T) sessionFactory.getCurrentSession().get(type, id);
     }
+
+	public void StartSession() {
+		if(session == null) {
+			session = sessionFactory.openSession();
+		}
+	}
+
+	
 	
 	
 

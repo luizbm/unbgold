@@ -15,6 +15,7 @@ public class Unidade_publicadoraDao extends Dao {
 		session.beginTransaction();
 		Query<Unidade_publicadora> query = session.createQuery("from Unidade_publicadora");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 

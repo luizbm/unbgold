@@ -17,6 +17,7 @@ public class DatasetDao extends Dao {
 		session.beginTransaction();
 		Query<ConjuntoDados> query = session.createQuery("from ConjuntoDados");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 
@@ -57,6 +58,7 @@ public class DatasetDao extends Dao {
 		Query<ConjuntoDados> query = session.createQuery(queryString);
 		query.setParameter("id", id);
 		retorno = query.list();
+		session.close();
 		return retorno;
 		
 	}

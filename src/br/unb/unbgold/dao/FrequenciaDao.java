@@ -17,6 +17,7 @@ public class FrequenciaDao extends Dao {
 		session.beginTransaction();
 		Query<Frequencia> query = session.createQuery("from Frequencia");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 	
@@ -27,6 +28,7 @@ public class FrequenciaDao extends Dao {
 		Query<Frequencia_dia> query = session.createQuery("from Frequencia_dia WHERE frequencia.id_frequencia = :id ");
 		query.setParameter("id", id);
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 

@@ -20,6 +20,7 @@ public class ParametroDao extends Dao {
 		session.beginTransaction();
 		Query<Parametro> query = session.createQuery("from Parametro");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 	
@@ -30,6 +31,7 @@ public class ParametroDao extends Dao {
 		Query<Parametro> query = session.createQuery("from Parametro WHERE dataset.id_dataset =:id ");
 		query.setParameter("id", id);
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 
@@ -68,6 +70,7 @@ public class ParametroDao extends Dao {
 			Criteria crit = session.createCriteria(Parametro.class);
 			crit.add(Restrictions.eq("dataset", dataset));
 			parametros = crit.list();
+			session.close();
 		 return parametros;
 	}
 }

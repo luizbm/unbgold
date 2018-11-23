@@ -21,6 +21,7 @@ public class Instancia_ckanDao extends Dao {
 		session.beginTransaction();
 		Query<Instancia_ckan> query = session.createQuery("from Instancia_ckan WHERE id_instancia_ckan <> 1" );
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 

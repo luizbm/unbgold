@@ -1,6 +1,7 @@
 package br.unb.unbgold.ctrl;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -8,7 +9,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import javax.annotation.PostConstruct;
 import javax.ws.rs.Consumes;
@@ -21,13 +21,14 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.apache.jena.query.Dataset;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.shared.PrefixMapping;
-import org.apache.jena.tdb.TDBFactory;
 
+import com.hp.hpl.jena.sparql.lib.DS;
+
+import br.unb.unbgold.ckan.CkanManager;
 import br.unb.unbgold.dao.ColunaDao;
 import br.unb.unbgold.dao.ObjetoDao;
 import br.unb.unbgold.dao.OntologiaDao;
@@ -36,6 +37,7 @@ import br.unb.unbgold.dao.SujeitoDao;
 import br.unb.unbgold.dao.TermoDao;
 import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.ConjuntoDados;
+import br.unb.unbgold.model.Instancia_ckan;
 import br.unb.unbgold.model.Objeto;
 import br.unb.unbgold.model.Objeto_tipo;
 import br.unb.unbgold.model.Ontologia;
@@ -46,6 +48,9 @@ import br.unb.unbgold.util.IndexacaoFonte;
 import br.unb.unbgold.util.IndexacaoFonteObjeto;
 import br.unb.unbgold.util.MetadadoUtil;
 import br.unb.unbgold.util.Util;
+import eu.trentorise.opendata.jackan.model.CkanDatasetBase;
+import eu.trentorise.opendata.jackan.model.CkanResource;
+import eu.trentorise.opendata.jackan.model.CkanResourceBase;
 import eu.trentorise.opendata.traceprov.internal.org.apache.commons.io.output.ByteArrayOutputStream;
 
 @Path("/publicacao")
@@ -496,6 +501,52 @@ public class PublicacaoCtrl {
 		return retorno;		
 	}
 
+	@GET
+	@Path("/publicar/")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String publicar() {
+	
+		List<Publicacao> pendentes = publicacaoDao.buscarPendentes();
+		
+		for(Publicacao pub : pendentes) {
+			pub = publicacaoDao.setarVersao(pub);
+			System.out.println(pub.getData_publicacao());
+			CkanManager cm = new CkanManager();
+			ConjuntoDados cd = pub.getDataset();
+			Instancia_ckan ic = cd.getInstancia_ckan();
+			cm.setKey_api(ic.getKey_api());
+			cm.setUrl_api(ic.getEndereco_ckan());
+			CkanDatasetBase dataset = new CkanDatasetBase();
+			
+			try {
+				dataset = cm.getDataset(cd.getTitulo());
+			}catch (Exception e) {
+				System.out.println(e.getMessage());
+				dataset = cm.criarDataset(cd, pub);
+			}
+			
+			
+			System.out.println(dataset.getTitle());
+			
+			try {
+				CkanResourceBase resource  = cm.saveResource(cd, pub, dataset);
+			}catch (Exception e) {
+				System.out.println(e.getMessage());
+				
+			}
+			
+			// Conectar ao CKAN
+			// Pegar o Dataset ou Criar outro
+			// Setar valores
+			// Atualizar Dataset
+			// Atualizar Publicação
+			// Programar próxima publicação
+			
+			
+		}
+		return "Rodou";
+	}
+	 
 	
 }
 

@@ -28,6 +28,9 @@ public class Publicacao {
 	@Column
 	private String fonte;
 	
+	@Column
+	private int versao;
+	
 	public int getId_publicacao() {
 		return id_publicacao;
 	}
@@ -57,6 +60,12 @@ public class Publicacao {
 	}
 	public void setFonte(String fonte) {
 		this.fonte = fonte;
+	}
+	public int getVersao() {
+		return versao;
+	}
+	public void setVersao(int versao) {
+		this.versao = versao;
 	}
 		
 }

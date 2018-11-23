@@ -20,6 +20,7 @@ public class ColunaDao extends Dao {
 		session.beginTransaction();
 		Query<Coluna> query = session.createQuery("from Coluna");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 
@@ -40,7 +41,8 @@ public class ColunaDao extends Dao {
 		session = sessionFactory.openSession();
 		session.beginTransaction();
 		session.update(coluna);
-		session.getTransaction().commit();		
+		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void delete(int id) throws Exception {
@@ -60,6 +62,7 @@ public class ColunaDao extends Dao {
 		Query<Coluna> query = session.createQuery(queryString);
 		query.setParameter("id", id);
 		retorno = query.list();
+		session.close();
 		return retorno;
 	}
 }

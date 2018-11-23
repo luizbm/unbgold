@@ -53,6 +53,9 @@ public class ConjuntoDados {
 	@JoinColumn(name="id_orgao")
 	private Orgao orgao;
 	
+	@ManyToOne
+	@JoinColumn(name="id_grupo")
+	private Grupo grupo;
 	
 	
 	@Column 
@@ -267,6 +270,12 @@ public class ConjuntoDados {
 	}
 	public void setGranularidade_temporal(String granularidade_temporal) {
 		this.granularidade_temporal = granularidade_temporal;
+	}
+	public Grupo getGrupo() {
+		return grupo;
+	}
+	public void setGrupo(Grupo grupo) {
+		this.grupo = grupo;
 	}
 	
 }
