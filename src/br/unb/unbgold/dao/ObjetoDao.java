@@ -19,55 +19,58 @@ public class ObjetoDao extends Dao {
 
 	public List<Objeto> getAll() throws Exception {
 		List<Objeto> lista = new ArrayList<Objeto>();
-		session = sessionFactory.openSession();
+		StartSession();
 		Query<Objeto> query = session.createQuery("from Objeto");
 		lista = query.getResultList();
 		return lista;
 	}
 
 	public Objeto get(int id) throws Exception {
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		return session.getReference(Objeto.class, id);
 	}
 
 	public void add(Objeto objeto) throws Exception {	
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.save(objeto);
 		session.getTransaction().commit();
 	}
 
 	public void alter(Objeto objeto) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.update(objeto);
 		session.getTransaction().commit();		
 	}
 
 	public void delete(int id) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		Ontologia ontologia = session.getReference(Ontologia.class, id);
 		session.delete(ontologia);
 		session.getTransaction().commit();
+		session.close();
 	}
 	
 	public List<Objeto> findByPublicacao(Sujeito sujeito){
-		 List<Objeto> objetos = new ArrayList<Objeto>();
-			session = sessionFactory.openSession();
-			Criteria crit = session.createCriteria(Objeto.class);
-			crit.add(Restrictions.eq("sujeito", sujeito));
-			objetos = crit.list();
-		 return objetos;
+		List<Objeto> objetos = new ArrayList<Objeto>();
+		StartSession();
+		Criteria crit = session.createCriteria(Objeto.class);
+		crit.add(Restrictions.eq("sujeito", sujeito));
+		objetos = crit.list();
+		session.close();
+		return objetos;
+		
 	}
 
 	public List<Objeto> findByColuna(Coluna coluna) {
 		List<Objeto> objetos = new ArrayList<Objeto>();
-		session = sessionFactory.openSession();
+		StartSession();
 		Criteria crit = session.createCriteria(Objeto.class);
 		crit.add(Restrictions.eq("coluna", coluna));
 		objetos = crit.list();
-	 return objetos;
+		session.close();
+		return objetos;
 	}
 }

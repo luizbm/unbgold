@@ -11,8 +11,7 @@ public class GrupoDao extends Dao {
 
 	public List<Grupo> getAll() throws Exception {
 		List<Grupo> lista = new ArrayList<Grupo>();
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		Query<Grupo> query = session.createQuery("from Grupo");
 		lista = query.getResultList();
 		session.close();

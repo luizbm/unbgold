@@ -17,8 +17,7 @@ public class Instancia_ckanDao extends Dao {
 
 	public List<Instancia_ckan> getAll() throws Exception {
 		List<Instancia_ckan> lista = new ArrayList<Instancia_ckan>();
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		Query<Instancia_ckan> query = session.createQuery("from Instancia_ckan WHERE id_instancia_ckan <> 1" );
 		lista = query.getResultList();
 		session.close();
@@ -26,40 +25,42 @@ public class Instancia_ckanDao extends Dao {
 	}
 
 	public Instancia_ckan get(int id) throws Exception {
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		return session.getReference(Instancia_ckan.class, id);
 	}
 
 	public void add(Instancia_ckan instancia_ckan) throws Exception {	
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.save(instancia_ckan);
 		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void alter(Instancia_ckan instancia_ckan) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.update(instancia_ckan);
-		session.getTransaction().commit();		
+		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void delete(int id) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		Ontologia ontologia = session.getReference(Ontologia.class, id);
 		session.delete(ontologia);
 		session.getTransaction().commit();
+		session.close();
 	}
 	
 	public List<Instancia_ckan> findByUnidadePublicadora(Unidade_publicadora unidade_publicadora){
 		 List<Instancia_ckan> instancia_ckans = new ArrayList<Instancia_ckan>();
-			session = sessionFactory.openSession();
-			session.beginTransaction();
+		 StartSession();
 			Criteria crit = session.createCriteria(Instancia_ckan.class);
 			crit.add(Restrictions.eq("unidade_publicadora", unidade_publicadora));
 			instancia_ckans = crit.list();
+			session.close();
 		 return instancia_ckans;
 	}
 }

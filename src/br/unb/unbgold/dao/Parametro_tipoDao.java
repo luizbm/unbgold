@@ -17,8 +17,7 @@ public class Parametro_tipoDao extends Dao {
 
 	public List<Parametro_tipo> getAll() throws Exception {
 		List<Parametro_tipo> lista = new ArrayList<Parametro_tipo>();
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		Query<Parametro_tipo> query = session.createQuery("from Parametro_tipo");
 		lista = query.getResultList();
 		session.close();
@@ -26,23 +25,26 @@ public class Parametro_tipoDao extends Dao {
 	}
 
 	public Parametro_tipo get(int id) throws Exception {
-		session = sessionFactory.openSession();
-		session.beginTransaction();
-		return session.getReference(Parametro_tipo.class, id);
+		StartSession();
+		Parametro_tipo tp =  session.getReference(Parametro_tipo.class, id);
+		session.close();
+		return tp;
 	}
 
 	public void add(Parametro_tipo parametro_tipo) throws Exception {	
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.save(parametro_tipo);
 		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void alter(Parametro_tipo parametro_tipo) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.update(parametro_tipo);
 		session.getTransaction().commit();		
+		session.close();
 	}
 
 	public void delete(int id) throws Exception {
@@ -51,6 +53,7 @@ public class Parametro_tipoDao extends Dao {
 		Parametro_tipo parametro_tipo = session.getReference(Parametro_tipo.class, id);
 		session.delete(parametro_tipo);
 		session.getTransaction().commit();
+		session.close();
 	}
 
 }

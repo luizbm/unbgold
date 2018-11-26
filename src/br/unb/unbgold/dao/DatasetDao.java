@@ -13,8 +13,7 @@ public class DatasetDao extends Dao {
 
 	public List<ConjuntoDados> getAll() throws Exception {
 		List<ConjuntoDados> lista = new ArrayList<ConjuntoDados>();
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		Query<ConjuntoDados> query = session.createQuery("from ConjuntoDados");
 		lista = query.getResultList();
 		session.close();
@@ -22,27 +21,26 @@ public class DatasetDao extends Dao {
 	}
 
 	public ConjuntoDados get(int id) throws Exception {
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		return session.getReference(ConjuntoDados.class, id);
 	}
 
 	public void add(ConjuntoDados dataset) throws Exception {	
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.save(dataset);
 		session.getTransaction().commit();
 	}
 
 	public void alter(ConjuntoDados dataset) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.update(dataset);
 		session.getTransaction().commit();		
 	}
 
 	public void delete(int id) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		ConjuntoDados dataset = session.getReference(ConjuntoDados.class, id);
 		session.delete(dataset);
@@ -50,7 +48,7 @@ public class DatasetDao extends Dao {
 	}
 
 	public List<ConjuntoDados> buscaPorTipo(int id) {
-		session = sessionFactory.openSession();
+		StartSession();
 		List<ConjuntoDados> retorno = new ArrayList<ConjuntoDados>();
 		String queryString = "SELECT c "
 			+ " FROM  ConjuntoDados c "

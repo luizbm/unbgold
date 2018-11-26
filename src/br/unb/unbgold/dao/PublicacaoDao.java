@@ -28,7 +28,9 @@ public class PublicacaoDao extends Dao {
 
 	public Publicacao get(int id) throws Exception {
 		StartSession();
-		return session.getReference(Publicacao.class, id);
+		Publicacao p =  session.getReference(Publicacao.class, id);
+		session.close();
+		return p;
 	}
 
 	public void add(Publicacao publicacao) throws Exception {	
@@ -36,6 +38,7 @@ public class PublicacaoDao extends Dao {
 		session.beginTransaction();
 		session.save(publicacao);
 		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void alter(Publicacao publicacao) throws Exception {
@@ -43,6 +46,7 @@ public class PublicacaoDao extends Dao {
 		session.beginTransaction();
 		session.update(publicacao);
 		session.getTransaction().commit();		
+		session.close();
 	}
 
 	public void delete(int id) throws Exception {
@@ -51,6 +55,7 @@ public class PublicacaoDao extends Dao {
 		Ontologia ontologia = session.getReference(Ontologia.class, id);
 		session.delete(ontologia);
 		session.getTransaction().commit();
+		session.close();
 	}
 	
 	public List<Publicacao> findByDataset(ConjuntoDados dataset){
@@ -60,10 +65,12 @@ public class PublicacaoDao extends Dao {
 		 Criteria crit = session.createCriteria(Publicacao.class);
 		 crit.add(Restrictions.eq("dataset", dataset));
 		 publicacaos = crit.list();
+		 session.close();
 		 return publicacaos;
 	}
 	
 	public List<Publicacao> findLigacoes(Publicacao publicacao){
+		StartSession();
 		List<Publicacao> retorno = new ArrayList<Publicacao>();
 		String queryString = "SELECT p2 "
 				+ " FROM Coluna c2 INNER JOIN ConjuntoDados d2 ON c2.conjuntoDados.id_dataset = d2.id_dataset "
@@ -113,6 +120,7 @@ public class PublicacaoDao extends Dao {
 		Date hoje = new Date();
 		query.setParameter("date", hoje);
 		retorno = query.list();
+		session.close();
 		return retorno;
 		}
 

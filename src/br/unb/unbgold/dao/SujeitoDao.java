@@ -18,61 +18,66 @@ public class SujeitoDao extends Dao {
 
 	public List<Sujeito> getAll() throws Exception {
 		List<Sujeito> lista = new ArrayList<Sujeito>();
-		session = sessionFactory.openSession();
+		StartSession();
 		Query<Sujeito> query = session.createQuery("from Sujeito");
 		lista = query.getResultList();
+		session.close();
 		return lista;
 	}
 
 	
 	public List<Sujeito> getByPublicacaoId(int id ) throws Exception {
 		List<Sujeito> sujeitos = new ArrayList<Sujeito>();
-		session = sessionFactory.openSession();
-		session.beginTransaction();
+		StartSession();
 		Criteria crit = session.createCriteria(Sujeito.class);
 		Publicacao publicacao = new Publicacao();
 		publicacao.setId_publicacao(id);
 		crit.add(Restrictions.eq("publicacao", publicacao));
 		sujeitos = crit.list();
+		session.close();
 		return sujeitos;
 	}
 
 	
 	public Sujeito get(int id) throws Exception {
-		session = sessionFactory.openSession();
-		session.beginTransaction();
-		return session.getReference(Sujeito.class, id);
+		StartSession();
+		Sujeito s = session.getReference(Sujeito.class, id);
+		return s;
 	}
 
 	public void add(Sujeito sujeito) throws Exception {	
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.save(sujeito);
 		session.getTransaction().commit();
+		session.close();
 	}
 
 	public void alter(Sujeito sujeito) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		session.update(sujeito);
-		session.getTransaction().commit();		
+		session.getTransaction().commit();	
+		session.close();
 	}
 
 	public void delete(int id) throws Exception {
-		session = sessionFactory.openSession();
+		StartSession();
 		session.beginTransaction();
 		Ontologia ontologia = session.getReference(Ontologia.class, id);
 		session.delete(ontologia);
 		session.getTransaction().commit();
+		session.close();
 	}
 	
 	public List<Sujeito> findByPublicacao(Publicacao publicacao){
 		 List<Sujeito> sujeitos = new ArrayList<Sujeito>();
-			session = sessionFactory.openSession();
+		 StartSession();
 			session.beginTransaction();
 			Criteria crit = session.createCriteria(Sujeito.class);
 			crit.add(Restrictions.eq("publicacao", publicacao));
 			sujeitos = crit.list();
+			session.close();
 		 return sujeitos;
 	}
 
