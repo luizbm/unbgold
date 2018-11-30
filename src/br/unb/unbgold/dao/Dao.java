@@ -37,7 +37,7 @@ public class Dao {
     }
 
 	public void StartSession() {
-		if(session == null) {
+		if(session == null || !session.isConnected()) {
 			session = sessionFactory.openSession();
 		}
 	}

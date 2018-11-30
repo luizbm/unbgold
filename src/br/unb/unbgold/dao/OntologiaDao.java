@@ -20,6 +20,16 @@ public class OntologiaDao extends Dao {
 		return lista;
 	}
 
+	
+	public List<Ontologia> getOntologiaCatalogo() throws Exception {
+		List<Ontologia> lista = new ArrayList<Ontologia>();
+		StartSession();
+		Query<Ontologia> query = session.createQuery("from Ontologia WHERE id_ontologia IN (2, 8, 9, 10, 11, 5)");
+		lista = query.getResultList();
+		session.close();
+		return lista;
+	}
+	
 	public Ontologia get(int id) throws Exception {
 		StartSession();
 		Ontologia o = session.getReference(Ontologia.class, id);

@@ -10,12 +10,12 @@ public class TriplaUtil {
 
 	private Resource root;
 	private Property p;
-	private Objeto objeto;
+	private String objeto;
 	private Boolean literal;
 	private Coluna coluna;
 	private Boolean tipo;
 	
-	public TriplaUtil(Resource root2, Property property, Objeto objeto, Boolean literal, Coluna coluna) {
+	public TriplaUtil(Resource root2, Property property, String objeto, Boolean literal, Coluna coluna) {
 		super();
 		this.root = root2;
 		this.p = property;
@@ -36,10 +36,10 @@ public class TriplaUtil {
 	public void setP(Property p) {
 		this.p = p;
 	}
-	public Objeto getObjeto() {
+	public String getObjeto() {
 		return objeto;
 	}
-	public void setObjeto(Objeto objeto) {
+	public void setObjeto(String objeto) {
 		this.objeto = objeto;
 	}
 	public Boolean getLiteral() {

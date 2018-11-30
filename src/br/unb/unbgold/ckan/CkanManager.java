@@ -1,7 +1,12 @@
 package br.unb.unbgold.ckan;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
@@ -9,11 +14,24 @@ import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Grupo;
 import br.unb.unbgold.model.Orgao;
 import br.unb.unbgold.model.Publicacao;
+import br.unb.unbgold.util.ManagerFiles;
 import eu.trentorise.opendata.jackan.CheckedCkanClient;
 import eu.trentorise.opendata.jackan.CkanClient;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.HttpEntity;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.HttpResponse;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.client.HttpClient;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.client.methods.HttpPost;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.entity.ContentType;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.entity.mime.MultipartEntityBuilder;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.entity.mime.content.ContentBody;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.entity.mime.content.FileBody;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.entity.mime.content.StringBody;
+import eu.trentorise.opendata.jackan.internal.org.apache.http.impl.client.DefaultHttpClient;
+import eu.trentorise.opendata.jackan.model.CkanDataset;
 import eu.trentorise.opendata.jackan.model.CkanDatasetBase;
 import eu.trentorise.opendata.jackan.model.CkanGroup;
 import eu.trentorise.opendata.jackan.model.CkanOrganization;
+import eu.trentorise.opendata.jackan.model.CkanResource;
 import eu.trentorise.opendata.jackan.model.CkanResourceBase;
 import eu.trentorise.opendata.jackan.model.CkanTag;
 
@@ -22,6 +40,9 @@ public class CkanManager {
 	private String key_api;
 	private String url_api;
 	private CkanClient cli;
+	
+	private String fileupload = "C:\\Users\\00415102162\\git\\unbgold\\teste.csv";
+	
 	public String getKey_api() {
 		return key_api;
 	}
@@ -39,7 +60,7 @@ public class CkanManager {
 	public CkanDatasetBase getDataset(String nome) {
 		CkanClient cliente = this.getCliente();
 		CkanDatasetBase retorno;
-		retorno = cliente.getDataset(nome);
+		retorno = cliente.getDataset(nome.toLowerCase().replace(" ", "-"));
 		return retorno;
 	}
 	
@@ -123,16 +144,107 @@ public class CkanManager {
 	public CkanResourceBase saveResource(ConjuntoDados cd, Publicacao pub, CkanDatasetBase dataset) {
 		CkanResourceBase resource = new CkanResourceBase("upload", dataset.getId());
 		//File file = null;
-		CkanClient cliente = getCliente();
-		resource.setUrl(pub.getFonte());
-		resource.setFormat("CSV");
-		resource.setSize("123456");
 		
+		CkanClient cliente = getCliente();
+		resource.setSize("123456");
 		//resource.setUpload(new File(cd.getFonte()), true);
-		resource.setDescription(cd.getDescricao()+ new Random().nextLong());
-		resource.setWebstoreUrl(cd.getFonte());
-		cliente.createResource(resource);
+		resource.setDescription(cd.getDescricao());
+		//resource.setWebstoreUrl(cd.getFonte());
+		Integer id = (int) new Random().nextLong();
+		
+		if(cd.getJson()) {
+			//resource.setPackageId("aaaaaa");
+			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".json");
+			if(file != null) {
+				Long tamanho = file.length();
+				resource.setSize(tamanho.toString());
+				resource.setUrl(pub.getFonte()+".json");
+				resource.setFormat("json");
+				cliente.createResource(resource);
+			}
+		}
+		if(cd.getCsv()) {
+			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".csv");
+			if(file != null) {
+				Long tamanho = file.length();
+				resource.setSize(tamanho.toString());
+				resource.setUrl(pub.getFonte()+".csv");
+				resource.setFormat("csv");
+				cliente.createResource(resource);
+			}
+		}
+
+		if(cd.getRdf()) {
+			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".rdf");
+			if(file != null) {
+				Long tamanho = file.length();
+				resource.setSize(tamanho.toString());
+				resource.setUrl(pub.getFonte()+".rdf");
+				resource.setFormat("rdf");
+				cliente.createResource(resource);
+			}
+		}
+
+		resource.setPackageId("aaaaaa");
+		
 		
 		return resource;
+	}
+	
+	public void MostraTodosInstancias(String ckan) {
+		CkanClient cc = new CkanClient(ckan);
+		List<String> dl = cc.getDatasetList();
+		for(String ds: dl) {
+			System.out.println(ds);
+			CkanDataset dc =cc.getDataset(ds);
+			List<CkanResource> crs = dc.getResources();
+			for(CkanResource cr : crs){
+				System.out.println(cr);
+			}
+		}
+		System.out.println(cc.getDatasetList());
+	}
+	
+	@SuppressWarnings("deprecation")
+	public void testarUplad() {
+		this.url_api = "http://164.41.101.40:8002";
+		this.key_api = "619c3f13-3972-4446-98c3-08fa0a06b0eb";
+		HttpClient httpClient = new DefaultHttpClient();
+		Date now = new Date();
+		File file = new File(this.fileupload);
+		//FileBody bin = new FileBody(file, "csv");
+		SimpleDateFormat dateFormatGmt = new  SimpleDateFormat("yyyyMMdd_HHmmss");
+	    String date=dateFormatGmt.format(new Date());
+	    try {
+	    	   ContentBody cbFile = new FileBody(file, ContentType.TEXT_HTML);
+	           HttpEntity reqEntity = MultipartEntityBuilder.create()
+	            .addPart("file", cbFile )
+	            .addPart("key", new StringBody(this.fileupload+date))
+	            .addPart("package_id",new StringBody("test2"))
+	            .addPart("url",new StringBody(this.url_api+"/files/"+date+"/test.txt"))         
+	            .build();
+
+	           HttpPost postRequest = new HttpPost(this.url_api+"/api/action/resource_create");
+	           postRequest.setEntity(reqEntity);
+	           postRequest.setHeader("X-CKAN-API-Key", this.key_api);
+
+	           HttpResponse response = httpClient.execute(postRequest);
+	           int statusCode = response.getStatusLine().getStatusCode();
+	           BufferedReader br = new BufferedReader(
+	                   new InputStreamReader((response.getEntity().getContent())));
+
+	           String line;
+	           while ((line = br.readLine()) != null) {
+	             System.out.println("+"+line);
+	           }
+	           if(statusCode!=200){
+	              System.out.println("statusCode =!=" +statusCode);
+	           }
+	    }catch (IOException ioe) {
+	    System.out.println(ioe);
+	    } finally {
+	    	httpClient.getConnectionManager().shutdown();
+	    }
+	    
 	}
 }

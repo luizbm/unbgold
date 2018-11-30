@@ -78,12 +78,7 @@ public class BuscaSemantica {
 		List<Ontologia> ontologias = new ArrayList<Ontologia>();
 		OntologiaDao ontologiaDao = new OntologiaDao();
 		try {
-			ontologias.add(ontologiaDao.get(2));
-			ontologias.add(ontologiaDao.get(8));
-			ontologias.add(ontologiaDao.get(9));
-			ontologias.add(ontologiaDao.get(10));
-			ontologias.add(ontologiaDao.get(11));
-			ontologias.add(ontologiaDao.get(5));
+			ontologias = ontologiaDao.getOntologiaCatalogo();
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -181,12 +176,7 @@ public class BuscaSemantica {
 	    List<Ontologia> ontologias = new ArrayList<Ontologia>();
 		OntologiaDao ontologiaDao = new OntologiaDao();
 		try {
-			ontologias.add(ontologiaDao.get(2));
-			ontologias.add(ontologiaDao.get(8));
-			ontologias.add(ontologiaDao.get(9));
-			ontologias.add(ontologiaDao.get(10));
-			ontologias.add(ontologiaDao.get(11));
-			ontologias.add(ontologiaDao.get(5));
+			ontologias = ontologiaDao.getOntologiaCatalogo();
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

@@ -31,6 +31,9 @@ public class Publicacao {
 	@Column
 	private int versao;
 	
+	@Column
+	private String nm_arquivo;
+	
 	public int getId_publicacao() {
 		return id_publicacao;
 	}
@@ -66,6 +69,12 @@ public class Publicacao {
 	}
 	public void setVersao(int versao) {
 		this.versao = versao;
+	}
+	public String getNm_arquivo() {
+		return nm_arquivo;
+	}
+	public void setNm_arquivo(String nm_arquivo) {
+		this.nm_arquivo = nm_arquivo;
 	}
 		
 }

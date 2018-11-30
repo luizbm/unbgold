@@ -88,7 +88,7 @@ public class JenaCtrl {
 				oType.setObjeto_tipo(ot);
 				Coluna tColuna = new Coluna();
 				tColuna.setPublicar(true);
-				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, tColuna);
+				TriplaUtil type = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType.getDesc_objeto(), false, tColuna);
 						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
 				triplas.add(type);
 				
@@ -106,9 +106,9 @@ public class JenaCtrl {
 					
 					Property p = m.createProperty(iri_termo);
 					if(objeto.getObjeto_tipo().getId_objeto_tipo() != 2) {
-						triplasLiteral.add(new TriplaUtil(root, p, objeto, true, objeto.getColuna()));
+						triplasLiteral.add(new TriplaUtil(root, p, objeto.getDesc_objeto(), true, objeto.getColuna()));
 					}else {
-						triplasRecurso.add(new TriplaUtil(root, p, objeto, false, objeto.getColuna()));
+						triplasRecurso.add(new TriplaUtil(root, p, objeto.getDesc_objeto(), false, objeto.getColuna()));
 						System.out.println(objeto.getDesc_objeto());
 					}
 					//m.add(root, p, objeto.getDesc_objeto());
@@ -117,7 +117,7 @@ public class JenaCtrl {
 				Coluna ct = new Coluna();
 				ct.setPublicar(true);
 				ct.setNm_campo("Tipo_Termo");
-				TriplaUtil tipo = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType, false, ct);
+				TriplaUtil tipo = new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), oType.getDesc_objeto(), false, ct);
 						//new TriplaUtil(root, m.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), "", false, null)
 				type.setTipo(true);
 				triplas.add(type);
@@ -130,7 +130,7 @@ public class JenaCtrl {
 			}
 			List<Coluna> colunas = new ArrayList<Coluna>();
 			colunas = new ColunaDao().findByDataset(publicacao.getDataset().getId_dataset());
-			
+			/*
 			for (Coluna coluna : colunas) {
 				if(coluna.getId_coluna_ligacao() != 1) {
 					System.out.println(coluna.getNm_campo());
@@ -138,13 +138,9 @@ public class JenaCtrl {
 					List<TriplaUtil> triplaLink = new ArrayList<TriplaUtil>();
 					for (TriplaUtil tripla : triplasRecurso) {
 						
-		//				System.out.println(tripla.getObjeto().getObjeto_tipo().getId_objeto_tipo());
-						//tripla.setLiteral(true);
 						Boolean naoAchou = true;
 						if(tripla.getColuna().getNm_campo().equals(coluna.getNm_campo())) {
 							for (Objeto objeto: objetosLigacao) {
-		//					System.out.println(tripla.getObjeto().getDesc_objeto()+" - "+objeto.getDesc_objeto());
-								//System.out.println(objeto.getDesc_objeto());
 								if(tripla.getObjeto().getDesc_objeto().equals(objeto.getDesc_objeto())){
 									Objeto ob = tripla.getObjeto();
 									ob.setDesc_objeto(objeto.getSujeito().getDesc_sujeito());
@@ -166,16 +162,16 @@ public class JenaCtrl {
 			
 				}
 					
-			}
+			}*/
 			triplas.addAll(triplasLiteral);
 			for (TriplaUtil tripla : triplas) {
 				if(tripla.getColuna().getPublicar()) {
 					if(tripla.getLiteral()) {
 						
-						m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto().getDesc_objeto());
+						m.add(tripla.getRoot(), tripla.getP(), tripla.getObjeto());
 					}else {
 						//Model model = new 
-						Resource o = m.createResource(tripla.getObjeto().getDesc_objeto());
+						Resource o = m.createResource(tripla.getObjeto());
 						m.add(tripla.getRoot(), tripla.getP(), o);
 						
 					}

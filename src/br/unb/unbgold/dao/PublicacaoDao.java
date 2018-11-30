@@ -1,5 +1,6 @@
 package br.unb.unbgold.dao;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -11,6 +12,7 @@ import org.hibernate.criterion.Restrictions;
 
 import br.unb.unbgold.model.Ontologia;
 import br.unb.unbgold.model.Publicacao;
+import eu.trentorise.opendata.jackan.model.CkanDataset;
 import br.unb.unbgold.model.ConjuntoDados;
 
 public class PublicacaoDao extends Dao {
@@ -24,12 +26,14 @@ public class PublicacaoDao extends Dao {
 		lista = query.getResultList();
 		session.close();
 		return lista;
+		
+		
+		
 	}
 
 	public Publicacao get(int id) throws Exception {
 		StartSession();
 		Publicacao p =  session.getReference(Publicacao.class, id);
-		session.close();
 		return p;
 	}
 
@@ -65,7 +69,7 @@ public class PublicacaoDao extends Dao {
 		 Criteria crit = session.createCriteria(Publicacao.class);
 		 crit.add(Restrictions.eq("dataset", dataset));
 		 publicacaos = crit.list();
-		 session.close();
+		 
 		 return publicacaos;
 	}
 	
@@ -126,22 +130,26 @@ public class PublicacaoDao extends Dao {
 
 	public Publicacao setarVersao(Publicacao pub) {
 		Publicacao publicacao = null;
-		try {
-			 publicacao = this.get(pub.getId_publicacao());
-		} catch (Exception e) {
-			
-		}
+		StartSession();
+		session.beginTransaction();
+		publicacao = session.getReference(Publicacao.class, pub.getId_publicacao());
+		List<Publicacao> totais = this.findByDataset(pub.getDataset());
+		Date now = new Date();
+		String com = totais.size()+"-"+now.toString().replace(" ", "").replace("-", "").replaceAll(":", "");
 		if(publicacao != null) {
-			StartSession();
-			session.beginTransaction();
-			List<Publicacao> totais = this.findByDataset(pub.getDataset());
 			publicacao.setVersao(totais.size());
-			session.update(publicacao);
-			session.getTransaction().commit();
-			session.close();
-			pub = publicacao;
-			
+			publicacao.setNm_arquivo(pub.getDataset().getTitulo().toLowerCase().replace(" ", "-")+"-"+totais.size()+com);
 		}
+		session.update(publicacao);
+		pub.setVersao(publicacao.getVersao());
+		session.getTransaction().commit();
+		
+		pub.setNm_arquivo(pub.getDataset().getTitulo().toLowerCase().replace(" ", "-")+"-"+totais.size()+com);
+		session.close();
 		return pub;
+	}
+	
+	public void SendFile(File file, CkanDataset cd) {
+		
 	}
 }
