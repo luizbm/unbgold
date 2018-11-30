@@ -1,0 +1,342 @@
+?cod_departamento
+sigla_departamento
+nome_departamento
+12
+GRE
+Gabinete do Reitor
+14
+IE
+Instituto de Ciencias Exatas
+15
+IB
+Instituto de Ciencias Biológicas
+16
+IH
+Instituto de Ciencias Humanas
+17
+IL
+Instituto de Letras
+18
+IA
+Instituto de Arquitetura e Urbanismo
+20
+FT
+Faculdade de Tecnologia
+21
+FS
+Faculdade de Ciencias da Saúde
+22
+FA
+Faculdade de Estudos Sociais Aplicados
+23
+FE
+Faculdade de Educaçao
+25
+FACE
+Faculd. de Economia
+Administraçao e Contabilidade
+26
+IDA
+Instituto de Artes
+27
+FAC
+Faculdade de Comunicaçao
+28
+IGD
+Instituto de Geociencias
+29
+FEF
+Faculdade de Educaçao Física
+30
+FAV
+Faculdade de Agronomia e Medicina Veterinária
+31
+IFD
+Instituto de Física
+32
+FMD
+Faculdade de Medicina
+33
+FCI
+Faculdade de Ciencia da Informaçao
+36
+DEG
+Decanato de Ensino de Graduaçao
+37
+DEX
+Decanato de Extensao
+56
+CET
+Centro de Excelencia em Turismo
+58
+IPD
+Instituto de Psicologia
+75
+CDT
+Centro Apoio ao Desenvolvimento Tecnológico
+79
+HUB
+Hospital Universitário de Brasília
+80
+IP
+Direçao do Instituto de Psicologia
+82
+FDD
+Faculdade de Direito
+84
+ICS
+Instituto de Ciencias Sociais
+85
+IQD
+Instituto de Química
+86
+IPOL
+Instituto de Ciencia Política
+87
+IREL
+Instituto de Relaçoes Internacionais
+88
+CIORD
+Centro Integrado de Ordenamento Territorial
+89
+FUP
+UnB - Faculdade de Planaltina
+95
+FGA
+UnB - Faculdade do Gama
+96
+FCE
+UnB - Faculdade da Ceilândia
+104
+FIS
+Departamento de Física
+105
+GEG
+Departamento de Geociencias
+106
+MAT
+Departamento de Matemática.
+107
+EST
+Departamento de Estatística
+108
+CIC
+Departamento de Ciencia da Computaçao
+110
+CEAM
+Centro de Estudos Avançados e Multidisciplinares
+111
+IBD
+Direçao do Instituto Ciencias Biológicas
+112
+VEG
+Departamento de Biologia Vegetal
+113
+ANI
+Departamento de Biologia Animal
+114
+IHD
+Direçao do Instituto de Ciencias Humanas
+116
+SER
+Departamento de Serviço Social
+117
+FIL
+Departamento de Filosofia
+118
+GEA
+Departamento de Geografia
+119
+HIS
+Departamento de História
+124
+LIP
+Departamento de Linguística
+Portugues
+Líng Clás
+125
+TEL
+Departamento de Teoria Literária e Literatura
+126
+LET
+Departamento de Línguas Estrangeiras e Traduçao
+129
+URB
+Departamento de Urbanismo
+130
+PRO
+Departamento de Projetos Expressao e Representaçao
+131
+TEC
+Departamento de Tecnologia em Arquit. e Urbanismo
+132
+THAU
+Depto.de Teoria e Hist.em Arquitetura e Urbanismo
+133
+ARQ
+Departamento de Arquitetura
+137
+ENC
+Departamento de Engenharia Civil e Ambiental
+138
+ENE
+Departamento de Engenharia Elétrica.
+139
+ENM
+Departamento de Engenharia Mecânica
+140
+EFL
+Departamento de Engenharia Florestal
+142
+MDC
+Departamento de Medicina Complementar
+143
+MDE
+Departamento Medicina Especializada
+144
+MDG
+Depto.de Medicina Geral e Comunitária
+147
+CID
+Departamento de Ciencia da Inform. e Documentaçao
+149
+TEF
+Departamento de Teoria e Fundamentos
+150
+MTC
+Departamento de Métodos e Técnicas
+151
+PAD
+Departamento de Planejamento e Administraçao
+155
+CCA
+Depto. de Ciencias Contábeis e Atuariais
+157
+ADM
+Departamento de Administraçao
+159
+CCA
+Depto de Ciencias Contábeis e Atuariais
+160
+ECO
+Departamento de Economia
+161
+ADM
+Departamento de Administraçao
+162
+ECO
+Departamento de Economia
+163
+VIS
+Departamento de Artes Visuais
+164
+CEN
+Departamento de Artes Cenicas
+165
+MUS
+Departamento de Música
+166
+DIN
+Departamento de Desenho Industrial
+167
+JOR
+Departamento de Jornalismo
+168
+DAP
+Departamento de Audiovisuais e Publicidade
+174
+NMT
+Núcleo de Medicina Tropical
+199
+DA
+Diretoria de Administraçao Academica
+213
+CDS
+Centro de Desenvolvimento Sustentável
+218
+CEL
+Departamento de Biologia Celular
+219
+PSI
+Departamento de Psicologia
+220
+CFS
+Departamento de Ciencias Fisiológicas
+221
+GEM
+Departamento de Genética e Morfologia
+222
+ECL
+Departamento de Ecologia
+223
+FIT
+Departamento de Fitopatologia
+224
+BOT
+Departamento de Botânica
+225
+ZOO
+Departamento de Zoologia
+231
+NUT
+Departamento de Nutriçao
+232
+ENF
+Departamento de Enfermagem
+233
+ODT
+Departamento de Odontologia
+234
+DSC
+Departamento de Saúde Coletiva
+235
+CLC
+Departamento de Clínica Médica
+255
+PPB
+Departamento de Processos Psicologicos Básicos
+256
+PED
+Departamento de Psic.Escolar e do Desenvolvimento
+257
+PCL
+Departamento de Psicologia Clínica
+258
+PST
+Departamento de Psicologia Social e do Trabalho
+261
+DIR
+Departamento de Direito
+262
+REL
+Departamento de Relaçoes Internacionais
+264
+CIS
+Departamento de Ciencias Sociais
+265
+SOL
+Departamento de Sociologia
+266
+DAN
+Departamento de Antropologia
+267
+PAC
+Centro de Pesquisa Pós-Graduaçao sobre as Américas
+268
+QUI
+Departamento de Quimica
+308
+EPR
+Departamento de Engenharia de Produçao
+360
+GPP
+Departamento de Gestao de Políticas Públicas - GPP
+365
+ELA
+Departamento de Estudos Latino-Americanos
+369
+FAR
+DEPARTAMENTO DE FARMÁCIA
+374
+CDT
+Centro de Apoio ao Desenvolvimento Tecnológico

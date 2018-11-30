@@ -1,0 +1,313 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/#">
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/171">
+    <dc:identifier>171</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE FARMÁCIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/14">
+    <dc:identifier>14</dc:identifier>
+    <foaf:name>INSTITUTO DE LETRAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/191">
+    <dc:identifier>191</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE TEORIA E FUNDAMENTOS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/179">
+    <dc:identifier>179</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE SAÚDE COLETIVA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/135">
+    <dc:identifier>135</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ANTROPOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/410">
+    <dc:identifier>410</dc:identifier>
+    <foaf:name>DIREÇÃO DO INSTITUTO DE PSICOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/422">
+    <dc:identifier>422</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ARTES CÊNICAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/115">
+    <dc:identifier>115</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ESTATÍSTICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/159">
+    <dc:identifier>159</dc:identifier>
+    <foaf:name>DEPTO.DE TEORIA E HIST.EM ARQUITETURA E URBANISMO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/39">
+    <dc:identifier>39</dc:identifier>
+    <foaf:name>CENTRO DE EXCELÊNCIA EM TURISMO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/147">
+    <dc:identifier>147</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE LINGUÍSTICA, PORTUGUÊS, LÍNG CLÁS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/19">
+    <dc:identifier>19</dc:identifier>
+    <foaf:name>FACULDADE DE EDUCAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/163">
+    <dc:identifier>163</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENGENHARIA ELÉTRICA.</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/430">
+    <dc:identifier>430</dc:identifier>
+    <foaf:name>FACULDADE DE COMUNICAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/406">
+    <dc:identifier>406</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE GESTÃO DE POLÍTICAS PÚBLICAS - GPP</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/402">
+    <dc:identifier>402</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ADMINISTRAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/139">
+    <dc:identifier>139</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE HISTÓRIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/414">
+    <dc:identifier>414</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PSICOLOGIA SOCIAL E DO TRABALHO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/127">
+    <dc:identifier>127</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ECOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/725">
+    <dc:identifier>725</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENGENHARIA DE PRODUÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/162">
+    <dc:identifier>162</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENGENHARIA CIVIL E AMBIENTAL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/194">
+    <dc:identifier>194</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PLANEJAMENTO E ADMINISTRAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/16">
+    <dc:identifier>16</dc:identifier>
+    <foaf:name>FACULDADE DE TECNOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/178">
+    <dc:identifier>178</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ODONTOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/550">
+    <dc:identifier>550</dc:identifier>
+    <foaf:name>INSTITUTO DE FÍSICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/421">
+    <dc:identifier>421</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ARTES VISUAIS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/134">
+    <dc:identifier>134</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE SOCIOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/126">
+    <dc:identifier>126</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE GENÉTICA E MORFOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/158">
+    <dc:identifier>158</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE TECNOLOGIA EM ARQUIT. E URBANISMO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/570">
+    <dc:identifier>570</dc:identifier>
+    <foaf:name>FACULDADE DE MEDICINA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/352">
+    <dc:identifier>352</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ESTUDOS LATINO-AMERICANOS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/530">
+    <dc:identifier>530</dc:identifier>
+    <foaf:name>FACULDADE DE EDUCAÇÃO FÍSICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/700">
+    <dc:identifier>700</dc:identifier>
+    <foaf:name>FACULDADE DE CIÊNCIA DA INFORMAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/413">
+    <dc:identifier>413</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PSICOLOGIA CLÍNICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/138">
+    <dc:identifier>138</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE GEOGRAFIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/405">
+    <dc:identifier>405</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ECONOMIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/52">
+    <dc:identifier>52</dc:identifier>
+    <foaf:name>CENTRO DE APOIO AO DESENVOLVIMENTO TECNOLÓGICO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/40">
+    <dc:identifier>40</dc:identifier>
+    <foaf:name>FACULD. DE ECONOMIA, ADMINISTRAÇÃO E CONTABILIDADE</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/12">
+    <dc:identifier>12</dc:identifier>
+    <foaf:name>INSTITUTO DE CIÊNCIAS BIOLÓGICAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/157">
+    <dc:identifier>157</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PROJETOS EXPRESSÃO E REPRESENTAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/420">
+    <dc:identifier>420</dc:identifier>
+    <foaf:name>INSTITUTO DE ARTES</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/113">
+    <dc:identifier>113</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE MATEMÁTICA.</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/432">
+    <dc:identifier>432</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE AUDIOVISUAIS E PUBLICIDADE</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/137">
+    <dc:identifier>137</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE FILOSOFIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/125">
+    <dc:identifier>125</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE CIÊNCIAS FISIOLÓGICAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/17">
+    <dc:identifier>17</dc:identifier>
+    <foaf:name>FACULDADE DE CIÊNCIAS DA SAÚDE</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/412">
+    <dc:identifier>412</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PSIC.ESCOLAR E DO DESENVOLVIMENTO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/383">
+    <dc:identifier>383</dc:identifier>
+    <foaf:name>CENTRO DE DESENVOLVIMENTO SUSTENTÁVEL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/177">
+    <dc:identifier>177</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENFERMAGEM</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/440">
+    <dc:identifier>440</dc:identifier>
+    <foaf:name>INSTITUTO DE GEOCIÊNCIAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/165">
+    <dc:identifier>165</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENGENHARIA FLORESTAL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/121">
+    <dc:identifier>121</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE BIOLOGIA CELULAR</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/589">
+    <dc:identifier>589</dc:identifier>
+    <foaf:name>INSTITUTO DE RELAÇÕES INTERNACIONAIS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/424">
+    <dc:identifier>424</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE DESENHO INDUSTRIAL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/4">
+    <dc:identifier>4</dc:identifier>
+    <foaf:name>DECANATO DE EXTENSÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/149">
+    <dc:identifier>149</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE LÍNGUAS ESTRANGEIRAS E TRADUÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/404">
+    <dc:identifier>404</dc:identifier>
+    <foaf:name>DEPTO DE CIÊNCIAS CONTÁBEIS E ATUARIAIS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/129">
+    <dc:identifier>129</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE BOTÂNICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/192">
+    <dc:identifier>192</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE MÉTODOS E TÉCNICAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/382">
+    <dc:identifier>382</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ZOOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/25">
+    <dc:identifier>25</dc:identifier>
+    <foaf:name>CENTRO DE ESTUDOS AVANÇADOS E MULTIDISCIPLINARES</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/13">
+    <dc:identifier>13</dc:identifier>
+    <foaf:name>INSTITUTO DE CIÊNCIAS HUMANAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/431">
+    <dc:identifier>431</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE JORNALISMO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/540">
+    <dc:identifier>540</dc:identifier>
+    <foaf:name>FACULDADE DE AGRONOMIA E MEDICINA VETERINÁRIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/411">
+    <dc:identifier>411</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE PROCESSOS PSICOLOGICOS BÁSICOS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/148">
+    <dc:identifier>148</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE TEORIA LITERÁRIA E LITERATURA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/560">
+    <dc:identifier>560</dc:identifier>
+    <foaf:name>INSTITUTO DE QUÍMICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/423">
+    <dc:identifier>423</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE MÚSICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/136">
+    <dc:identifier>136</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE SERVIÇO SOCIAL</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/164">
+    <dc:identifier>164</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE ENGENHARIA MECÂNICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/588">
+    <dc:identifier>588</dc:identifier>
+    <foaf:name>INSTITUTO DE CIÊNCIA POLÍTICA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/500">
+    <dc:identifier>500</dc:identifier>
+    <foaf:name>FACULDADE DE DIREITO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/120">
+    <dc:identifier>120</dc:identifier>
+    <foaf:name>DIREÇÃO DO INSTITUTO CIÊNCIAS BIOLÓGICAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/176">
+    <dc:identifier>176</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE NUTRIÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/128">
+    <dc:identifier>128</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE FITOPATOLOGIA</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/116">
+    <dc:identifier>116</dc:identifier>
+    <foaf:name>DEPARTAMENTO DE CIÊNCIA DA COMPUTAÇÃO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dadosabertos.unb.br/departamentos/3">
+    <dc:identifier>3</dc:identifier>
+    <foaf:name>DECANATO DE ENSINO DE GRADUAÇÃO</foaf:name>
+  </rdf:Description>
+</rdf:RDF>
