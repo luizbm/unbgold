@@ -29,7 +29,7 @@ public class Publicacao {
 	private String fonte;
 	
 	@Column
-	private int versao;
+	private Integer versao;
 	
 	@Column
 	private String nm_arquivo;
@@ -64,10 +64,10 @@ public class Publicacao {
 	public void setFonte(String fonte) {
 		this.fonte = fonte;
 	}
-	public int getVersao() {
+	public Integer getVersao() {
 		return versao;
 	}
-	public void setVersao(int versao) {
+	public void setVersao(Integer versao) {
 		this.versao = versao;
 	}
 	public String getNm_arquivo() {

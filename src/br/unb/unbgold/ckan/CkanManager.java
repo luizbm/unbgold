@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.Normalizer;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -43,6 +44,8 @@ public class CkanManager {
 	
 	private String fileupload = "C:\\Users\\00415102162\\git\\unbgold\\teste.csv";
 	
+	public static String ENDERECO_PUBLICACAO = "http://localhost:8080/unbgold/dados/";
+	
 	public String getKey_api() {
 		return key_api;
 	}
@@ -59,8 +62,15 @@ public class CkanManager {
 	
 	public CkanDatasetBase getDataset(String nome) {
 		CkanClient cliente = this.getCliente();
-		CkanDatasetBase retorno;
-		retorno = cliente.getDataset(nome.toLowerCase().replace(" ", "-"));
+		CkanDatasetBase retorno = null;
+		nome = nome.toLowerCase().replace(" ", "-");
+		List<String> datasets = cliente.getDatasetList();
+		for(String ds : datasets) {
+			if(ds.equals(nome)){
+				retorno = cliente.getDataset(ds);
+				break;
+			}
+		}
 		return retorno;
 	}
 	
@@ -83,14 +93,11 @@ public class CkanManager {
 		retorno.setGroups(this.criarGrupos(cd));
 		retorno.setTags(this.criarTags(cd.getTags()));
 		retorno.setLicenseId("cc-by");
-		retorno.setName(cd.getTitulo().toLowerCase().replace(" ", "-"));
+		retorno.setName(CkanManager.removeAccents(cd.getTitulo().toLowerCase().replace(" ", "-")));
 		retorno.setTitle(cd.getTitulo());
 		//retorno.set
-		try {
-			cliente.getDataset(retorno.getName());
-		} catch (Exception e) {
-			retorno = cliente.createDataset(retorno);
-		}
+		
+		retorno = cliente.createDataset(retorno);
 		return retorno;
 		
 	}
@@ -145,20 +152,25 @@ public class CkanManager {
 		CkanResourceBase resource = new CkanResourceBase("upload", dataset.getId());
 		//File file = null;
 		
+		
 		CkanClient cliente = getCliente();
+		
 		resource.setSize("123456");
 		//resource.setUpload(new File(cd.getFonte()), true);
-		resource.setDescription(cd.getDescricao());
+		resource.setDescription(pub.getNm_arquivo());
+		resource.setName(cd.getTitulo()+" Versão: "+pub.getVersao());
 		//resource.setWebstoreUrl(cd.getFonte());
 		Integer id = (int) new Random().nextLong();
 		
+		
 		if(cd.getJson()) {
-			//resource.setPackageId("aaaaaa");
+			
 			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".json");
 			if(file != null) {
 				Long tamanho = file.length();
 				resource.setSize(tamanho.toString());
-				resource.setUrl(pub.getFonte()+".json");
+				//resource.setPackageId(pub.getNm_arquivo()+".json");
+				resource.setUrl(pub.getFonte()+pub.getNm_arquivo()+".json");
 				resource.setFormat("json");
 				cliente.createResource(resource);
 			}
@@ -167,8 +179,9 @@ public class CkanManager {
 			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".csv");
 			if(file != null) {
 				Long tamanho = file.length();
+				//resource.setPackageId(pub.getNm_arquivo()+".csv");
 				resource.setSize(tamanho.toString());
-				resource.setUrl(pub.getFonte()+".csv");
+				resource.setUrl(pub.getFonte()+pub.getNm_arquivo()+".csv");
 				resource.setFormat("csv");
 				cliente.createResource(resource);
 			}
@@ -178,14 +191,15 @@ public class CkanManager {
 			File file = ManagerFiles.pegaArquivo(pub.getNm_arquivo()+".rdf");
 			if(file != null) {
 				Long tamanho = file.length();
+				//resource.setPackageId(pub.getNm_arquivo()+".rdf");
 				resource.setSize(tamanho.toString());
-				resource.setUrl(pub.getFonte()+".rdf");
+				resource.setUrl(pub.getFonte()+pub.getNm_arquivo()+".rdf");
 				resource.setFormat("rdf");
 				cliente.createResource(resource);
 			}
 		}
 
-		resource.setPackageId("aaaaaa");
+		
 		
 		
 		return resource;
@@ -246,5 +260,10 @@ public class CkanManager {
 	    	httpClient.getConnectionManager().shutdown();
 	    }
 	    
+	}
+	public static String removeAccents(String str) {
+	    str = Normalizer.normalize(str, Normalizer.Form.NFD);
+	    str = str.replaceAll("[^\\p{ASCII}]", "");
+	    return str;
 	}
 }

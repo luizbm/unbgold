@@ -11,4 +11,12 @@ public class Util {
 	    return str;
 	    
 	}
+	
+	static public String getNomeConjuntoDados(String nome, Integer versao) {
+		String retorno;
+		retorno = nome.toLowerCase().replace(" ", "-");
+		retorno = retorno.replaceAll("[^\\p{ASCII}]", "").toLowerCase();
+		retorno = "v"+versao+"-"+retorno;
+		return retorno;
+	}
 }

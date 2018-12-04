@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -43,6 +44,7 @@ import br.unb.unbgold.dao.OntologiaDao;
 import br.unb.unbgold.dao.PublicacaoDao;
 import br.unb.unbgold.dao.SujeitoDao;
 import br.unb.unbgold.dao.TermoDao;
+import br.unb.unbgold.dao.TriplaDao;
 import br.unb.unbgold.model.Coluna;
 import br.unb.unbgold.model.ConjuntoDados;
 import br.unb.unbgold.model.Instancia_ckan;
@@ -69,6 +71,7 @@ public class PublicacaoCtrl {
 	private SujeitoDao sujeitoDao;
 	private ObjetoDao objetoDao;
 	private ColunaDao colunaDao;
+	private TriplaDao triplaDao;
 	private PrefixMapping map;
 	ManagerFiles mf;
 	private static String endCatalogo = "rdfs/catalogo" ;
@@ -78,6 +81,7 @@ public class PublicacaoCtrl {
 		sujeitoDao = new SujeitoDao();
 		objetoDao = new ObjetoDao();
 		colunaDao = new ColunaDao();
+		triplaDao = new TriplaDao();
 		mf  = new ManagerFiles();
 	}
 	
@@ -361,224 +365,50 @@ public class PublicacaoCtrl {
 		return cd.getFonte();
 	}
 
-	public Boolean atualizarCatalogo(@PathParam("id") int id) {
 
-		Boolean retorno = true;
-		
-		// instanciando os DAOs
-		PublicacaoDao publicacaoDao = new PublicacaoDao();
-		ColunaDao colunaDao = new ColunaDao();
-		OntologiaDao ontologiaDao = new OntologiaDao();
-		
-		List<IndexacaoFonteObjeto> triplas = new ArrayList<IndexacaoFonteObjeto>();
-		List<Ontologia> ontologias = new ArrayList<Ontologia>();
-
-		// Buscando os vocabulários do Catalogo
-		try {
-			ontologias = ontologiaDao.getOntologiaCatalogo();
-		} catch (Exception e1) {
-			e1.printStackTrace();
-		}
-		
-		Dataset ds = TDBFactory.createDataset(endCatalogo) ;
-		ds.begin(ReadWrite.WRITE);
-		Model m = ds.getDefaultModel();
-		m.removeAll();
-		///Model m = ModelFactory.createDefaultModel();
-		// String graphURI = "http://dados.unb.br/catalago";
-		
-		for (Ontologia ontologia : ontologias) {
-			String prefixo = ontologia.getPrefixo_ontologia();
-			String url = ontologia.getUrl_ontologia().trim()+"#";
-			m.setNsPrefix(prefixo, url);
-		}
-		try {
-			List<Termo> termos = new TermoDao().getAll();
-			
-			List<Publicacao> publicacoes = publicacaoDao.getAll();
-			
-			for(Publicacao publicacao : publicacoes) {
-				//publicacao = publicacaoDao.get(id);	
-				Resource tp = m.createResource("http://purl.org/dc/dcmitype#Dataset");
-				Resource root =  m.createResource(publicacao.getFonte(), tp);
-				ConjuntoDados conjuntoDados = publicacao.getDataset();
-				//msg = conjuntoDados.getTitulo();
-				Integer codigo = publicacao.getId_publicacao();
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos, MetadadoUtil.id), true, codigo.toString(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.titulo), true, conjuntoDados.getTitulo(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.descricao), true, conjuntoDados.getDescricao(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.orgao), true, conjuntoDados.getOrgao().getNm_orgao(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vcge), false, conjuntoDados.getVcge().getIri_termo(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.fonte), false, publicacao.getFonte(), root));
-				triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.metodologia), true, conjuntoDados.getMetodologia(), root));
-				List<IndexacaoFonteObjeto> formatos = new ArrayList<IndexacaoFonteObjeto>();
-				if(conjuntoDados.getIndexar_semantica()) {
-					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "rdf", root));
-					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "rdf", root));
-				}
-				if(conjuntoDados.getCsv()) {
-					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "csv", root));
-					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "csv", root));
-				}
-				if(conjuntoDados.getJson()) {
-					formatos.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "json", root));
-					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.formato), true, "json", root));
-				}
-				List<IndexacaoFonteObjeto> tags = new ArrayList<IndexacaoFonteObjeto>();
-				String[] room = conjuntoDados.getTags().split(",");
-	        	for(int i = 0; i < room.length;i++) {
-	        		tags.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tags), true, room[i].trim(), root));
-	        		triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tags), true, room[i].trim(), root));
-	        	}
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.frequencia), true, conjuntoDados.getFrequencia().getDs_frequencia(), root));
-	        	List<Coluna> colunas = colunaDao.findByDataset(conjuntoDados.getId_dataset());
-	        	List<Ontologia> vocabularios = new ArrayList<Ontologia>();
-	        	for(Coluna coluna : colunas) {
-	        		if(!vocabularios.contains(coluna.getTermo().getOntologia())){
-	        			vocabularios.add(coluna.getTermo().getOntologia());
-					}	
-	        	}
-	        	List<IndexacaoFonteObjeto> ontoInd = new ArrayList<IndexacaoFonteObjeto>();
-	        	List<Ontologia> ontos = ontologiaDao.getOntologiaDosConjuntos(conjuntoDados.getId_dataset());
-	        	for (Ontologia ontologia : ontos) {
-	        		ontoInd.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
-	        		triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.vocabulario), false, ontologia.getUrl_ontologia(), root));
-				}
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.tipo), false, conjuntoDados.getTermo().getIri_termo(), root));
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.data), true, publicacao.getData_publicacao().toString(), root));
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.datadecricao), true, publicacao.getData_publicacao().toString(), root));
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.linguagem), true, "pt", root));
-	        	triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.publicacao), false, publicacao.getFonte(), root));
-				List<Publicacao> ligacoes = publicacaoDao.findLigacoes(publicacao);
-				for (Publicacao lig : ligacoes) {
-					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.relacao), false, lig.getFonte(), root));
-				}
-				List<Publicacao> ligados = publicacaoDao.findLigados(publicacao);
-				for (Publicacao lig : ligados) {
-					triplas.add(new IndexacaoFonteObjeto(this.findTermo(termos,MetadadoUtil.relacao), false, lig.getFonte(), root));
-				}
-			}
-			for (IndexacaoFonteObjeto tripla : triplas) {
-    			Ontologia ontologia = tripla.getTermo().getOntologia();
-    			String iriTermo = ontologia.getUrl_ontologia().trim()+"#"+tripla.getTermo().getNm_termo().trim();
-    			if(tripla.getLiteral()) {
-    				System.out.println(tripla.getRoot().getURI()+" "+ontologia.getUrl_ontologia()+"#"+tripla.getTermo().getNm_termo()+" - "+tripla.getValor());
-    				m.add(tripla.getRoot(), m.createProperty(iriTermo.trim()), tripla.getValor());
-    			}else {
-    				System.out.println(tripla.getRoot().getURI()+" "+ontologia.getUrl_ontologia()+"#"+tripla.getTermo().getNm_termo()+" - "+tripla.getValor());
-    				Resource o = m.createResource(tripla.getValor().trim());
-    				m.add(tripla.getRoot(), m.createProperty(iriTermo.trim()), o);
-    			}
-    			m.write( System.out );
-    			ByteArrayOutputStream out = new ByteArrayOutputStream();
-    			m.write(out);
-    		}	
-		} catch (Exception e) {
-			e.printStackTrace();
-			retorno = false;
-		}
-		
-		return retorno;
-	}
 	
 
-	private Termo findTermo(List<Termo> termos, int id) {
-		Termo retorno = new Termo();
-		for(Termo termo : termos) {
-			if(termo.getId_termo() == id) {
-				retorno = termo;
-				break;
-			}
-		}
-		return retorno;		
-	}
 
-	@GET
-	@Path("/publicar/")
-	@Produces(MediaType.TEXT_PLAIN)
-	public String publicar() {
-		CkanManager cm = new CkanManager();
+
+	public Boolean publicar(Publicacao pub) {
+		Boolean retorno = true;
+		
 		//cm.testarUplad();
-		cm.MostraTodosInstancias("http://164.41.101.40:8002");
-		List<Publicacao> pendentes = publicacaoDao.buscarPendentes();
 		
+		if(this.publicarArquivos(pub)) {
+			System.out.println("------------ ARQUIVOS CRIADOS ----------------------------");
+		}
+		ConjuntoDados cd = pub.getDataset();
+		Instancia_ckan ic = cd.getInstancia_ckan();
 		
-		for(Publicacao pub : pendentes) {
-			pub = publicacaoDao.setarVersao(pub);
-			System.out.println(pub.getData_publicacao());
-			if(this.publicarArquivos(pub)) {
-				System.out.println("------------ ARQUIVOS CRIADOS ----------------------------");
+		CkanManager cm = new CkanManager();
+		cm.setKey_api(ic.getKey_api());
+		cm.setUrl_api(ic.getEndereco_ckan());
+			
+		cm.MostraTodosInstancias("http://164.41.101.40:8002");	
+		CkanDatasetBase dataset = new CkanDatasetBase();
+			
+		try {
+			dataset = cm.getDataset(cd.getTitulo());
+			if(dataset == null) {
+				dataset = cm.criarDataset(cd, pub);	
 			}
-			ConjuntoDados cd = pub.getDataset();
-			Instancia_ckan ic = cd.getInstancia_ckan();
-			cm.setKey_api(ic.getKey_api());
-			cm.setUrl_api(ic.getEndereco_ckan());
-			
-			
-			CkanDatasetBase dataset = new CkanDatasetBase();
-			
-			try {
-				dataset = cm.getDataset(cd.getTitulo());
-			}catch (Exception e) {
-				System.out.println(e.getMessage());
-				dataset = cm.criarDataset(cd, pub);
-			}
-			
-			
-			//System.out.println(dataset.getTitle());
-			
+		}catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		cm.MostraTodosInstancias("http://164.41.101.40:8002");	
 			try {
 				CkanResourceBase resource  = cm.saveResource(cd, pub, dataset);
 			}catch (Exception e) {
 				System.out.println(e.getMessage());
+				retorno = false;
 				
 			}
 			
-			// Conectar ao CKAN
-			// Pegar o Dataset ou Criar outro
-			// Setar valores
-			// Atualizar Dataset
-			// Atualizar Publicação
-			// Programar próxima publicação
 			
-			
-		}
-		return "Rodou";
+		return retorno;
 	}
 	
-	@GET
-	@Path("/criar/")
-	public void criarAqruivos() {
-		String end = "C:\\\\Users\\\\00415102162\\\\git\\\\unbgold\\\\WebContent\\\\dados\\\\tabuada.txt";
-		Scanner ler = new Scanner(System.in);
-	    int i, n;
-	 
-	    System.out.printf("Informe o número para a tabuada:\n");
-	    n = ler.nextInt();
-	 
-//	    File file = new File(emd)
-	    FileWriter arq;
-		try {
-			arq = new FileWriter(end);
-		    PrintWriter gravarArq = new PrintWriter(arq);
-		    gravarArq.printf("+--Resultado--+%n");
-		    for (i=1; i<=10; i++) {
-		      gravarArq.printf("| %2d X %d = %2d |%n", i, n, (i*n));
-		    }
-		    gravarArq.printf("+-------------+%n");
-		 
-		   
-		    System.out.printf("\nTabuada do %d foi gravada com sucesso em \""+end+"\".\n", n);
-
-		    
-		    arq.close();
-			 
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	 
-	}
 	
 	
 	
@@ -586,14 +416,10 @@ public class PublicacaoCtrl {
 		Boolean retorno = true;
 		String auxFile = "";
 		JSONArray jArray = new JSONArray();
-		
-			//retorno += pub.getNm_arquivo();
 			ConjuntoDados cd = pub.getDataset();
 			List<String[]> arrayLinha = new ArrayList<String[]>();
-			
 			try {
 				BufferedReader buffer = this.pegaCSV(cd);
-				
 				String line = "";
 				String csvSplitBy = ";";
 		        while ((line = buffer.readLine().trim()) != null) {
@@ -601,17 +427,16 @@ public class PublicacaoCtrl {
 		        	 String[] room = line.split(csvSplitBy);
 		        	 for(int i = 0; i < room.length;i++) {
 		        		 room[i] = room[i].trim();
-		        		 
 	 	        	 }
 		        	 arrayLinha.add(room);
 		        }
 		        
-			} catch (Exception e1) {
-				// TODO Auto-generated catch block
+			} catch (IOException e1) {
+				System.out.println(e1.getMessage());
 				e1.printStackTrace();
-			}
-			
-			//json.put(head[i], room[i]);
+			}catch (Exception e) {
+				System.out.println(e.getMessage());
+				e.printStackTrace();			}
 			Boolean lercabeca = true;
 			String[] cabeca = null;
 			try {
@@ -622,39 +447,23 @@ public class PublicacaoCtrl {
 						strLinha += linha[i]+";";
 					}
 					strLinha = strLinha.substring(0,(strLinha.length()-1));
-					auxFile += strLinha;
+					auxFile += strLinha+"\n";
 					if(cabeca == null) {
 						cabeca = linha;
 					}else {
 						for(int i=0;i<linha.length;i++) {
+							System.out.println(cabeca[i]+"----------"+linha[i]);
 							json.put(cabeca[i], linha[i]);
 						}
 						jArray.put(json);
 					}
 				}
 			} catch (JSONException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				retorno = false;
-				
 			}
 			try {
-				
-				
-				  
-		            int colunaIri = 0;
-		            
-			        
-			        String strComplmento = "";
-			       
-			        List<TabelaHorizontal> tabela = new ArrayList<TabelaHorizontal>();
-			        
-			        
 		            String[] head = arrayLinha.get(0);
-		            
-		            
-		            
-
 		            List<TabelaHorizontal> ths = new ArrayList<TabelaHorizontal>(); 
 		            for(int i=0;i<head.length;i++) {
 		            	String aux = "";
@@ -675,13 +484,9 @@ public class PublicacaoCtrl {
 		            	aux = aux.substring(0,(aux.length()-1));
 		            	ths.add(new TabelaHorizontal(head[i], aux.split(";")));
 		            }
-		            
-		            List<TriplaUtil> triplas = new ArrayList<TriplaUtil>();
-		            
+		           
 		            List<Coluna> cols = colunaDao.findByDataset(cd.getId_dataset());
 		            String complemento = "";
-		            Integer idComplemento = 0;
-		            TabelaHorizontal thComplemento;
 		            String[] complementos = null;
 		            for(Coluna col : cols) {
 		            	if(col.getComplemento()) {
@@ -690,68 +495,24 @@ public class PublicacaoCtrl {
 		            }
 		            for(TabelaHorizontal th : ths) {
 		            	System.out.println(th.getColuna()+" "+complemento);
-		            	if(th.getColuna().equals(complemento)) {
+		            	if(th.getColuna().toString().equals(complemento.toString())) {
 		            		complementos = th.getValores();
 		            		break;
 		            	}
 		            }
-		            Model m = ModelFactory.createDefaultModel();
+		            String auxRDF = "";
+		            if(cd.getRdf())
+						auxRDF = triplaDao.indexarConjuntoDados(cols, ths, complementos, cd, pub);
 		            
-		    		
-		    		List<Ontologia> ontologias = new ArrayList<Ontologia>();
-		            for(Coluna col : cols) {
-		            	if(col.getPublicar()) {
-			            	Termo termo = col.getTermo();
-			            	Ontologia ontologia = termo.getOntologia();
-//			            	
-			            	if(!ontologias.contains(ontologia)) {
-			            		ontologias.add(ontologia);
-			            	}
-			            	if(col.getId_coluna_ligacao() == 1) {
-			            		for(TabelaHorizontal th : ths) {
-			            			String[] dados = th.getValores();
-			            			for(int i=0;i<dados.length;i++) {
-			            				if(th.getColuna().equals(col.getNm_campo())) {
-				            				//String iri = cd.getIri()+"/"+complementos[i];
-				            				Resource root =  m.createResource(cd.getIri()+complementos[i]);
-				            				Property property = m.createProperty(ontologia.getUrl_ontologia()+"#"+termo.getNm_termo());
-				            				String obj = dados[i];
-				            				//System.out.println(iri+" "+ter+" "+obj);
-				            				Objeto objeto = new Objeto();
-				            				triplas.add(new TriplaUtil(root, property, obj, true, col));
-			            				}
-			            			}
-			            		}
-			            		
-			            	}
-		            	}
-		            }
-		            
-		    		for (Ontologia ontologia : ontologias) {
-		    			String prefixo = ontologia.getPrefixo_ontologia();
-		    			String url = ontologia.getUrl_ontologia().trim()+"#";
-		    			m.setNsPrefix(prefixo, url);
-		    		}
- 
-		            for(TriplaUtil tu : triplas) {
-		            	if(tu.getLiteral()) {
-		            		m.add(tu.getRoot(), tu.getP(), tu.getObjeto());
-		            	}
-		            }
-		            ByteArrayOutputStream out = new ByteArrayOutputStream();
-		            m.write(out);
-					String auxRDF	= out.toString("UTF-8");;
-					
+		            					
 					List<Publicacao> totais = publicacaoDao.findByDataset(pub.getDataset());
-					Date now = new Date();
 					
-					String com = totais.size()+"-"+now.toString().replace(" ", "").replace("-", "").replaceAll(":", "");
-					String nameRDF = pub.getNm_arquivo()+"-"+com+".rdf";
-					String nameCSV = pub.getNm_arquivo()+"-"+com+".csv";
-					String nameJson = pub.getNm_arquivo()+"-"+com+".json";
-					System.out.println(nameRDF);
-					System.out.println(nameCSV);
-					System.out.println(nameJson);
+					String nameRDF = pub.getNm_arquivo()+".rdf";
+					String nameCSV = pub.getNm_arquivo()+".csv";
+					String nameJson = pub.getNm_arquivo()+".json";
+					//System.out.println(nameRDF);
+					//System.out.println(nameCSV);
+					//System.out.println(nameJson);
 					
 		            this.mf.gravarArquivo(auxRDF, cd.getTitulo(), nameRDF);
 		            this.mf.gravarArquivo(auxFile, cd.getTitulo(), nameCSV);
@@ -767,6 +528,55 @@ public class PublicacaoCtrl {
 		
 	
 	}
+	
+	@GET
+	@Path("/publicarPendentes")
+	public String publicarPendentes() {
+		String retorno = "Sem Pendentes";
+		
+		List<Publicacao> pendendes = publicacaoDao.buscarPendentes();
+		
+		for(Publicacao pub : pendendes) {
+			
+			ConjuntoDados cd = pub.getDataset();
+			pub = publicacaoDao.setarParametrosParaPublicacao(pub, cd);
+			if(this.publicar(pub)) {
+				Publicacao nPublicacao = publicacaoDao.concluirPublicacao(pub, cd);
+				SimpleDateFormat dataformat = new SimpleDateFormat("dd/MM/yyy HH:mm:ss");
+				retorno = "Atualizou "+pub.getNm_arquivo()+", Nova Publicacao em: "+dataformat.format(nPublicacao.getData_publicacao());
+			}else {
+				retorno = "Erro ao publicar pendende: "+cd.getTitulo();
+				publicacaoDao.rollback();
+			}
+			break;
+		}
+		/*if(triplaDao.atualizarCatalogo()) {
+			retorno += "\n Catálogo Atualizado";
+		}*/
+			
+		return retorno;
+	}
+	
+	@GET
+	@Path("/pegarRecurso")
+	public String pegarRecurso() {
+		String retorno = "";
+		Publicacao publicacao = publicacaoDao.getPublicacaAtivaDataset(3);
+		Coluna coluna = new Coluna();
+		try {
+			coluna = colunaDao.get(10);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Resource resource = triplaDao.pegarRecurso(publicacao, coluna, "115");
+		if(resource != null) {
+			retorno = resource.getURI();	
+		}
+		 
+		return retorno;		
+	}
+	
 	
 }
 
